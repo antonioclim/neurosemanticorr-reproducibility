@@ -1,0 +1,114 @@
+{
+  "article_title": "When survey workflow verifiers agree and both are wrong",
+  "data_bridge": {
+    "historical_protocol_evaluator_and_receipt_changed": false,
+    "portable_replay": "study_contract_bridge/replay_bridge.py in the data archive",
+    "replay_status": "PASS_PROTOCOL_TRIALS",
+    "source_bytes": 192909,
+    "source_directory": "study_contract_bridge/sources/ in the data archive",
+    "source_documents": 8,
+    "source_set_sha256": "c9ca79b9c8d5ee86e4f9580fee09f6ecca0e78f97ac29cf71b9a0a0d35ece346"
+  },
+  "documentation": {
+    "equation_count": 3,
+    "format": "Markdown",
+    "historical_evidence_indexes": "docs/evidence/",
+    "scientific_table_and_equation_content_preserved": true,
+    "source_evidence_copies": "supplement_sources/source_evidence/ in the data archive",
+    "supplements": [
+      "docs/supplements/prospective_evidence.md",
+      "docs/supplements/historical_profile.md",
+      "docs/supplements/reference_audit.md"
+    ],
+    "table_count": 15
+  },
+  "execution_scope": "Deterministic finite examples, retained-data replay and new synthetic checker qualification; no new prospective observations or human adjudication.",
+  "figures": {
+    "browser_previews": 4,
+    "directory": "figures/",
+    "editable_drawings": 4,
+    "manifest": "figures/FIGURE_KIT_MANIFEST.json",
+    "manifest_sha256": "baec9b1f1ff41b21020a9902cb6970499fe2234cfba2d3c3699e58e8d79ef379",
+    "odg_drawing_content_styles_and_authorship_metadata_byte_preserved": true,
+    "odg_view_settings": "Four VisibleArea values normalised in settings.xml; all other ODF entries retain their original bytes.",
+    "qualification_record": "figures/05_validation/F2_FIGURE_QUALIFICATION.json",
+    "qualification_status": "PASS_EXECUTED_FOUR_FIGURE_QUALIFICATION",
+    "reconstruction_adaptation": "Source text geometry is stored in bound JSON; optional reconstruction outputs are generated outside the sealed distribution.",
+    "runtime_scope": "Figure reconstruction dependencies are separate from the core standard-library verification pipeline.",
+    "svg_png_and_scientific_source_data_byte_preserved": true,
+    "vector_sources": 4
+  },
+  "historical_metadata": "Byte-preserved scientific records retain the identifiers and statuses of their original experiments.",
+  "licence": {
+    "additional_grant": true,
+    "grant_status": "AUTHORISED_MIT_AND_CC_BY_4_0",
+    "distribution_version": "1.0.0",
+    "software": "MIT",
+    "documentation_figures_synthetic_data": "CC-BY-4.0",
+    "scope_document": "LICENSING.md",
+    "original_named_holder": "Revolvix",
+    "scientific_author": "Antonio Clim",
+    "historical_licence": {
+      "path": "p5/INHERITED_RESTRICTED_INTERNAL_LICENCE.txt",
+      "sha256": "4e0b2f5d93fb6c8dd3260e3b1210a1577e7f8878f7f3d5da7859ef8c99c1a755",
+      "preserved_byte_identical": true,
+      "current_distribution_role": "Historical notice; internal-use and redistribution restrictions superseded for the supplied version 1.0.0 material by the public grants in LICENSING.md."
+    }
+  },
+  "p4_sources": {
+    "directory": "r5_f3/o15_diagnostics/native_sources/P4",
+    "source_archive": "neuroSEMANTICorr_v12_P4_BENCHMARK_COMPLET.zip",
+    "source_archive_sha256": "01d39c2da1515e5870d6e356ac24000e89fbe0d4fad77188bd83dc2a6b31625a"
+  },
+  "packaging": {
+    "baseline_software_archive_sha256": "865b1805f0711a8b6e156f8988b8d9f6efcb0694ddd7e3a25adce446aa624800",
+    "baseline_version": "5.0.0-local.3",
+    "changed_execution_bindings": [
+      "r5_f3/integration/run.py: input archive path and SHA-256"
+    ],
+    "changed_figure_tools": [
+      "figures/09_tools/build_and_verify_f4.py: normalise native Draw view settings after reconstruction",
+      "figures/09_tools/normalise_draw_view.py: minimal idempotent ODG view-settings normalisation"
+    ],
+    "changed_inventory_interface": [
+      "tools/check_candidate.py: distribution version and technical integrity status"
+    ],
+    "closed_package_manifests_regenerated": [
+      "SOFTWARE_CONTENTS.json",
+      "p5/KIT_MANIFEST.json",
+      "figures/FIGURE_KIT_MANIFEST.json"
+    ],
+    "distribution_series": "First standalone distribution, version 1.0.0",
+    "documentation_and_metadata_updated": true,
+    "original_observations_changed": false,
+    "qualification_guide": "docs/QUALIFICATION_1_0_0.md",
+    "scientific_algorithms_changed": false
+  },
+  "project": "neuroSEMANTICorr v13",
+  "retained_archive": {
+    "documentation_projection": "Printed report represented by matching Markdown; editorial insertion omitted; navigation and current inventory revised.",
+    "path": "r5_f3/integration/inputs/neurosemanticorr_prospective_evidence_1.0.0.tar.xz",
+    "scientific_members_byte_identical": true,
+    "sha256": "55dc0a8bfd7a9aec272bf259b81b15a57e9fc41be9f3b38b75d3e1b20c0054d1",
+    "source_archive_sha256": "c2ecc59137d0f7f9912fac73486f5ddc03ffdbdeca27d4e0f71b5fb586222767"
+  },
+  "schema": "nsc-software-provenance/1",
+  "scientific_author": "Antonio Clim",
+  "software_version": "1.0.0",
+  "source_checkpoint": {
+    "archive": "neuroSEMANTICorr_R5_F3_Implementare_Reaudit_PRIVATE.zip",
+    "repository_member": "NSC_R5_F3/01_software/repository/",
+    "sha256": "4088666300f6eb403632095d71fa290aeef5e58a2e0d615fe23fe9e67c758ecf"
+  },
+  "distribution_identifiers": {
+    "repository_url": "https://github.com/antonioclim/neurosemanticorr-reproducibility",
+    "release_tag": "v1.0.0",
+    "zenodo_record_id": "24509721",
+    "zenodo_resource_type": "software",
+    "version_doi": "10.5281/zenodo.24509721",
+    "doi_scope": "The enclosing version 1.0.0 software-and-data record; both companion archives belong to this single record.",
+    "identifier_state_when_bound": "Reserved in an unpublished Zenodo draft; no publication or release date assigned by this distribution.",
+    "concept_doi": null,
+    "separate_data_doi": null
+  }
+}

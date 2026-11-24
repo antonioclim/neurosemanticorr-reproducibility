@@ -1,0 +1,181 @@
+{
+  "schema": "nsc-p6-architecture-graph/1",
+  "figure_id": "P6-F01-S3-WORKFLOW",
+  "version": "P6_WORKING_CANONICAL_1",
+  "semantic_authority": "Six-relation preserved S3 Mermaid source plus S3 methods; root-approved reversible P6 working representation. No frozen source replacement.",
+  "nodes": [
+    {
+      "id": "C",
+      "label": "Study Contract",
+      "details": [
+        "Constructs, roles and scales",
+        "Populations and estimands"
+      ],
+      "box": [
+        4,
+        4,
+        224,
+        92
+      ]
+    },
+    {
+      "id": "D",
+      "label": "Physical data frame",
+      "details": [
+        "Values and typed columns"
+      ],
+      "box": [
+        248,
+        4,
+        224,
+        92
+      ]
+    },
+    {
+      "id": "S",
+      "label": "Response-state frame",
+      "details": [
+        "Observed, refusal and skip",
+        "Do not know, non-response"
+      ],
+      "box": [
+        492,
+        4,
+        224,
+        92
+      ]
+    },
+    {
+      "id": "V",
+      "label": "Semantic validator",
+      "details": [
+        "Shape gate",
+        "State/value consistency",
+        "Scale closure",
+        "Policy and role invariants",
+        "Derived-score acyclicity"
+      ],
+      "box": [
+        248,
+        148,
+        224,
+        140
+      ]
+    },
+    {
+      "id": "P",
+      "label": "Materialised analytic",
+      "second_label": "populations",
+      "details": [
+        "Row identities and exclusions"
+      ],
+      "box": [
+        4,
+        352,
+        224,
+        104
+      ]
+    },
+    {
+      "id": "A",
+      "label": "Estimand-bound analyses",
+      "details": [
+        "Descriptive and predictive"
+      ],
+      "box": [
+        248,
+        352,
+        224,
+        104
+      ]
+    },
+    {
+      "id": "E",
+      "label": "Evidence and claims",
+      "details": [
+        "Results, limitations",
+        "and non-claims"
+      ],
+      "box": [
+        492,
+        352,
+        224,
+        104
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "C_to_V",
+      "source": "C",
+      "target": "V",
+      "svg_path": "M 116 96 L 248 175"
+    },
+    {
+      "id": "D_to_V",
+      "source": "D",
+      "target": "V",
+      "svg_path": "M 360 96 L 360 148"
+    },
+    {
+      "id": "S_to_V",
+      "source": "S",
+      "target": "V",
+      "svg_path": "M 604 96 L 472 175"
+    },
+    {
+      "id": "V_to_P",
+      "source": "V",
+      "target": "P",
+      "svg_path": "M 360 288 L 360 316 L 116 316 L 116 352"
+    },
+    {
+      "id": "P_to_A",
+      "source": "P",
+      "target": "A",
+      "svg_path": "M 228 404 L 248 404"
+    },
+    {
+      "id": "A_to_E",
+      "source": "A",
+      "target": "E",
+      "svg_path": "M 472 404 L 492 404"
+    }
+  ],
+  "physical_size_mm": [
+    180,
+    116
+  ],
+  "view_box": [
+    0,
+    0,
+    720,
+    464
+  ],
+  "font_family": "DejaVu Sans",
+  "minimum_font_user_units": 13,
+  "minimum_font_points_at_180mm": 9.212598425196852,
+  "layout_note": "Published SVG is generated directly from this graph with custom positions. The Mermaid file is a semantic derivative, not a claim that native Mermaid generated the SVG.",
+  "source_bindings": [
+    {
+      "path": "01_CURRENT_M06DR/02_FIGURES_SUBMISSION/BASELINE/S3_FIGURES/FIG_S3_STUDY_CONTRACT_ARCHITECTURE.mmd",
+      "sha256": "8486b4b63d41dc18260cabc58b2c343bba24c495d20ca69d047367e871d7f4b1",
+      "bytes": 233
+    },
+    {
+      "path": "01_CURRENT_M06DR/02_FIGURES_SUBMISSION/BASELINE/S3_FIGURES/FIG_S3_STUDY_CONTRACT_ARCHITECTURE.svg",
+      "sha256": "54e018489dc8f8f82a23cb5a269aa9df2d3001161c392733d26e60bf0a72040b",
+      "bytes": 3183
+    },
+    {
+      "path": "01_CURRENT_M06DR/01_MANUSCRIPT/S3_ARTICLE/S3_METHODS_SECTION_DRAFT.md",
+      "sha256": "dc3a9658514603e6460812733c74862552517408d2a68187ccf70923f4e5a600",
+      "bytes": 1606
+    },
+    {
+      "path": "01_CURRENT_M06DR/01_MANUSCRIPT/S3_SUPPLEMENT/EXTENDED_STUDY_CONTRACT_METHODS.md",
+      "sha256": "dac6842c06c396e2326182fde6991a2615360264f3d75e1aabba99b9ff9f104d",
+      "bytes": 895
+    }
+  ]
+}

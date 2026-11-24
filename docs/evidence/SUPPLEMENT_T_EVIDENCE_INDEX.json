@@ -1,0 +1,136 @@
+{
+  "schema": "nsc-f4-supplement-T-evidence-index/1",
+  "checkpoint": "R5_F3",
+  "sources": [
+    {
+      "id": "T01",
+      "relative_path": "source_evidence/T/T01/PHASE2_RESULT.json",
+      "origin": "software/phase2/03_results/PHASE2_RESULT.json",
+      "bytes": 24757,
+      "sha256": "259e8bd285373048e53fc5fedcfae0a221ffa310eb9e5b159843e7693363dbbb",
+      "scope": "T1–T5: historical convention analysis"
+    },
+    {
+      "id": "T02",
+      "relative_path": "source_evidence/T/T02/PREEXECUTION_LOCK.json",
+      "origin": "software/phase2/00_protocol/PREEXECUTION_LOCK.json",
+      "bytes": 5622,
+      "sha256": "db1b10464f1a619ae29edd1941216d34814c00f293e1b4f49dd5bf5edfd3d71a",
+      "scope": "T3/T5: original pre-evaluation commitment"
+    },
+    {
+      "id": "T03",
+      "relative_path": "source_evidence/T/T03/README.md",
+      "origin": "software/r5_f3/reference_audit/README.md",
+      "bytes": 17342,
+      "sha256": "c083616d19cca8b7ca49c28fdb19e93311d1b33e96e77f7250cbef8ab95db06e",
+      "scope": "T6–T8: implemented component and interface"
+    },
+    {
+      "id": "T04",
+      "relative_path": "source_evidence/T/T04/REFERENCE_SCOPE_COMPARISON.json",
+      "origin": "checkpoint/03_audit/integration_portable/REFERENCE_SCOPE_COMPARISON.json",
+      "bytes": 3711,
+      "sha256": "66fbb9a2b273a449884c1d975945b0a3d68b7a6dfcc1a62d2a1da2a9a7be3d8a",
+      "scope": "T7: global/contextwise/casewise scope comparison"
+    },
+    {
+      "id": "T05",
+      "relative_path": "source_evidence/T/T05/REFERENCE_RESULT.json",
+      "origin": "checkpoint/03_audit/integration_portable/REFERENCE_RESULT.json",
+      "bytes": 31066,
+      "sha256": "31f317d43195e4f95e2c80f3e1f35472bc3e42f406f319aee322517c680ad9a2",
+      "scope": "T8: final integrated mathematical qualification"
+    },
+    {
+      "id": "T06",
+      "relative_path": "source_evidence/T/T06/REFERENCE_CANONICAL_QUERY_K7.json",
+      "origin": "checkpoint/03_audit/integration_portable/REFERENCE_CANONICAL_QUERY_K7.json",
+      "bytes": 4612,
+      "sha256": "561393896c5686b633b93cb63d0ff4e7492710991ff82ad6168c997bfb046786",
+      "scope": "T8: query certificate k=7"
+    },
+    {
+      "id": "T07",
+      "relative_path": "source_evidence/T/T07/REFERENCE_CANONICAL_QUERY_K8.json",
+      "origin": "checkpoint/03_audit/integration_portable/REFERENCE_CANONICAL_QUERY_K8.json",
+      "bytes": 26960,
+      "sha256": "22ae0a7f15d474f3fe08d0e2091e1cd0076d5a4f21e686d13511a1aeb784e0e4",
+      "scope": "T8: query certificate k=8"
+    },
+    {
+      "id": "T08",
+      "relative_path": "source_evidence/T/T08/REFERENCE_PHASE2_REGRESSION.json",
+      "origin": "checkpoint/03_audit/integration_portable/REFERENCE_PHASE2_REGRESSION.json",
+      "bytes": 13436,
+      "sha256": "827992e0b441f7ff921824ebfdbc5b99bb7a0111f688a27ead0e8863b5277bba",
+      "scope": "T8: retained phase2 regression"
+    },
+    {
+      "id": "T09",
+      "relative_path": "source_evidence/T/T09/mirror_S_external_eligible_k1.report.json",
+      "origin": "checkpoint/03_audit/reference_audit_qualification_final/example_reports/mirror_S_external_eligible_k1.report.json",
+      "bytes": 44357,
+      "sha256": "701032e48a80738aa0f43cdd345013c74fa5006346db9a7a73405ac65664f88c",
+      "scope": "T7: external probe eligible"
+    },
+    {
+      "id": "T10",
+      "relative_path": "source_evidence/T/T10/mirror_S_external_protected_k1.report.json",
+      "origin": "checkpoint/03_audit/reference_audit_qualification_final/example_reports/mirror_S_external_protected_k1.report.json",
+      "bytes": 44740,
+      "sha256": "939901ae341cf2b3c7c5e4e042000c619d00ba12d8feceea3a22307fbbb75b77",
+      "scope": "T7: external probe protected"
+    },
+    {
+      "id": "T11",
+      "relative_path": "source_evidence/T/T11/DELIVERY_SUMMARY.json",
+      "origin": "software/r5_f3/o15_diagnostics/DELIVERY_SUMMARY.json",
+      "bytes": 6498,
+      "sha256": "9a762f4415b3eecbabb5311676d6ce2deb686ce407a5ed18efadbf759fd75de8",
+      "scope": "T9: native and documentary component results"
+    },
+    {
+      "id": "T12",
+      "relative_path": "source_evidence/T/T12/README.md",
+      "origin": "software/r5_f3/o15_diagnostics/README.md",
+      "bytes": 11500,
+      "sha256": "5da7cc0f87809279cebcd0ea707de25cdac2b5a2d040e84fd051aa4e3ce5a1ac",
+      "scope": "T9: transformations and executable commands"
+    },
+    {
+      "id": "T13",
+      "relative_path": "source_evidence/T/T13/REPLAY_RESULTS.json",
+      "origin": "software/r5_f3/screening/results/REPLAY_RESULTS.json",
+      "bytes": 11771,
+      "sha256": "8e5eb8388e8793f8ab9dfcae7e56614e0b550c15fbc1383e136fd6d4bc73f6dd",
+      "scope": "T10: original design replay"
+    },
+    {
+      "id": "T14",
+      "relative_path": "source_evidence/T/T14/README.md",
+      "origin": "software/r5_f3/screening/README.md",
+      "bytes": 4713,
+      "sha256": "083c16d01bc8f068a77bb67c6eb987ddf8e89bf2c1b9283980e8b538f3543c52",
+      "scope": "T10: screening interface and scope"
+    },
+    {
+      "id": "T15",
+      "relative_path": "source_evidence/T/T15/SUMMARY.json",
+      "origin": "checkpoint/03_audit/integration_portable/SUMMARY.json",
+      "bytes": 25851,
+      "sha256": "18a15706c6f4538aac32e189bbbc11b966b002acd5533ff1c21031fbfe5ae533",
+      "scope": "T11: successful integrated run"
+    },
+    {
+      "id": "T16",
+      "relative_path": "source_evidence/T/T16/README.md",
+      "origin": "software/r5_f3/integration/README.md",
+      "bytes": 2078,
+      "sha256": "2c27df5378a763a261a627b6a7b01ac93c5065b9e6ce2c9cbce2f96c145af8b1",
+      "scope": "T11: integrated command and expected corpus"
+    }
+  ],
+  "qualified_software_version": "5.0.0-local.3",
+  "distribution_version": "1.0.0"
+}

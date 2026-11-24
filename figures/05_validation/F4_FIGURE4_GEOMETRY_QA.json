@@ -1,0 +1,12 @@
+{
+  "status": "PASS_FIGURE4_NATIVE_RENDERED_DATA_GEOMETRY",
+  "source_svg_sha256": "1ba20ad91d344e162fd8b9fcae29d18ca58cab7583e7fc2000bb99072c627c98",
+  "native_pdf_sha256": "fab1e682aa31cf0f4acd1ac096762b7cf9cbe87e5ae77ceadae31b3699e62c02",
+  "conditional_interval_segments": 6,
+  "fixed_query_curve_vertices": 9,
+  "matching_rendered_text_spans": 53,
+  "maximum_coordinate_displacement_pt": 0.04244753906249343,
+  "tolerance_pt": 0.06,
+  "tolerance_reason": "Two-stage ODF path-coordinate and native geometry rounding to hundredths of a millimetre; 0.06 pt is approximately 0.0212 mm. Numerical labels and source values remain exact.",
+  "method": "Match final native PDF path endpoints and all nine query-curve vertices to source SVG data paths; rendered labels match the source text inventory."
+}

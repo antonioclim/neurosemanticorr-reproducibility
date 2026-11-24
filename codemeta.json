@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareSourceCode",
+  "author": {
+    "@type": "Person",
+    "familyName": "Clim",
+    "givenName": "Antonio"
+  },
+  "conditionsOfAccess": "MIT applies to program source, tests, schema definitions and execution configuration. CC BY 4.0 applies to documentation, figures and synthetic data. LICENSING.md defines the component scope and the authorised public terms for retained material.",
+  "description": "Exact finite-model reference audits, controlled O15 evidence transformations, native P4/P5 checker qualification and finite-population screening replay for When survey workflow verifiers agree and both are wrong.",
+  "name": "neuroSEMANTICorr: Verification and Reference Audit",
+  "programmingLanguage": "Python",
+  "runtimePlatform": "CPython 3.12 on Linux",
+  "softwareRequirements": "Core verification and analysis: Python standard library, with CPython 3.12.14 on Linux as the qualified environment and no network service required. Optional figure reconstruction: the pinned packages in figures/09_tools/requirements_figures.txt, LibreOffice, Poppler and DejaVu Sans; see figures/README.md.",
+  "version": "1.0.0",
+  "license": [
+    "https://opensource.org/license/mit",
+    "https://creativecommons.org/licenses/by/4.0/"
+  ],
+  "codeRepository": "https://github.com/antonioclim/neurosemanticorr-reproducibility",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.24509721",
+    "url": "https://doi.org/10.5281/zenodo.24509721"
+  }
+}

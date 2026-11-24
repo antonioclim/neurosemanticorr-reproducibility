@@ -1,0 +1,14 @@
+{
+  "source_analysis_sha256": "430a565d93a76eef6683b27ef24566a19c39d4422baaea0cd6a43dd6d79c0bf8",
+  "case_count": 100,
+  "timing_invocations": 800,
+  "paired_blocks": 400,
+  "case_median_difference_seconds": 0.00021549925000001122,
+  "case_median_ratio": 1.0056296502444195,
+  "minimum_case_median_difference_seconds": -0.020203267499999997,
+  "maximum_case_median_difference_seconds": 0.021616316000000003,
+  "negative_case_median_differences": 48,
+  "positive_case_median_differences": 52,
+  "zero_case_median_differences": 0,
+  "finite_corpus_boundary": "Known purposeful cases, repeated paired blocks and same-host supervisor intervals; no randomisation, inferential intervals, statistical equivalence or general speed claim."
+}

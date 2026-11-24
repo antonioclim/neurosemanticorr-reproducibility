@@ -1,0 +1,235 @@
+{
+  "schema": "nsc-f4-supplement-S-source-index/1",
+  "sources": [
+    {
+      "id": "S01",
+      "locator": "P4 ZIP: continuity/P3/formal/FORMAL_SPECIFICATION_EN_GB.txt",
+      "scope": "sections 2\u20135, 11\u201312; bounded objects, graph, aggregation and comparison",
+      "sha256": "03a6de8813ddb5e2eccf43bdd02d236f70e4dfb88182621f946a4645c568cd40",
+      "bytes": 53656,
+      "role": "IMMUTABLE_HISTORICAL_SOURCE_EXCERPT_NOT_CURRENT_EDITORIAL_TEXT",
+      "recovered": true,
+      "relative_path": "source_evidence/S/S01/FORMAL_SPECIFICATION_EN_GB.txt"
+    },
+    {
+      "id": "S02",
+      "locator": "P4 ZIP: continuity/P3/formal/OBLIGATION_PROFILE_v1.json",
+      "scope": "/obligations/0 through /obligations/15; broader historical registry",
+      "sha256": "4c968f179b4b8644e3c53216ffb358dbe11a93728f9f7be540f2143678a3663e",
+      "bytes": 42938,
+      "role": "IMMUTABLE_HISTORICAL_SOURCE_EXCERPT_NOT_CURRENT_EDITORIAL_TEXT",
+      "recovered": true,
+      "relative_path": "source_evidence/S/S02/OBLIGATION_PROFILE_v1.json"
+    },
+    {
+      "id": "S03",
+      "locator": "P4: 01_protocol/PAYLOAD_INTERFACE.json",
+      "scope": "/clauses; /dependencies; /global_admission; /W1_arithmetic; /W2_arithmetic; 27 concrete clauses",
+      "sha256": "2955c2507e304c3bfeb26f120378242b56352e2267fbcca4b44e4aa37bc8e412",
+      "bytes": 22831,
+      "role": "IMMUTABLE_HISTORICAL_SOURCE_EXCERPT_NOT_CURRENT_EDITORIAL_TEXT",
+      "recovered": true,
+      "relative_path": "source_evidence/S/S03/PAYLOAD_INTERFACE.json"
+    },
+    {
+      "id": "S04",
+      "locator": "P4 ZIP: continuity/P3/formal/ACTIVE_CORE_NUMERICAL_MAP.json",
+      "scope": "/numeric_policies; /analytically_derived_literal_anchors",
+      "sha256": "8684d3743be41975c04873b2689cfc9a99706bef06e247964835d8007d4d3c2d",
+      "bytes": 6768,
+      "role": "IMMUTABLE_HISTORICAL_SOURCE_EXCERPT_NOT_CURRENT_EDITORIAL_TEXT",
+      "recovered": true,
+      "relative_path": "source_evidence/S/S04/ACTIVE_CORE_NUMERICAL_MAP.json"
+    },
+    {
+      "id": "S05",
+      "locator": "P4: 08_reviewer/P4_METHODS_AND_LIMITATIONS_EN_GB.txt",
+      "scope": "Measurement and scoring; Finite descriptions and sensitivity; Runtime, resources and economics; Scope",
+      "sha256": "1a1c775cfd5b2a613ae51330e465534734b2066511a198a4e8617f5cff114c7e",
+      "bytes": 11102,
+      "role": "IMMUTABLE_HISTORICAL_SOURCE_EXCERPT_NOT_CURRENT_EDITORIAL_TEXT",
+      "recovered": true,
+      "relative_path": "source_evidence/S/S05/P4_METHODS_AND_LIMITATIONS_EN_GB.txt"
+    },
+    {
+      "id": "S06",
+      "locator": "P4: 07_analysis/RESULTS_REPORTING_SUMMARY.json",
+      "scope": "/main; /development; /primary; /paired_primary; /timing; /economics; /duplicate_sensitivity_summary",
+      "sha256": "31504c7d085309f6f075b66175b56fb96e3a8feb188f4ba63af1e85c7d531017",
+      "bytes": 13912,
+      "role": "IMMUTABLE_HISTORICAL_SOURCE_EXCERPT_NOT_CURRENT_EDITORIAL_TEXT",
+      "recovered": true,
+      "relative_path": "source_evidence/S/S06/RESULTS_REPORTING_SUMMARY.json"
+    },
+    {
+      "id": "S07",
+      "locator": "P4: 08_reviewer/P4_RESULTS_AND_CLAIM_DISPOSITION_EN_GB.txt",
+      "scope": "T01\u2013T08; Deterministic sensitivity and remaining scope",
+      "sha256": "07d98431fd8382e7ad9b2290426c88d0f8f591461e4e8dbe4c4847420b04188c",
+      "bytes": 11429,
+      "role": "IMMUTABLE_HISTORICAL_SOURCE_EXCERPT_NOT_CURRENT_EDITORIAL_TEXT",
+      "recovered": true,
+      "relative_path": "source_evidence/S/S07/P4_RESULTS_AND_CLAIM_DISPOSITION_EN_GB.txt"
+    },
+    {
+      "id": "S08",
+      "locator": "P5: 01_protocol/ALIAS_GRAMMAR_V1.json",
+      "scope": "/source_pointer; /lookup; /pointer; /errors; /clause_scope; /qualification_chronology",
+      "sha256": "d6765acf47961c38b239252c064637dd5500af71dfda8cdd86f581535098aa9f",
+      "bytes": 4058,
+      "role": "IMMUTABLE_HISTORICAL_SOURCE_EXCERPT_NOT_CURRENT_EDITORIAL_TEXT",
+      "recovered": true,
+      "relative_path": "source_evidence/S/S08/ALIAS_GRAMMAR_V1.json"
+    },
+    {
+      "id": "S09",
+      "locator": "P5: 05_evidence/P5_RESULTS_AND_CLAIMS_MANIFEST.json",
+      "scope": "/official_P5UNIT_candidate_invocations; /official_check_totals_by_run; /P4_verdict; /files",
+      "sha256": "b1402623b28e2fabd624d985142ce690f9ac0b9e062fd460185e1f733749b3e3",
+      "bytes": 4778,
+      "role": "IMMUTABLE_HISTORICAL_SOURCE_EXCERPT_NOT_CURRENT_EDITORIAL_TEXT",
+      "recovered": true,
+      "relative_path": "source_evidence/S/S09/P5_RESULTS_AND_CLAIMS_MANIFEST.json"
+    },
+    {
+      "id": "S10",
+      "locator": "P5 ZIP: 03_tests/OFFICIAL_ISOLATED_CROSSCHECK.json",
+      "scope": "/passed; /total; /runs/0 through /runs/2; /candidate_invocations; /raw_file_bindings; /kit_manifest_sha256",
+      "sha256": "222c651580647cab835dd07a5b422205dcae5f8d0e5515a3cd6cf28cd37469d8",
+      "bytes": 177623,
+      "role": "IMMUTABLE_HISTORICAL_SOURCE_EXCERPT_NOT_CURRENT_EDITORIAL_TEXT",
+      "recovered": true,
+      "relative_path": "source_evidence/S/S10/OFFICIAL_ISOLATED_CROSSCHECK.json"
+    },
+    {
+      "id": "S11",
+      "locator": "P5 ZIP: kit/QUICKSTART.md",
+      "scope": "Five-minute smoke path; Thirty-minute reviewer path; Reproduction scope",
+      "sha256": "e274409ed1661ea43ba29ea7fe520c79a92b747419e136ea8945b3613319922c",
+      "bytes": 2460,
+      "role": "IMMUTABLE_HISTORICAL_SOURCE_EXCERPT_NOT_CURRENT_EDITORIAL_TEXT",
+      "recovered": true,
+      "relative_path": "source_evidence/S/S11/QUICKSTART.md"
+    },
+    {
+      "id": "S12",
+      "locator": "P4 ZIP: continuity/P3/economics/COST_SCENARIOS_LOCK.json",
+      "scope": "/scenarios; /missing_evidence_prevalence_q_grid",
+      "sha256": "d536d3f1af7d0e9aabd77ecd06e1009c1ef54d535f750a45e178f65755e72876",
+      "bytes": 4514,
+      "role": "IMMUTABLE_HISTORICAL_SOURCE_EXCERPT_NOT_CURRENT_EDITORIAL_TEXT",
+      "recovered": true,
+      "relative_path": "source_evidence/S/S12/COST_SCENARIOS_LOCK.json"
+    },
+    {
+      "id": "S13",
+      "locator": "P4 ZIP: continuity/P3/formal/PROPOSITIONS_AND_COUNTEREXAMPLES.json",
+      "scope": "/propositions P01\u2013P07; /counterexamples X01\u2013X09",
+      "sha256": "a2efbda5606e058417019069ad8fc4525536ee5cf9215eca5fa4f5602f1f1a4e",
+      "bytes": 14182,
+      "role": "IMMUTABLE_HISTORICAL_SOURCE_EXCERPT_NOT_CURRENT_EDITORIAL_TEXT",
+      "recovered": true,
+      "relative_path": "source_evidence/S/S13/PROPOSITIONS_AND_COUNTEREXAMPLES.json"
+    },
+    {
+      "id": "S14",
+      "locator": "Original private manuscript: S3_SUPPLEMENT/EXTENDED_STUDY_CONTRACT_METHODS.md",
+      "scope": "paragraphs 1\u20133; co-indexing, ordinal identity and unvalidated derived score",
+      "sha256": "dac6842c06c396e2326182fde6991a2615360264f3d75e1aabba99b9ff9f104d",
+      "bytes": 895,
+      "role": "IMMUTABLE_HISTORICAL_SOURCE_EXCERPT_NOT_CURRENT_EDITORIAL_TEXT",
+      "recovered": true,
+      "relative_path": "source_evidence/S/S14/EXTENDED_STUDY_CONTRACT_METHODS.md"
+    },
+    {
+      "id": "S15",
+      "locator": "Original private manuscript: S3_SUPPLEMENT/REFERENCES_APA7_WITH_DOI.csv",
+      "scope": "retained Rubin (1976) and Seaman et al. (2013) bibliographic records",
+      "sha256": "fcce78c5b87248197672c9333e17b03b69fff8f609909115bf4a8902809d20d2",
+      "bytes": 2526,
+      "role": "IMMUTABLE_HISTORICAL_SOURCE_EXCERPT_NOT_CURRENT_EDITORIAL_TEXT",
+      "recovered": true,
+      "relative_path": "source_evidence/S/S15/REFERENCES_APA7_WITH_DOI.csv"
+    },
+    {
+      "id": "S16",
+      "locator": "Original private manuscript: CURRENT/ASSEMBLY_MAP_CURRENT.md",
+      "scope": "historical scaffold and later deltas; no inferred final private article",
+      "sha256": "ebd12b30eb47d2399eebe0688f00c910b854fc006a92c2e9e83874085c931b3a",
+      "bytes": 812,
+      "role": "IMMUTABLE_HISTORICAL_SOURCE_EXCERPT_NOT_CURRENT_EDITORIAL_TEXT",
+      "recovered": true,
+      "relative_path": "source_evidence/S/S16/ASSEMBLY_MAP_CURRENT.md"
+    },
+    {
+      "id": "S17",
+      "locator": "P4 ZIP: continuity/P3/formal/VERDICT_AND_DEPENDENCY_POLICY.json",
+      "scope": "/aggregation_order; /dependency_policy; /ablation_reporting; /missing_evidence_cases",
+      "sha256": "216426dc4cdd4b6632c6712186e9e3decc9dbd5740050dd4b15870dd59a1686f",
+      "bytes": 6283,
+      "role": "IMMUTABLE_HISTORICAL_SOURCE_EXCERPT_NOT_CURRENT_EDITORIAL_TEXT",
+      "recovered": true,
+      "relative_path": "source_evidence/S/S17/VERDICT_AND_DEPENDENCY_POLICY.json"
+    },
+    {
+      "id": "S18",
+      "locator": "P4 ZIP: continuity/P3/formal/NUMERICAL_POLICY.json",
+      "scope": "N00\u2013N11 historical policy inventory; not active fresh-core float computation",
+      "sha256": "a20377deefcc7b8e1b237cb9120d58c9e524b1c4aa81412cce4398ec1fb22895",
+      "bytes": 6708,
+      "role": "IMMUTABLE_HISTORICAL_SOURCE_EXCERPT_NOT_CURRENT_EDITORIAL_TEXT",
+      "recovered": true,
+      "relative_path": "source_evidence/S/S18/NUMERICAL_POLICY.json"
+    },
+    {
+      "id": "S19",
+      "locator": "P5 ZIP: 02_sources/t_full/QUALIFICATION.json",
+      "scope": "/unit_methods; /final_CLI; own T qualification",
+      "sha256": "e093219a7b1ba1719fb79a819ed54fc79e41b107331e9e96a37ff8199f97a27e",
+      "bytes": 2401,
+      "role": "IMMUTABLE_HISTORICAL_SOURCE_EXCERPT_NOT_CURRENT_EDITORIAL_TEXT",
+      "recovered": true,
+      "relative_path": "source_evidence/S/S19/QUALIFICATION.json"
+    },
+    {
+      "id": "S20",
+      "locator": "P5 ZIP: 02_sources/b_assert/QUALIFICATION.json",
+      "scope": "/unit_methods; /CLI_controls; own B qualification",
+      "sha256": "95a88f76d6ff00a1126200a4cf004c3a51d95ec7f11b0c4222c4fc35112b2aaa",
+      "bytes": 1615,
+      "role": "IMMUTABLE_HISTORICAL_SOURCE_EXCERPT_NOT_CURRENT_EDITORIAL_TEXT",
+      "recovered": true,
+      "relative_path": "source_evidence/S/S20/QUALIFICATION.json"
+    },
+    {
+      "id": "S21",
+      "locator": "P5 ZIP: 03_tests/ALIAS_CONTRACT_QUALIFICATION_DEV_A001.json",
+      "scope": "/checks; /passed; /literal_checks; /fresh_CLI_checks; /metamorphic_checks",
+      "sha256": "4e1ee4b888b1319a6e6862d161711f8cc1de0ee72726d7f742679fb90c113efc",
+      "bytes": 55093,
+      "role": "IMMUTABLE_HISTORICAL_SOURCE_EXCERPT_NOT_CURRENT_EDITORIAL_TEXT",
+      "recovered": true,
+      "relative_path": "source_evidence/S/S21/ALIAS_CONTRACT_QUALIFICATION_DEV_A001.json"
+    },
+    {
+      "id": "S22",
+      "locator": "P5 ZIP: 03_tests/ALIAS_FIXTURE_QUALIFICATION_A001/QUALIFICATION.json",
+      "scope": "/total; /passed; /candidate_invocations; fixture-only qualification",
+      "sha256": "4ba8a6ea95f2dccce224568f2df901c4749313fef8138d70badf43431551e966",
+      "bytes": 304592,
+      "role": "IMMUTABLE_HISTORICAL_SOURCE_EXCERPT_NOT_CURRENT_EDITORIAL_TEXT",
+      "recovered": true,
+      "relative_path": "source_evidence/S/S22/QUALIFICATION.json"
+    },
+    {
+      "id": "S23",
+      "locator": "P5 ZIP: 04_tools/PIPELINE_FREEZE.json",
+      "scope": "/qualification/checks; /qualification/candidate_invocations; /clock; /scope; /no_production_resume",
+      "sha256": "f1598ce0c10d4da8f42e9db9c1b29cd3043a400dcbb9ccb2eccdfee1b9d94428",
+      "bytes": 2557,
+      "role": "IMMUTABLE_HISTORICAL_SOURCE_EXCERPT_NOT_CURRENT_EDITORIAL_TEXT",
+      "recovered": true,
+      "relative_path": "source_evidence/S/S23/PIPELINE_FREEZE.json"
+    }
+  ]
+}

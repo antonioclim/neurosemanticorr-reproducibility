@@ -1,0 +1,281 @@
+{
+  "schema": "nsc-r4-o15-build-report-receipt/1",
+  "status": "PASS_SYNTHETIC_INTERFACE_EXAMPLE",
+  "scope": "Synthetic software build-report example, outside Phase 2 and archived frames",
+  "example_lock_sha256": "92399cba43adc55cfd2947f81d1d8286ce7295e83abc743acd90eca8b456f9fc",
+  "phase2_module_sha256": {
+    "decision_audit.py": "3b242e611f9fa1d0fb12e8872675d1962a8aea1cac97b5d5b1843de5d334ae4e",
+    "o15_reference.py": "f17a9411ca5398e4834fb5212b948aecc793414f2929a273f521900c3995a9d6"
+  },
+  "comparisons": 20,
+  "judgements": {
+    "D1_DIRECT_RELEASE": {
+      "literal_only": {
+        "expected": "S",
+        "rationale": {
+          "violations": [],
+          "missing": [],
+          "resolved": [
+            {
+              "claim_id": "smoke-pass-fraction",
+              "pointer": "/measures/release/smoke_pass_fraction"
+            }
+          ]
+        }
+      },
+      "suffix_only": {
+        "expected": "S",
+        "rationale": {
+          "violations": [],
+          "missing": [],
+          "resolved": [
+            {
+              "claim_id": "smoke-pass-fraction",
+              "pointer": "/measures/release/smoke_pass_fraction"
+            }
+          ]
+        }
+      },
+      "either_unique": {
+        "expected": "S",
+        "rationale": {
+          "violations": [],
+          "missing": [],
+          "resolved": [
+            {
+              "claim_id": "smoke-pass-fraction",
+              "pointer": "/measures/release/smoke_pass_fraction"
+            }
+          ]
+        }
+      },
+      "prefer_literal": {
+        "expected": "S",
+        "rationale": {
+          "violations": [],
+          "missing": [],
+          "resolved": [
+            {
+              "claim_id": "smoke-pass-fraction",
+              "pointer": "/measures/release/smoke_pass_fraction"
+            }
+          ]
+        }
+      },
+      "prefer_suffix": {
+        "expected": "S",
+        "rationale": {
+          "violations": [],
+          "missing": [],
+          "resolved": [
+            {
+              "claim_id": "smoke-pass-fraction",
+              "pointer": "/measures/release/smoke_pass_fraction"
+            }
+          ]
+        }
+      }
+    },
+    "D2_DIRECT_WRONG_SCOPE": {
+      "literal_only": {
+        "expected": "V",
+        "rationale": {
+          "violations": [
+            {
+              "claim_id": "smoke-pass-fraction",
+              "problem": "unit, denominator or scope does not match field metadata"
+            }
+          ],
+          "missing": [],
+          "resolved": []
+        }
+      },
+      "suffix_only": {
+        "expected": "V",
+        "rationale": {
+          "violations": [
+            {
+              "claim_id": "smoke-pass-fraction",
+              "problem": "unit, denominator or scope does not match field metadata"
+            }
+          ],
+          "missing": [],
+          "resolved": []
+        }
+      },
+      "either_unique": {
+        "expected": "V",
+        "rationale": {
+          "violations": [
+            {
+              "claim_id": "smoke-pass-fraction",
+              "problem": "unit, denominator or scope does not match field metadata"
+            }
+          ],
+          "missing": [],
+          "resolved": []
+        }
+      },
+      "prefer_literal": {
+        "expected": "V",
+        "rationale": {
+          "violations": [
+            {
+              "claim_id": "smoke-pass-fraction",
+              "problem": "unit, denominator or scope does not match field metadata"
+            }
+          ],
+          "missing": [],
+          "resolved": []
+        }
+      },
+      "prefer_suffix": {
+        "expected": "V",
+        "rationale": {
+          "violations": [
+            {
+              "claim_id": "smoke-pass-fraction",
+              "problem": "unit, denominator or scope does not match field metadata"
+            }
+          ],
+          "missing": [],
+          "resolved": []
+        }
+      }
+    },
+    "D3_ALIAS_RELEASE": {
+      "literal_only": {
+        "expected": "S",
+        "rationale": {
+          "violations": [],
+          "missing": [],
+          "resolved": [
+            {
+              "claim_id": "smoke-pass-fraction",
+              "pointer": "/measures/release/smoke_pass_fraction"
+            }
+          ]
+        }
+      },
+      "suffix_only": {
+        "expected": "V",
+        "rationale": {
+          "violations": [
+            {
+              "claim_id": "smoke-pass-fraction",
+              "problem": "unit, denominator or scope does not match field metadata"
+            }
+          ],
+          "missing": [],
+          "resolved": []
+        }
+      },
+      "either_unique": {
+        "expected": "V",
+        "rationale": {
+          "violations": [
+            {
+              "claim_id": "smoke-pass-fraction",
+              "problem": "alias spellings map to different pointers"
+            }
+          ],
+          "missing": [],
+          "resolved": []
+        }
+      },
+      "prefer_literal": {
+        "expected": "S",
+        "rationale": {
+          "violations": [],
+          "missing": [],
+          "resolved": [
+            {
+              "claim_id": "smoke-pass-fraction",
+              "pointer": "/measures/release/smoke_pass_fraction"
+            }
+          ]
+        }
+      },
+      "prefer_suffix": {
+        "expected": "V",
+        "rationale": {
+          "violations": [
+            {
+              "claim_id": "smoke-pass-fraction",
+              "problem": "unit, denominator or scope does not match field metadata"
+            }
+          ],
+          "missing": [],
+          "resolved": []
+        }
+      }
+    },
+    "D4_ALIAS_NIGHTLY": {
+      "literal_only": {
+        "expected": "V",
+        "rationale": {
+          "violations": [
+            {
+              "claim_id": "smoke-pass-fraction",
+              "problem": "unit, denominator or scope does not match field metadata"
+            }
+          ],
+          "missing": [],
+          "resolved": []
+        }
+      },
+      "suffix_only": {
+        "expected": "S",
+        "rationale": {
+          "violations": [],
+          "missing": [],
+          "resolved": [
+            {
+              "claim_id": "smoke-pass-fraction",
+              "pointer": "/measures/nightly/smoke_pass_fraction"
+            }
+          ]
+        }
+      },
+      "either_unique": {
+        "expected": "V",
+        "rationale": {
+          "violations": [
+            {
+              "claim_id": "smoke-pass-fraction",
+              "problem": "alias spellings map to different pointers"
+            }
+          ],
+          "missing": [],
+          "resolved": []
+        }
+      },
+      "prefer_literal": {
+        "expected": "V",
+        "rationale": {
+          "violations": [
+            {
+              "claim_id": "smoke-pass-fraction",
+              "problem": "unit, denominator or scope does not match field metadata"
+            }
+          ],
+          "missing": [],
+          "resolved": []
+        }
+      },
+      "prefer_suffix": {
+        "expected": "S",
+        "rationale": {
+          "violations": [],
+          "missing": [],
+          "resolved": [
+            {
+              "claim_id": "smoke-pass-fraction",
+              "pointer": "/measures/nightly/smoke_pass_fraction"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

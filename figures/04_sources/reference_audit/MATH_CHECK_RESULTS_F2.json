@@ -1,0 +1,2253 @@
+{
+  "schema": "nsc-r5-f2-mathematical-checks/1",
+  "status": "PASS_EXACT_LOCAL_MATHEMATICAL_CHECKS",
+  "python_version": "3.12.14",
+  "input_sha256": {
+    "o15_archived_reference_matrix_192.csv": "88b288110ef278626498d34e1163b0423ec6983f427a1af5d0220134d0aacc27",
+    "PHASE2_RESULT.json": "259e8bd285373048e53fc5fedcfae0a221ffa310eb9e5b159843e7693363dbbb"
+  },
+  "script_sha256": "a325043073d8258afd6ef3ed776b0148488872fa779058aaeed82c0dc9bcf964",
+  "witness_module_sha256": "c6e57cbb853c46a664669e5521f756110a0f6c3a3a92e8455fa7acb16a110f8b",
+  "scope": "Retrospective mathematical sensitivity of retained matrix and probe labels. No original checker execution, new prospective trial, empirical exception-rate estimate or statistical coverage claim.",
+  "original_checker_invocations": 0,
+  "prospective_experiments": 0,
+  "finite_formula_verification": {
+    "status": "PASS",
+    "batches": [
+      {
+        "alphabet": [
+          0,
+          1
+        ],
+        "n": 3,
+        "weight_vectors": [
+          [
+            "1",
+            "1",
+            "1"
+          ]
+        ],
+        "configurations": 110592,
+        "budget_checks": 442368,
+        "radius_checks": 110592,
+        "witness_checks": 884736,
+        "status": "PASS"
+      },
+      {
+        "alphabet": [
+          0,
+          1,
+          2
+        ],
+        "n": 2,
+        "weight_vectors": [
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "configurations": 142884,
+        "budget_checks": 428652,
+        "radius_checks": 142884,
+        "witness_checks": 857304,
+        "status": "PASS"
+      },
+      {
+        "alphabet": [
+          0,
+          1
+        ],
+        "n": 2,
+        "weight_vectors": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1/2"
+          ],
+          [
+            "0",
+            "2"
+          ],
+          [
+            "1/2",
+            "0"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1/2",
+            "2"
+          ],
+          [
+            "2",
+            "0"
+          ],
+          [
+            "2",
+            "1/2"
+          ],
+          [
+            "2",
+            "2"
+          ]
+        ],
+        "configurations": 20736,
+        "budget_checks": 62208,
+        "radius_checks": 20736,
+        "witness_checks": 124416,
+        "status": "PASS"
+      }
+    ],
+    "total_configurations": 274212,
+    "total_budget_checks": 933228,
+    "total_radius_checks": 274212,
+    "total_witness_checks": 1866456,
+    "scope": "Exhaustive finite alphabets and stated sizes, all nonempty local subsets, checker pairs, centres and protection masks; separate empty-set test. This supports but does not replace the general proof."
+  },
+  "retained_frame": {
+    "canonical_counts": {
+      "literal_only": 0,
+      "suffix_only": 48,
+      "either_unique": 32,
+      "prefer_literal": 16,
+      "prefer_suffix": 32
+    },
+    "pair_distances": [
+      {
+        "g": "literal_only",
+        "h": "suffix_only",
+        "distance": 48,
+        "cross_threshold": true,
+        "differing_strata": [
+          "dual_alias_conflict",
+          "exact_alias_clean",
+          "suffix_alias_clean"
+        ]
+      },
+      {
+        "g": "literal_only",
+        "h": "either_unique",
+        "distance": 32,
+        "cross_threshold": true,
+        "differing_strata": [
+          "dual_alias_conflict",
+          "suffix_alias_clean"
+        ]
+      },
+      {
+        "g": "literal_only",
+        "h": "prefer_literal",
+        "distance": 16,
+        "cross_threshold": false,
+        "differing_strata": [
+          "suffix_alias_clean"
+        ]
+      },
+      {
+        "g": "literal_only",
+        "h": "prefer_suffix",
+        "distance": 32,
+        "cross_threshold": true,
+        "differing_strata": [
+          "dual_alias_conflict",
+          "suffix_alias_clean"
+        ]
+      },
+      {
+        "g": "suffix_only",
+        "h": "either_unique",
+        "distance": 16,
+        "cross_threshold": false,
+        "differing_strata": [
+          "exact_alias_clean"
+        ]
+      },
+      {
+        "g": "suffix_only",
+        "h": "prefer_literal",
+        "distance": 32,
+        "cross_threshold": true,
+        "differing_strata": [
+          "dual_alias_conflict",
+          "exact_alias_clean"
+        ]
+      },
+      {
+        "g": "suffix_only",
+        "h": "prefer_suffix",
+        "distance": 16,
+        "cross_threshold": false,
+        "differing_strata": [
+          "exact_alias_clean"
+        ]
+      },
+      {
+        "g": "either_unique",
+        "h": "prefer_literal",
+        "distance": 16,
+        "cross_threshold": true,
+        "differing_strata": [
+          "dual_alias_conflict"
+        ]
+      },
+      {
+        "g": "either_unique",
+        "h": "prefer_suffix",
+        "distance": 0,
+        "cross_threshold": false,
+        "differing_strata": []
+      },
+      {
+        "g": "prefer_literal",
+        "h": "prefer_suffix",
+        "distance": 16,
+        "cross_threshold": true,
+        "differing_strata": [
+          "dual_alias_conflict"
+        ]
+      }
+    ],
+    "class_sizes": {
+      "suffix_alias_clean": 16,
+      "dual_alias_conflict": 16,
+      "exact_alias_clean": 16
+    },
+    "robust_query_minima_k_0_to_7": [
+      {
+        "k": 0,
+        "minimum_queries": 1,
+        "minimum_opposing_pair_query_distance": 1,
+        "selected_case_ids": [
+          "R1PROS-1175F475261EE917E0E06A6A"
+        ],
+        "pure_neighbourhood_intervals_all_S_V_U": {
+          "literal_only": [
+            0,
+            0
+          ],
+          "suffix_only": [
+            48,
+            48
+          ],
+          "either_unique": [
+            32,
+            32
+          ],
+          "prefer_literal": [
+            16,
+            16
+          ],
+          "prefer_suffix": [
+            32,
+            32
+          ]
+        },
+        "checks": [
+          {
+            "query_count": 1,
+            "exception_budget": 0,
+            "admissibility": "coordinatewise_union_of_canonical_predictions",
+            "transcript_types_checked": 2,
+            "statuses": {
+              "ABOVE": 1,
+              "AT_OR_BELOW": 1
+            },
+            "method": "Complete histogram enumeration after checking group homogeneity; exact unseen-state DP.",
+            "status": "PASS"
+          },
+          {
+            "query_count": 1,
+            "exception_budget": 0,
+            "admissibility": "all_S_V_U",
+            "transcript_types_checked": 3,
+            "statuses": {
+              "OUT_OF_MODEL": 1,
+              "ABOVE": 1,
+              "AT_OR_BELOW": 1
+            },
+            "method": "Complete histogram enumeration after checking group homogeneity; exact unseen-state DP.",
+            "status": "PASS"
+          }
+        ]
+      },
+      {
+        "k": 1,
+        "minimum_queries": 3,
+        "minimum_opposing_pair_query_distance": 3,
+        "selected_case_ids": [
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-25DBBF9AF054202D7EB98360"
+        ],
+        "pure_neighbourhood_intervals_all_S_V_U": {
+          "literal_only": [
+            0,
+            1
+          ],
+          "suffix_only": [
+            47,
+            49
+          ],
+          "either_unique": [
+            31,
+            33
+          ],
+          "prefer_literal": [
+            15,
+            17
+          ],
+          "prefer_suffix": [
+            31,
+            33
+          ]
+        },
+        "checks": [
+          {
+            "query_count": 3,
+            "exception_budget": 1,
+            "admissibility": "coordinatewise_union_of_canonical_predictions",
+            "transcript_types_checked": 4,
+            "statuses": {
+              "ABOVE": 2,
+              "AT_OR_BELOW": 2
+            },
+            "method": "Complete histogram enumeration after checking group homogeneity; exact unseen-state DP.",
+            "status": "PASS"
+          },
+          {
+            "query_count": 3,
+            "exception_budget": 1,
+            "admissibility": "all_S_V_U",
+            "transcript_types_checked": 10,
+            "statuses": {
+              "OUT_OF_MODEL": 4,
+              "ABOVE": 3,
+              "AT_OR_BELOW": 3
+            },
+            "method": "Complete histogram enumeration after checking group homogeneity; exact unseen-state DP.",
+            "status": "PASS"
+          }
+        ]
+      },
+      {
+        "k": 2,
+        "minimum_queries": 5,
+        "minimum_opposing_pair_query_distance": 5,
+        "selected_case_ids": [
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2D7B28F1A768D97DAB6669E2",
+          "R1PROS-457486FB11C264299AF5962C"
+        ],
+        "pure_neighbourhood_intervals_all_S_V_U": {
+          "literal_only": [
+            0,
+            2
+          ],
+          "suffix_only": [
+            46,
+            50
+          ],
+          "either_unique": [
+            30,
+            34
+          ],
+          "prefer_literal": [
+            14,
+            18
+          ],
+          "prefer_suffix": [
+            30,
+            34
+          ]
+        },
+        "checks": [
+          {
+            "query_count": 5,
+            "exception_budget": 2,
+            "admissibility": "coordinatewise_union_of_canonical_predictions",
+            "transcript_types_checked": 6,
+            "statuses": {
+              "ABOVE": 3,
+              "AT_OR_BELOW": 3
+            },
+            "method": "Complete histogram enumeration after checking group homogeneity; exact unseen-state DP.",
+            "status": "PASS"
+          },
+          {
+            "query_count": 5,
+            "exception_budget": 2,
+            "admissibility": "all_S_V_U",
+            "transcript_types_checked": 21,
+            "statuses": {
+              "OUT_OF_MODEL": 9,
+              "ABOVE": 6,
+              "AT_OR_BELOW": 6
+            },
+            "method": "Complete histogram enumeration after checking group homogeneity; exact unseen-state DP.",
+            "status": "PASS"
+          }
+        ]
+      },
+      {
+        "k": 3,
+        "minimum_queries": 7,
+        "minimum_opposing_pair_query_distance": 7,
+        "selected_case_ids": [
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2D7B28F1A768D97DAB6669E2",
+          "R1PROS-457486FB11C264299AF5962C",
+          "R1PROS-523A733BA59F808604C87201",
+          "R1PROS-587363AE9EB73EBB7634923F"
+        ],
+        "pure_neighbourhood_intervals_all_S_V_U": {
+          "literal_only": [
+            0,
+            3
+          ],
+          "suffix_only": [
+            45,
+            51
+          ],
+          "either_unique": [
+            29,
+            35
+          ],
+          "prefer_literal": [
+            13,
+            19
+          ],
+          "prefer_suffix": [
+            29,
+            35
+          ]
+        },
+        "checks": [
+          {
+            "query_count": 7,
+            "exception_budget": 3,
+            "admissibility": "coordinatewise_union_of_canonical_predictions",
+            "transcript_types_checked": 8,
+            "statuses": {
+              "ABOVE": 4,
+              "AT_OR_BELOW": 4
+            },
+            "method": "Complete histogram enumeration after checking group homogeneity; exact unseen-state DP.",
+            "status": "PASS"
+          },
+          {
+            "query_count": 7,
+            "exception_budget": 3,
+            "admissibility": "all_S_V_U",
+            "transcript_types_checked": 36,
+            "statuses": {
+              "OUT_OF_MODEL": 16,
+              "ABOVE": 10,
+              "AT_OR_BELOW": 10
+            },
+            "method": "Complete histogram enumeration after checking group homogeneity; exact unseen-state DP.",
+            "status": "PASS"
+          }
+        ]
+      },
+      {
+        "k": 4,
+        "minimum_queries": 9,
+        "minimum_opposing_pair_query_distance": 9,
+        "selected_case_ids": [
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2D7B28F1A768D97DAB6669E2",
+          "R1PROS-457486FB11C264299AF5962C",
+          "R1PROS-523A733BA59F808604C87201",
+          "R1PROS-587363AE9EB73EBB7634923F",
+          "R1PROS-5E826BF511F1C27079F71204",
+          "R1PROS-680F2485A2812505955ABC69"
+        ],
+        "pure_neighbourhood_intervals_all_S_V_U": {
+          "literal_only": [
+            0,
+            4
+          ],
+          "suffix_only": [
+            44,
+            52
+          ],
+          "either_unique": [
+            28,
+            36
+          ],
+          "prefer_literal": [
+            12,
+            20
+          ],
+          "prefer_suffix": [
+            28,
+            36
+          ]
+        },
+        "checks": [
+          {
+            "query_count": 9,
+            "exception_budget": 4,
+            "admissibility": "coordinatewise_union_of_canonical_predictions",
+            "transcript_types_checked": 10,
+            "statuses": {
+              "ABOVE": 5,
+              "AT_OR_BELOW": 5
+            },
+            "method": "Complete histogram enumeration after checking group homogeneity; exact unseen-state DP.",
+            "status": "PASS"
+          },
+          {
+            "query_count": 9,
+            "exception_budget": 4,
+            "admissibility": "all_S_V_U",
+            "transcript_types_checked": 55,
+            "statuses": {
+              "OUT_OF_MODEL": 25,
+              "ABOVE": 15,
+              "AT_OR_BELOW": 15
+            },
+            "method": "Complete histogram enumeration after checking group homogeneity; exact unseen-state DP.",
+            "status": "PASS"
+          }
+        ]
+      },
+      {
+        "k": 5,
+        "minimum_queries": 11,
+        "minimum_opposing_pair_query_distance": 11,
+        "selected_case_ids": [
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2D7B28F1A768D97DAB6669E2",
+          "R1PROS-457486FB11C264299AF5962C",
+          "R1PROS-523A733BA59F808604C87201",
+          "R1PROS-587363AE9EB73EBB7634923F",
+          "R1PROS-5E826BF511F1C27079F71204",
+          "R1PROS-680F2485A2812505955ABC69",
+          "R1PROS-74EBE4A6CA03054A9B5089EF",
+          "R1PROS-81886D0F22CD34BEFE0BC76C"
+        ],
+        "pure_neighbourhood_intervals_all_S_V_U": {
+          "literal_only": [
+            0,
+            5
+          ],
+          "suffix_only": [
+            43,
+            53
+          ],
+          "either_unique": [
+            27,
+            37
+          ],
+          "prefer_literal": [
+            11,
+            21
+          ],
+          "prefer_suffix": [
+            27,
+            37
+          ]
+        },
+        "checks": [
+          {
+            "query_count": 11,
+            "exception_budget": 5,
+            "admissibility": "coordinatewise_union_of_canonical_predictions",
+            "transcript_types_checked": 12,
+            "statuses": {
+              "ABOVE": 6,
+              "AT_OR_BELOW": 6
+            },
+            "method": "Complete histogram enumeration after checking group homogeneity; exact unseen-state DP.",
+            "status": "PASS"
+          },
+          {
+            "query_count": 11,
+            "exception_budget": 5,
+            "admissibility": "all_S_V_U",
+            "transcript_types_checked": 78,
+            "statuses": {
+              "OUT_OF_MODEL": 36,
+              "ABOVE": 21,
+              "AT_OR_BELOW": 21
+            },
+            "method": "Complete histogram enumeration after checking group homogeneity; exact unseen-state DP.",
+            "status": "PASS"
+          }
+        ]
+      },
+      {
+        "k": 6,
+        "minimum_queries": 13,
+        "minimum_opposing_pair_query_distance": 13,
+        "selected_case_ids": [
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2D7B28F1A768D97DAB6669E2",
+          "R1PROS-457486FB11C264299AF5962C",
+          "R1PROS-523A733BA59F808604C87201",
+          "R1PROS-587363AE9EB73EBB7634923F",
+          "R1PROS-5E826BF511F1C27079F71204",
+          "R1PROS-680F2485A2812505955ABC69",
+          "R1PROS-74EBE4A6CA03054A9B5089EF",
+          "R1PROS-81886D0F22CD34BEFE0BC76C",
+          "R1PROS-8C212CB16D676EFB19316BB5",
+          "R1PROS-9DE07811DCB2EC1095F690C0"
+        ],
+        "pure_neighbourhood_intervals_all_S_V_U": {
+          "literal_only": [
+            0,
+            6
+          ],
+          "suffix_only": [
+            42,
+            54
+          ],
+          "either_unique": [
+            26,
+            38
+          ],
+          "prefer_literal": [
+            10,
+            22
+          ],
+          "prefer_suffix": [
+            26,
+            38
+          ]
+        },
+        "checks": [
+          {
+            "query_count": 13,
+            "exception_budget": 6,
+            "admissibility": "coordinatewise_union_of_canonical_predictions",
+            "transcript_types_checked": 14,
+            "statuses": {
+              "ABOVE": 7,
+              "AT_OR_BELOW": 7
+            },
+            "method": "Complete histogram enumeration after checking group homogeneity; exact unseen-state DP.",
+            "status": "PASS"
+          },
+          {
+            "query_count": 13,
+            "exception_budget": 6,
+            "admissibility": "all_S_V_U",
+            "transcript_types_checked": 105,
+            "statuses": {
+              "OUT_OF_MODEL": 49,
+              "ABOVE": 28,
+              "AT_OR_BELOW": 28
+            },
+            "method": "Complete histogram enumeration after checking group homogeneity; exact unseen-state DP.",
+            "status": "PASS"
+          }
+        ]
+      },
+      {
+        "k": 7,
+        "minimum_queries": 15,
+        "minimum_opposing_pair_query_distance": 15,
+        "selected_case_ids": [
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2D7B28F1A768D97DAB6669E2",
+          "R1PROS-457486FB11C264299AF5962C",
+          "R1PROS-523A733BA59F808604C87201",
+          "R1PROS-587363AE9EB73EBB7634923F",
+          "R1PROS-5E826BF511F1C27079F71204",
+          "R1PROS-680F2485A2812505955ABC69",
+          "R1PROS-74EBE4A6CA03054A9B5089EF",
+          "R1PROS-81886D0F22CD34BEFE0BC76C",
+          "R1PROS-8C212CB16D676EFB19316BB5",
+          "R1PROS-9DE07811DCB2EC1095F690C0",
+          "R1PROS-D398EDD5B02E2AB2D301945C",
+          "R1PROS-E537A37980B897D058072E86"
+        ],
+        "pure_neighbourhood_intervals_all_S_V_U": {
+          "literal_only": [
+            0,
+            7
+          ],
+          "suffix_only": [
+            41,
+            55
+          ],
+          "either_unique": [
+            25,
+            39
+          ],
+          "prefer_literal": [
+            9,
+            23
+          ],
+          "prefer_suffix": [
+            25,
+            39
+          ]
+        },
+        "checks": [
+          {
+            "query_count": 15,
+            "exception_budget": 7,
+            "admissibility": "coordinatewise_union_of_canonical_predictions",
+            "transcript_types_checked": 16,
+            "statuses": {
+              "ABOVE": 8,
+              "AT_OR_BELOW": 8
+            },
+            "method": "Complete histogram enumeration after checking group homogeneity; exact unseen-state DP.",
+            "status": "PASS"
+          },
+          {
+            "query_count": 15,
+            "exception_budget": 7,
+            "admissibility": "all_S_V_U",
+            "transcript_types_checked": 136,
+            "statuses": {
+              "OUT_OF_MODEL": 64,
+              "ABOVE": 36,
+              "AT_OR_BELOW": 36
+            },
+            "method": "Complete histogram enumeration after checking group homogeneity; exact unseen-state DP.",
+            "status": "PASS"
+          }
+        ]
+      }
+    ],
+    "lower_bound_witnesses_k_0_to_7": [
+      {
+        "k": 0,
+        "queries": 0,
+        "counts": [
+          16,
+          32
+        ],
+        "distance_from_respective_centres": [
+          0,
+          0
+        ],
+        "query_ids": [],
+        "identical_transcript": true
+      },
+      {
+        "k": 1,
+        "queries": 2,
+        "counts": [
+          17,
+          31
+        ],
+        "distance_from_respective_centres": [
+          1,
+          1
+        ],
+        "query_ids": [
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-17EAE07A978E6DF8D7824C3A"
+        ],
+        "identical_transcript": true
+      },
+      {
+        "k": 2,
+        "queries": 4,
+        "counts": [
+          18,
+          30
+        ],
+        "distance_from_respective_centres": [
+          2,
+          2
+        ],
+        "query_ids": [
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2D7B28F1A768D97DAB6669E2"
+        ],
+        "identical_transcript": true
+      },
+      {
+        "k": 3,
+        "queries": 6,
+        "counts": [
+          19,
+          29
+        ],
+        "distance_from_respective_centres": [
+          3,
+          3
+        ],
+        "query_ids": [
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2D7B28F1A768D97DAB6669E2",
+          "R1PROS-457486FB11C264299AF5962C",
+          "R1PROS-523A733BA59F808604C87201"
+        ],
+        "identical_transcript": true
+      },
+      {
+        "k": 4,
+        "queries": 8,
+        "counts": [
+          20,
+          28
+        ],
+        "distance_from_respective_centres": [
+          4,
+          4
+        ],
+        "query_ids": [
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2D7B28F1A768D97DAB6669E2",
+          "R1PROS-457486FB11C264299AF5962C",
+          "R1PROS-523A733BA59F808604C87201",
+          "R1PROS-587363AE9EB73EBB7634923F",
+          "R1PROS-5E826BF511F1C27079F71204"
+        ],
+        "identical_transcript": true
+      },
+      {
+        "k": 5,
+        "queries": 10,
+        "counts": [
+          21,
+          27
+        ],
+        "distance_from_respective_centres": [
+          5,
+          5
+        ],
+        "query_ids": [
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2D7B28F1A768D97DAB6669E2",
+          "R1PROS-457486FB11C264299AF5962C",
+          "R1PROS-523A733BA59F808604C87201",
+          "R1PROS-587363AE9EB73EBB7634923F",
+          "R1PROS-5E826BF511F1C27079F71204",
+          "R1PROS-680F2485A2812505955ABC69",
+          "R1PROS-74EBE4A6CA03054A9B5089EF"
+        ],
+        "identical_transcript": true
+      },
+      {
+        "k": 6,
+        "queries": 12,
+        "counts": [
+          22,
+          26
+        ],
+        "distance_from_respective_centres": [
+          6,
+          6
+        ],
+        "query_ids": [
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2D7B28F1A768D97DAB6669E2",
+          "R1PROS-457486FB11C264299AF5962C",
+          "R1PROS-523A733BA59F808604C87201",
+          "R1PROS-587363AE9EB73EBB7634923F",
+          "R1PROS-5E826BF511F1C27079F71204",
+          "R1PROS-680F2485A2812505955ABC69",
+          "R1PROS-74EBE4A6CA03054A9B5089EF",
+          "R1PROS-81886D0F22CD34BEFE0BC76C",
+          "R1PROS-8C212CB16D676EFB19316BB5"
+        ],
+        "identical_transcript": true
+      },
+      {
+        "k": 7,
+        "queries": 14,
+        "counts": [
+          23,
+          25
+        ],
+        "distance_from_respective_centres": [
+          7,
+          7
+        ],
+        "query_ids": [
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2D7B28F1A768D97DAB6669E2",
+          "R1PROS-457486FB11C264299AF5962C",
+          "R1PROS-523A733BA59F808604C87201",
+          "R1PROS-587363AE9EB73EBB7634923F",
+          "R1PROS-5E826BF511F1C27079F71204",
+          "R1PROS-680F2485A2812505955ABC69",
+          "R1PROS-74EBE4A6CA03054A9B5089EF",
+          "R1PROS-81886D0F22CD34BEFE0BC76C",
+          "R1PROS-8C212CB16D676EFB19316BB5",
+          "R1PROS-9DE07811DCB2EC1095F690C0",
+          "R1PROS-D398EDD5B02E2AB2D301945C"
+        ],
+        "identical_transcript": true
+      }
+    ],
+    "exact_boundary_result_k_8": {
+      "k": 8,
+      "minimum_queries": 33,
+      "selected_case_ids": [
+        "R1PROS-104F7825352EB905462FD239",
+        "R1PROS-1175F475261EE917E0E06A6A",
+        "R1PROS-124E69CDFD1DB8946A66C2FB",
+        "R1PROS-17EAE07A978E6DF8D7824C3A",
+        "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+        "R1PROS-25DBBF9AF054202D7EB98360",
+        "R1PROS-2D7B28F1A768D97DAB6669E2",
+        "R1PROS-2FEE93C5D1A6B23745FB971F",
+        "R1PROS-4209340D6ECCECE00B7C0626",
+        "R1PROS-457486FB11C264299AF5962C",
+        "R1PROS-4F72B4FF02FC5A2B9B48061A",
+        "R1PROS-523A733BA59F808604C87201",
+        "R1PROS-5387EBD2C25E8B2DAFC60EB9",
+        "R1PROS-587363AE9EB73EBB7634923F",
+        "R1PROS-59B799EA83B34695CFCD4C4F",
+        "R1PROS-5E826BF511F1C27079F71204",
+        "R1PROS-680F2485A2812505955ABC69",
+        "R1PROS-68697A8B7B48465BE0B5FA6F",
+        "R1PROS-74EBE4A6CA03054A9B5089EF",
+        "R1PROS-81886D0F22CD34BEFE0BC76C",
+        "R1PROS-8C212CB16D676EFB19316BB5",
+        "R1PROS-922369D794C572EEEA7F9597",
+        "R1PROS-9DE07811DCB2EC1095F690C0",
+        "R1PROS-C03093D8D95D4686B92E3E4C",
+        "R1PROS-C3B614C15E40AE726DDBAAE2",
+        "R1PROS-C5C4CE08E069D6FECCFFCCEF",
+        "R1PROS-C71AACF05AE5573BCF293B15",
+        "R1PROS-C7D5DE31E2F7971F130A0CA9",
+        "R1PROS-D398EDD5B02E2AB2D301945C",
+        "R1PROS-E537A37980B897D058072E86",
+        "R1PROS-F289193A1E2E468FBF542716",
+        "R1PROS-F43B18F8DF3F6C3374DC0643",
+        "R1PROS-08D35BB2A05132C2F9C23814"
+      ],
+      "all_32_unique_error_positions_necessary": [
+        {
+          "indispensable_query": "R1PROS-104F7825352EB905462FD239",
+          "seven_common_corrections": [
+            "R1PROS-1175F475261EE917E0E06A6A",
+            "R1PROS-124E69CDFD1DB8946A66C2FB",
+            "R1PROS-17EAE07A978E6DF8D7824C3A",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+            "R1PROS-25DBBF9AF054202D7EB98360",
+            "R1PROS-2D7B28F1A768D97DAB6669E2",
+            "R1PROS-2FEE93C5D1A6B23745FB971F"
+          ],
+          "counts": [
+            24,
+            25
+          ],
+          "distances_from_unique": [
+            8,
+            7
+          ],
+          "differ_only_at_indispensable_query": true
+        },
+        {
+          "indispensable_query": "R1PROS-1175F475261EE917E0E06A6A",
+          "seven_common_corrections": [
+            "R1PROS-104F7825352EB905462FD239",
+            "R1PROS-124E69CDFD1DB8946A66C2FB",
+            "R1PROS-17EAE07A978E6DF8D7824C3A",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+            "R1PROS-25DBBF9AF054202D7EB98360",
+            "R1PROS-2D7B28F1A768D97DAB6669E2",
+            "R1PROS-2FEE93C5D1A6B23745FB971F"
+          ],
+          "counts": [
+            24,
+            25
+          ],
+          "distances_from_unique": [
+            8,
+            7
+          ],
+          "differ_only_at_indispensable_query": true
+        },
+        {
+          "indispensable_query": "R1PROS-124E69CDFD1DB8946A66C2FB",
+          "seven_common_corrections": [
+            "R1PROS-104F7825352EB905462FD239",
+            "R1PROS-1175F475261EE917E0E06A6A",
+            "R1PROS-17EAE07A978E6DF8D7824C3A",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+            "R1PROS-25DBBF9AF054202D7EB98360",
+            "R1PROS-2D7B28F1A768D97DAB6669E2",
+            "R1PROS-2FEE93C5D1A6B23745FB971F"
+          ],
+          "counts": [
+            24,
+            25
+          ],
+          "distances_from_unique": [
+            8,
+            7
+          ],
+          "differ_only_at_indispensable_query": true
+        },
+        {
+          "indispensable_query": "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "seven_common_corrections": [
+            "R1PROS-104F7825352EB905462FD239",
+            "R1PROS-1175F475261EE917E0E06A6A",
+            "R1PROS-124E69CDFD1DB8946A66C2FB",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+            "R1PROS-25DBBF9AF054202D7EB98360",
+            "R1PROS-2D7B28F1A768D97DAB6669E2",
+            "R1PROS-2FEE93C5D1A6B23745FB971F"
+          ],
+          "counts": [
+            24,
+            25
+          ],
+          "distances_from_unique": [
+            8,
+            7
+          ],
+          "differ_only_at_indispensable_query": true
+        },
+        {
+          "indispensable_query": "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+          "seven_common_corrections": [
+            "R1PROS-104F7825352EB905462FD239",
+            "R1PROS-1175F475261EE917E0E06A6A",
+            "R1PROS-124E69CDFD1DB8946A66C2FB",
+            "R1PROS-17EAE07A978E6DF8D7824C3A",
+            "R1PROS-25DBBF9AF054202D7EB98360",
+            "R1PROS-2D7B28F1A768D97DAB6669E2",
+            "R1PROS-2FEE93C5D1A6B23745FB971F"
+          ],
+          "counts": [
+            24,
+            25
+          ],
+          "distances_from_unique": [
+            8,
+            7
+          ],
+          "differ_only_at_indispensable_query": true
+        },
+        {
+          "indispensable_query": "R1PROS-25DBBF9AF054202D7EB98360",
+          "seven_common_corrections": [
+            "R1PROS-104F7825352EB905462FD239",
+            "R1PROS-1175F475261EE917E0E06A6A",
+            "R1PROS-124E69CDFD1DB8946A66C2FB",
+            "R1PROS-17EAE07A978E6DF8D7824C3A",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+            "R1PROS-2D7B28F1A768D97DAB6669E2",
+            "R1PROS-2FEE93C5D1A6B23745FB971F"
+          ],
+          "counts": [
+            24,
+            25
+          ],
+          "distances_from_unique": [
+            8,
+            7
+          ],
+          "differ_only_at_indispensable_query": true
+        },
+        {
+          "indispensable_query": "R1PROS-2D7B28F1A768D97DAB6669E2",
+          "seven_common_corrections": [
+            "R1PROS-104F7825352EB905462FD239",
+            "R1PROS-1175F475261EE917E0E06A6A",
+            "R1PROS-124E69CDFD1DB8946A66C2FB",
+            "R1PROS-17EAE07A978E6DF8D7824C3A",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+            "R1PROS-25DBBF9AF054202D7EB98360",
+            "R1PROS-2FEE93C5D1A6B23745FB971F"
+          ],
+          "counts": [
+            24,
+            25
+          ],
+          "distances_from_unique": [
+            8,
+            7
+          ],
+          "differ_only_at_indispensable_query": true
+        },
+        {
+          "indispensable_query": "R1PROS-2FEE93C5D1A6B23745FB971F",
+          "seven_common_corrections": [
+            "R1PROS-104F7825352EB905462FD239",
+            "R1PROS-1175F475261EE917E0E06A6A",
+            "R1PROS-124E69CDFD1DB8946A66C2FB",
+            "R1PROS-17EAE07A978E6DF8D7824C3A",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+            "R1PROS-25DBBF9AF054202D7EB98360",
+            "R1PROS-2D7B28F1A768D97DAB6669E2"
+          ],
+          "counts": [
+            24,
+            25
+          ],
+          "distances_from_unique": [
+            8,
+            7
+          ],
+          "differ_only_at_indispensable_query": true
+        },
+        {
+          "indispensable_query": "R1PROS-4209340D6ECCECE00B7C0626",
+          "seven_common_corrections": [
+            "R1PROS-104F7825352EB905462FD239",
+            "R1PROS-1175F475261EE917E0E06A6A",
+            "R1PROS-124E69CDFD1DB8946A66C2FB",
+            "R1PROS-17EAE07A978E6DF8D7824C3A",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+            "R1PROS-25DBBF9AF054202D7EB98360",
+            "R1PROS-2D7B28F1A768D97DAB6669E2"
+          ],
+          "counts": [
+            24,
+            25
+          ],
+          "distances_from_unique": [
+            8,
+            7
+          ],
+          "differ_only_at_indispensable_query": true
+        },
+        {
+          "indispensable_query": "R1PROS-457486FB11C264299AF5962C",
+          "seven_common_corrections": [
+            "R1PROS-104F7825352EB905462FD239",
+            "R1PROS-1175F475261EE917E0E06A6A",
+            "R1PROS-124E69CDFD1DB8946A66C2FB",
+            "R1PROS-17EAE07A978E6DF8D7824C3A",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+            "R1PROS-25DBBF9AF054202D7EB98360",
+            "R1PROS-2D7B28F1A768D97DAB6669E2"
+          ],
+          "counts": [
+            24,
+            25
+          ],
+          "distances_from_unique": [
+            8,
+            7
+          ],
+          "differ_only_at_indispensable_query": true
+        },
+        {
+          "indispensable_query": "R1PROS-4F72B4FF02FC5A2B9B48061A",
+          "seven_common_corrections": [
+            "R1PROS-104F7825352EB905462FD239",
+            "R1PROS-1175F475261EE917E0E06A6A",
+            "R1PROS-124E69CDFD1DB8946A66C2FB",
+            "R1PROS-17EAE07A978E6DF8D7824C3A",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+            "R1PROS-25DBBF9AF054202D7EB98360",
+            "R1PROS-2D7B28F1A768D97DAB6669E2"
+          ],
+          "counts": [
+            24,
+            25
+          ],
+          "distances_from_unique": [
+            8,
+            7
+          ],
+          "differ_only_at_indispensable_query": true
+        },
+        {
+          "indispensable_query": "R1PROS-523A733BA59F808604C87201",
+          "seven_common_corrections": [
+            "R1PROS-104F7825352EB905462FD239",
+            "R1PROS-1175F475261EE917E0E06A6A",
+            "R1PROS-124E69CDFD1DB8946A66C2FB",
+            "R1PROS-17EAE07A978E6DF8D7824C3A",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+            "R1PROS-25DBBF9AF054202D7EB98360",
+            "R1PROS-2D7B28F1A768D97DAB6669E2"
+          ],
+          "counts": [
+            24,
+            25
+          ],
+          "distances_from_unique": [
+            8,
+            7
+          ],
+          "differ_only_at_indispensable_query": true
+        },
+        {
+          "indispensable_query": "R1PROS-5387EBD2C25E8B2DAFC60EB9",
+          "seven_common_corrections": [
+            "R1PROS-104F7825352EB905462FD239",
+            "R1PROS-1175F475261EE917E0E06A6A",
+            "R1PROS-124E69CDFD1DB8946A66C2FB",
+            "R1PROS-17EAE07A978E6DF8D7824C3A",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+            "R1PROS-25DBBF9AF054202D7EB98360",
+            "R1PROS-2D7B28F1A768D97DAB6669E2"
+          ],
+          "counts": [
+            24,
+            25
+          ],
+          "distances_from_unique": [
+            8,
+            7
+          ],
+          "differ_only_at_indispensable_query": true
+        },
+        {
+          "indispensable_query": "R1PROS-587363AE9EB73EBB7634923F",
+          "seven_common_corrections": [
+            "R1PROS-104F7825352EB905462FD239",
+            "R1PROS-1175F475261EE917E0E06A6A",
+            "R1PROS-124E69CDFD1DB8946A66C2FB",
+            "R1PROS-17EAE07A978E6DF8D7824C3A",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+            "R1PROS-25DBBF9AF054202D7EB98360",
+            "R1PROS-2D7B28F1A768D97DAB6669E2"
+          ],
+          "counts": [
+            24,
+            25
+          ],
+          "distances_from_unique": [
+            8,
+            7
+          ],
+          "differ_only_at_indispensable_query": true
+        },
+        {
+          "indispensable_query": "R1PROS-59B799EA83B34695CFCD4C4F",
+          "seven_common_corrections": [
+            "R1PROS-104F7825352EB905462FD239",
+            "R1PROS-1175F475261EE917E0E06A6A",
+            "R1PROS-124E69CDFD1DB8946A66C2FB",
+            "R1PROS-17EAE07A978E6DF8D7824C3A",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+            "R1PROS-25DBBF9AF054202D7EB98360",
+            "R1PROS-2D7B28F1A768D97DAB6669E2"
+          ],
+          "counts": [
+            24,
+            25
+          ],
+          "distances_from_unique": [
+            8,
+            7
+          ],
+          "differ_only_at_indispensable_query": true
+        },
+        {
+          "indispensable_query": "R1PROS-5E826BF511F1C27079F71204",
+          "seven_common_corrections": [
+            "R1PROS-104F7825352EB905462FD239",
+            "R1PROS-1175F475261EE917E0E06A6A",
+            "R1PROS-124E69CDFD1DB8946A66C2FB",
+            "R1PROS-17EAE07A978E6DF8D7824C3A",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+            "R1PROS-25DBBF9AF054202D7EB98360",
+            "R1PROS-2D7B28F1A768D97DAB6669E2"
+          ],
+          "counts": [
+            24,
+            25
+          ],
+          "distances_from_unique": [
+            8,
+            7
+          ],
+          "differ_only_at_indispensable_query": true
+        },
+        {
+          "indispensable_query": "R1PROS-680F2485A2812505955ABC69",
+          "seven_common_corrections": [
+            "R1PROS-104F7825352EB905462FD239",
+            "R1PROS-1175F475261EE917E0E06A6A",
+            "R1PROS-124E69CDFD1DB8946A66C2FB",
+            "R1PROS-17EAE07A978E6DF8D7824C3A",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+            "R1PROS-25DBBF9AF054202D7EB98360",
+            "R1PROS-2D7B28F1A768D97DAB6669E2"
+          ],
+          "counts": [
+            24,
+            25
+          ],
+          "distances_from_unique": [
+            8,
+            7
+          ],
+          "differ_only_at_indispensable_query": true
+        },
+        {
+          "indispensable_query": "R1PROS-68697A8B7B48465BE0B5FA6F",
+          "seven_common_corrections": [
+            "R1PROS-104F7825352EB905462FD239",
+            "R1PROS-1175F475261EE917E0E06A6A",
+            "R1PROS-124E69CDFD1DB8946A66C2FB",
+            "R1PROS-17EAE07A978E6DF8D7824C3A",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+            "R1PROS-25DBBF9AF054202D7EB98360",
+            "R1PROS-2D7B28F1A768D97DAB6669E2"
+          ],
+          "counts": [
+            24,
+            25
+          ],
+          "distances_from_unique": [
+            8,
+            7
+          ],
+          "differ_only_at_indispensable_query": true
+        },
+        {
+          "indispensable_query": "R1PROS-74EBE4A6CA03054A9B5089EF",
+          "seven_common_corrections": [
+            "R1PROS-104F7825352EB905462FD239",
+            "R1PROS-1175F475261EE917E0E06A6A",
+            "R1PROS-124E69CDFD1DB8946A66C2FB",
+            "R1PROS-17EAE07A978E6DF8D7824C3A",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+            "R1PROS-25DBBF9AF054202D7EB98360",
+            "R1PROS-2D7B28F1A768D97DAB6669E2"
+          ],
+          "counts": [
+            24,
+            25
+          ],
+          "distances_from_unique": [
+            8,
+            7
+          ],
+          "differ_only_at_indispensable_query": true
+        },
+        {
+          "indispensable_query": "R1PROS-81886D0F22CD34BEFE0BC76C",
+          "seven_common_corrections": [
+            "R1PROS-104F7825352EB905462FD239",
+            "R1PROS-1175F475261EE917E0E06A6A",
+            "R1PROS-124E69CDFD1DB8946A66C2FB",
+            "R1PROS-17EAE07A978E6DF8D7824C3A",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+            "R1PROS-25DBBF9AF054202D7EB98360",
+            "R1PROS-2D7B28F1A768D97DAB6669E2"
+          ],
+          "counts": [
+            24,
+            25
+          ],
+          "distances_from_unique": [
+            8,
+            7
+          ],
+          "differ_only_at_indispensable_query": true
+        },
+        {
+          "indispensable_query": "R1PROS-8C212CB16D676EFB19316BB5",
+          "seven_common_corrections": [
+            "R1PROS-104F7825352EB905462FD239",
+            "R1PROS-1175F475261EE917E0E06A6A",
+            "R1PROS-124E69CDFD1DB8946A66C2FB",
+            "R1PROS-17EAE07A978E6DF8D7824C3A",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+            "R1PROS-25DBBF9AF054202D7EB98360",
+            "R1PROS-2D7B28F1A768D97DAB6669E2"
+          ],
+          "counts": [
+            24,
+            25
+          ],
+          "distances_from_unique": [
+            8,
+            7
+          ],
+          "differ_only_at_indispensable_query": true
+        },
+        {
+          "indispensable_query": "R1PROS-922369D794C572EEEA7F9597",
+          "seven_common_corrections": [
+            "R1PROS-104F7825352EB905462FD239",
+            "R1PROS-1175F475261EE917E0E06A6A",
+            "R1PROS-124E69CDFD1DB8946A66C2FB",
+            "R1PROS-17EAE07A978E6DF8D7824C3A",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+            "R1PROS-25DBBF9AF054202D7EB98360",
+            "R1PROS-2D7B28F1A768D97DAB6669E2"
+          ],
+          "counts": [
+            24,
+            25
+          ],
+          "distances_from_unique": [
+            8,
+            7
+          ],
+          "differ_only_at_indispensable_query": true
+        },
+        {
+          "indispensable_query": "R1PROS-9DE07811DCB2EC1095F690C0",
+          "seven_common_corrections": [
+            "R1PROS-104F7825352EB905462FD239",
+            "R1PROS-1175F475261EE917E0E06A6A",
+            "R1PROS-124E69CDFD1DB8946A66C2FB",
+            "R1PROS-17EAE07A978E6DF8D7824C3A",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+            "R1PROS-25DBBF9AF054202D7EB98360",
+            "R1PROS-2D7B28F1A768D97DAB6669E2"
+          ],
+          "counts": [
+            24,
+            25
+          ],
+          "distances_from_unique": [
+            8,
+            7
+          ],
+          "differ_only_at_indispensable_query": true
+        },
+        {
+          "indispensable_query": "R1PROS-C03093D8D95D4686B92E3E4C",
+          "seven_common_corrections": [
+            "R1PROS-104F7825352EB905462FD239",
+            "R1PROS-1175F475261EE917E0E06A6A",
+            "R1PROS-124E69CDFD1DB8946A66C2FB",
+            "R1PROS-17EAE07A978E6DF8D7824C3A",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+            "R1PROS-25DBBF9AF054202D7EB98360",
+            "R1PROS-2D7B28F1A768D97DAB6669E2"
+          ],
+          "counts": [
+            24,
+            25
+          ],
+          "distances_from_unique": [
+            8,
+            7
+          ],
+          "differ_only_at_indispensable_query": true
+        },
+        {
+          "indispensable_query": "R1PROS-C3B614C15E40AE726DDBAAE2",
+          "seven_common_corrections": [
+            "R1PROS-104F7825352EB905462FD239",
+            "R1PROS-1175F475261EE917E0E06A6A",
+            "R1PROS-124E69CDFD1DB8946A66C2FB",
+            "R1PROS-17EAE07A978E6DF8D7824C3A",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+            "R1PROS-25DBBF9AF054202D7EB98360",
+            "R1PROS-2D7B28F1A768D97DAB6669E2"
+          ],
+          "counts": [
+            24,
+            25
+          ],
+          "distances_from_unique": [
+            8,
+            7
+          ],
+          "differ_only_at_indispensable_query": true
+        },
+        {
+          "indispensable_query": "R1PROS-C5C4CE08E069D6FECCFFCCEF",
+          "seven_common_corrections": [
+            "R1PROS-104F7825352EB905462FD239",
+            "R1PROS-1175F475261EE917E0E06A6A",
+            "R1PROS-124E69CDFD1DB8946A66C2FB",
+            "R1PROS-17EAE07A978E6DF8D7824C3A",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+            "R1PROS-25DBBF9AF054202D7EB98360",
+            "R1PROS-2D7B28F1A768D97DAB6669E2"
+          ],
+          "counts": [
+            24,
+            25
+          ],
+          "distances_from_unique": [
+            8,
+            7
+          ],
+          "differ_only_at_indispensable_query": true
+        },
+        {
+          "indispensable_query": "R1PROS-C71AACF05AE5573BCF293B15",
+          "seven_common_corrections": [
+            "R1PROS-104F7825352EB905462FD239",
+            "R1PROS-1175F475261EE917E0E06A6A",
+            "R1PROS-124E69CDFD1DB8946A66C2FB",
+            "R1PROS-17EAE07A978E6DF8D7824C3A",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+            "R1PROS-25DBBF9AF054202D7EB98360",
+            "R1PROS-2D7B28F1A768D97DAB6669E2"
+          ],
+          "counts": [
+            24,
+            25
+          ],
+          "distances_from_unique": [
+            8,
+            7
+          ],
+          "differ_only_at_indispensable_query": true
+        },
+        {
+          "indispensable_query": "R1PROS-C7D5DE31E2F7971F130A0CA9",
+          "seven_common_corrections": [
+            "R1PROS-104F7825352EB905462FD239",
+            "R1PROS-1175F475261EE917E0E06A6A",
+            "R1PROS-124E69CDFD1DB8946A66C2FB",
+            "R1PROS-17EAE07A978E6DF8D7824C3A",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+            "R1PROS-25DBBF9AF054202D7EB98360",
+            "R1PROS-2D7B28F1A768D97DAB6669E2"
+          ],
+          "counts": [
+            24,
+            25
+          ],
+          "distances_from_unique": [
+            8,
+            7
+          ],
+          "differ_only_at_indispensable_query": true
+        },
+        {
+          "indispensable_query": "R1PROS-D398EDD5B02E2AB2D301945C",
+          "seven_common_corrections": [
+            "R1PROS-104F7825352EB905462FD239",
+            "R1PROS-1175F475261EE917E0E06A6A",
+            "R1PROS-124E69CDFD1DB8946A66C2FB",
+            "R1PROS-17EAE07A978E6DF8D7824C3A",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+            "R1PROS-25DBBF9AF054202D7EB98360",
+            "R1PROS-2D7B28F1A768D97DAB6669E2"
+          ],
+          "counts": [
+            24,
+            25
+          ],
+          "distances_from_unique": [
+            8,
+            7
+          ],
+          "differ_only_at_indispensable_query": true
+        },
+        {
+          "indispensable_query": "R1PROS-E537A37980B897D058072E86",
+          "seven_common_corrections": [
+            "R1PROS-104F7825352EB905462FD239",
+            "R1PROS-1175F475261EE917E0E06A6A",
+            "R1PROS-124E69CDFD1DB8946A66C2FB",
+            "R1PROS-17EAE07A978E6DF8D7824C3A",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+            "R1PROS-25DBBF9AF054202D7EB98360",
+            "R1PROS-2D7B28F1A768D97DAB6669E2"
+          ],
+          "counts": [
+            24,
+            25
+          ],
+          "distances_from_unique": [
+            8,
+            7
+          ],
+          "differ_only_at_indispensable_query": true
+        },
+        {
+          "indispensable_query": "R1PROS-F289193A1E2E468FBF542716",
+          "seven_common_corrections": [
+            "R1PROS-104F7825352EB905462FD239",
+            "R1PROS-1175F475261EE917E0E06A6A",
+            "R1PROS-124E69CDFD1DB8946A66C2FB",
+            "R1PROS-17EAE07A978E6DF8D7824C3A",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+            "R1PROS-25DBBF9AF054202D7EB98360",
+            "R1PROS-2D7B28F1A768D97DAB6669E2"
+          ],
+          "counts": [
+            24,
+            25
+          ],
+          "distances_from_unique": [
+            8,
+            7
+          ],
+          "differ_only_at_indispensable_query": true
+        },
+        {
+          "indispensable_query": "R1PROS-F43B18F8DF3F6C3374DC0643",
+          "seven_common_corrections": [
+            "R1PROS-104F7825352EB905462FD239",
+            "R1PROS-1175F475261EE917E0E06A6A",
+            "R1PROS-124E69CDFD1DB8946A66C2FB",
+            "R1PROS-17EAE07A978E6DF8D7824C3A",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+            "R1PROS-25DBBF9AF054202D7EB98360",
+            "R1PROS-2D7B28F1A768D97DAB6669E2"
+          ],
+          "counts": [
+            24,
+            25
+          ],
+          "distances_from_unique": [
+            8,
+            7
+          ],
+          "differ_only_at_indispensable_query": true
+        }
+      ],
+      "additional_query_necessary": {
+        "counts": [
+          24,
+          40
+        ],
+        "centres": [
+          "either_unique",
+          "suffix_only"
+        ],
+        "same_32_query_transcript": true,
+        "distance_from_each_centre": 8,
+        "common_corrections": [
+          "R1PROS-104F7825352EB905462FD239",
+          "R1PROS-124E69CDFD1DB8946A66C2FB",
+          "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+          "R1PROS-2FEE93C5D1A6B23745FB971F",
+          "R1PROS-4209340D6ECCECE00B7C0626",
+          "R1PROS-4F72B4FF02FC5A2B9B48061A",
+          "R1PROS-5387EBD2C25E8B2DAFC60EB9",
+          "R1PROS-59B799EA83B34695CFCD4C4F"
+        ],
+        "separating_stratum": "exact_alias_clean"
+      },
+      "sufficiency_checks": [
+        {
+          "query_count": 33,
+          "exception_budget": 8,
+          "admissibility": "coordinatewise_union_of_canonical_predictions",
+          "transcript_types_checked": 578,
+          "statuses": {
+            "OUT_OF_MODEL": 328,
+            "AT_OR_BELOW": 169,
+            "ABOVE": 81
+          },
+          "method": "Complete histogram enumeration after checking group homogeneity; exact unseen-state DP.",
+          "status": "PASS"
+        },
+        {
+          "query_count": 33,
+          "exception_budget": 8,
+          "admissibility": "all_S_V_U",
+          "transcript_types_checked": 70227,
+          "statuses": {
+            "OUT_OF_MODEL": 66599,
+            "AT_OR_BELOW": 2317,
+            "ABOVE": 1311
+          },
+          "method": "Complete histogram enumeration after checking group homogeneity; exact unseen-state DP.",
+          "status": "PASS"
+        }
+      ],
+      "scope": "Distinct archived queries, fixed K=24 and this retained five-convention matrix. No claim for k>8."
+    },
+    "single_archived_query": {
+      "case_id": "R1PROS-1175F475261EE917E0E06A6A",
+      "restricted": {
+        "S": {
+          "radii": {
+            "fit": 0,
+            "at_or_below": 0,
+            "above": 1
+          },
+          "at_k_0": {
+            "status": "AT_OR_BELOW",
+            "interval": [
+              0,
+              16
+            ]
+          },
+          "at_k_1": {
+            "status": "UNDETERMINED",
+            "interval": [
+              0,
+              47
+            ]
+          },
+          "endpoint_certificates": {
+            "0": [
+              {
+                "direction": "minimum",
+                "centre": "literal_only",
+                "observations": {
+                  "R1PROS-1175F475261EE917E0E06A6A": "S"
+                },
+                "admissibility": "coordinatewise_union_of_canonical_predictions",
+                "witness_reconstruction": "Start from the named column in the retained matrix and replace exactly changed_labels below.",
+                "changed_labels": {},
+                "verification": {
+                  "score": 0,
+                  "distance": 0,
+                  "budget": 0,
+                  "local_restrictions_pass": true,
+                  "protected_coordinates_pass": true,
+                  "endpoint_attained": true
+                }
+              },
+              {
+                "direction": "maximum",
+                "centre": "prefer_literal",
+                "observations": {
+                  "R1PROS-1175F475261EE917E0E06A6A": "S"
+                },
+                "admissibility": "coordinatewise_union_of_canonical_predictions",
+                "witness_reconstruction": "Start from the named column in the retained matrix and replace exactly changed_labels below.",
+                "changed_labels": {},
+                "verification": {
+                  "score": 16,
+                  "distance": 0,
+                  "budget": 0,
+                  "local_restrictions_pass": true,
+                  "protected_coordinates_pass": true,
+                  "endpoint_attained": true
+                }
+              }
+            ],
+            "1": [
+              {
+                "direction": "minimum",
+                "centre": "literal_only",
+                "observations": {
+                  "R1PROS-1175F475261EE917E0E06A6A": "S"
+                },
+                "admissibility": "coordinatewise_union_of_canonical_predictions",
+                "witness_reconstruction": "Start from the named column in the retained matrix and replace exactly changed_labels below.",
+                "changed_labels": {},
+                "verification": {
+                  "score": 0,
+                  "distance": 0,
+                  "budget": 1,
+                  "local_restrictions_pass": true,
+                  "protected_coordinates_pass": true,
+                  "endpoint_attained": true
+                }
+              },
+              {
+                "direction": "maximum",
+                "centre": "suffix_only",
+                "observations": {
+                  "R1PROS-1175F475261EE917E0E06A6A": "S"
+                },
+                "admissibility": "coordinatewise_union_of_canonical_predictions",
+                "witness_reconstruction": "Start from the named column in the retained matrix and replace exactly changed_labels below.",
+                "changed_labels": {
+                  "R1PROS-1175F475261EE917E0E06A6A": "S"
+                },
+                "verification": {
+                  "score": 47,
+                  "distance": 1,
+                  "budget": 1,
+                  "local_restrictions_pass": true,
+                  "protected_coordinates_pass": true,
+                  "endpoint_attained": true
+                }
+              }
+            ]
+          }
+        },
+        "V": {
+          "radii": {
+            "fit": 0,
+            "at_or_below": 1,
+            "above": 0
+          },
+          "at_k_0": {
+            "status": "ABOVE",
+            "interval": [
+              32,
+              48
+            ]
+          },
+          "at_k_1": {
+            "status": "UNDETERMINED",
+            "interval": [
+              1,
+              48
+            ]
+          },
+          "endpoint_certificates": {
+            "0": [
+              {
+                "direction": "minimum",
+                "centre": "either_unique",
+                "observations": {
+                  "R1PROS-1175F475261EE917E0E06A6A": "V"
+                },
+                "admissibility": "coordinatewise_union_of_canonical_predictions",
+                "witness_reconstruction": "Start from the named column in the retained matrix and replace exactly changed_labels below.",
+                "changed_labels": {},
+                "verification": {
+                  "score": 32,
+                  "distance": 0,
+                  "budget": 0,
+                  "local_restrictions_pass": true,
+                  "protected_coordinates_pass": true,
+                  "endpoint_attained": true
+                }
+              },
+              {
+                "direction": "maximum",
+                "centre": "suffix_only",
+                "observations": {
+                  "R1PROS-1175F475261EE917E0E06A6A": "V"
+                },
+                "admissibility": "coordinatewise_union_of_canonical_predictions",
+                "witness_reconstruction": "Start from the named column in the retained matrix and replace exactly changed_labels below.",
+                "changed_labels": {},
+                "verification": {
+                  "score": 48,
+                  "distance": 0,
+                  "budget": 0,
+                  "local_restrictions_pass": true,
+                  "protected_coordinates_pass": true,
+                  "endpoint_attained": true
+                }
+              }
+            ],
+            "1": [
+              {
+                "direction": "minimum",
+                "centre": "literal_only",
+                "observations": {
+                  "R1PROS-1175F475261EE917E0E06A6A": "V"
+                },
+                "admissibility": "coordinatewise_union_of_canonical_predictions",
+                "witness_reconstruction": "Start from the named column in the retained matrix and replace exactly changed_labels below.",
+                "changed_labels": {
+                  "R1PROS-1175F475261EE917E0E06A6A": "V"
+                },
+                "verification": {
+                  "score": 1,
+                  "distance": 1,
+                  "budget": 1,
+                  "local_restrictions_pass": true,
+                  "protected_coordinates_pass": true,
+                  "endpoint_attained": true
+                }
+              },
+              {
+                "direction": "maximum",
+                "centre": "suffix_only",
+                "observations": {
+                  "R1PROS-1175F475261EE917E0E06A6A": "V"
+                },
+                "admissibility": "coordinatewise_union_of_canonical_predictions",
+                "witness_reconstruction": "Start from the named column in the retained matrix and replace exactly changed_labels below.",
+                "changed_labels": {},
+                "verification": {
+                  "score": 48,
+                  "distance": 0,
+                  "budget": 1,
+                  "local_restrictions_pass": true,
+                  "protected_coordinates_pass": true,
+                  "endpoint_attained": true
+                }
+              }
+            ]
+          }
+        }
+      },
+      "broad": {
+        "S": {
+          "radii": {
+            "fit": 0,
+            "at_or_below": 0,
+            "above": 1
+          },
+          "at_k_0": {
+            "status": "AT_OR_BELOW",
+            "interval": [
+              0,
+              16
+            ]
+          },
+          "at_k_1": {
+            "status": "UNDETERMINED",
+            "interval": [
+              0,
+              47
+            ]
+          },
+          "endpoint_certificates": {
+            "0": [
+              {
+                "direction": "minimum",
+                "centre": "literal_only",
+                "observations": {
+                  "R1PROS-1175F475261EE917E0E06A6A": "S"
+                },
+                "admissibility": "all_S_V_U",
+                "witness_reconstruction": "Start from the named column in the retained matrix and replace exactly changed_labels below.",
+                "changed_labels": {},
+                "verification": {
+                  "score": 0,
+                  "distance": 0,
+                  "budget": 0,
+                  "local_restrictions_pass": true,
+                  "protected_coordinates_pass": true,
+                  "endpoint_attained": true
+                }
+              },
+              {
+                "direction": "maximum",
+                "centre": "prefer_literal",
+                "observations": {
+                  "R1PROS-1175F475261EE917E0E06A6A": "S"
+                },
+                "admissibility": "all_S_V_U",
+                "witness_reconstruction": "Start from the named column in the retained matrix and replace exactly changed_labels below.",
+                "changed_labels": {},
+                "verification": {
+                  "score": 16,
+                  "distance": 0,
+                  "budget": 0,
+                  "local_restrictions_pass": true,
+                  "protected_coordinates_pass": true,
+                  "endpoint_attained": true
+                }
+              }
+            ],
+            "1": [
+              {
+                "direction": "minimum",
+                "centre": "literal_only",
+                "observations": {
+                  "R1PROS-1175F475261EE917E0E06A6A": "S"
+                },
+                "admissibility": "all_S_V_U",
+                "witness_reconstruction": "Start from the named column in the retained matrix and replace exactly changed_labels below.",
+                "changed_labels": {},
+                "verification": {
+                  "score": 0,
+                  "distance": 0,
+                  "budget": 1,
+                  "local_restrictions_pass": true,
+                  "protected_coordinates_pass": true,
+                  "endpoint_attained": true
+                }
+              },
+              {
+                "direction": "maximum",
+                "centre": "suffix_only",
+                "observations": {
+                  "R1PROS-1175F475261EE917E0E06A6A": "S"
+                },
+                "admissibility": "all_S_V_U",
+                "witness_reconstruction": "Start from the named column in the retained matrix and replace exactly changed_labels below.",
+                "changed_labels": {
+                  "R1PROS-1175F475261EE917E0E06A6A": "S"
+                },
+                "verification": {
+                  "score": 47,
+                  "distance": 1,
+                  "budget": 1,
+                  "local_restrictions_pass": true,
+                  "protected_coordinates_pass": true,
+                  "endpoint_attained": true
+                }
+              }
+            ]
+          }
+        },
+        "V": {
+          "radii": {
+            "fit": 0,
+            "at_or_below": 1,
+            "above": 0
+          },
+          "at_k_0": {
+            "status": "ABOVE",
+            "interval": [
+              32,
+              48
+            ]
+          },
+          "at_k_1": {
+            "status": "UNDETERMINED",
+            "interval": [
+              1,
+              49
+            ]
+          },
+          "endpoint_certificates": {
+            "0": [
+              {
+                "direction": "minimum",
+                "centre": "either_unique",
+                "observations": {
+                  "R1PROS-1175F475261EE917E0E06A6A": "V"
+                },
+                "admissibility": "all_S_V_U",
+                "witness_reconstruction": "Start from the named column in the retained matrix and replace exactly changed_labels below.",
+                "changed_labels": {},
+                "verification": {
+                  "score": 32,
+                  "distance": 0,
+                  "budget": 0,
+                  "local_restrictions_pass": true,
+                  "protected_coordinates_pass": true,
+                  "endpoint_attained": true
+                }
+              },
+              {
+                "direction": "maximum",
+                "centre": "suffix_only",
+                "observations": {
+                  "R1PROS-1175F475261EE917E0E06A6A": "V"
+                },
+                "admissibility": "all_S_V_U",
+                "witness_reconstruction": "Start from the named column in the retained matrix and replace exactly changed_labels below.",
+                "changed_labels": {},
+                "verification": {
+                  "score": 48,
+                  "distance": 0,
+                  "budget": 0,
+                  "local_restrictions_pass": true,
+                  "protected_coordinates_pass": true,
+                  "endpoint_attained": true
+                }
+              }
+            ],
+            "1": [
+              {
+                "direction": "minimum",
+                "centre": "literal_only",
+                "observations": {
+                  "R1PROS-1175F475261EE917E0E06A6A": "V"
+                },
+                "admissibility": "all_S_V_U",
+                "witness_reconstruction": "Start from the named column in the retained matrix and replace exactly changed_labels below.",
+                "changed_labels": {
+                  "R1PROS-1175F475261EE917E0E06A6A": "V"
+                },
+                "verification": {
+                  "score": 1,
+                  "distance": 1,
+                  "budget": 1,
+                  "local_restrictions_pass": true,
+                  "protected_coordinates_pass": true,
+                  "endpoint_attained": true
+                }
+              },
+              {
+                "direction": "maximum",
+                "centre": "suffix_only",
+                "observations": {
+                  "R1PROS-1175F475261EE917E0E06A6A": "V"
+                },
+                "admissibility": "all_S_V_U",
+                "witness_reconstruction": "Start from the named column in the retained matrix and replace exactly changed_labels below.",
+                "changed_labels": {
+                  "R1PROS-010B2575E5342CFAA222E93F": "V"
+                },
+                "verification": {
+                  "score": 49,
+                  "distance": 1,
+                  "budget": 1,
+                  "local_restrictions_pass": true,
+                  "protected_coordinates_pass": true,
+                  "endpoint_attained": true
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "external_mirror_query_domain_sensitivity": {
+      "frame_plus_query": {
+        "radii": {
+          "fit": 0,
+          "at_or_below": 1,
+          "above": 0
+        },
+        "at_k_0": {
+          "status": "ABOVE",
+          "interval": [
+            32,
+            48
+          ]
+        },
+        "at_k_1": {
+          "status": "UNDETERMINED",
+          "interval": [
+            0,
+            48
+          ]
+        },
+        "at_k_8": {
+          "status": "UNDETERMINED",
+          "interval": [
+            0,
+            48
+          ]
+        }
+      },
+      "frame_only_with_protected_query": {
+        "radii": {
+          "fit": 0,
+          "at_or_below": 8,
+          "above": 0
+        },
+        "at_k_0": {
+          "status": "ABOVE",
+          "interval": [
+            32,
+            48
+          ]
+        },
+        "at_k_1": {
+          "status": "ABOVE",
+          "interval": [
+            31,
+            48
+          ]
+        },
+        "at_k_8": {
+          "status": "UNDETERMINED",
+          "interval": [
+            24,
+            48
+          ]
+        }
+      }
+    },
+    "out_of_model_sensitivity": {
+      "radii": {
+        "fit": 1,
+        "at_or_below": 1,
+        "above": 1
+      },
+      "exact_model": {
+        "status": "OUT_OF_MODEL",
+        "interval": null
+      },
+      "one_departure_model": {
+        "status": "UNDETERMINED",
+        "interval": [
+          0,
+          48
+        ]
+      },
+      "note": "This widened sensitivity model does not erase the original OUT_OF_MODEL finding or diagnose its cause."
+    },
+    "global_contextwise_casewise_after_one_query": {
+      "S": {
+        "global": {
+          "status": "AT_OR_BELOW",
+          "interval": [
+            0,
+            16
+          ]
+        },
+        "contextwise": {
+          "status": "UNDETERMINED",
+          "interval": [
+            0,
+            40
+          ]
+        },
+        "casewise_interval": [
+          0,
+          47
+        ]
+      },
+      "V": {
+        "global": {
+          "status": "ABOVE",
+          "interval": [
+            32,
+            48
+          ]
+        },
+        "contextwise": {
+          "status": "UNDETERMINED",
+          "interval": [
+            8,
+            48
+          ]
+        },
+        "casewise_interval": [
+          1,
+          48
+        ]
+      }
+    }
+  },
+  "counterexamples": {
+    "restricted_single_case": {
+      "checker": "S",
+      "centre": "S",
+      "allowed": [
+        "V"
+      ],
+      "k_0": "OUT_OF_MODEL",
+      "k_1": [
+        1,
+        1
+      ],
+      "incorrect_unrestricted_k_1": [
+        0,
+        1
+      ]
+    },
+    "total_vs_per_context": {
+      "two_one_case_contexts": true,
+      "total_k_1_interval": [
+        0,
+        1
+      ],
+      "one_exception_in_each_context_interval": [
+        0,
+        2
+      ]
+    },
+    "external_query": {
+      "score_weight": 0,
+      "mandatory_departure_cost": 1,
+      "protected_mismatch": "OUT_OF_MODEL_at_every_budget"
+    },
+    "status": "PASS"
+  },
+  "limits": [
+    "Candidate conventions and local admissibility sets are assumptions, not validated by these calculations.",
+    "Distinct dossiers are the exception and adjudication units; repeated readings of one dossier do not give additional coordinates.",
+    "Query minima are universal for compatible transcripts on this finite frame, not expected adaptive costs or human review time.",
+    "Only k=0,...,8 is analysed for the exact archived-query minimum.",
+    "The mathematical proof, retained evidence audit and finite computational checks are separate sources of support."
+  ],
+  "submission_status": "DO_NOT_SUBMIT",
+  "rights_status": "HOLD_CF04_RIGHTS"
+}

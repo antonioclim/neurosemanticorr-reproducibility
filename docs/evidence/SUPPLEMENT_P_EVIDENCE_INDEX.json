@@ -1,0 +1,134 @@
+{
+  "schema": "nsc-f4-prospective-evidence-index/1",
+  "input_archive_sha256": "c2ecc59137d0f7f9912fac73486f5ddc03ffdbdeca27d4e0f71b5fb586222767",
+  "input_archive_software_path": "r5_f3/integration/inputs/neuroSEMANTICorr_R1_TEST_PROSPECTIV.tar.xz",
+  "sources": [
+    {
+      "id": "P01",
+      "relative_path": "source_evidence/P/P01/ANALYSIS_PLAN.md",
+      "sha256": "8f30bc5cdc2fec5dc3f04dae55ca1b090d935750548daa8381211e6e3fc85830",
+      "bytes": 6614,
+      "archive_member": "NSC_PROS_v1/00_plan/ANALYSIS_PLAN.md",
+      "scope": "Frozen design, policies, level and scope"
+    },
+    {
+      "id": "P02",
+      "relative_path": "source_evidence/P/P02/FREEZE.json",
+      "sha256": "c3137288fa18d8704615165f4c3865e45647aa9bd9dc9cdd54ae102f6e128631",
+      "bytes": 3141,
+      "archive_member": "NSC_PROS_v1/00_plan/FREEZE.json",
+      "scope": "Commitment before candidate execution"
+    },
+    {
+      "id": "P03",
+      "relative_path": "source_evidence/P/P03/O15_REFERENCE.json",
+      "sha256": "28f568cb904c2348bbaad4074b8bee01475d138054e494d1c8c9b34bfca2d96e",
+      "bytes": 166272,
+      "archive_member": "NSC_PROS_v1/00_plan/O15_REFERENCE.json",
+      "scope": "Fixed O15 adjudication labels"
+    },
+    {
+      "id": "P04",
+      "relative_path": "source_evidence/P/P04/PERMUTATIONS.json",
+      "sha256": "2449f546e053a9446b6fd65cf0e81fc6cfc87114a800d0aead9a1d25f9f9da86",
+      "bytes": 8230,
+      "archive_member": "NSC_PROS_v1/00_plan/PERMUTATIONS.json",
+      "scope": "Frozen random orders"
+    },
+    {
+      "id": "P05",
+      "relative_path": "source_evidence/P/P05/BLIND_SELECTION.json",
+      "sha256": "e900b01104a5f5731ebbf6a69d92e4791342cdfb8680bd6eb5f35fd4ea32d625",
+      "bytes": 91063,
+      "archive_member": "NSC_PROS_v1/evaluation/BLIND_SELECTION.json",
+      "scope": "Selections before reference scoring"
+    },
+    {
+      "id": "P06",
+      "relative_path": "source_evidence/P/P06/PROSPECTIVE_RESULTS.json",
+      "sha256": "dcfaaf9b0bc690fecb19db40db1f75c81461d152a7f7000ca70d4e6c6bba8e0f",
+      "bytes": 30172,
+      "archive_member": "NSC_PROS_v1/evaluation/PROSPECTIVE_RESULTS.json",
+      "scope": "Per-context and pooled outcomes"
+    },
+    {
+      "id": "P07",
+      "relative_path": "source_evidence/P/P07/SELECTION_COMMITMENT.json",
+      "sha256": "1ae99cfff82d6920aca8f3197c0e6da1cafdd40ab19e9adab2d6d11cd6324e0a",
+      "bytes": 343,
+      "archive_member": "NSC_PROS_v1/evaluation/SELECTION_COMMITMENT.json",
+      "scope": "Selection commitment"
+    },
+    {
+      "id": "P08",
+      "relative_path": "source_evidence/P/P08/RUN_RECEIPT.json",
+      "sha256": "9e26cf9cfa9c4130c7927fcdc4159455f013ceb6a1593981e523e10b308672e1",
+      "bytes": 111952,
+      "archive_member": "NSC_PROS_v1/execution/RUN_RECEIPT.json",
+      "scope": "Original execution receipt"
+    },
+    {
+      "id": "P09",
+      "relative_path": "source_evidence/P/P09/FRAME.json",
+      "sha256": "be763881b1a0d53f64f2b86c34d76ca3f98afcc5a90a562a0d7cc4205b600a75",
+      "bytes": 48662,
+      "archive_member": "NSC_PROS_v1/frame_design/FRAME.json",
+      "scope": "Case and context identities"
+    },
+    {
+      "id": "P10",
+      "relative_path": "source_evidence/P/P10/DESIGN.md",
+      "sha256": "c96280baf58f22bedd602b4310de6c7096fb0d809436f2fdbe42d8b21166ef68",
+      "bytes": 2107,
+      "archive_member": "NSC_PROS_v1/frame_design/DESIGN.md",
+      "scope": "12-stratum frame design"
+    },
+    {
+      "id": "P11",
+      "relative_path": "source_evidence/P/P11/FRAME_DESIGN_MANIFEST.json",
+      "sha256": "077000b4a64488a6b1393bad17a5cc51298c896b3e4d2e620ded084500bd8936",
+      "bytes": 2717,
+      "archive_member": "NSC_PROS_v1/frame_design/FRAME_DESIGN_MANIFEST.json",
+      "scope": "Frame source commitment"
+    },
+    {
+      "id": "P12",
+      "relative_path": "source_evidence/P/P12/FRAME_QA.json",
+      "sha256": "d9f0678c08487bd3cb86a9bc08020993abbb06bb87cf7cfb5b81843a1784c656",
+      "bytes": 832,
+      "archive_member": "NSC_PROS_v1/frame_design/FRAME_QA.json",
+      "scope": "Frame checks"
+    },
+    {
+      "id": "P13",
+      "relative_path": "source_evidence/P/P13/REFERENCE_METHOD.md",
+      "sha256": "72fe169618bcbdda69e51b4365f285dd9480cbe2a3c5f32f0f0366741a1205eb",
+      "bytes": 3353,
+      "archive_member": "NSC_PROS_v1/reference/REFERENCE_METHOD.md",
+      "scope": "Fixed-reference procedure"
+    },
+    {
+      "id": "P14",
+      "relative_path": "source_evidence/P/P14/INDEPENDENT_AUDIT.json",
+      "sha256": "ead8d899a2cd28498a9840e7a543868ecf1f6637753b388ac8c4a98b4eca66bb",
+      "bytes": 16455,
+      "archive_member": "NSC_PROS_v1/report/INDEPENDENT_AUDIT.json",
+      "scope": "Original local cross-check"
+    },
+    {
+      "id": "P15",
+      "relative_path": "source_evidence/P/P15/SENSITIVITY_RESULTS.json",
+      "sha256": "1e32bf13e1ff2d9a731774e862a3799b0326c711d0f2051265cc6db08c30e378",
+      "bytes": 3612,
+      "software_path": "prospective_post_hoc/SENSITIVITY_RESULTS.json",
+      "scope": "Exploratory alias-only comparison; retrospective sensitivity"
+    },
+    {
+      "id": "P16",
+      "relative_path": "source_evidence/P/P16/PROSPECTIVE_DOCUMENTARY_CHECK.json",
+      "sha256": "284c0fff50df7e72774433ff08387ba53f15c5ebf542c6255a5ec322a6cbdb2d",
+      "bytes": 16838,
+      "scope": "F4 exact readout of retained selections and claim records; no new experiment"
+    }
+  ]
+}

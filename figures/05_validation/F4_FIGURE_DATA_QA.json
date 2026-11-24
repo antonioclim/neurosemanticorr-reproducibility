@@ -1,0 +1,22 @@
+{
+  "status": "PASS_RETAINED_DATA_AND_RENDERED_GEOMETRY",
+  "figure_1_conceptual_nodes": 7,
+  "figure_1_source_relations": 6,
+  "figure_2_data_bars_compared": 12,
+  "figure_3_pairs_read": 400,
+  "figure_3_case_marker_values": 100,
+  "figure_3_block_marker_values": 8,
+  "figure_3_max_rendered_marker_displacement_points": 0.026681782226546602,
+  "figure_max_rendered_label_origin_displacement_points": {
+    "JSS_Figure_1_Study_Contract": 0.11471,
+    "JSS_Figure_2_Functional_Outcomes": 0.12283,
+    "JSS_Figure_3_Supervisor_Timing": 0.0603
+  },
+  "source_data_sha256": {
+    "block_timing.csv": "efe3149e9953e45be273c62d6b7d5080f5ca3b43d7295c9ffd9d78d10fc75ead",
+    "case_paired_timing.csv": "c193c9dd4941427a71b50d7ad36a473adc0abd64d140843e4b4b6d06ace77fe9",
+    "outcome_counts.csv": "965fe623e52d7881e07cb031f837aad19985c1ece313bc3274406c6380c87a64",
+    "plot_summary.json": "e3d8b5a877cffc202136b48beb4a1e74e1cffe92ab25af2d22387a7a9294d5ac",
+    "raw_matched_pairs.csv": "c1af68d0e8adc203cdcb488361b850287dd0af8b5dbce8a56c6f84087edb60e9"
+  }
+}

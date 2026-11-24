@@ -1,0 +1,77 @@
+{
+  "status": "PASS_ORIGINAL_DATA_AND_VECTOR_SOURCES_UNCHANGED",
+  "files": [
+    {
+      "path": "04_sources/ARCHITECTURE_GRAPH.json",
+      "bytes": 4043,
+      "sha256": "e12f995e73a2aeba4cb4db629c5272818fe7e7464f07c553bc76aa5b484a237c",
+      "byte_identical_to_R4": true
+    },
+    {
+      "path": "04_sources/P6_F01_STUDY_CONTRACT_WORKFLOW.pdf",
+      "bytes": 18699,
+      "sha256": "853c221d2df3c64c75e96970d74161457b0eada112ad7b749e814cd66c2324fb",
+      "byte_identical_to_R4": true
+    },
+    {
+      "path": "04_sources/P6_F01_STUDY_CONTRACT_WORKFLOW.svg",
+      "bytes": 5482,
+      "sha256": "1733b7a41732319fc5707a1f879366485df713059020ce3f4119ec8083e93033",
+      "byte_identical_to_R4": true
+    },
+    {
+      "path": "04_sources/P6_F02_FROZEN_P4_OUTCOMES.pdf",
+      "bytes": 49932,
+      "sha256": "3e64a690336115f26da196c7e3e07776244858377bee0eaa3043766e52502817",
+      "byte_identical_to_R4": true
+    },
+    {
+      "path": "04_sources/P6_F02_FROZEN_P4_OUTCOMES.svg",
+      "bytes": 178922,
+      "sha256": "b3914dfd7807afce7df91ce64dc3be56d5d3295ca8a19fb15987256e3f72c750",
+      "byte_identical_to_R4": true
+    },
+    {
+      "path": "04_sources/P6_F03_FROZEN_P4_TIMING.pdf",
+      "bytes": 25880,
+      "sha256": "01da281ee614b03a88e9875c3691565dcd85765508ae92a42be707ba198c2272",
+      "byte_identical_to_R4": true
+    },
+    {
+      "path": "04_sources/P6_F03_FROZEN_P4_TIMING.svg",
+      "bytes": 32846,
+      "sha256": "315d2125ac6e7df4a419a88684811303c84dce2e16f24077f3000028e379d2c5",
+      "byte_identical_to_R4": true
+    },
+    {
+      "path": "04_sources/plot_data/block_timing.csv",
+      "bytes": 626,
+      "sha256": "efe3149e9953e45be273c62d6b7d5080f5ca3b43d7295c9ffd9d78d10fc75ead",
+      "byte_identical_to_R4": true
+    },
+    {
+      "path": "04_sources/plot_data/case_paired_timing.csv",
+      "bytes": 6790,
+      "sha256": "c193c9dd4941427a71b50d7ad36a473adc0abd64d140843e4b4b6d06ace77fe9",
+      "byte_identical_to_R4": true
+    },
+    {
+      "path": "04_sources/plot_data/outcome_counts.csv",
+      "bytes": 3070,
+      "sha256": "965fe623e52d7881e07cb031f837aad19985c1ece313bc3274406c6380c87a64",
+      "byte_identical_to_R4": true
+    },
+    {
+      "path": "04_sources/plot_data/plot_summary.json",
+      "bytes": 733,
+      "sha256": "e3d8b5a877cffc202136b48beb4a1e74e1cffe92ab25af2d22387a7a9294d5ac",
+      "byte_identical_to_R4": true
+    },
+    {
+      "path": "04_sources/plot_data/raw_matched_pairs.csv",
+      "bytes": 37137,
+      "sha256": "c1af68d0e8adc203cdcb488361b850287dd0af8b5dbce8a56c6f84087edb60e9",
+      "byte_identical_to_R4": true
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "schema": "nsc.reference-audit.query-certificate/1",
+  "request_sha256": "085b607d4402ab1bab4fd668d53bcb50b28760517a44942cdfcb96f45e2edac3",
+  "matrix_sha256": "542c0128c601232303d347548a09738798bd61d68c3ed54eb3ac4e02fae6a69e",
+  "canonical_csv_sha256": "88b288110ef278626498d34e1163b0423ec6983f427a1af5d0220134d0aacc27",
+  "frame_id": "NSC_PROS_v1.O15.192",
+  "producer": {
+    "component": "neuroSEMANTICorr.reference_audit",
+    "version": "1.0.0",
+    "files_sha256": {
+      "__init__.py": "d14698ff0c325b129392c8162392780ad40ce22c744ba18cec04f5fcc39509a0",
+      "__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+      "canonical.py": "a08bdac5ebff12c46938de774cad4484df265cb3017c18d12aeb9b422b38dad7",
+      "model.py": "de18d7f11361c98dfc79ebe010da7e8f1eed2061c1bf5214cbc70bce252e78f4",
+      "engine.py": "f509531aa7cc5f79f04d20c7617eee92d10b6914a9b9decd1bd77c0ddccb9349",
+      "verification.py": "f60a4a4d453238aab2ced89d93ae6db8b328f71decfea2afcab9301d7abf8635",
+      "canonical_query.py": "91fc1890de6a6a6461c507f8ec6c9cdd6c5bfe92d3cc92c20fbc951a4de93b7c",
+      "provenance.py": "ea37a1b4e3bdfd3b113b2bda2e35c98099dacd5987e968f44aca7a1ea47bffc9",
+      "cli.py": "2cba874dbf9563884b4c9ba32d655e5f68b1d749614cf9f3f50492ed27e3d69d",
+      "request.schema.json": "bb8791d08cbac6ff426a183d694ee42498a734925fabb4d91c50a0f711a18835"
+    }
+  },
+  "budget": 6,
+  "threshold": "24",
+  "original_checker_invocations": 0,
+  "status": "VERIFIED_CANONICAL_MINIMUM",
+  "minimum_query_count": 13,
+  "case_ids": [
+    "R1PROS-1175F475261EE917E0E06A6A",
+    "R1PROS-17EAE07A978E6DF8D7824C3A",
+    "R1PROS-25DBBF9AF054202D7EB98360",
+    "R1PROS-2D7B28F1A768D97DAB6669E2",
+    "R1PROS-457486FB11C264299AF5962C",
+    "R1PROS-523A733BA59F808604C87201",
+    "R1PROS-587363AE9EB73EBB7634923F",
+    "R1PROS-5E826BF511F1C27079F71204",
+    "R1PROS-680F2485A2812505955ABC69",
+    "R1PROS-74EBE4A6CA03054A9B5089EF",
+    "R1PROS-81886D0F22CD34BEFE0BC76C",
+    "R1PROS-8C212CB16D676EFB19316BB5",
+    "R1PROS-9DE07811DCB2EC1095F690C0"
+  ],
+  "proof": {
+    "type": "STABLE_REGIONS_AND_CROSS_REGION_DISTANCE",
+    "centre_counts": {
+      "literal_only": 0,
+      "suffix_only": 48,
+      "either_unique": 32,
+      "prefer_literal": 16,
+      "prefer_suffix": 32
+    },
+    "opposing_pairs": [
+      {
+        "centres": [
+          "literal_only",
+          "suffix_only"
+        ],
+        "selected_distance": 13
+      },
+      {
+        "centres": [
+          "literal_only",
+          "either_unique"
+        ],
+        "selected_distance": 13
+      },
+      {
+        "centres": [
+          "literal_only",
+          "prefer_suffix"
+        ],
+        "selected_distance": 13
+      },
+      {
+        "centres": [
+          "suffix_only",
+          "prefer_literal"
+        ],
+        "selected_distance": 13
+      },
+      {
+        "centres": [
+          "either_unique",
+          "prefer_literal"
+        ],
+        "selected_distance": 13
+      },
+      {
+        "centres": [
+          "prefer_literal",
+          "prefer_suffix"
+        ],
+        "selected_distance": 13
+      }
+    ],
+    "closest_pair": [
+      "prefer_literal",
+      "either_unique"
+    ],
+    "closest_pair_difference_ids": [
+      "R1PROS-1175F475261EE917E0E06A6A",
+      "R1PROS-17EAE07A978E6DF8D7824C3A",
+      "R1PROS-25DBBF9AF054202D7EB98360",
+      "R1PROS-2D7B28F1A768D97DAB6669E2",
+      "R1PROS-457486FB11C264299AF5962C",
+      "R1PROS-523A733BA59F808604C87201",
+      "R1PROS-587363AE9EB73EBB7634923F",
+      "R1PROS-5E826BF511F1C27079F71204",
+      "R1PROS-680F2485A2812505955ABC69",
+      "R1PROS-74EBE4A6CA03054A9B5089EF",
+      "R1PROS-81886D0F22CD34BEFE0BC76C",
+      "R1PROS-8C212CB16D676EFB19316BB5",
+      "R1PROS-9DE07811DCB2EC1095F690C0",
+      "R1PROS-D398EDD5B02E2AB2D301945C",
+      "R1PROS-E537A37980B897D058072E86",
+      "R1PROS-F289193A1E2E468FBF542716"
+    ],
+    "lower_bound": "Any set of at most 2k coordinates permits a transcript within k of both members of the closest opposing pair.",
+    "region_stability": "Every reference within k <= 7 of a centre with count 0 or 16 stays at or below 24; every such reference around count 32 or 48 stays above 24.",
+    "necessary_conflict_queries": 13
+  },
+  "admissibility": "broad_S_V_U",
+  "scope": "Exact fixed-query minimum for every compatible transcript on this verified frame and budget. Not adaptive cost, human effort or a result for other frames.",
+  "certificate_sha256": "9ae9e3ca6b4e7864e2f2c38edb60c837d684393b07cb01a198eaf913a17732a0"
+}

@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Please cite the exact software version used and the associated research article."
+type: software
+title: "neuroSEMANTICorr: Verification and Reference Audit"
+version: "1.0.0"
+doi: "10.5281/zenodo.24509721"
+repository-code: "https://github.com/antonioclim/neurosemanticorr-reproducibility"
+authors:
+  - family-names: Clim
+    given-names: Antonio
+abstract: "Software for exact finite-model audits of shared verifier errors, controlled O15 evidence transformations, native P4/P5 checker qualification and replay of finite-population screening calculations. It accompanies the article When survey workflow verifiers agree and both are wrong."
+keywords:
+  - software verification
+  - reference models
+  - exact rational arithmetic
+  - metamorphic testing
+  - finite-population sampling
+  - reproducible research
+license:
+  - MIT
+  - CC-BY-4.0

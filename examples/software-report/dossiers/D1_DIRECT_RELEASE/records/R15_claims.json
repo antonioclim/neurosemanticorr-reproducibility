@@ -1,0 +1,15 @@
+{
+  "claims": [
+    {
+      "claim_id": "smoke-pass-fraction",
+      "source_pointer": "/measures/release/smoke_pass_fraction",
+      "value": {
+        "numerator": 7,
+        "denominator": 8
+      },
+      "unit": "fraction",
+      "denominator": 8,
+      "scope": "release-candidate/desktop/smoke"
+    }
+  ]
+}

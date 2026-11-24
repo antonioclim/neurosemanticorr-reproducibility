@@ -1,0 +1,17 @@
+{
+  "result_id": "build-report-demo-01",
+  "measures": {
+    "release": {
+      "smoke_pass_fraction": {
+        "numerator": 7,
+        "denominator": 8
+      }
+    },
+    "nightly": {
+      "smoke_pass_fraction": {
+        "numerator": 7,
+        "denominator": 8
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "status": "PASS_METADATA_AND_CAPTIONS",
+  "figures": [
+    {
+      "file": "JSS_Figure_1_Study_Contract.odg",
+      "sha256": "9f4a70b70fe5a3bfb0c8420b391bc9d546c7e2b9420662fa3743e6c84fb7efc3",
+      "metadata": {
+        "title": "JSS Figure 1 Study Contract",
+        "language": "en-GB",
+        "description": "Conceptual Study Contract workflow. The contract, physical data frame and co-indexed response-state frame feed the semantic validator. Materialised populations feed estimand-bound analyses, whose results support evidence and claims. Arrows denote declared conceptual dependencies. The diagram provides the study-contract design context for the finite verification profile.",
+        "generator": "LibreOfficeDev/26.8.0.0.alpha0$Linux_X86_64 LibreOffice_project/2c87e51eeaa2b413ff4ae097b2705eea1995d8e5"
+      },
+      "caption_matches": true,
+      "embedded_macros": false
+    },
+    {
+      "file": "JSS_Figure_2_Functional_Outcomes.odg",
+      "sha256": "fe09a16942802c5ac5097cb6a7541868043246b2e2c7c22b5174f6ded78d35b3",
+      "metadata": {
+        "title": "JSS Figure 2 Functional Outcomes",
+        "language": "en-GB",
+        "description": "Functional performance on the finite benchmark. Panel A shows both complete implementations across the contradiction (D), missing-evidence (M), full conformance and gold-valid rejection outcomes. Strict localisation requires the registered witness. Both implementations reject two of 36 gold-valid cases. Panel B shows rejection counts and complete obligation coverage for four ablations. Each ablation returns INDETERMINATE on all 36 gold-valid controls. The observed performance refers to the frozen benchmark.",
+        "generator": "LibreOfficeDev/26.8.0.0.alpha0$Linux_X86_64 LibreOffice_project/2c87e51eeaa2b413ff4ae097b2705eea1995d8e5"
+      },
+      "caption_matches": true,
+      "embedded_macros": false
+    },
+    {
+      "file": "JSS_Figure_3_Supervisor_Timing.odg",
+      "sha256": "c18bad287b25a80f3e9e9c10560a78e64b7710ddbf8ae72478c9f1f42e69ed51",
+      "metadata": {
+        "title": "JSS Figure 3 Supervisor Timing",
+        "language": "en-GB",
+        "description": "Supervisor interval differences and block medians. Panel A uses each case’s median of four paired T_FULL minus B_ASSERT intervals. Its dashed line is the median across 100 case values. Panel B shows each arm’s invocation median within a block, using all 100 cases per arm and block. The panel B axis begins above zero. Intervals cover declared supervisor work and exclude final receipt writing. The 800 invocations are repeated observations on one host.",
+        "generator": "LibreOfficeDev/26.8.0.0.alpha0$Linux_X86_64 LibreOffice_project/2c87e51eeaa2b413ff4ae097b2705eea1995d8e5"
+      },
+      "caption_matches": true,
+      "embedded_macros": false
+    },
+    {
+      "file": "JSS_Figure_4_Reference_Audit.odg",
+      "sha256": "1b0680d32c531727d9604245c57136d7ab098c8a8d3966908dc5550cc179eca1",
+      "metadata": {
+        "title": "JSS Figure 4 Reference Audit",
+        "language": "en-GB",
+        "description": "Exact reference-model sensitivity on the retained 192-case frame. Panel A joins the sharp endpoints of each attainable count set for C, conditional on a stipulated S or V adjudication of the same archived conflict case, with departure budget k = 0. Global coherence uses five joint centres; contextwise coherence uses all 625 assignments across the four contexts. The full casewise prediction product is evaluated separately by coordinate extrema, without enumerating all joint centres. Panel B gives the minimum number of distinct fixed queries needed to decide C ≤ 24 versus C > 24 for budgets k = 0,...,8 under the five global conventions, unit weights, no prior observations and eligibility of every frame position. The local prediction union and S/V/U admissibility give the same nine minima. The panels report exact properties of the declared reference models.",
+        "generator": "LibreOfficeDev/26.8.0.0.alpha0$Linux_X86_64 LibreOffice_project/2c87e51eeaa2b413ff4ae097b2705eea1995d8e5"
+      },
+      "caption_matches": true,
+      "embedded_macros": false
+    }
+  ],
+  "software_versions": {
+    "matplotlib": "3.10.8",
+    "PyMuPDF": "1.26.6",
+    "lxml": "6.1.1",
+    "Pillow": "13.0.0",
+    "svgpathtools": "1.8.0"
+  }
+}

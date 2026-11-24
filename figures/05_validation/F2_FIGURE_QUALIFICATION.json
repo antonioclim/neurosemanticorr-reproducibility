@@ -1,0 +1,819 @@
+{
+  "schema": "nsc-figure-qualification/1",
+  "distribution_version": "1.0.0",
+  "qualification": "F2",
+  "qualified_at_utc": "2026-11-24T16:30:53.013436+00:00",
+  "status": "PASS_EXECUTED_FOUR_FIGURE_QUALIFICATION",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "packages": {
+      "matplotlib": "3.10.8",
+      "PyMuPDF": "1.26.6",
+      "lxml": "6.1.1",
+      "Pillow": "13.0.0",
+      "svgpathtools": "1.8.0"
+    },
+    "soffice": "LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5",
+    "pdffonts": "pdffonts version 25.03.0\nCopyright 2005-2025 The Poppler Developers - http://poppler.freedesktop.org\nCopyright 1996-2011, 2022 Glyph & Cog, LLC"
+  },
+  "pinned_python_dependencies_exact_match": true,
+  "steps": [
+    {
+      "step": "01_data_only",
+      "entry_point": "09_tools/verify_figure_data.py",
+      "exit_code": 0,
+      "stdout_sha256": "8d1b412c348db0b07acfb67f3103c9b00d7388b231cc0ea382c009a2ba8c61f8",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "step": "02_certificates",
+      "entry_point": "09_tools/derive_figure4_data.py",
+      "exit_code": 0,
+      "stdout_sha256": "a4429fb32b2f55274be067f6301fa991b17a2d916c7a7eed25ff270ae9713a76",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "step": "03_build_first_three",
+      "entry_point": "09_tools/build_draw_figures.py",
+      "exit_code": 0,
+      "stdout_sha256": "700231313777e2bf2209b363c8967745a2dc9764b505a01579ba2e10a22e2d53",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "step": "04_build_figure_four",
+      "entry_point": "09_tools/build_figure4.py",
+      "exit_code": 0,
+      "stdout_sha256": "e62b9652db4677f673053a5820e29e5f3a6149551bcfe591e52abcf5c295a632",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "step": "05_native_object_edits",
+      "entry_point": "09_tools/build_and_verify_f4.py",
+      "exit_code": 0,
+      "stdout_sha256": "672fed1f52b7cc4afd14a225c759ebfc5b2c9311f45d864fcafd56b2f3c179ca",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "step": "06_full_data_geometry",
+      "entry_point": "09_tools/verify_figure_data.py",
+      "exit_code": 0,
+      "stdout_sha256": "b9040ec5a4ad7d483b887127a560760c04599ceb5e39c5a1c05795e80ae537e8",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "step": "07_figure_four_geometry",
+      "entry_point": "09_tools/verify_figure4_geometry.py",
+      "exit_code": 0,
+      "stdout_sha256": "d157df5e5daea799bfaee69c9e3ebfc2aa0e67040e376fa574a1796e1eae03f8",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "step": "08_native_resave",
+      "entry_point": "09_tools/verify_draw_round_trip.py",
+      "exit_code": 0,
+      "stdout_sha256": "97303cc4a031b6d0b7972b6fcc6adb28c86d1571a2c625ef360fb4e8f6fd78c4",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "step": "09_native_with_view_normalisation",
+      "entry_point": "09_tools/build_and_verify_f4.py",
+      "exit_code": 0,
+      "stdout_sha256": "cd9cbd46ea4c7ed7440d36e39e73b4179fc31db2dbfaa80092b670db8f0eceb0",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "step": "10_check_view_normalisation",
+      "entry_point": "09_tools/normalise_draw_view.py",
+      "exit_code": 0,
+      "stdout_sha256": "a1cb24e42dc0ecf18dc415c62bda9a970460cf30b039660cd45af3408baade08",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "delivered_asset_bindings": {
+    "01_editable_odg/JSS_Figure_1_Study_Contract.odg": {
+      "bytes": 29447,
+      "sha256": "51fb9684487b0f54d27c873148b331122294a4929cd1768d50fcb45bb94e4985"
+    },
+    "01_editable_odg/JSS_Figure_2_Functional_Outcomes.odg": {
+      "bytes": 40874,
+      "sha256": "086eaa0b333b79ad7bccd8cd63d059853460f6dfee10c72a635a9f709ced6975"
+    },
+    "01_editable_odg/JSS_Figure_3_Supervisor_Timing.odg": {
+      "bytes": 31620,
+      "sha256": "86e46ed871df715f12bdc7ee648622c072e3d08c4a55a47e50580b7065fc2388"
+    },
+    "01_editable_odg/JSS_Figure_4_Reference_Audit.odg": {
+      "bytes": 30330,
+      "sha256": "beaf95a1b4243a185b3fa1a37f2a242d4ddf68369535e780946d444975dcdb8b"
+    },
+    "04_sources/F4_REFERENCE_AUDIT.svg": {
+      "bytes": 28117,
+      "sha256": "1ba20ad91d344e162fd8b9fcae29d18ca58cab7583e7fc2000bb99072c627c98"
+    },
+    "04_sources/P6_F01_STUDY_CONTRACT_WORKFLOW.svg": {
+      "bytes": 5482,
+      "sha256": "1733b7a41732319fc5707a1f879366485df713059020ce3f4119ec8083e93033"
+    },
+    "04_sources/P6_F02_FROZEN_P4_OUTCOMES.svg": {
+      "bytes": 178922,
+      "sha256": "b3914dfd7807afce7df91ce64dc3be56d5d3295ca8a19fb15987256e3f72c750"
+    },
+    "04_sources/P6_F03_FROZEN_P4_TIMING.svg": {
+      "bytes": 32846,
+      "sha256": "315d2125ac6e7df4a419a88684811303c84dce2e16f24077f3000028e379d2c5"
+    },
+    "06_preview_png/JSS_Figure_1_Study_Contract.png": {
+      "bytes": 173161,
+      "sha256": "8814a46470e61b0bc93dc3fa3dafb865c12b2e7592e0870fd8531bb33a423d45"
+    },
+    "06_preview_png/JSS_Figure_2_Functional_Outcomes.png": {
+      "bytes": 198686,
+      "sha256": "a9e02441c1623c9cd4a3327233b074f2b5f91530e299ecf9be027c5d7e029e3b"
+    },
+    "06_preview_png/JSS_Figure_3_Supervisor_Timing.png": {
+      "bytes": 205231,
+      "sha256": "5b70dd5953f314270b63e35435dce5c2989f7ee204e9e3c8b9fd47b04f7eb25a"
+    },
+    "06_preview_png/JSS_Figure_4_Reference_Audit.png": {
+      "bytes": 200454,
+      "sha256": "e9e6b2fa75eac2f477fd812f860c89dda9dadf715031e32d5c12d8a879095e08"
+    }
+  },
+  "current_tool_sha256": {
+    "09_tools/build_and_verify_f4.py": "fdbcbfa4db13e57c18c58adac05b3f5efce1e8882b58f384f06139de9536d005",
+    "09_tools/build_draw_figures.py": "80e462f1e91c456f19c8b6cdcb218c8550efa7ad765ad9efc2323fc4d5004e87",
+    "09_tools/build_figure4.py": "97f8f7f6957d4c6baafcccc5a6e1d9c9dddd3d879e26a94a04bc09ec61d33d2f",
+    "09_tools/derive_figure4_data.py": "4f0af723c75d5262fe7ad22c51ca74885595b53fbb21a2584ae24d3a422575ae",
+    "09_tools/figure_manifest.py": "4b2ca2605ff272589d8a795fef79e8c173fd431ffb0188fc331d44442e11abba",
+    "09_tools/normalise_draw_view.py": "c6aa317e2d02e325ee56f95ea55bca280e8915281cb3f0a68f840d3c3f92eef7",
+    "09_tools/reference_layout.py": "1948a29b96b45bf635ce465148c2c7bc9bf2d5a05d8cef985d87b7cf6f9b4327",
+    "09_tools/requirements_figures.txt": "58bc067f3f85681f8b1ec7bc535f9ae4b01aabd561c13955de866131705a292c",
+    "09_tools/verify_draw_round_trip.py": "ca326d67cc88570890618feaf5708ad10bdf905fdb9adb602f4ebcb3516cb138",
+    "09_tools/verify_figure4_geometry.py": "230025d5fb081d8de878f8db05629fe939d8a1ebcbf65d3f7ab5e9c12ee1f12b",
+    "09_tools/verify_figure_data.py": "09cdd703eac33f25635e5ce06fa4d2aeff36e7b3856dfae2b3c40348d432cbec"
+  },
+  "first_three_figures_source_mode": "Retained SVG geometry with retained JSON text layout; original PDF source files absent.",
+  "data_and_rendered_geometry": {
+    "status": "PASS_RETAINED_DATA_AND_RENDERED_GEOMETRY",
+    "rendered_export_checked": true,
+    "figure_1_conceptual_nodes": 7,
+    "figure_1_source_relations": 6,
+    "figure_2_data_bars_compared": 12,
+    "figure_3_pairs_read": 400,
+    "figure_3_case_marker_values": 100,
+    "figure_3_block_marker_values": 8,
+    "figure_3_max_rendered_marker_displacement_points": 0.026681782226546602,
+    "figure_max_rendered_label_origin_displacement_points": {
+      "JSS_Figure_1_Study_Contract": 0.11471,
+      "JSS_Figure_2_Functional_Outcomes": 0.12283,
+      "JSS_Figure_3_Supervisor_Timing": 0.0603
+    },
+    "source_data_sha256": {
+      "block_timing.csv": "efe3149e9953e45be273c62d6b7d5080f5ca3b43d7295c9ffd9d78d10fc75ead",
+      "case_paired_timing.csv": "c193c9dd4941427a71b50d7ad36a473adc0abd64d140843e4b4b6d06ace77fe9",
+      "outcome_counts.csv": "965fe623e52d7881e07cb031f837aad19985c1ece313bc3274406c6380c87a64",
+      "plot_summary.json": "e3d8b5a877cffc202136b48beb4a1e74e1cffe92ab25af2d22387a7a9294d5ac",
+      "raw_matched_pairs.csv": "c1af68d0e8adc203cdcb488361b850287dd0af8b5dbce8a56c6f84087edb60e9"
+    }
+  },
+  "source_outcome_count_rows": 42,
+  "geometry_tolerances_pt": {
+    "figure3_marker_displacement": 0.04,
+    "figure1_to_3_text_origin_displacement": 0.55,
+    "figure4_path_endpoints_and_query_vertices": 0.06
+  },
+  "figure4_rendered_geometry": {
+    "status": "PASS_FIGURE4_NATIVE_RENDERED_DATA_GEOMETRY",
+    "source_svg_sha256": "87398d37351a309133ad8454be8ac542e2a4fb3da259ec656b2eeb68c5bf0f29",
+    "native_pdf_sha256": "c35d2728473f7d8f3daaf219817b224fe4d6c4242cfeba8760356f3bd83bf9c4",
+    "conditional_interval_segments": 6,
+    "fixed_query_curve_vertices": 9,
+    "matching_rendered_text_spans": 53,
+    "maximum_coordinate_displacement_pt": 0.04244753906249343,
+    "tolerance_pt": 0.06,
+    "tolerance_reason": "Two-stage ODF path-coordinate and native geometry rounding to hundredths of a millimetre; 0.06 pt is approximately 0.0212 mm. Numerical labels and source values remain exact.",
+    "method": "Match final native PDF path endpoints and all nine query-curve vertices to source SVG data paths; rendered labels match the source text inventory."
+  },
+  "figure4_certificate_replay": {
+    "status": "PASS_18_REPLAYED_F3_QUERY_CERTIFICATES",
+    "runtime_unchanged": true,
+    "certificate_count": 18,
+    "legacy_F2_point_match": true,
+    "baseline_F3_version": "1.0.0",
+    "current_driver_sha256": "4f0af723c75d5262fe7ad22c51ca74885595b53fbb21a2584ae24d3a422575ae",
+    "original_checker_invocations": 0,
+    "new_prospective_observations": 0,
+    "runtime_sources_unchanged_during_replay": true,
+    "runtime_source_binding_sha256": "d80f77af050b21fc820e83cd87384c66473e5daed4c394f96d1cdfd5b796819c",
+    "all_18_retained_certificate_files_byte_identical": true,
+    "certificate_sha256": {
+      "QUERY_BROAD_K0.json": "09d93adbb75712dd6f0a47cb3f7face9fc915514fc01b80b84b87b4ff8454715",
+      "QUERY_BROAD_K1.json": "1628ded21d64038bc020612e4d5d1e16583d889b9fde27ce317a5e4a0af9c71c",
+      "QUERY_BROAD_K2.json": "66580b2c666ff17449da067b42f1838ac4c52bf62649a36195e574fd9bbaa55a",
+      "QUERY_BROAD_K3.json": "f0fca97dafdb0dc059ae26c04519dfa83c2971901de33b42bb96e3d5a9beabfb",
+      "QUERY_BROAD_K4.json": "fc241e839974958e6abaea8397d66be891a9972d95baf0184b6f6cdb7e07000e",
+      "QUERY_BROAD_K5.json": "6e50854774a89f0c7369c9fb4b9aab58f0b72904ae5d1941a77610166eb5adc6",
+      "QUERY_BROAD_K6.json": "5966fdf15e62cd05d8391342b997761d2056cd83a9c19756f1b204d20f9496eb",
+      "QUERY_BROAD_K7.json": "1cd52594d9316cce771e196d5f36dcc6dc1db703c6d2c91760f1d29b157d5693",
+      "QUERY_BROAD_K8.json": "6186bb9b71608de0bb9b70814bce13510e32dbc7d3d0d9d5f804d71955e07b4d",
+      "QUERY_RESTRICTED_K0.json": "4b46f6c0a8d4e53c2e6abd6868dc3e70442e5dc1cb99ea229a65a3e40fce998d",
+      "QUERY_RESTRICTED_K1.json": "2a285599b6cb8838f2bca8caf6082ab208bae2884ee4e4860ed4cbc67fbbd5fd",
+      "QUERY_RESTRICTED_K2.json": "932d4332eae49847f2e4abe902848e93684a58f4b3cde4569258c1a76fd90bf5",
+      "QUERY_RESTRICTED_K3.json": "05a7d63c362400e5331686f7f3c28681d6526659ff2a15e176169cb3eb304c82",
+      "QUERY_RESTRICTED_K4.json": "685b22a2ddec0d8a338a07d1d6bd29cfb5ff59ece7082251c0e052e859d43ae2",
+      "QUERY_RESTRICTED_K5.json": "d06be51dadcdeea86b8895136ae5527a80e4c29c369408ba60f1755a4b9300b5",
+      "QUERY_RESTRICTED_K6.json": "eb5bdf94f25168cddab4c2b164ddb67d991397a283313e5699e08f56f6a000d3",
+      "QUERY_RESTRICTED_K7.json": "669255d0524bd2516bdf4f9e115620fef03d7af7e134b970103bc8586038b8e3",
+      "QUERY_RESTRICTED_K8.json": "e1170e3dff32954720f33846718df801d6f46f1866c9f1fd5ed61ce804a8590c"
+    }
+  },
+  "native_object_persistence": {
+    "status": "PASS_NATIVE_DRAW_ROUNDTRIP_AFTER_OBJECT_EDITS",
+    "method": "Disposable ODF XML object edits followed by native LibreOffice Draw load, save, reload and PDF export; NOT GUI manipulation or UNO API mutation.",
+    "checks": {
+      "JSS_Figure_1_Study_Contract.odg": {
+        "native_objects_and_groups": 42,
+        "groups": 0,
+        "primitive_objects": 42,
+        "editable_labels": 22,
+        "shape_types": {
+          "rect": 8,
+          "line": 5,
+          "polygon": 6,
+          "polyline": 1,
+          "frame": 22
+        },
+        "embedded_image_or_ole_payload": false,
+        "mutation_counts": {
+          "rect": 8,
+          "line": 5,
+          "polygon": 6,
+          "polyline": 1,
+          "frame": 22
+        },
+        "mutated_fill_stroke_and_line_width_persisted_count": 42,
+        "mutated_names_text_and_geometry_persisted": true,
+        "restored_geometry_and_labels_match": true,
+        "restored_render_pixel_identical_at_144dpi": true,
+        "pdf_vector_only": true,
+        "pdf_text_spans_in_bounds": 22,
+        "tiff_dpi": 1000,
+        "tiff_pixels": [
+          7087,
+          4567
+        ],
+        "odg_sha256": "78e3e924aa48cebefb7052acbe9c3c1fabeb58ec8a385064630762ef56c69f1a",
+        "pdf_fonts_embedded": true,
+        "pdf_font_families": [
+          "DejaVu Sans",
+          "DejaVu Sans Bold"
+        ]
+      },
+      "JSS_Figure_2_Functional_Outcomes.odg": {
+        "native_objects_and_groups": 506,
+        "groups": 10,
+        "primitive_objects": 496,
+        "editable_labels": 59,
+        "shape_types": {
+          "polygon": 24,
+          "line": 107,
+          "g": 10,
+          "rect": 20,
+          "circle": 286,
+          "frame": 59
+        },
+        "embedded_image_or_ole_payload": false,
+        "mutation_counts": {
+          "polygon": 24,
+          "line": 107,
+          "g": 10,
+          "rect": 20,
+          "circle": 286,
+          "frame": 59
+        },
+        "mutated_fill_stroke_and_line_width_persisted_count": 496,
+        "mutated_names_text_and_geometry_persisted": true,
+        "restored_geometry_and_labels_match": true,
+        "restored_render_pixel_identical_at_144dpi": true,
+        "pdf_vector_only": true,
+        "pdf_text_spans_in_bounds": 59,
+        "tiff_dpi": 1000,
+        "tiff_pixels": [
+          7087,
+          5709
+        ],
+        "odg_sha256": "cc27d01bf9604de41a2b311cb7aba34628be3833911d8d12fe81d202e7a7e001",
+        "pdf_fonts_embedded": true,
+        "pdf_font_families": [
+          "DejaVu Sans",
+          "DejaVu Sans Bold"
+        ]
+      },
+      "JSS_Figure_3_Supervisor_Timing.odg": {
+        "native_objects_and_groups": 187,
+        "groups": 0,
+        "primitive_objects": 187,
+        "editable_labels": 33,
+        "shape_types": {
+          "polygon": 59,
+          "line": 34,
+          "path": 56,
+          "polyline": 5,
+          "frame": 33
+        },
+        "embedded_image_or_ole_payload": false,
+        "mutation_counts": {
+          "polygon": 59,
+          "line": 34,
+          "path": 56,
+          "polyline": 5,
+          "frame": 33
+        },
+        "mutated_fill_stroke_and_line_width_persisted_count": 187,
+        "mutated_names_text_and_geometry_persisted": true,
+        "restored_geometry_and_labels_match": true,
+        "restored_render_pixel_identical_at_144dpi": true,
+        "pdf_vector_only": true,
+        "pdf_text_spans_in_bounds": 33,
+        "tiff_dpi": 1000,
+        "tiff_pixels": [
+          7087,
+          5394
+        ],
+        "odg_sha256": "8eaea68696e87ce2b74674ec6e3e036d8a19d28c0b1494e56dbd0f05a7a01ba7",
+        "pdf_fonts_embedded": true,
+        "pdf_font_families": [
+          "DejaVu Sans",
+          "DejaVu Sans Bold"
+        ]
+      },
+      "JSS_Figure_4_Reference_Audit.odg": {
+        "native_objects_and_groups": 136,
+        "groups": 0,
+        "primitive_objects": 136,
+        "editable_labels": 53,
+        "shape_types": {
+          "polygon": 10,
+          "line": 42,
+          "path": 27,
+          "polyline": 4,
+          "frame": 53
+        },
+        "embedded_image_or_ole_payload": false,
+        "mutation_counts": {
+          "polygon": 10,
+          "line": 42,
+          "path": 27,
+          "polyline": 4,
+          "frame": 53
+        },
+        "mutated_fill_stroke_and_line_width_persisted_count": 136,
+        "mutated_names_text_and_geometry_persisted": true,
+        "restored_geometry_and_labels_match": true,
+        "restored_render_pixel_identical_at_144dpi": true,
+        "pdf_vector_only": true,
+        "pdf_text_spans_in_bounds": 53,
+        "tiff_dpi": 1000,
+        "tiff_pixels": [
+          6851,
+          5709
+        ],
+        "odg_sha256": "595f0623ba78d55b1b035f3449557865ef1bb0ecb9e6082d741ee3ea0ea6b03d",
+        "pdf_fonts_embedded": true,
+        "pdf_font_families": [
+          "DejaVu Sans",
+          "DejaVu Sans Bold"
+        ]
+      }
+    },
+    "versions": {
+      "python": "Python 3.12.14",
+      "soffice": "LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5"
+    },
+    "gui_acceptance": false,
+    "output_scope": "Fresh working-copy reconstruction, linked to the delivered assets by the reconstruction-equivalence and metadata comparisons below."
+  },
+  "reconstruction_comparison": {
+    "status": "PASS_RECONSTRUCTION_EQUIVALENCE",
+    "figures": {
+      "JSS_Figure_1_Study_Contract.odg": {
+        "native_geometry_and_labels_equal_ignoring_shape_identifiers": true,
+        "preview_byte_and_pixel_identical": true,
+        "preview_sha256": "8814a46470e61b0bc93dc3fa3dafb865c12b2e7592e0870fd8531bb33a423d45",
+        "pixels": [
+          2126,
+          1371
+        ],
+        "original_odg_sha256": "9f4a70b70fe5a3bfb0c8420b391bc9d546c7e2b9420662fa3743e6c84fb7efc3",
+        "reconstructed_odg_sha256": "78e3e924aa48cebefb7052acbe9c3c1fabeb58ec8a385064630762ef56c69f1a",
+        "reconstruction_differing_odf_members": [
+          "settings.xml"
+        ]
+      },
+      "JSS_Figure_2_Functional_Outcomes.odg": {
+        "native_geometry_and_labels_equal_ignoring_shape_identifiers": true,
+        "preview_byte_and_pixel_identical": true,
+        "preview_sha256": "a9e02441c1623c9cd4a3327233b074f2b5f91530e299ecf9be027c5d7e029e3b",
+        "pixels": [
+          2126,
+          1713
+        ],
+        "original_odg_sha256": "fe09a16942802c5ac5097cb6a7541868043246b2e2c7c22b5174f6ded78d35b3",
+        "reconstructed_odg_sha256": "cc27d01bf9604de41a2b311cb7aba34628be3833911d8d12fe81d202e7a7e001",
+        "reconstruction_differing_odf_members": [
+          "settings.xml"
+        ]
+      },
+      "JSS_Figure_3_Supervisor_Timing.odg": {
+        "native_geometry_and_labels_equal_ignoring_shape_identifiers": true,
+        "preview_byte_and_pixel_identical": true,
+        "preview_sha256": "5b70dd5953f314270b63e35435dce5c2989f7ee204e9e3c8b9fd47b04f7eb25a",
+        "pixels": [
+          2126,
+          1619
+        ],
+        "original_odg_sha256": "c18bad287b25a80f3e9e9c10560a78e64b7710ddbf8ae72478c9f1f42e69ed51",
+        "reconstructed_odg_sha256": "8eaea68696e87ce2b74674ec6e3e036d8a19d28c0b1494e56dbd0f05a7a01ba7",
+        "reconstruction_differing_odf_members": [
+          "settings.xml"
+        ]
+      },
+      "JSS_Figure_4_Reference_Audit.odg": {
+        "native_geometry_and_labels_equal_ignoring_shape_identifiers": true,
+        "preview_byte_and_pixel_identical": true,
+        "preview_sha256": "e9e6b2fa75eac2f477fd812f860c89dda9dadf715031e32d5c12d8a879095e08",
+        "pixels": [
+          2056,
+          1713
+        ],
+        "original_odg_sha256": "1b0680d32c531727d9604245c57136d7ab098c8a8d3966908dc5550cc179eca1",
+        "reconstructed_odg_sha256": "595f0623ba78d55b1b035f3449557865ef1bb0ecb9e6082d741ee3ea0ea6b03d",
+        "reconstruction_differing_odf_members": [
+          "styles.xml",
+          "content.xml",
+          "settings.xml",
+          "meta.xml"
+        ]
+      }
+    },
+    "svg_sources": {
+      "F4_REFERENCE_AUDIT.svg": {
+        "semantic_xml_equal_after_identifier_normalisation": true,
+        "byte_identical": false,
+        "original_sha256": "1ba20ad91d344e162fd8b9fcae29d18ca58cab7583e7fc2000bb99072c627c98",
+        "rebuilt_sha256": "87398d37351a309133ad8454be8ac542e2a4fb3da259ec656b2eeb68c5bf0f29"
+      },
+      "P6_F01_STUDY_CONTRACT_WORKFLOW.svg": {
+        "semantic_xml_equal_after_identifier_normalisation": true,
+        "byte_identical": true,
+        "original_sha256": "1733b7a41732319fc5707a1f879366485df713059020ce3f4119ec8083e93033",
+        "rebuilt_sha256": "1733b7a41732319fc5707a1f879366485df713059020ce3f4119ec8083e93033"
+      },
+      "P6_F02_FROZEN_P4_OUTCOMES.svg": {
+        "semantic_xml_equal_after_identifier_normalisation": true,
+        "byte_identical": true,
+        "original_sha256": "b3914dfd7807afce7df91ce64dc3be56d5d3295ca8a19fb15987256e3f72c750",
+        "rebuilt_sha256": "b3914dfd7807afce7df91ce64dc3be56d5d3295ca8a19fb15987256e3f72c750"
+      },
+      "P6_F03_FROZEN_P4_TIMING.svg": {
+        "semantic_xml_equal_after_identifier_normalisation": true,
+        "byte_identical": true,
+        "original_sha256": "315d2125ac6e7df4a419a88684811303c84dce2e16f24077f3000028e379d2c5",
+        "rebuilt_sha256": "315d2125ac6e7df4a419a88684811303c84dce2e16f24077f3000028e379d2c5"
+      }
+    },
+    "figure4_numerical_and_source_hash_bindings_equal": true,
+    "figure4_only_data_file_differences": [
+      {
+        "binding": 0,
+        "original_origin": "baseline/NSC_R5_F3/03_audit/integration_portable/REFERENCE_SCOPE_COMPARISON.json",
+        "current_origin": "REFERENCE_SCOPE_COMPARISON_F3.json"
+      },
+      {
+        "binding": 1,
+        "original_origin": "baseline/NSC_R5_F2/reviews_math/MATH_CHECK_RESULTS.json",
+        "current_origin": "MATH_CHECK_RESULTS_F2.json"
+      },
+      {
+        "binding": 2,
+        "original_origin": "baseline/NSC_R5_F3/01_software/repository/r5_f3/reference_audit/examples/canonical_restricted_k0.json",
+        "current_origin": "r5_f3/reference_audit/examples/canonical_restricted_k0.json"
+      },
+      {
+        "binding": 3,
+        "original_origin": "baseline/NSC_R5_F3/01_software/repository/r5_f3/reference_audit/examples/canonical_broad_k7.json",
+        "current_origin": "r5_f3/reference_audit/examples/canonical_broad_k7.json"
+      }
+    ],
+    "all_18_certificates_byte_identical": {
+      "QUERY_BROAD_K0.json": "09d93adbb75712dd6f0a47cb3f7face9fc915514fc01b80b84b87b4ff8454715",
+      "QUERY_BROAD_K1.json": "1628ded21d64038bc020612e4d5d1e16583d889b9fde27ce317a5e4a0af9c71c",
+      "QUERY_BROAD_K2.json": "66580b2c666ff17449da067b42f1838ac4c52bf62649a36195e574fd9bbaa55a",
+      "QUERY_BROAD_K3.json": "f0fca97dafdb0dc059ae26c04519dfa83c2971901de33b42bb96e3d5a9beabfb",
+      "QUERY_BROAD_K4.json": "fc241e839974958e6abaea8397d66be891a9972d95baf0184b6f6cdb7e07000e",
+      "QUERY_BROAD_K5.json": "6e50854774a89f0c7369c9fb4b9aab58f0b72904ae5d1941a77610166eb5adc6",
+      "QUERY_BROAD_K6.json": "5966fdf15e62cd05d8391342b997761d2056cd83a9c19756f1b204d20f9496eb",
+      "QUERY_BROAD_K7.json": "1cd52594d9316cce771e196d5f36dcc6dc1db703c6d2c91760f1d29b157d5693",
+      "QUERY_BROAD_K8.json": "6186bb9b71608de0bb9b70814bce13510e32dbc7d3d0d9d5f804d71955e07b4d",
+      "QUERY_RESTRICTED_K0.json": "4b46f6c0a8d4e53c2e6abd6868dc3e70442e5dc1cb99ea229a65a3e40fce998d",
+      "QUERY_RESTRICTED_K1.json": "2a285599b6cb8838f2bca8caf6082ab208bae2884ee4e4860ed4cbc67fbbd5fd",
+      "QUERY_RESTRICTED_K2.json": "932d4332eae49847f2e4abe902848e93684a58f4b3cde4569258c1a76fd90bf5",
+      "QUERY_RESTRICTED_K3.json": "05a7d63c362400e5331686f7f3c28681d6526659ff2a15e176169cb3eb304c82",
+      "QUERY_RESTRICTED_K4.json": "685b22a2ddec0d8a338a07d1d6bd29cfb5ff59ece7082251c0e052e859d43ae2",
+      "QUERY_RESTRICTED_K5.json": "d06be51dadcdeea86b8895136ae5527a80e4c29c369408ba60f1755a4b9300b5",
+      "QUERY_RESTRICTED_K6.json": "eb5bdf94f25168cddab4c2b164ddb67d991397a283313e5699e08f56f6a000d3",
+      "QUERY_RESTRICTED_K7.json": "669255d0524bd2516bdf4f9e115620fef03d7af7e134b970103bc8586038b8e3",
+      "QUERY_RESTRICTED_K8.json": "e1170e3dff32954720f33846718df801d6f46f1866c9f1fd5ed61ce804a8590c"
+    },
+    "replay_record_differences": {
+      "runtime_source_sha256": {
+        "README.md": {
+          "old": "c083616d19cca8b7ca49c28fdb19e93311d1b33e96e77f7250cbef8ab95db06e",
+          "new": "09e697299b67d4bebb854572d06b17a819c15a8733cf234e2f492c2c6404c051"
+        }
+      },
+      "current_driver_sha256": {
+        "old": "2d897aafe2deaf8446d4baf71dd4d963a3902f88db413dde6a0e44cd23e388e2",
+        "new": "4f0af723c75d5262fe7ad22c51ca74885595b53fbb21a2584ae24d3a422575ae"
+      }
+    },
+    "delivery_decision": "Retain original SVG/PNG/data/certificates; normalise only original ODG view metadata. Rebuilt file-container hashes are not used to replace the retained scientific assets."
+  },
+  "delivered_odg_view_metadata_normalisation": {
+    "status": "PASS_MINIMAL_DRAW_VISIBLE_AREA_NORMALISATION",
+    "method": "Only four settings.xml text values changed in original ODG packages; native LibreOffice Draw PDF export and temporary ODG re-save; no GUI session.",
+    "unit": "1/100 mm",
+    "gui_defect_demonstrated": false,
+    "checks": {
+      "JSS_Figure_1_Study_Contract.odg": {
+        "normalisation": {
+          "file": "JSS_Figure_1_Study_Contract.odg",
+          "changed": true,
+          "unit": "1/100 mm",
+          "before": {
+            "VisibleAreaTop": -1001434694,
+            "VisibleAreaLeft": -1008661702,
+            "VisibleAreaWidth": 2017341404,
+            "VisibleAreaHeight": 2002880989
+          },
+          "after": {
+            "VisibleAreaTop": 0,
+            "VisibleAreaLeft": 0,
+            "VisibleAreaWidth": 18000,
+            "VisibleAreaHeight": 11600
+          },
+          "only_changed_member": "settings.xml",
+          "before_sha256": "9f4a70b70fe5a3bfb0c8420b391bc9d546c7e2b9420662fa3743e6c84fb7efc3",
+          "after_sha256": "51fb9684487b0f54d27c873148b331122294a4929cd1768d50fcb45bb94e4985"
+        },
+        "idempotent_bytes": true,
+        "only_four_setting_values_changed": true,
+        "unchanged_member_sha256": {
+          "mimetype": "79474289e8e94bc550d84e71ee493af62ef383ca21a55a43e56aa6f3f9f6420a",
+          "Configurations2/": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "styles.xml": "917a1a472aef9f17716fd23bd1d8a5a2fab87a6c244dc37c6695c955755974d1",
+          "content.xml": "6876ef91a218097dd3ebf797472e35e200d94bb56a6d9dc3d4b6f27ad345e2ec",
+          "meta.xml": "d80943a933bdeb62b4dcdfc3867d217177d62ef460f31ce9c1582784dc1b44cd",
+          "Thumbnails/thumbnail.png": "a3dc2e61ddcb2202f7e90ff6f37e6a6eb4354b05f83edbd55c3f8dcde8211daf",
+          "META-INF/manifest.xml": "d60571dd9267191830f181c649e3ccf7de6586c415edfd2ff84036297deb3895"
+        },
+        "named_objects_and_groups": 42,
+        "shape_types": {
+          "rect": 8,
+          "line": 5,
+          "polygon": 6,
+          "polyline": 1,
+          "frame": 22
+        },
+        "editable_text_paragraphs": 22,
+        "native_resave_inventory_and_geometry_match": true,
+        "pixel_identical_original_normalised_resaved_retained_preview_at_300dpi": true,
+        "rendered_raw_text_and_vector_drawings_exactly_equal": true,
+        "pixels": [
+          2126,
+          1371
+        ],
+        "rgb_pixel_sha256": "ff1cfd254ba64307a14bd7b277fc3500d35b9b140eb2b53686d51bb991276583",
+        "pdf_vector_only": true,
+        "rendered_text_spans_within_page": 22,
+        "fonts_embedded": true
+      },
+      "JSS_Figure_2_Functional_Outcomes.odg": {
+        "normalisation": {
+          "file": "JSS_Figure_2_Functional_Outcomes.odg",
+          "changed": true,
+          "unit": "1/100 mm",
+          "before": {
+            "VisibleAreaTop": -1010829756,
+            "VisibleAreaLeft": -1009768031,
+            "VisibleAreaWidth": 2019554061,
+            "VisibleAreaHeight": 2021674011
+          },
+          "after": {
+            "VisibleAreaTop": 0,
+            "VisibleAreaLeft": 0,
+            "VisibleAreaWidth": 18000,
+            "VisibleAreaHeight": 14500
+          },
+          "only_changed_member": "settings.xml",
+          "before_sha256": "fe09a16942802c5ac5097cb6a7541868043246b2e2c7c22b5174f6ded78d35b3",
+          "after_sha256": "086eaa0b333b79ad7bccd8cd63d059853460f6dfee10c72a635a9f709ced6975"
+        },
+        "idempotent_bytes": true,
+        "only_four_setting_values_changed": true,
+        "unchanged_member_sha256": {
+          "mimetype": "79474289e8e94bc550d84e71ee493af62ef383ca21a55a43e56aa6f3f9f6420a",
+          "Configurations2/": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "styles.xml": "259a1034b32c9fa0de128322d87e19067dcbcedd59ccfd95895bb39d2dbfa8d7",
+          "meta.xml": "23323da7b76fb55dac604726fa45263a2fdb43e8eea546f835728d2a4d09d271",
+          "Thumbnails/thumbnail.png": "76707511349767e2697ed91fa802776247f3a31535fb89752b1172a1a3ebfda8",
+          "META-INF/manifest.xml": "d60571dd9267191830f181c649e3ccf7de6586c415edfd2ff84036297deb3895",
+          "content.xml": "e7c522c49f1d553f754dd24c971e9b91cd873557f6be9b5f5e8c3659ce537bc4"
+        },
+        "named_objects_and_groups": 506,
+        "shape_types": {
+          "polygon": 24,
+          "line": 107,
+          "g": 10,
+          "rect": 20,
+          "circle": 286,
+          "frame": 59
+        },
+        "editable_text_paragraphs": 59,
+        "native_resave_inventory_and_geometry_match": true,
+        "pixel_identical_original_normalised_resaved_retained_preview_at_300dpi": true,
+        "rendered_raw_text_and_vector_drawings_exactly_equal": true,
+        "pixels": [
+          2126,
+          1713
+        ],
+        "rgb_pixel_sha256": "1df8c3e23f67a25c796d9a4c552b622b1b1c87f4e70ea8ad86fc78ff3139bb0b",
+        "pdf_vector_only": true,
+        "rendered_text_spans_within_page": 59,
+        "fonts_embedded": true
+      },
+      "JSS_Figure_3_Supervisor_Timing.odg": {
+        "normalisation": {
+          "file": "JSS_Figure_3_Supervisor_Timing.odg",
+          "changed": true,
+          "unit": "1/100 mm",
+          "before": {
+            "VisibleAreaTop": 1647624930,
+            "VisibleAreaLeft": 507053750,
+            "VisibleAreaWidth": -1014089500,
+            "VisibleAreaHeight": 999731135
+          },
+          "after": {
+            "VisibleAreaTop": 0,
+            "VisibleAreaLeft": 0,
+            "VisibleAreaWidth": 18000,
+            "VisibleAreaHeight": 13700
+          },
+          "only_changed_member": "settings.xml",
+          "before_sha256": "c18bad287b25a80f3e9e9c10560a78e64b7710ddbf8ae72478c9f1f42e69ed51",
+          "after_sha256": "86e46ed871df715f12bdc7ee648622c072e3d08c4a55a47e50580b7065fc2388"
+        },
+        "idempotent_bytes": true,
+        "only_four_setting_values_changed": true,
+        "unchanged_member_sha256": {
+          "mimetype": "79474289e8e94bc550d84e71ee493af62ef383ca21a55a43e56aa6f3f9f6420a",
+          "Configurations2/": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "styles.xml": "90fe378c76908320225cbe5677f8f8edb922590f55e59b7cafd373a7f9956aa5",
+          "content.xml": "5565d7666362e3379afde67caf0d1ddf38f0f52c7a13c173478c28e8191a757b",
+          "meta.xml": "9c040cb3a3d440c87f69f17e95b2846cc717bce6e89a0a44fc68e17d965bbeae",
+          "Thumbnails/thumbnail.png": "aba17f7a3f4f91fed046ee05187bf99fc69962e10bf2459d87a9921a2b364e53",
+          "META-INF/manifest.xml": "d60571dd9267191830f181c649e3ccf7de6586c415edfd2ff84036297deb3895"
+        },
+        "named_objects_and_groups": 187,
+        "shape_types": {
+          "polygon": 59,
+          "line": 34,
+          "path": 56,
+          "polyline": 5,
+          "frame": 33
+        },
+        "editable_text_paragraphs": 33,
+        "native_resave_inventory_and_geometry_match": true,
+        "pixel_identical_original_normalised_resaved_retained_preview_at_300dpi": true,
+        "rendered_raw_text_and_vector_drawings_exactly_equal": true,
+        "pixels": [
+          2126,
+          1619
+        ],
+        "rgb_pixel_sha256": "d87471eb0f4dca7b65dfadc6777513752faf504d366c38610099f827b0a15cce",
+        "pdf_vector_only": true,
+        "rendered_text_spans_within_page": 33,
+        "fonts_embedded": true
+      },
+      "JSS_Figure_4_Reference_Audit.odg": {
+        "normalisation": {
+          "file": "JSS_Figure_4_Reference_Audit.odg",
+          "changed": true,
+          "unit": "1/100 mm",
+          "before": {
+            "VisibleAreaTop": -1015111293,
+            "VisibleAreaLeft": 1660437808,
+            "VisibleAreaWidth": 974109080,
+            "VisibleAreaHeight": 2030237085
+          },
+          "after": {
+            "VisibleAreaTop": 0,
+            "VisibleAreaLeft": 0,
+            "VisibleAreaWidth": 17400,
+            "VisibleAreaHeight": 14500
+          },
+          "only_changed_member": "settings.xml",
+          "before_sha256": "1b0680d32c531727d9604245c57136d7ab098c8a8d3966908dc5550cc179eca1",
+          "after_sha256": "beaf95a1b4243a185b3fa1a37f2a242d4ddf68369535e780946d444975dcdb8b"
+        },
+        "idempotent_bytes": true,
+        "only_four_setting_values_changed": true,
+        "unchanged_member_sha256": {
+          "mimetype": "79474289e8e94bc550d84e71ee493af62ef383ca21a55a43e56aa6f3f9f6420a",
+          "Configurations2/": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "styles.xml": "bbb17b820312e596ea51598ac0fbffe6cd6387c0400a6bc0825a2f23a95af545",
+          "content.xml": "c6642e1d774e5df8acbd4cac16794f6e6923494d302578ce8920df33b401ed2d",
+          "meta.xml": "78150a0c71e2648c5fc2cad00043412cc3fba6988be93bd11ec17c48334c77ee",
+          "Thumbnails/thumbnail.png": "5dd6868d85cdbc6e264940448054e4867e63b9da790af6c36dd99a6a0a8f8e13",
+          "META-INF/manifest.xml": "d60571dd9267191830f181c649e3ccf7de6586c415edfd2ff84036297deb3895"
+        },
+        "named_objects_and_groups": 136,
+        "shape_types": {
+          "polygon": 10,
+          "line": 42,
+          "path": 27,
+          "polyline": 4,
+          "frame": 53
+        },
+        "editable_text_paragraphs": 53,
+        "native_resave_inventory_and_geometry_match": true,
+        "pixel_identical_original_normalised_resaved_retained_preview_at_300dpi": true,
+        "rendered_raw_text_and_vector_drawings_exactly_equal": true,
+        "pixels": [
+          2056,
+          1713
+        ],
+        "rgb_pixel_sha256": "71144f8f865be02dc012db136ee552a15ba83423dff5763df446ac2ddea38b5a",
+        "pdf_vector_only": true,
+        "rendered_text_spans_within_page": 53,
+        "fonts_embedded": true
+      }
+    },
+    "primary_sources": [
+      {
+        "url": "https://docs.libreoffice.org/sfx2/html/objxtor_8cxx_source.html",
+        "function": "SfxObjectShell_Impl constructor",
+        "evidence": "m_nMapUnit initialised to MapUnit::Map100thMM"
+      },
+      {
+        "url": "https://docs.libreoffice.org/sfx2/html/objembed_8cxx_source.html",
+        "function": "SfxObjectShell::GetMapUnit and GetVisArea",
+        "evidence": "Stored unit and visible-area rectangle"
+      },
+      {
+        "url": "https://docs.libreoffice.org/sd/html/unomodel_8cxx_source.html",
+        "function": "WID_MODEL_VISAREA property setter and getter",
+        "evidence": "Direct rectangle transfer; negative size and integer overflow rejected"
+      },
+      {
+        "url": "https://docs.libreoffice.org/xmloff/html/sdxmlimp_8cxx_source.html",
+        "function": "SdXMLImport::SetViewSettings",
+        "evidence": "Four fields mapped directly to VisibleArea; invalid settings exceptions caught"
+      },
+      {
+        "url": "https://docs.libreoffice.org/xmloff/html/sdxmlexp_8cxx_source.html",
+        "function": "SdXMLExport::GetViewSettings",
+        "evidence": "VisibleArea rectangle written as the four fields"
+      }
+    ],
+    "source_scope": "Official generated LibreOffice source documentation consulted for property semantics; not a source-code audit of the installed binary revision."
+  },
+  "visual_inspection": {
+    "images_inspected": [
+      "06_preview_png/JSS_Figure_1_Study_Contract.png",
+      "06_preview_png/JSS_Figure_2_Functional_Outcomes.png",
+      "06_preview_png/JSS_Figure_3_Supervisor_Timing.png",
+      "06_preview_png/JSS_Figure_4_Reference_Audit.png"
+    ],
+    "all_four_rendered_previews_visually_inspected": true,
+    "checks": [
+      "Text legibility",
+      "Axes and legends",
+      "Clipping and overlap",
+      "Panel order",
+      "Marker and interval placement"
+    ],
+    "observed_defects": [],
+    "rendered_previews_byte_identical_to_delivered_png": true
+  },
+  "methods_and_scope": {
+    "native_application_execution": "LibreOffice Draw headless import, save, reload and PDF export.",
+    "object_edits": "ODF XML changes to disposable copies, persisted by native Draw.",
+    "graphical_editing_session_performed": false,
+    "metadata_change_scope": "Four textual VisibleArea values in settings.xml; all other ODF members preserved byte for byte.",
+    "scientific_source_values_changed": false,
+    "source_svg_png_and_certificates_replaced": false,
+    "cross_platform_matrix_executed": false,
+    "reconstruction_identity": "Visual and numerical equivalence verified. ZIP metadata and generated SVG identifiers can differ between rebuilds."
+  }
+}

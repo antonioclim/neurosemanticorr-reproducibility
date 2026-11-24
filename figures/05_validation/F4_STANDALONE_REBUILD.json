@@ -1,0 +1,90 @@
+{
+  "status": "PASS_COMPLETE_STANDALONE_FIGURE_REBUILD",
+  "commands_passed": 6,
+  "canonical_files_unchanged": true,
+  "pdf_comparisons": [
+    {
+      "file": "JSS_Figure_1_Study_Contract.pdf",
+      "rebuild_pixel_identical_144dpi": true
+    },
+    {
+      "file": "JSS_Figure_2_Functional_Outcomes.pdf",
+      "rebuild_pixel_identical_144dpi": true
+    },
+    {
+      "file": "JSS_Figure_3_Supervisor_Timing.pdf",
+      "rebuild_pixel_identical_144dpi": true
+    },
+    {
+      "file": "JSS_Figure_4_Reference_Audit.pdf",
+      "rebuild_pixel_identical_144dpi": true
+    }
+  ],
+  "notes": "Rebuild ran from a relocated copy containing this figure kit only. No baseline tree or F3 solver was accessed by the six reconstruction commands. Native export metadata may change; visual output was identical.",
+  "commands": [
+    {
+      "command": [
+        "build_draw_figures.py",
+        "--root",
+        "."
+      ],
+      "exit_code": 0,
+      "stdout": "convert /tmp/nsc-f4-standalone-qqrd9riq/figures/01_editable_odg/JSS_Figure_1_Study_Contract.odg as a Draw document -> /tmp/nsc-f4-standalone-qqrd9riq/figures/02_publication_pdf/JSS_Figure_1_Study_Contract.pdf using filter : draw_pdf_Export\nOverwriting: /tmp/nsc-f4-standalone-qqrd9riq/figures/02_publication_pdf/JSS_Figure_1_Study_Contract.pdf\nconvert /tmp/nsc-f4-standalone-qqrd9riq/figures/01_editable_odg/JSS_Figure_2_Functional_Outcomes.odg as a Draw document -> /tmp/nsc-f4-standalone-qqrd9riq/figures/02_publication_pdf/JSS_Figure_2_Functional_Outcomes.pdf using filter : draw_pdf_Export\nOverwriting: /tmp/nsc-f4-standalone-qqrd9riq/figures/02_publication_pdf/JSS_Figure_2_Functional_Outcomes.pdf\nconvert /tmp/nsc-f4-standalone-qqrd9riq/figures/01_editable_odg/JSS_Figure_3_Supervisor_Timing.odg as a Draw document -> /tmp/nsc-f4-standalone-qqrd9riq/figures/02_publication_pdf/JSS_Figure_3_Supervisor_Timing.pdf using filter : draw_pdf_Export\nOverwriting: /tmp/nsc-f4-standalone-qqrd9riq/figures/02_publication_pdf/JSS_Figure_3_Supervisor_Timing.pdf\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "build_figure4.py",
+        "--root",
+        "."
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS_SOURCE_REPORT_BINDINGS_AND_NATIVE_ODG_BUILD\",\n  \"data_sha256\": \"41760fefdb55edca6ef118a7b4823a7161c4440b0c77e0c8e4b5f047cf6f68ab\",\n  \"display_width_mm\": 174,\n  \"display_height_mm\": 145,\n  \"minimum_font_pt\": 8.5,\n  \"matplotlib_version\": \"3.10.8\",\n  \"qmin_k\": [\n    0,\n    1,\n    2,\n    3,\n    4,\n    5,\n    6,\n    7,\n    8\n  ],\n  \"qmin_values\": [\n    1,\n    3,\n    5,\n    7,\n    9,\n    11,\n    13,\n    15,\n    33\n  ],\n  \"native_build_objects\": {\n    \"path\": 41,\n    \"line\": 42,\n    \"frame\": 53\n  },\n  \"query_points_read_from_certificates\": true,\n  \"formula_generated_query_points\": false,\n  \"source_svg_sha256\": \"3751e52ee29c9587af45f264cf38e61bfb4309c6227232caf62fa66b383b0a18\",\n  \"source_pdf_sha256\": \"bf687e6b7e8a84c73680d9a1b2831136b16f9e10db5abd9622491ff119c628ab\",\n  \"script_sha256\": \"020854d043c114a1b512699a2bc72c3a398e05e3afe8d85652b75dc2b10e5392\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "build_and_verify_f4.py",
+        "--root",
+        ".",
+        "--evidence",
+        "../native_rebuild_tests"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS_NATIVE_DRAW_ROUNDTRIP_AFTER_OBJECT_EDITS\",\n  \"method\": \"Disposable ODF XML object edits followed by native LibreOffice Draw load, save, reload and PDF export; NOT GUI manipulation or UNO API mutation.\",\n  \"checks\": {\n    \"JSS_Figure_1_Study_Contract.odg\": {\n      \"native_objects_and_groups\": 42,\n      \"groups\": 0,\n      \"primitive_objects\": 42,\n      \"editable_labels\": 22,\n      \"shape_types\": {\n        \"rect\": 8,\n        \"line\": 5,\n        \"polygon\": 6,\n        \"polyline\": 1,\n        \"frame\": 22\n      },\n      \"embedded_image_or_ole_payload\": false,\n      \"mutation_counts\": {\n        \"rect\": 8,\n        \"line\": 5,\n        \"polygon\": 6,\n        \"polyline\": 1,\n        \"frame\": 22\n      },\n      \"mutated_fill_stroke_and_line_width_persisted_count\": 42,\n      \"mutated_names_text_and_geometry_persisted\": true,\n      \"restored_geometry_and_labels_match\": true,\n      \"restored_render_pixel_identical_at_144dpi\": true,\n      \"pdf_vector_only\": true,\n      \"pdf_fonts\": \"name                                 type              encoding         emb sub uni object ID\\n------------------------------------ ----------------- ---------------- --- --- --- ---------\\nBAAAAA+DejaVuSans-Bold               TrueType          WinAnsi          yes yes yes     78  0\\nCAAAAA+DejaVuSans                    TrueType          WinAnsi          yes yes yes     73  0\\n\",\n      \"pdf_text_spans_in_bounds\": 22,\n      \"tiff_dpi\": 1000,\n      \"tiff_pixels\": [\n        7087,\n        4567\n      ],\n      \"odg_sha256\": \"0be6a4fba845f13a0c84f5d335b6290503fe372dbbdc7fd6ef199a1b3008636d\",\n      \"pdf_sha256\": \"d33e5b6158110daf433baa22e9fdb796f8fbd8ecf9c4142cb244ec486e170f38\"\n    },\n    \"JSS_Figure_2_Functional_Outcomes.odg\": {\n      \"native_objects_and_groups\": 506,\n      \"groups\": 10,\n      \"primitive_objects\": 496,\n      \"editable_labels\": 59,\n      \"shape_types\": {\n        \"polygon\": 24,\n        \"line\": 107,\n        \"g\": 10,\n        \"rect\": 20,\n        \"circle\": 286,\n        \"frame\": 59\n      },\n      \"embedded_image_or_ole_payload\": false,\n      \"mutation_counts\": {\n        \"polygon\": 24,\n        \"line\": 107,\n        \"g\": 10,\n        \"rect\": 20,\n        \"circle\": 286,\n        \"frame\": 59\n      },\n      \"mutated_fill_stroke_and_line_width_persisted_count\": 496,\n      \"mutated_names_text_and_geometry_persisted\": true,\n      \"restored_geometry_and_labels_match\": true,\n      \"restored_render_pixel_identical_at_144dpi\": true,\n      \"pdf_vector_only\": true,\n      \"pdf_fonts\": \"name                                 type              encoding         emb sub uni object ID\\n------------------------------------ ----------------- ---------------- --- --- --- ---------\\nBAAAAA+DejaVuSans                    TrueType          WinAnsi          yes yes yes    213  0\\nCAAAAA+DejaVuSans                    TrueType          WinAnsi          yes yes yes    193  0\\nDAAAAA+DejaVuSans-Bold               TrueType          WinAnsi          yes yes yes    228  0\\nEAAAAA+DejaVuSans                    TrueType          WinAnsi          yes yes yes    198  0\\nFAAAAA+DejaVuSans                    TrueType          WinAnsi          yes yes yes    203  0\\nGAAAAA+DejaVuSans-Bold               TrueType          WinAnsi          yes yes yes    223  0\\nHAAAAA+DejaVuSans-Bold               TrueType          WinAnsi          yes yes yes    218  0\\nIAAAAA+DejaVuSans                    TrueType          WinAnsi          yes yes yes    208  0\\n\",\n      \"pdf_text_spans_in_bounds\": 59,\n      \"tiff_dpi\": 1000,\n      \"tiff_pixels\": [\n        7087,\n        5709\n      ],\n      \"odg_sha256\": \"66dec108ae17a6f272c953b081f88316444ff83b79f9d8117b8025e58c2148de\",\n      \"pdf_sha256\": \"e58c6530e4d79adce3fd91105d726a54f21f40b7afa87383205fdf8311c8322e\"\n    },\n    \"JSS_Figure_3_Supervisor_Timing.odg\": {\n      \"native_objects_and_groups\": 187,\n      \"groups\": 0,\n      \"primitive_objects\": 187,\n      \"editable_labels\": 33,\n      \"shape_types\": {\n        \"polygon\": 59,\n        \"line\": 34,\n        \"path\": 56,\n        \"polyline\": 5,\n        \"frame\": 33\n      },\n      \"embedded_image_or_ole_payload\": false,\n      \"mutation_counts\": {\n        \"polygon\": 59,\n        \"line\": 34,\n        \"path\": 56,\n        \"polyline\": 5,\n        \"frame\": 33\n      },\n      \"mutated_fill_stroke_and_line_width_persisted_count\": 187,\n      \"mutated_names_text_and_geometry_persisted\": true,\n      \"restored_geometry_and_labels_match\": true,\n      \"restored_render_pixel_identical_at_144dpi\": true,\n      \"pdf_vector_only\": true,\n      \"pdf_fonts\": \"name                                 type              encoding         emb sub uni object ID\\n------------------------------------ ----------------- ---------------- --- --- --- ---------\\nBAAAAA+DejaVuSans                    TrueType          WinAnsi          yes yes yes    244  0\\nCAAAAA+DejaVuSans                    TrueType          WinAnsi          yes yes yes    229  0\\nDAAAAA+DejaVuSans                    TrueType          WinAnsi          yes yes yes    239  0\\nEAAAAA+DejaVuSans-Bold               TrueType          WinAnsi          yes yes yes    249  0\\nFAAAAA+DejaVuSans                    TrueType          WinAnsi          yes yes yes    234  0\\n\",\n      \"pdf_text_spans_in_bounds\": 33,\n      \"tiff_dpi\": 1000,\n      \"tiff_pixels\": [\n        7087,\n        5394\n      ],\n      \"odg_sha256\": \"ca79e7fe347c0d9edefad43a3b77864d25c3be637f18021f68ad58f64f032d8d\",\n      \"pdf_sha256\": \"d615dec96df6b00fb6ff0573cb01a7318776e45831070650d1b35eab384a906d\"\n    },\n    \"JSS_Figure_4_Reference_Audit.odg\": {\n      \"native_objects_and_groups\": 136,\n      \"groups\": 0,\n      \"primitive_objects\": 136,\n      \"editable_labels\": 53,\n      \"shape_types\": {\n        \"polygon\": 10,\n        \"line\": 42,\n        \"path\": 27,\n        \"polyline\": 4,\n        \"frame\": 53\n      },\n      \"embedded_image_or_ole_payload\": false,\n      \"mutation_counts\": {\n        \"polygon\": 10,\n        \"line\": 42,\n        \"path\": 27,\n        \"polyline\": 4,\n        \"frame\": 53\n      },\n      \"mutated_fill_stroke_and_line_width_persisted_count\": 136,\n      \"mutated_names_text_and_geometry_persisted\": true,\n      \"restored_geometry_and_labels_match\": true,\n      \"restored_render_pixel_identical_at_144dpi\": true,\n      \"pdf_vector_only\": true,\n      \"pdf_fonts\": \"name                                 type              encoding         emb sub uni object ID\\n------------------------------------ ----------------- ---------------- --- --- --- ---------\\nBAAAAA+DejaVuSans                    TrueType          WinAnsi          yes yes yes    203  0\\nCAAAAA+DejaVuSans                    TrueType          WinAnsi          yes yes yes    208  0\\nDAAAAA+DejaVuSans-Bold               TrueType          WinAnsi          yes yes yes    213  0\\nEAAAAA+DejaVuSans                    TrueType          WinAnsi          yes yes yes    198  0\\n\",\n      \"pdf_text_spans_in_bounds\": 53,\n      \"tiff_dpi\": 1000,\n      \"tiff_pixels\": [\n        6851,\n        5709\n      ],\n      \"odg_sha256\": \"a6f28809b58f6c7b47e4bc828482751d904d7e30688bddf90d9703805db45b09\",\n      \"pdf_sha256\": \"0948120420f66efaf4d1fcd3fc43e84cb7094d04a1e330b87755832708b50a6a\"\n    }\n  },\n  \"versions\": {\n    \"python\": \"Python 3.12.14\",\n    \"soffice\": \"LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5\"\n  },\n  \"gui_acceptance\": false,\n  \"publication_authorised\": false\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "verify_figure_data.py",
+        "--root",
+        "."
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS_RETAINED_DATA_AND_RENDERED_GEOMETRY\",\n  \"figure_1_conceptual_nodes\": 7,\n  \"figure_1_source_relations\": 6,\n  \"figure_2_data_bars_compared\": 12,\n  \"figure_3_pairs_read\": 400,\n  \"figure_3_case_marker_values\": 100,\n  \"figure_3_block_marker_values\": 8,\n  \"figure_3_max_rendered_marker_displacement_points\": 0.026681782226546602,\n  \"figure_max_rendered_label_origin_displacement_points\": {\n    \"JSS_Figure_1_Study_Contract\": 0.11471,\n    \"JSS_Figure_2_Functional_Outcomes\": 0.12283,\n    \"JSS_Figure_3_Supervisor_Timing\": 0.0603\n  },\n  \"source_data_sha256\": {\n    \"block_timing.csv\": \"efe3149e9953e45be273c62d6b7d5080f5ca3b43d7295c9ffd9d78d10fc75ead\",\n    \"case_paired_timing.csv\": \"c193c9dd4941427a71b50d7ad36a473adc0abd64d140843e4b4b6d06ace77fe9\",\n    \"outcome_counts.csv\": \"965fe623e52d7881e07cb031f837aad19985c1ece313bc3274406c6380c87a64\",\n    \"plot_summary.json\": \"e3d8b5a877cffc202136b48beb4a1e74e1cffe92ab25af2d22387a7a9294d5ac\",\n    \"raw_matched_pairs.csv\": \"c1af68d0e8adc203cdcb488361b850287dd0af8b5dbce8a56c6f84087edb60e9\"\n  }\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "verify_figure4_geometry.py",
+        "--root",
+        "."
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS_FIGURE4_NATIVE_RENDERED_DATA_GEOMETRY\",\n  \"source_svg_sha256\": \"3751e52ee29c9587af45f264cf38e61bfb4309c6227232caf62fa66b383b0a18\",\n  \"native_pdf_sha256\": \"0948120420f66efaf4d1fcd3fc43e84cb7094d04a1e330b87755832708b50a6a\",\n  \"conditional_interval_segments\": 6,\n  \"fixed_query_curve_vertices\": 9,\n  \"matching_rendered_text_spans\": 53,\n  \"maximum_coordinate_displacement_pt\": 0.04244753906249343,\n  \"tolerance_pt\": 0.06,\n  \"tolerance_reason\": \"Two-stage ODF path-coordinate and native geometry rounding to hundredths of a millimetre; 0.06 pt is approximately 0.0212 mm. Numerical labels and source values remain exact.\",\n  \"method\": \"Match final native PDF path endpoints and all nine query-curve vertices to source SVG data paths; rendered labels match the source text inventory.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "verify_draw_round_trip.py",
+        "--root",
+        ".",
+        "--expected",
+        "4"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS_LIBREOFFICE_DRAW_OPEN_AND_RESAVE\",\n  \"checks\": {\n    \"JSS_Figure_1_Study_Contract.odg\": {\n      \"labels\": 22,\n      \"named_shapes_and_groups\": 42,\n      \"reopened_shape_types\": {\n        \"rect\": 8,\n        \"line\": 5,\n        \"polygon\": 6,\n        \"polyline\": 1,\n        \"frame\": 22\n      }\n    },\n    \"JSS_Figure_2_Functional_Outcomes.odg\": {\n      \"labels\": 59,\n      \"named_shapes_and_groups\": 506,\n      \"reopened_shape_types\": {\n        \"polygon\": 24,\n        \"line\": 107,\n        \"g\": 10,\n        \"rect\": 20,\n        \"circle\": 286,\n        \"frame\": 59\n      }\n    },\n    \"JSS_Figure_3_Supervisor_Timing.odg\": {\n      \"labels\": 33,\n      \"named_shapes_and_groups\": 187,\n      \"reopened_shape_types\": {\n        \"polygon\": 59,\n        \"line\": 34,\n        \"path\": 56,\n        \"polyline\": 5,\n        \"frame\": 33\n      }\n    },\n    \"JSS_Figure_4_Reference_Audit.odg\": {\n      \"labels\": 53,\n      \"named_shapes_and_groups\": 136,\n      \"reopened_shape_types\": {\n        \"polygon\": 10,\n        \"line\": 42,\n        \"path\": 27,\n        \"polyline\": 4,\n        \"frame\": 53\n      }\n    }\n  }\n}\n",
+      "stderr": ""
+    }
+  ]
+}

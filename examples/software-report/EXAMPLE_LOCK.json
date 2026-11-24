@@ -1,0 +1,23 @@
+{
+  "schema": "nsc-r4-o15-build-report-lock/1",
+  "inputs": {
+    "EXPECTED.json": "60d1ca764133403567c8f40cb0a5c5a086edb8e50ea6254636d552e819494a4f",
+    "check_build_report.py": "14dc7031ad099c7cb5f651e5ee4520e32689f78ec506f5b9fae7d7d9e45ea482",
+    "dossiers/D1_DIRECT_RELEASE/records/R11_result.json": "b260204d9f07683e2cb4aaedbc53895c39035a601557193b7f3edbfffee9e3c7",
+    "dossiers/D1_DIRECT_RELEASE/records/R15_claims.json": "982b01284d915a6b5d2038d855d26649a83d9b88654f3f289bceda0055cd6ff7",
+    "dossiers/D1_DIRECT_RELEASE/records/R15_edges.json": "f8609f1f8366771228fada5aebad7ffe67986fd6f6f4aa7abc9786222bd887c9",
+    "dossiers/D2_DIRECT_WRONG_SCOPE/records/R11_result.json": "b260204d9f07683e2cb4aaedbc53895c39035a601557193b7f3edbfffee9e3c7",
+    "dossiers/D2_DIRECT_WRONG_SCOPE/records/R15_claims.json": "71093592b393f0e2f3a956a9c06282bcd92c6ecb0c6998f29671c963db256d65",
+    "dossiers/D2_DIRECT_WRONG_SCOPE/records/R15_edges.json": "f8609f1f8366771228fada5aebad7ffe67986fd6f6f4aa7abc9786222bd887c9",
+    "dossiers/D3_ALIAS_RELEASE/records/R11_result.json": "b260204d9f07683e2cb4aaedbc53895c39035a601557193b7f3edbfffee9e3c7",
+    "dossiers/D3_ALIAS_RELEASE/records/R15_claims.json": "56391e6c9d9b2e50fe9a80ee21a422fe7fa7299fcefb2857d99baf14c6996c0f",
+    "dossiers/D3_ALIAS_RELEASE/records/R15_edges.json": "f8609f1f8366771228fada5aebad7ffe67986fd6f6f4aa7abc9786222bd887c9",
+    "dossiers/D4_ALIAS_NIGHTLY/records/R11_result.json": "b260204d9f07683e2cb4aaedbc53895c39035a601557193b7f3edbfffee9e3c7",
+    "dossiers/D4_ALIAS_NIGHTLY/records/R15_claims.json": "11aab9dd269d5cacd45f0aa2b80974257661c9abfd8381561214340377aebcfd",
+    "dossiers/D4_ALIAS_NIGHTLY/records/R15_edges.json": "f8609f1f8366771228fada5aebad7ffe67986fd6f6f4aa7abc9786222bd887c9"
+  },
+  "phase2_modules": {
+    "decision_audit.py": "3b242e611f9fa1d0fb12e8872675d1962a8aea1cac97b5d5b1843de5d334ae4e",
+    "o15_reference.py": "f17a9411ca5398e4834fb5212b948aecc793414f2929a273f521900c3995a9d6"
+  }
+}

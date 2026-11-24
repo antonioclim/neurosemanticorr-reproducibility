@@ -1,0 +1,93 @@
+{
+  "branches": {
+    "S": {
+      "casewise_product_comparator": {
+        "engine_invoked_on_full_product": false,
+        "interval": {
+          "lower": "0",
+          "upper": "47"
+        },
+        "method": "Separate k=0 sum of coordinate extrema on the full local prediction product"
+      },
+      "contextwise_engine": {
+        "enumeration_complete_by_construction": true,
+        "interval": {
+          "lower": "0",
+          "upper": "40"
+        },
+        "joint_centres": 625,
+        "matches_independent_raw_enumeration": true,
+        "report_sha256": "9156fffb5692f326852e087579f91188c8144cb32d87c4189b4d314a0641b5ac",
+        "request_sha256": "ad07998b3330c5916bad13d236782fe83cfbabbb08c2d7214861b52411ee7a8e"
+      },
+      "global_engine": {
+        "interval": {
+          "lower": "0",
+          "upper": "16"
+        },
+        "joint_centres": 5,
+        "report_sha256": "2adc7dff061b9fa6d2230e9ade7207380ce727684197703cb45e4265333e7be6",
+        "request_sha256": "b3fa13072f4d36dfa37e4181a0ae6c39b5f999e8341cf08c5e1d8df0fdf8aae7"
+      }
+    },
+    "V": {
+      "casewise_product_comparator": {
+        "engine_invoked_on_full_product": false,
+        "interval": {
+          "lower": "1",
+          "upper": "48"
+        },
+        "method": "Separate k=0 sum of coordinate extrema on the full local prediction product"
+      },
+      "contextwise_engine": {
+        "enumeration_complete_by_construction": true,
+        "interval": {
+          "lower": "8",
+          "upper": "48"
+        },
+        "joint_centres": 625,
+        "matches_independent_raw_enumeration": true,
+        "report_sha256": "f5214d7bd3f40fe4c4e113ad02da62fff4740439db485ed49f67ea8b3c81fda0",
+        "request_sha256": "cda47a04076a7ed4bd75c8b6961b6693becc0265d91345010728a9f9cdb250ab"
+      },
+      "global_engine": {
+        "interval": {
+          "lower": "32",
+          "upper": "48"
+        },
+        "joint_centres": 5,
+        "report_sha256": "e9c84aa02cab4ff0a9fdf862f23f5c5f403381d3683e92aeb32d39bafd9b1f78",
+        "request_sha256": "25d0bde15ed78a3e0db09d63dbc83156c2920087f1d5ec48ae93e67759838344"
+      }
+    }
+  },
+  "budget": 0,
+  "conflict_query_case_id": "R1PROS-1175F475261EE917E0E06A6A",
+  "contexts": [
+    "community-library",
+    "district-energy",
+    "mobility-access",
+    "skills-bursary"
+  ],
+  "integration_case": "E05",
+  "original_checker_invocations": 0,
+  "producer": {
+    "component": "neuroSEMANTICorr.reference_audit",
+    "files_sha256": {
+      "__init__.py": "d14698ff0c325b129392c8162392780ad40ce22c744ba18cec04f5fcc39509a0",
+      "__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+      "canonical.py": "a08bdac5ebff12c46938de774cad4484df265cb3017c18d12aeb9b422b38dad7",
+      "canonical_query.py": "91fc1890de6a6a6461c507f8ec6c9cdd6c5bfe92d3cc92c20fbc951a4de93b7c",
+      "cli.py": "2cba874dbf9563884b4c9ba32d655e5f68b1d749614cf9f3f50492ed27e3d69d",
+      "engine.py": "f509531aa7cc5f79f04d20c7617eee92d10b6914a9b9decd1bd77c0ddccb9349",
+      "model.py": "de18d7f11361c98dfc79ebe010da7e8f1eed2061c1bf5214cbc70bce252e78f4",
+      "provenance.py": "ea37a1b4e3bdfd3b113b2bda2e35c98099dacd5987e968f44aca7a1ea47bffc9",
+      "request.schema.json": "bb8791d08cbac6ff426a183d694ee42498a734925fabb4d91c50a0f711a18835",
+      "verification.py": "f60a4a4d453238aab2ced89d93ae6db8b328f71decfea2afcab9301d7abf8635"
+    },
+    "version": "1.0.0"
+  },
+  "result_sha256": "7be31c76ee3b01ec744890d9aa47ec86f01610ecc7f196d8b44528307c28c5a1",
+  "scope": "Declared prediction union; global and complete contextwise models use the engine; the complete casewise model uses a separate analytical product comparator",
+  "status": "PASS"
+}

@@ -1,0 +1,19 @@
+{
+  "result_id": "build-report-demo-01",
+  "aliases": {
+    "alias:smoke-pass-fraction": "/measures/release/smoke_pass_fraction",
+    "smoke-pass-fraction": "/measures/nightly/smoke_pass_fraction"
+  },
+  "field_metadata": {
+    "/measures/release/smoke_pass_fraction": {
+      "unit": "fraction",
+      "denominator": 8,
+      "scope": "release-candidate/desktop/smoke"
+    },
+    "/measures/nightly/smoke_pass_fraction": {
+      "unit": "fraction",
+      "denominator": 8,
+      "scope": "main/nightly/smoke"
+    }
+  }
+}

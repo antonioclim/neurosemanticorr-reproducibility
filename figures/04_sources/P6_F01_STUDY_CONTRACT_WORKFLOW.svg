@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180mm" height="116mm" viewBox="0 0 720 464" role="img" aria-labelledby="figtitle figdesc">
+<title id="figtitle">S3 study-contract workflow</title>
+<desc id="figdesc">Seven conceptual objects and six dependency arrows. Study Contract, physical data and response states feed a semantic validator; materialised populations then feed estimand-bound analyses and evidence and claims. No direct validator-to-analysis or validator-to-claims shortcut is shown.</desc>
+<rect x="0" y="0" width="720" height="464" fill="white"/>
+<defs><marker id="arrowhead" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M 0 0 L 8 4 L 0 8 Z" fill="#263746"/></marker></defs>
+<g id="relations" fill="none" stroke="#263746" stroke-width="1.6" stroke-linejoin="round">
+<path id="edge-C_to_V" data-source="C" data-target="V" d="M 116 96 L 248 175" marker-end="url(#arrowhead)"/>
+<path id="edge-D_to_V" data-source="D" data-target="V" d="M 360 96 L 360 148" marker-end="url(#arrowhead)"/>
+<path id="edge-S_to_V" data-source="S" data-target="V" d="M 604 96 L 472 175" marker-end="url(#arrowhead)"/>
+<path id="edge-V_to_P" data-source="V" data-target="P" d="M 360 288 L 360 316 L 116 316 L 116 352" marker-end="url(#arrowhead)"/>
+<path id="edge-P_to_A" data-source="P" data-target="A" d="M 228 404 L 248 404" marker-end="url(#arrowhead)"/>
+<path id="edge-A_to_E" data-source="A" data-target="E" d="M 472 404 L 492 404" marker-end="url(#arrowhead)"/>
+</g>
+<g id="node-C" data-node-id="C"><rect x="4" y="4" width="224" height="92" rx="3" fill="#ffffff" stroke="#263746" stroke-width="1.2"/>
+<text x="116" y="29" font-family="DejaVu Sans" font-size="15" font-weight="bold" fill="#17324d" text-anchor="middle">Study Contract</text>
+<text x="116" y="55" font-family="DejaVu Sans" font-size="13" fill="#18232c" text-anchor="middle">Constructs, roles and scales</text>
+<text x="116" y="75" font-family="DejaVu Sans" font-size="13" fill="#18232c" text-anchor="middle">Populations and estimands</text>
+</g>
+<g id="node-D" data-node-id="D"><rect x="248" y="4" width="224" height="92" rx="3" fill="#ffffff" stroke="#263746" stroke-width="1.2"/>
+<text x="360" y="29" font-family="DejaVu Sans" font-size="15" font-weight="bold" fill="#17324d" text-anchor="middle">Physical data frame</text>
+<text x="360" y="55" font-family="DejaVu Sans" font-size="13" fill="#18232c" text-anchor="middle">Values and typed columns</text>
+</g>
+<g id="node-S" data-node-id="S"><rect x="492" y="4" width="224" height="92" rx="3" fill="#ffffff" stroke="#263746" stroke-width="1.2"/>
+<text x="604" y="29" font-family="DejaVu Sans" font-size="15" font-weight="bold" fill="#17324d" text-anchor="middle">Response-state frame</text>
+<text x="604" y="55" font-family="DejaVu Sans" font-size="13" fill="#18232c" text-anchor="middle">Observed, refusal and skip</text>
+<text x="604" y="75" font-family="DejaVu Sans" font-size="13" fill="#18232c" text-anchor="middle">Do not know, non-response</text>
+</g>
+<g id="node-V" data-node-id="V"><rect x="248" y="148" width="224" height="140" rx="3" fill="#edf3f6" stroke="#263746" stroke-width="1.2"/>
+<text x="360" y="173" font-family="DejaVu Sans" font-size="15" font-weight="bold" fill="#17324d" text-anchor="middle">Semantic validator</text>
+<text x="360" y="198" font-family="DejaVu Sans" font-size="13" fill="#18232c" text-anchor="middle">Shape gate</text>
+<text x="360" y="218" font-family="DejaVu Sans" font-size="13" fill="#18232c" text-anchor="middle">State/value consistency</text>
+<text x="360" y="238" font-family="DejaVu Sans" font-size="13" fill="#18232c" text-anchor="middle">Scale closure</text>
+<text x="360" y="258" font-family="DejaVu Sans" font-size="13" fill="#18232c" text-anchor="middle">Policy and role invariants</text>
+<text x="360" y="278" font-family="DejaVu Sans" font-size="13" fill="#18232c" text-anchor="middle">Derived-score acyclicity</text>
+</g>
+<g id="node-P" data-node-id="P"><rect x="4" y="352" width="224" height="104" rx="3" fill="#ffffff" stroke="#263746" stroke-width="1.2"/>
+<text x="116" y="377" font-family="DejaVu Sans" font-size="15" font-weight="bold" fill="#17324d" text-anchor="middle">Materialised analytic</text>
+<text x="116" y="397" font-family="DejaVu Sans" font-size="15" font-weight="bold" fill="#17324d" text-anchor="middle">populations</text>
+<text x="116" y="424" font-family="DejaVu Sans" font-size="13" fill="#18232c" text-anchor="middle">Row identities and exclusions</text>
+</g>
+<g id="node-A" data-node-id="A"><rect x="248" y="352" width="224" height="104" rx="3" fill="#ffffff" stroke="#263746" stroke-width="1.2"/>
+<text x="360" y="377" font-family="DejaVu Sans" font-size="15" font-weight="bold" fill="#17324d" text-anchor="middle">Estimand-bound analyses</text>
+<text x="360" y="403" font-family="DejaVu Sans" font-size="13" fill="#18232c" text-anchor="middle">Descriptive and predictive</text>
+</g>
+<g id="node-E" data-node-id="E"><rect x="492" y="352" width="224" height="104" rx="3" fill="#ffffff" stroke="#263746" stroke-width="1.2"/>
+<text x="604" y="377" font-family="DejaVu Sans" font-size="15" font-weight="bold" fill="#17324d" text-anchor="middle">Evidence and claims</text>
+<text x="604" y="403" font-family="DejaVu Sans" font-size="13" fill="#18232c" text-anchor="middle">Results, limitations</text>
+<text x="604" y="423" font-family="DejaVu Sans" font-size="13" fill="#18232c" text-anchor="middle">and non-claims</text>
+</g>
+</svg>

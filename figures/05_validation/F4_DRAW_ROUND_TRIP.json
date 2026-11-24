@@ -1,0 +1,50 @@
+{
+  "status": "PASS_LIBREOFFICE_DRAW_OPEN_AND_RESAVE",
+  "checks": {
+    "JSS_Figure_1_Study_Contract.odg": {
+      "labels": 22,
+      "named_shapes_and_groups": 42,
+      "reopened_shape_types": {
+        "rect": 8,
+        "line": 5,
+        "polygon": 6,
+        "polyline": 1,
+        "frame": 22
+      }
+    },
+    "JSS_Figure_2_Functional_Outcomes.odg": {
+      "labels": 59,
+      "named_shapes_and_groups": 506,
+      "reopened_shape_types": {
+        "polygon": 24,
+        "line": 107,
+        "g": 10,
+        "rect": 20,
+        "circle": 286,
+        "frame": 59
+      }
+    },
+    "JSS_Figure_3_Supervisor_Timing.odg": {
+      "labels": 33,
+      "named_shapes_and_groups": 187,
+      "reopened_shape_types": {
+        "polygon": 59,
+        "line": 34,
+        "path": 56,
+        "polyline": 5,
+        "frame": 33
+      }
+    },
+    "JSS_Figure_4_Reference_Audit.odg": {
+      "labels": 53,
+      "named_shapes_and_groups": 136,
+      "reopened_shape_types": {
+        "polygon": 10,
+        "line": 42,
+        "path": 27,
+        "polyline": 4,
+        "frame": 53
+      }
+    }
+  }
+}

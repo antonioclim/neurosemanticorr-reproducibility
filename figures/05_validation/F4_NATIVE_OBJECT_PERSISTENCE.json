@@ -1,0 +1,154 @@
+{
+  "status": "PASS_NATIVE_DRAW_ROUNDTRIP_AFTER_OBJECT_EDITS",
+  "method": "Disposable ODF XML object edits followed by native LibreOffice Draw load, save, reload and PDF export; NOT GUI manipulation or UNO API mutation.",
+  "checks": {
+    "JSS_Figure_1_Study_Contract.odg": {
+      "native_objects_and_groups": 42,
+      "groups": 0,
+      "primitive_objects": 42,
+      "editable_labels": 22,
+      "shape_types": {
+        "rect": 8,
+        "line": 5,
+        "polygon": 6,
+        "polyline": 1,
+        "frame": 22
+      },
+      "embedded_image_or_ole_payload": false,
+      "mutation_counts": {
+        "rect": 8,
+        "line": 5,
+        "polygon": 6,
+        "polyline": 1,
+        "frame": 22
+      },
+      "mutated_fill_stroke_and_line_width_persisted_count": 42,
+      "mutated_names_text_and_geometry_persisted": true,
+      "restored_geometry_and_labels_match": true,
+      "restored_render_pixel_identical_at_144dpi": true,
+      "pdf_vector_only": true,
+      "pdf_fonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nBAAAAA+DejaVuSans-Bold               TrueType          WinAnsi          yes yes yes     78  0\nCAAAAA+DejaVuSans                    TrueType          WinAnsi          yes yes yes     73  0\n",
+      "pdf_text_spans_in_bounds": 22,
+      "tiff_dpi": 1000,
+      "tiff_pixels": [
+        7087,
+        4567
+      ],
+      "odg_sha256": "9f4a70b70fe5a3bfb0c8420b391bc9d546c7e2b9420662fa3743e6c84fb7efc3",
+      "pdf_sha256": "4321c60aceaf5e39156b6d03beb0abed9792b31a9eaab749cf68ea73ec98c0c2"
+    },
+    "JSS_Figure_2_Functional_Outcomes.odg": {
+      "native_objects_and_groups": 506,
+      "groups": 10,
+      "primitive_objects": 496,
+      "editable_labels": 59,
+      "shape_types": {
+        "polygon": 24,
+        "line": 107,
+        "g": 10,
+        "rect": 20,
+        "circle": 286,
+        "frame": 59
+      },
+      "embedded_image_or_ole_payload": false,
+      "mutation_counts": {
+        "polygon": 24,
+        "line": 107,
+        "g": 10,
+        "rect": 20,
+        "circle": 286,
+        "frame": 59
+      },
+      "mutated_fill_stroke_and_line_width_persisted_count": 496,
+      "mutated_names_text_and_geometry_persisted": true,
+      "restored_geometry_and_labels_match": true,
+      "restored_render_pixel_identical_at_144dpi": true,
+      "pdf_vector_only": true,
+      "pdf_fonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nBAAAAA+DejaVuSans                    TrueType          WinAnsi          yes yes yes    213  0\nCAAAAA+DejaVuSans                    TrueType          WinAnsi          yes yes yes    193  0\nDAAAAA+DejaVuSans-Bold               TrueType          WinAnsi          yes yes yes    228  0\nEAAAAA+DejaVuSans                    TrueType          WinAnsi          yes yes yes    198  0\nFAAAAA+DejaVuSans                    TrueType          WinAnsi          yes yes yes    203  0\nGAAAAA+DejaVuSans-Bold               TrueType          WinAnsi          yes yes yes    223  0\nHAAAAA+DejaVuSans-Bold               TrueType          WinAnsi          yes yes yes    218  0\nIAAAAA+DejaVuSans                    TrueType          WinAnsi          yes yes yes    208  0\n",
+      "pdf_text_spans_in_bounds": 59,
+      "tiff_dpi": 1000,
+      "tiff_pixels": [
+        7087,
+        5709
+      ],
+      "odg_sha256": "fe09a16942802c5ac5097cb6a7541868043246b2e2c7c22b5174f6ded78d35b3",
+      "pdf_sha256": "ad33c305a67792f025309820dc6e8c6fb71855d688a2a93046add3a17a128a8e"
+    },
+    "JSS_Figure_3_Supervisor_Timing.odg": {
+      "native_objects_and_groups": 187,
+      "groups": 0,
+      "primitive_objects": 187,
+      "editable_labels": 33,
+      "shape_types": {
+        "polygon": 59,
+        "line": 34,
+        "path": 56,
+        "polyline": 5,
+        "frame": 33
+      },
+      "embedded_image_or_ole_payload": false,
+      "mutation_counts": {
+        "polygon": 59,
+        "line": 34,
+        "path": 56,
+        "polyline": 5,
+        "frame": 33
+      },
+      "mutated_fill_stroke_and_line_width_persisted_count": 187,
+      "mutated_names_text_and_geometry_persisted": true,
+      "restored_geometry_and_labels_match": true,
+      "restored_render_pixel_identical_at_144dpi": true,
+      "pdf_vector_only": true,
+      "pdf_fonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nBAAAAA+DejaVuSans                    TrueType          WinAnsi          yes yes yes    244  0\nCAAAAA+DejaVuSans                    TrueType          WinAnsi          yes yes yes    229  0\nDAAAAA+DejaVuSans                    TrueType          WinAnsi          yes yes yes    239  0\nEAAAAA+DejaVuSans-Bold               TrueType          WinAnsi          yes yes yes    249  0\nFAAAAA+DejaVuSans                    TrueType          WinAnsi          yes yes yes    234  0\n",
+      "pdf_text_spans_in_bounds": 33,
+      "tiff_dpi": 1000,
+      "tiff_pixels": [
+        7087,
+        5394
+      ],
+      "odg_sha256": "c18bad287b25a80f3e9e9c10560a78e64b7710ddbf8ae72478c9f1f42e69ed51",
+      "pdf_sha256": "327d8e6e7efe40bf7530da61302154a1d9d98b386e2ec968ed33517cbb4f6900"
+    },
+    "JSS_Figure_4_Reference_Audit.odg": {
+      "native_objects_and_groups": 136,
+      "groups": 0,
+      "primitive_objects": 136,
+      "editable_labels": 53,
+      "shape_types": {
+        "polygon": 10,
+        "line": 42,
+        "path": 27,
+        "polyline": 4,
+        "frame": 53
+      },
+      "embedded_image_or_ole_payload": false,
+      "mutation_counts": {
+        "polygon": 10,
+        "line": 42,
+        "path": 27,
+        "polyline": 4,
+        "frame": 53
+      },
+      "mutated_fill_stroke_and_line_width_persisted_count": 136,
+      "mutated_names_text_and_geometry_persisted": true,
+      "restored_geometry_and_labels_match": true,
+      "restored_render_pixel_identical_at_144dpi": true,
+      "pdf_vector_only": true,
+      "pdf_fonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nBAAAAA+DejaVuSans                    TrueType          WinAnsi          yes yes yes    203  0\nCAAAAA+DejaVuSans                    TrueType          WinAnsi          yes yes yes    208  0\nDAAAAA+DejaVuSans-Bold               TrueType          WinAnsi          yes yes yes    213  0\nEAAAAA+DejaVuSans                    TrueType          WinAnsi          yes yes yes    198  0\n",
+      "pdf_text_spans_in_bounds": 53,
+      "tiff_dpi": 1000,
+      "tiff_pixels": [
+        6851,
+        5709
+      ],
+      "odg_sha256": "1b0680d32c531727d9604245c57136d7ab098c8a8d3966908dc5550cc179eca1",
+      "pdf_sha256": "fab1e682aa31cf0f4acd1ac096762b7cf9cbe87e5ae77ceadae31b3699e62c02"
+    }
+  },
+  "versions": {
+    "python": "Python 3.12.14",
+    "soffice": "LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5"
+  },
+  "gui_acceptance": false,
+  "publication_authorised": false
+}

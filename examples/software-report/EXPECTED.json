@@ -1,0 +1,28 @@
+{
+  "schema": "nsc-r4-o15-build-report-expectations/1",
+  "policy_order": [
+    "literal_only",
+    "suffix_only",
+    "either_unique",
+    "prefer_literal",
+    "prefer_suffix"
+  ],
+  "dossiers": {
+    "D1_DIRECT_RELEASE": {
+      "labels": ["S", "S", "S", "S", "S"],
+      "satisfied_pointer": "/measures/release/smoke_pass_fraction"
+    },
+    "D2_DIRECT_WRONG_SCOPE": {
+      "labels": ["V", "V", "V", "V", "V"],
+      "satisfied_pointer": null
+    },
+    "D3_ALIAS_RELEASE": {
+      "labels": ["S", "V", "V", "S", "V"],
+      "satisfied_pointer": "/measures/release/smoke_pass_fraction"
+    },
+    "D4_ALIAS_NIGHTLY": {
+      "labels": ["V", "S", "V", "V", "S"],
+      "satisfied_pointer": "/measures/nightly/smoke_pass_fraction"
+    }
+  }
+}

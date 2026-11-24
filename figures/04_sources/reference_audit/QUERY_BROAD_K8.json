@@ -1,0 +1,852 @@
+{
+  "schema": "nsc.reference-audit.query-certificate/1",
+  "request_sha256": "285e641aa313de9104539e9b7fa9ce56b4a7964b63a28e697b54f59e71383496",
+  "matrix_sha256": "542c0128c601232303d347548a09738798bd61d68c3ed54eb3ac4e02fae6a69e",
+  "canonical_csv_sha256": "88b288110ef278626498d34e1163b0423ec6983f427a1af5d0220134d0aacc27",
+  "frame_id": "NSC_PROS_v1.O15.192",
+  "producer": {
+    "component": "neuroSEMANTICorr.reference_audit",
+    "version": "1.0.0",
+    "files_sha256": {
+      "__init__.py": "d14698ff0c325b129392c8162392780ad40ce22c744ba18cec04f5fcc39509a0",
+      "__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+      "canonical.py": "a08bdac5ebff12c46938de774cad4484df265cb3017c18d12aeb9b422b38dad7",
+      "model.py": "de18d7f11361c98dfc79ebe010da7e8f1eed2061c1bf5214cbc70bce252e78f4",
+      "engine.py": "f509531aa7cc5f79f04d20c7617eee92d10b6914a9b9decd1bd77c0ddccb9349",
+      "verification.py": "f60a4a4d453238aab2ced89d93ae6db8b328f71decfea2afcab9301d7abf8635",
+      "canonical_query.py": "91fc1890de6a6a6461c507f8ec6c9cdd6c5bfe92d3cc92c20fbc951a4de93b7c",
+      "provenance.py": "ea37a1b4e3bdfd3b113b2bda2e35c98099dacd5987e968f44aca7a1ea47bffc9",
+      "cli.py": "2cba874dbf9563884b4c9ba32d655e5f68b1d749614cf9f3f50492ed27e3d69d",
+      "request.schema.json": "bb8791d08cbac6ff426a183d694ee42498a734925fabb4d91c50a0f711a18835"
+    }
+  },
+  "budget": 8,
+  "threshold": "24",
+  "original_checker_invocations": 0,
+  "status": "VERIFIED_CANONICAL_MINIMUM",
+  "minimum_query_count": 33,
+  "case_ids": [
+    "R1PROS-104F7825352EB905462FD239",
+    "R1PROS-1175F475261EE917E0E06A6A",
+    "R1PROS-124E69CDFD1DB8946A66C2FB",
+    "R1PROS-17EAE07A978E6DF8D7824C3A",
+    "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+    "R1PROS-25DBBF9AF054202D7EB98360",
+    "R1PROS-2D7B28F1A768D97DAB6669E2",
+    "R1PROS-2FEE93C5D1A6B23745FB971F",
+    "R1PROS-4209340D6ECCECE00B7C0626",
+    "R1PROS-457486FB11C264299AF5962C",
+    "R1PROS-4F72B4FF02FC5A2B9B48061A",
+    "R1PROS-523A733BA59F808604C87201",
+    "R1PROS-5387EBD2C25E8B2DAFC60EB9",
+    "R1PROS-587363AE9EB73EBB7634923F",
+    "R1PROS-59B799EA83B34695CFCD4C4F",
+    "R1PROS-5E826BF511F1C27079F71204",
+    "R1PROS-680F2485A2812505955ABC69",
+    "R1PROS-68697A8B7B48465BE0B5FA6F",
+    "R1PROS-74EBE4A6CA03054A9B5089EF",
+    "R1PROS-81886D0F22CD34BEFE0BC76C",
+    "R1PROS-8C212CB16D676EFB19316BB5",
+    "R1PROS-922369D794C572EEEA7F9597",
+    "R1PROS-9DE07811DCB2EC1095F690C0",
+    "R1PROS-C03093D8D95D4686B92E3E4C",
+    "R1PROS-C3B614C15E40AE726DDBAAE2",
+    "R1PROS-C5C4CE08E069D6FECCFFCCEF",
+    "R1PROS-C71AACF05AE5573BCF293B15",
+    "R1PROS-C7D5DE31E2F7971F130A0CA9",
+    "R1PROS-D398EDD5B02E2AB2D301945C",
+    "R1PROS-E537A37980B897D058072E86",
+    "R1PROS-F289193A1E2E468FBF542716",
+    "R1PROS-F43B18F8DF3F6C3374DC0643",
+    "R1PROS-08D35BB2A05132C2F9C23814"
+  ],
+  "proof": {
+    "type": "THRESHOLD_BOUNDARY_32_PLUS_1",
+    "centre_counts": {
+      "literal_only": 0,
+      "suffix_only": 48,
+      "either_unique": 32,
+      "prefer_literal": 16,
+      "prefer_suffix": 32
+    },
+    "necessary_case_ids": [
+      "R1PROS-104F7825352EB905462FD239",
+      "R1PROS-1175F475261EE917E0E06A6A",
+      "R1PROS-124E69CDFD1DB8946A66C2FB",
+      "R1PROS-17EAE07A978E6DF8D7824C3A",
+      "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+      "R1PROS-25DBBF9AF054202D7EB98360",
+      "R1PROS-2D7B28F1A768D97DAB6669E2",
+      "R1PROS-2FEE93C5D1A6B23745FB971F",
+      "R1PROS-4209340D6ECCECE00B7C0626",
+      "R1PROS-457486FB11C264299AF5962C",
+      "R1PROS-4F72B4FF02FC5A2B9B48061A",
+      "R1PROS-523A733BA59F808604C87201",
+      "R1PROS-5387EBD2C25E8B2DAFC60EB9",
+      "R1PROS-587363AE9EB73EBB7634923F",
+      "R1PROS-59B799EA83B34695CFCD4C4F",
+      "R1PROS-5E826BF511F1C27079F71204",
+      "R1PROS-680F2485A2812505955ABC69",
+      "R1PROS-68697A8B7B48465BE0B5FA6F",
+      "R1PROS-74EBE4A6CA03054A9B5089EF",
+      "R1PROS-81886D0F22CD34BEFE0BC76C",
+      "R1PROS-8C212CB16D676EFB19316BB5",
+      "R1PROS-922369D794C572EEEA7F9597",
+      "R1PROS-9DE07811DCB2EC1095F690C0",
+      "R1PROS-C03093D8D95D4686B92E3E4C",
+      "R1PROS-C3B614C15E40AE726DDBAAE2",
+      "R1PROS-C5C4CE08E069D6FECCFFCCEF",
+      "R1PROS-C71AACF05AE5573BCF293B15",
+      "R1PROS-C7D5DE31E2F7971F130A0CA9",
+      "R1PROS-D398EDD5B02E2AB2D301945C",
+      "R1PROS-E537A37980B897D058072E86",
+      "R1PROS-F289193A1E2E468FBF542716",
+      "R1PROS-F43B18F8DF3F6C3374DC0643"
+    ],
+    "necessity_witnesses": [
+      {
+        "indispensable_case_id": "R1PROS-104F7825352EB905462FD239",
+        "centre_id": "either_unique",
+        "common_repairs": [
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-124E69CDFD1DB8946A66C2FB",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2D7B28F1A768D97DAB6669E2",
+          "R1PROS-2FEE93C5D1A6B23745FB971F"
+        ],
+        "additional_repair": "R1PROS-104F7825352EB905462FD239",
+        "counts": [
+          "25",
+          "24"
+        ],
+        "distances": [
+          7,
+          8
+        ]
+      },
+      {
+        "indispensable_case_id": "R1PROS-1175F475261EE917E0E06A6A",
+        "centre_id": "either_unique",
+        "common_repairs": [
+          "R1PROS-104F7825352EB905462FD239",
+          "R1PROS-124E69CDFD1DB8946A66C2FB",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2D7B28F1A768D97DAB6669E2",
+          "R1PROS-2FEE93C5D1A6B23745FB971F"
+        ],
+        "additional_repair": "R1PROS-1175F475261EE917E0E06A6A",
+        "counts": [
+          "25",
+          "24"
+        ],
+        "distances": [
+          7,
+          8
+        ]
+      },
+      {
+        "indispensable_case_id": "R1PROS-124E69CDFD1DB8946A66C2FB",
+        "centre_id": "either_unique",
+        "common_repairs": [
+          "R1PROS-104F7825352EB905462FD239",
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2D7B28F1A768D97DAB6669E2",
+          "R1PROS-2FEE93C5D1A6B23745FB971F"
+        ],
+        "additional_repair": "R1PROS-124E69CDFD1DB8946A66C2FB",
+        "counts": [
+          "25",
+          "24"
+        ],
+        "distances": [
+          7,
+          8
+        ]
+      },
+      {
+        "indispensable_case_id": "R1PROS-17EAE07A978E6DF8D7824C3A",
+        "centre_id": "either_unique",
+        "common_repairs": [
+          "R1PROS-104F7825352EB905462FD239",
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-124E69CDFD1DB8946A66C2FB",
+          "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2D7B28F1A768D97DAB6669E2",
+          "R1PROS-2FEE93C5D1A6B23745FB971F"
+        ],
+        "additional_repair": "R1PROS-17EAE07A978E6DF8D7824C3A",
+        "counts": [
+          "25",
+          "24"
+        ],
+        "distances": [
+          7,
+          8
+        ]
+      },
+      {
+        "indispensable_case_id": "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+        "centre_id": "either_unique",
+        "common_repairs": [
+          "R1PROS-104F7825352EB905462FD239",
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-124E69CDFD1DB8946A66C2FB",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2D7B28F1A768D97DAB6669E2",
+          "R1PROS-2FEE93C5D1A6B23745FB971F"
+        ],
+        "additional_repair": "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+        "counts": [
+          "25",
+          "24"
+        ],
+        "distances": [
+          7,
+          8
+        ]
+      },
+      {
+        "indispensable_case_id": "R1PROS-25DBBF9AF054202D7EB98360",
+        "centre_id": "either_unique",
+        "common_repairs": [
+          "R1PROS-104F7825352EB905462FD239",
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-124E69CDFD1DB8946A66C2FB",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+          "R1PROS-2D7B28F1A768D97DAB6669E2",
+          "R1PROS-2FEE93C5D1A6B23745FB971F"
+        ],
+        "additional_repair": "R1PROS-25DBBF9AF054202D7EB98360",
+        "counts": [
+          "25",
+          "24"
+        ],
+        "distances": [
+          7,
+          8
+        ]
+      },
+      {
+        "indispensable_case_id": "R1PROS-2D7B28F1A768D97DAB6669E2",
+        "centre_id": "either_unique",
+        "common_repairs": [
+          "R1PROS-104F7825352EB905462FD239",
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-124E69CDFD1DB8946A66C2FB",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2FEE93C5D1A6B23745FB971F"
+        ],
+        "additional_repair": "R1PROS-2D7B28F1A768D97DAB6669E2",
+        "counts": [
+          "25",
+          "24"
+        ],
+        "distances": [
+          7,
+          8
+        ]
+      },
+      {
+        "indispensable_case_id": "R1PROS-2FEE93C5D1A6B23745FB971F",
+        "centre_id": "either_unique",
+        "common_repairs": [
+          "R1PROS-104F7825352EB905462FD239",
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-124E69CDFD1DB8946A66C2FB",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2D7B28F1A768D97DAB6669E2"
+        ],
+        "additional_repair": "R1PROS-2FEE93C5D1A6B23745FB971F",
+        "counts": [
+          "25",
+          "24"
+        ],
+        "distances": [
+          7,
+          8
+        ]
+      },
+      {
+        "indispensable_case_id": "R1PROS-4209340D6ECCECE00B7C0626",
+        "centre_id": "either_unique",
+        "common_repairs": [
+          "R1PROS-104F7825352EB905462FD239",
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-124E69CDFD1DB8946A66C2FB",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2D7B28F1A768D97DAB6669E2"
+        ],
+        "additional_repair": "R1PROS-4209340D6ECCECE00B7C0626",
+        "counts": [
+          "25",
+          "24"
+        ],
+        "distances": [
+          7,
+          8
+        ]
+      },
+      {
+        "indispensable_case_id": "R1PROS-457486FB11C264299AF5962C",
+        "centre_id": "either_unique",
+        "common_repairs": [
+          "R1PROS-104F7825352EB905462FD239",
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-124E69CDFD1DB8946A66C2FB",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2D7B28F1A768D97DAB6669E2"
+        ],
+        "additional_repair": "R1PROS-457486FB11C264299AF5962C",
+        "counts": [
+          "25",
+          "24"
+        ],
+        "distances": [
+          7,
+          8
+        ]
+      },
+      {
+        "indispensable_case_id": "R1PROS-4F72B4FF02FC5A2B9B48061A",
+        "centre_id": "either_unique",
+        "common_repairs": [
+          "R1PROS-104F7825352EB905462FD239",
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-124E69CDFD1DB8946A66C2FB",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2D7B28F1A768D97DAB6669E2"
+        ],
+        "additional_repair": "R1PROS-4F72B4FF02FC5A2B9B48061A",
+        "counts": [
+          "25",
+          "24"
+        ],
+        "distances": [
+          7,
+          8
+        ]
+      },
+      {
+        "indispensable_case_id": "R1PROS-523A733BA59F808604C87201",
+        "centre_id": "either_unique",
+        "common_repairs": [
+          "R1PROS-104F7825352EB905462FD239",
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-124E69CDFD1DB8946A66C2FB",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2D7B28F1A768D97DAB6669E2"
+        ],
+        "additional_repair": "R1PROS-523A733BA59F808604C87201",
+        "counts": [
+          "25",
+          "24"
+        ],
+        "distances": [
+          7,
+          8
+        ]
+      },
+      {
+        "indispensable_case_id": "R1PROS-5387EBD2C25E8B2DAFC60EB9",
+        "centre_id": "either_unique",
+        "common_repairs": [
+          "R1PROS-104F7825352EB905462FD239",
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-124E69CDFD1DB8946A66C2FB",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2D7B28F1A768D97DAB6669E2"
+        ],
+        "additional_repair": "R1PROS-5387EBD2C25E8B2DAFC60EB9",
+        "counts": [
+          "25",
+          "24"
+        ],
+        "distances": [
+          7,
+          8
+        ]
+      },
+      {
+        "indispensable_case_id": "R1PROS-587363AE9EB73EBB7634923F",
+        "centre_id": "either_unique",
+        "common_repairs": [
+          "R1PROS-104F7825352EB905462FD239",
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-124E69CDFD1DB8946A66C2FB",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2D7B28F1A768D97DAB6669E2"
+        ],
+        "additional_repair": "R1PROS-587363AE9EB73EBB7634923F",
+        "counts": [
+          "25",
+          "24"
+        ],
+        "distances": [
+          7,
+          8
+        ]
+      },
+      {
+        "indispensable_case_id": "R1PROS-59B799EA83B34695CFCD4C4F",
+        "centre_id": "either_unique",
+        "common_repairs": [
+          "R1PROS-104F7825352EB905462FD239",
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-124E69CDFD1DB8946A66C2FB",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2D7B28F1A768D97DAB6669E2"
+        ],
+        "additional_repair": "R1PROS-59B799EA83B34695CFCD4C4F",
+        "counts": [
+          "25",
+          "24"
+        ],
+        "distances": [
+          7,
+          8
+        ]
+      },
+      {
+        "indispensable_case_id": "R1PROS-5E826BF511F1C27079F71204",
+        "centre_id": "either_unique",
+        "common_repairs": [
+          "R1PROS-104F7825352EB905462FD239",
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-124E69CDFD1DB8946A66C2FB",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2D7B28F1A768D97DAB6669E2"
+        ],
+        "additional_repair": "R1PROS-5E826BF511F1C27079F71204",
+        "counts": [
+          "25",
+          "24"
+        ],
+        "distances": [
+          7,
+          8
+        ]
+      },
+      {
+        "indispensable_case_id": "R1PROS-680F2485A2812505955ABC69",
+        "centre_id": "either_unique",
+        "common_repairs": [
+          "R1PROS-104F7825352EB905462FD239",
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-124E69CDFD1DB8946A66C2FB",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2D7B28F1A768D97DAB6669E2"
+        ],
+        "additional_repair": "R1PROS-680F2485A2812505955ABC69",
+        "counts": [
+          "25",
+          "24"
+        ],
+        "distances": [
+          7,
+          8
+        ]
+      },
+      {
+        "indispensable_case_id": "R1PROS-68697A8B7B48465BE0B5FA6F",
+        "centre_id": "either_unique",
+        "common_repairs": [
+          "R1PROS-104F7825352EB905462FD239",
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-124E69CDFD1DB8946A66C2FB",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2D7B28F1A768D97DAB6669E2"
+        ],
+        "additional_repair": "R1PROS-68697A8B7B48465BE0B5FA6F",
+        "counts": [
+          "25",
+          "24"
+        ],
+        "distances": [
+          7,
+          8
+        ]
+      },
+      {
+        "indispensable_case_id": "R1PROS-74EBE4A6CA03054A9B5089EF",
+        "centre_id": "either_unique",
+        "common_repairs": [
+          "R1PROS-104F7825352EB905462FD239",
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-124E69CDFD1DB8946A66C2FB",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2D7B28F1A768D97DAB6669E2"
+        ],
+        "additional_repair": "R1PROS-74EBE4A6CA03054A9B5089EF",
+        "counts": [
+          "25",
+          "24"
+        ],
+        "distances": [
+          7,
+          8
+        ]
+      },
+      {
+        "indispensable_case_id": "R1PROS-81886D0F22CD34BEFE0BC76C",
+        "centre_id": "either_unique",
+        "common_repairs": [
+          "R1PROS-104F7825352EB905462FD239",
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-124E69CDFD1DB8946A66C2FB",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2D7B28F1A768D97DAB6669E2"
+        ],
+        "additional_repair": "R1PROS-81886D0F22CD34BEFE0BC76C",
+        "counts": [
+          "25",
+          "24"
+        ],
+        "distances": [
+          7,
+          8
+        ]
+      },
+      {
+        "indispensable_case_id": "R1PROS-8C212CB16D676EFB19316BB5",
+        "centre_id": "either_unique",
+        "common_repairs": [
+          "R1PROS-104F7825352EB905462FD239",
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-124E69CDFD1DB8946A66C2FB",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2D7B28F1A768D97DAB6669E2"
+        ],
+        "additional_repair": "R1PROS-8C212CB16D676EFB19316BB5",
+        "counts": [
+          "25",
+          "24"
+        ],
+        "distances": [
+          7,
+          8
+        ]
+      },
+      {
+        "indispensable_case_id": "R1PROS-922369D794C572EEEA7F9597",
+        "centre_id": "either_unique",
+        "common_repairs": [
+          "R1PROS-104F7825352EB905462FD239",
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-124E69CDFD1DB8946A66C2FB",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2D7B28F1A768D97DAB6669E2"
+        ],
+        "additional_repair": "R1PROS-922369D794C572EEEA7F9597",
+        "counts": [
+          "25",
+          "24"
+        ],
+        "distances": [
+          7,
+          8
+        ]
+      },
+      {
+        "indispensable_case_id": "R1PROS-9DE07811DCB2EC1095F690C0",
+        "centre_id": "either_unique",
+        "common_repairs": [
+          "R1PROS-104F7825352EB905462FD239",
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-124E69CDFD1DB8946A66C2FB",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2D7B28F1A768D97DAB6669E2"
+        ],
+        "additional_repair": "R1PROS-9DE07811DCB2EC1095F690C0",
+        "counts": [
+          "25",
+          "24"
+        ],
+        "distances": [
+          7,
+          8
+        ]
+      },
+      {
+        "indispensable_case_id": "R1PROS-C03093D8D95D4686B92E3E4C",
+        "centre_id": "either_unique",
+        "common_repairs": [
+          "R1PROS-104F7825352EB905462FD239",
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-124E69CDFD1DB8946A66C2FB",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2D7B28F1A768D97DAB6669E2"
+        ],
+        "additional_repair": "R1PROS-C03093D8D95D4686B92E3E4C",
+        "counts": [
+          "25",
+          "24"
+        ],
+        "distances": [
+          7,
+          8
+        ]
+      },
+      {
+        "indispensable_case_id": "R1PROS-C3B614C15E40AE726DDBAAE2",
+        "centre_id": "either_unique",
+        "common_repairs": [
+          "R1PROS-104F7825352EB905462FD239",
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-124E69CDFD1DB8946A66C2FB",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2D7B28F1A768D97DAB6669E2"
+        ],
+        "additional_repair": "R1PROS-C3B614C15E40AE726DDBAAE2",
+        "counts": [
+          "25",
+          "24"
+        ],
+        "distances": [
+          7,
+          8
+        ]
+      },
+      {
+        "indispensable_case_id": "R1PROS-C5C4CE08E069D6FECCFFCCEF",
+        "centre_id": "either_unique",
+        "common_repairs": [
+          "R1PROS-104F7825352EB905462FD239",
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-124E69CDFD1DB8946A66C2FB",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2D7B28F1A768D97DAB6669E2"
+        ],
+        "additional_repair": "R1PROS-C5C4CE08E069D6FECCFFCCEF",
+        "counts": [
+          "25",
+          "24"
+        ],
+        "distances": [
+          7,
+          8
+        ]
+      },
+      {
+        "indispensable_case_id": "R1PROS-C71AACF05AE5573BCF293B15",
+        "centre_id": "either_unique",
+        "common_repairs": [
+          "R1PROS-104F7825352EB905462FD239",
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-124E69CDFD1DB8946A66C2FB",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2D7B28F1A768D97DAB6669E2"
+        ],
+        "additional_repair": "R1PROS-C71AACF05AE5573BCF293B15",
+        "counts": [
+          "25",
+          "24"
+        ],
+        "distances": [
+          7,
+          8
+        ]
+      },
+      {
+        "indispensable_case_id": "R1PROS-C7D5DE31E2F7971F130A0CA9",
+        "centre_id": "either_unique",
+        "common_repairs": [
+          "R1PROS-104F7825352EB905462FD239",
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-124E69CDFD1DB8946A66C2FB",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2D7B28F1A768D97DAB6669E2"
+        ],
+        "additional_repair": "R1PROS-C7D5DE31E2F7971F130A0CA9",
+        "counts": [
+          "25",
+          "24"
+        ],
+        "distances": [
+          7,
+          8
+        ]
+      },
+      {
+        "indispensable_case_id": "R1PROS-D398EDD5B02E2AB2D301945C",
+        "centre_id": "either_unique",
+        "common_repairs": [
+          "R1PROS-104F7825352EB905462FD239",
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-124E69CDFD1DB8946A66C2FB",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2D7B28F1A768D97DAB6669E2"
+        ],
+        "additional_repair": "R1PROS-D398EDD5B02E2AB2D301945C",
+        "counts": [
+          "25",
+          "24"
+        ],
+        "distances": [
+          7,
+          8
+        ]
+      },
+      {
+        "indispensable_case_id": "R1PROS-E537A37980B897D058072E86",
+        "centre_id": "either_unique",
+        "common_repairs": [
+          "R1PROS-104F7825352EB905462FD239",
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-124E69CDFD1DB8946A66C2FB",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2D7B28F1A768D97DAB6669E2"
+        ],
+        "additional_repair": "R1PROS-E537A37980B897D058072E86",
+        "counts": [
+          "25",
+          "24"
+        ],
+        "distances": [
+          7,
+          8
+        ]
+      },
+      {
+        "indispensable_case_id": "R1PROS-F289193A1E2E468FBF542716",
+        "centre_id": "either_unique",
+        "common_repairs": [
+          "R1PROS-104F7825352EB905462FD239",
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-124E69CDFD1DB8946A66C2FB",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2D7B28F1A768D97DAB6669E2"
+        ],
+        "additional_repair": "R1PROS-F289193A1E2E468FBF542716",
+        "counts": [
+          "25",
+          "24"
+        ],
+        "distances": [
+          7,
+          8
+        ]
+      },
+      {
+        "indispensable_case_id": "R1PROS-F43B18F8DF3F6C3374DC0643",
+        "centre_id": "either_unique",
+        "common_repairs": [
+          "R1PROS-104F7825352EB905462FD239",
+          "R1PROS-1175F475261EE917E0E06A6A",
+          "R1PROS-124E69CDFD1DB8946A66C2FB",
+          "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+          "R1PROS-25DBBF9AF054202D7EB98360",
+          "R1PROS-2D7B28F1A768D97DAB6669E2"
+        ],
+        "additional_repair": "R1PROS-F43B18F8DF3F6C3374DC0643",
+        "counts": [
+          "25",
+          "24"
+        ],
+        "distances": [
+          7,
+          8
+        ]
+      }
+    ],
+    "additional_case_id": "R1PROS-08D35BB2A05132C2F9C23814",
+    "additional_stratum": "exact_alias_clean",
+    "obstruction_with_32_queries": {
+      "centres": [
+        "either_unique",
+        "suffix_only"
+      ],
+      "common_repairs": [
+        "R1PROS-104F7825352EB905462FD239",
+        "R1PROS-124E69CDFD1DB8946A66C2FB",
+        "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+        "R1PROS-2FEE93C5D1A6B23745FB971F",
+        "R1PROS-4209340D6ECCECE00B7C0626",
+        "R1PROS-4F72B4FF02FC5A2B9B48061A",
+        "R1PROS-5387EBD2C25E8B2DAFC60EB9",
+        "R1PROS-59B799EA83B34695CFCD4C4F"
+      ],
+      "counts": [
+        "24",
+        "40"
+      ],
+      "distances": [
+        8,
+        8
+      ]
+    },
+    "sufficiency_rule": {
+      "compatibility_check_required_first": true,
+      "errors_on_necessary_set_at_most23": "AT_OR_BELOW",
+      "errors_on_necessary_set_at_least25": "ABOVE",
+      "errors_on_necessary_set_equal24": {
+        "extra_label_matches_checker": "AT_OR_BELOW",
+        "extra_label_matches_suffix_only": "ABOVE",
+        "extra_label_U": "OUT_OF_MODEL"
+      }
+    }
+  },
+  "admissibility": "broad_S_V_U",
+  "scope": "Exact fixed-query minimum for every compatible transcript on this verified frame and budget. Not adaptive cost, human effort or a result for other frames.",
+  "certificate_sha256": "0e10960a1432c74449084c8d4d9e7b317a6e59f35b984ee9c38bbd4727cc0dbc"
+}
