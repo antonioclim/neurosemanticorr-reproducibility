@@ -1,0 +1,12 @@
+{
+  "claims": [
+    {
+      "claim_id": "claim",
+      "source_pointer": "/values/~01",
+      "value": 73,
+      "unit": "count",
+      "denominator": 3,
+      "scope": "cohort-a"
+    }
+  ]
+}

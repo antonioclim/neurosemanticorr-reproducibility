@@ -1,0 +1,1061 @@
+{
+  "schema": "nsc-p5-fixed-profile/1",
+  "profile_id": "NSC-P5-CORE-1",
+  "active_obligations": [
+    "O01",
+    "O02",
+    "O03",
+    "O04",
+    "O05",
+    "O06",
+    "O07",
+    "O08",
+    "O09",
+    "O10",
+    "O11",
+    "O12",
+    "O13",
+    "O14",
+    "O15",
+    "O16"
+  ],
+  "required_paths": [
+    "bundle.json",
+    "data/output_rows.json",
+    "data/rows.json",
+    "data/states_or_change_facts.json",
+    "inventory.json",
+    "records/R01.json",
+    "records/R02_aux.txt",
+    "records/R03.json",
+    "records/R03_effective.json",
+    "records/R04.json",
+    "records/R04_expected_anchor.json",
+    "records/R05_alignment_receipt.json",
+    "records/R06_materialisation.json",
+    "records/R08_measurement_policy.json",
+    "records/R09_estimand.json",
+    "records/R10_design_profile.json",
+    "records/R11_formula_registry.json",
+    "records/R11_result.json",
+    "records/R12_consumer.json",
+    "records/R13.json",
+    "records/R13_task_universe.json",
+    "records/R14.json",
+    "records/R14_wait_receipt.json",
+    "records/R15_claims.json",
+    "records/R15_edges.json",
+    "records/R16.json",
+    "records/R16_limitations.json",
+    "semantic_payload.json",
+    "source/producer.txt"
+  ],
+  "optional_paths": [
+    "notes/README.txt"
+  ],
+  "workflow_ids": [
+    "W1",
+    "W2"
+  ],
+  "category_order": [
+    "Not ready at all",
+    "Slightly ready",
+    "Moderately ready",
+    "Very ready",
+    "Fully ready"
+  ],
+  "response_states": [
+    "observed",
+    "refusal",
+    "item_nonresponse",
+    "structural_skip"
+  ],
+  "input_states": [
+    "available",
+    "missing"
+  ],
+  "change_states": [
+    "unchanged",
+    "imputed",
+    "edited",
+    "undefined"
+  ],
+  "configuration_defaults": {
+    "W1": {
+      "config_id": "P3BENCH-CONFIG-W1",
+      "method": "category_distribution",
+      "strict": true
+    },
+    "W2": {
+      "config_id": "P3BENCH-CONFIG-W2",
+      "method": "ratio_of_means",
+      "strict": true
+    }
+  },
+  "supported_methods": {
+    "W1": [
+      "category_distribution",
+      "ordinal_mean"
+    ],
+    "W2": [
+      "ratio_of_means",
+      "mean_of_ratios"
+    ]
+  },
+  "target_method": {
+    "W1": "category_distribution",
+    "W2": "ratio_of_means"
+  },
+  "population_ids": {
+    "W1": [
+      "eligible"
+    ],
+    "W2": [
+      "staff_available",
+      "turnover_available",
+      "staff_imputation"
+    ]
+  },
+  "source_sha256": "562baf5e4d5412fac30a075ba7b2fed807d917aa56f2b7e3db296bf57c6784c4",
+  "runtime_id": "SYNTHETIC-DOCUMENTARY-RUNTIME-1",
+  "formula_version": "P3BENCH-FORMULAE-2",
+  "supported_operations": [
+    "descriptive_finite_table"
+  ],
+  "terminal_statuses": [
+    "SUCCEEDED",
+    "FAILED",
+    "UNATTEMPTED"
+  ],
+  "limits": {
+    "case_bytes": 1048576,
+    "json_depth": 32,
+    "json_nodes": 20000,
+    "string_chars": 10000,
+    "integer_abs": 1000000000
+  },
+  "numeric_policies": [
+    "C00",
+    "C01",
+    "C02",
+    "C03"
+  ],
+  "schema_grammar": {
+    "str": "nonempty Unicode string; surrogate codepoints forbidden",
+    "int": "type exactly int excluding bool, abs<=1e9",
+    "posint": "int with1<=value<=1e9",
+    "bool": "type exactly bool",
+    "null": "JSON null only",
+    "fields": "Object requires all fields, permits only fields+optional; order irrelevant",
+    "list": "Array; element schema recursively applies",
+    "map": "Object with nonempty string keys and values following schema; empty map admitted",
+    "one_of": "At least one exact variant must admit the value",
+    "workflow_variant": "Select by bundle.workflow already admitted; unsupported workflow is global O01 admissionV"
+  },
+  "schemas": {
+    "bundle.json": {
+      "fields": {
+        "schema": "str",
+        "workflow": "str",
+        "profile_id": "str"
+      },
+      "optional": {}
+    },
+    "semantic_payload.json": {
+      "fields": {
+        "study": "str",
+        "revision": "int",
+        "active": "bool"
+      },
+      "optional": {}
+    },
+    "records/R01.json": {
+      "fields": {
+        "semantic_digest": {
+          "fields": {
+            "domain": "str",
+            "algorithm": "str",
+            "value": "str"
+          },
+          "optional": {}
+        }
+      },
+      "optional": {}
+    },
+    "records/R03.json": {
+      "fields": {
+        "declared": {
+          "map": {
+            "one_of": [
+              "str",
+              "bool"
+            ]
+          }
+        },
+        "executed": {
+          "fields": {
+            "config_id": "str",
+            "method": "str",
+            "strict": "bool"
+          },
+          "optional": {}
+        }
+      },
+      "optional": {}
+    },
+    "records/R03_effective.json": {
+      "fields": {
+        "effective": {
+          "fields": {
+            "config_id": "str",
+            "method": "str",
+            "strict": "bool"
+          },
+          "optional": {}
+        }
+      },
+      "optional": {}
+    },
+    "records/R04.json": {
+      "fields": {
+        "executed_source_sha256": "str",
+        "runtime_id": "str",
+        "workspace": "str"
+      },
+      "optional": {}
+    },
+    "records/R04_expected_anchor.json": {
+      "fields": {
+        "source_sha256": "str",
+        "runtime_id": "str"
+      },
+      "optional": {}
+    },
+    "data/rows.json": {
+      "workflow_variant": {
+        "W1": {
+          "fields": {
+            "rows": {
+              "list": {
+                "fields": {
+                  "id": "str",
+                  "readiness": {
+                    "one_of": [
+                      "str",
+                      "null"
+                    ]
+                  }
+                },
+                "optional": {}
+              }
+            }
+          },
+          "optional": {}
+        },
+        "W2": {
+          "fields": {
+            "rows": {
+              "list": {
+                "fields": {
+                  "id": "str",
+                  "staff": {
+                    "one_of": [
+                      "int",
+                      "null"
+                    ]
+                  },
+                  "turnover": {
+                    "one_of": [
+                      "int",
+                      "null"
+                    ]
+                  },
+                  "other.rev": {
+                    "one_of": [
+                      "int",
+                      "null"
+                    ]
+                  },
+                  "total.rev": {
+                    "one_of": [
+                      "int",
+                      "null"
+                    ]
+                  }
+                },
+                "optional": {}
+              }
+            }
+          },
+          "optional": {}
+        }
+      }
+    },
+    "data/states_or_change_facts.json": {
+      "workflow_variant": {
+        "W1": {
+          "fields": {
+            "rows": {
+              "list": {
+                "fields": {
+                  "id": "str",
+                  "state": "str"
+                },
+                "optional": {}
+              }
+            }
+          },
+          "optional": {}
+        },
+        "W2": {
+          "fields": {
+            "rows": {
+              "list": {
+                "fields": {
+                  "id": "str",
+                  "staff_input": "str",
+                  "turnover_input": "str",
+                  "staff_change": "str",
+                  "other_rev_change": "str"
+                },
+                "optional": {}
+              }
+            }
+          },
+          "optional": {}
+        }
+      }
+    },
+    "data/output_rows.json": {
+      "workflow_variant": {
+        "W1": {
+          "fields": {
+            "rows": {
+              "list": {
+                "fields": {
+                  "id": "str",
+                  "readiness": {
+                    "one_of": [
+                      "str",
+                      "null"
+                    ]
+                  }
+                },
+                "optional": {}
+              }
+            }
+          },
+          "optional": {}
+        },
+        "W2": {
+          "fields": {
+            "rows": {
+              "list": {
+                "fields": {
+                  "id": "str",
+                  "staff": {
+                    "one_of": [
+                      {
+                        "fields": {
+                          "numerator": "int",
+                          "denominator": "posint"
+                        },
+                        "optional": {}
+                      },
+                      {
+                        "fields": {
+                          "status": "str",
+                          "reason": "str"
+                        },
+                        "optional": {}
+                      }
+                    ]
+                  },
+                  "other.rev": {
+                    "fields": {
+                      "numerator": "int",
+                      "denominator": "posint"
+                    },
+                    "optional": {}
+                  },
+                  "turnover_ratio": {
+                    "one_of": [
+                      {
+                        "fields": {
+                          "numerator": "int",
+                          "denominator": "posint"
+                        },
+                        "optional": {}
+                      },
+                      {
+                        "fields": {
+                          "status": "str",
+                          "reason": "str"
+                        },
+                        "optional": {}
+                      }
+                    ]
+                  }
+                },
+                "optional": {}
+              }
+            }
+          },
+          "optional": {}
+        }
+      }
+    },
+    "records/R05_alignment_receipt.json": {
+      "fields": {
+        "data_ids": {
+          "list": "str"
+        },
+        "state_ids": {
+          "list": "str"
+        },
+        "producer_authenticated": "bool",
+        "initial_pairing_verified": "bool"
+      },
+      "optional": {}
+    },
+    "records/R06_materialisation.json": {
+      "fields": {
+        "populations": {
+          "list": {
+            "fields": {
+              "population_id": "str",
+              "ids": {
+                "list": "str"
+              },
+              "local_to_source_positions": {
+                "list": "int"
+              }
+            },
+            "optional": {}
+          }
+        }
+      },
+      "optional": {}
+    },
+    "records/R08_measurement_policy.json": {
+      "workflow_variant": {
+        "W1": {
+          "fields": {
+            "category_order": {
+              "list": "str"
+            },
+            "display_codes": {
+              "map": "int"
+            },
+            "allows_arithmetic_mean": "bool"
+          },
+          "optional": {}
+        },
+        "W2": {
+          "fields": {
+            "allow_staff_imputation": "bool",
+            "executed_staff_imputation": "bool",
+            "input_and_change_states_separate": "bool"
+          },
+          "optional": {}
+        }
+      }
+    },
+    "records/R09_estimand.json": {
+      "fields": {
+        "target": "str",
+        "actual_method": "str",
+        "population_ids": {
+          "list": "str"
+        },
+        "representation": "str"
+      },
+      "optional": {}
+    },
+    "records/R10_design_profile.json": {
+      "fields": {
+        "requested_operation": "str",
+        "supported_operations": {
+          "list": "str"
+        },
+        "population_generalisation": "bool",
+        "causal_claim": "bool"
+      },
+      "optional": {
+        "unused_cluster_label": "str"
+      }
+    },
+    "records/R11_formula_registry.json": {
+      "fields": {
+        "method": "str",
+        "formula_version": "str"
+      },
+      "optional": {}
+    },
+    "records/R11_result.json": {
+      "workflow_variant": {
+        "W1": {
+          "fields": {
+            "result_id": "str",
+            "status": "str",
+            "method": "str",
+            "operands": {
+              "fields": {
+                "selected_labels": {
+                  "list": "str"
+                },
+                "category_order": {
+                  "list": "str"
+                },
+                "display_codes": {
+                  "map": "int"
+                }
+              },
+              "optional": {}
+            },
+            "values": {
+              "fields": {
+                "counts": {
+                  "map": "int"
+                },
+                "denominator": "int",
+                "proportions": {
+                  "map": {
+                    "one_of": [
+                      {
+                        "fields": {
+                          "numerator": "int",
+                          "denominator": "posint"
+                        },
+                        "optional": {}
+                      },
+                      {
+                        "fields": {
+                          "status": "str",
+                          "reason": "str"
+                        },
+                        "optional": {}
+                      }
+                    ]
+                  }
+                }
+              },
+              "optional": {
+                "mean_code": {
+                  "one_of": [
+                    {
+                      "fields": {
+                        "numerator": "int",
+                        "denominator": "posint"
+                      },
+                      "optional": {}
+                    },
+                    {
+                      "fields": {
+                        "status": "str",
+                        "reason": "str"
+                      },
+                      "optional": {}
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "optional": {
+            "displays": {
+              "map": "str"
+            }
+          }
+        },
+        "W2": {
+          "fields": {
+            "result_id": "str",
+            "status": "str",
+            "method": "str",
+            "operands": {
+              "fields": {
+                "rows": {
+                  "list": {
+                    "fields": {
+                      "id": "str",
+                      "staff": {
+                        "one_of": [
+                          "int",
+                          "null"
+                        ]
+                      },
+                      "turnover": {
+                        "one_of": [
+                          "int",
+                          "null"
+                        ]
+                      },
+                      "other.rev": {
+                        "one_of": [
+                          "int",
+                          "null"
+                        ]
+                      },
+                      "total.rev": {
+                        "one_of": [
+                          "int",
+                          "null"
+                        ]
+                      }
+                    },
+                    "optional": {}
+                  }
+                }
+              },
+              "optional": {}
+            },
+            "values": {
+              "fields": {
+                "mean_staff": {
+                  "one_of": [
+                    {
+                      "fields": {
+                        "numerator": "int",
+                        "denominator": "posint"
+                      },
+                      "optional": {}
+                    },
+                    {
+                      "fields": {
+                        "status": "str",
+                        "reason": "str"
+                      },
+                      "optional": {}
+                    }
+                  ]
+                },
+                "mean_turnover": {
+                  "one_of": [
+                    {
+                      "fields": {
+                        "numerator": "int",
+                        "denominator": "posint"
+                      },
+                      "optional": {}
+                    },
+                    {
+                      "fields": {
+                        "status": "str",
+                        "reason": "str"
+                      },
+                      "optional": {}
+                    }
+                  ]
+                },
+                "ratio": {
+                  "one_of": [
+                    {
+                      "fields": {
+                        "numerator": "int",
+                        "denominator": "posint"
+                      },
+                      "optional": {}
+                    },
+                    {
+                      "fields": {
+                        "status": "str",
+                        "reason": "str"
+                      },
+                      "optional": {}
+                    }
+                  ]
+                },
+                "staff_output": {
+                  "map": {
+                    "one_of": [
+                      {
+                        "fields": {
+                          "numerator": "int",
+                          "denominator": "posint"
+                        },
+                        "optional": {}
+                      },
+                      {
+                        "fields": {
+                          "status": "str",
+                          "reason": "str"
+                        },
+                        "optional": {}
+                      }
+                    ]
+                  }
+                },
+                "other_rev_output": {
+                  "map": {
+                    "fields": {
+                      "numerator": "int",
+                      "denominator": "posint"
+                    },
+                    "optional": {}
+                  }
+                },
+                "turnover_ratio": {
+                  "map": {
+                    "one_of": [
+                      {
+                        "fields": {
+                          "numerator": "int",
+                          "denominator": "posint"
+                        },
+                        "optional": {}
+                      },
+                      {
+                        "fields": {
+                          "status": "str",
+                          "reason": "str"
+                        },
+                        "optional": {}
+                      }
+                    ]
+                  }
+                }
+              },
+              "optional": {}
+            }
+          },
+          "optional": {
+            "displays": {
+              "map": "str"
+            }
+          }
+        }
+      }
+    },
+    "records/R12_consumer.json": {
+      "workflow_variant": {
+        "W1": {
+          "fields": {
+            "result_id": "str",
+            "status": "str",
+            "values": {
+              "fields": {
+                "counts": {
+                  "map": "int"
+                },
+                "denominator": "int",
+                "proportions": {
+                  "map": {
+                    "one_of": [
+                      {
+                        "fields": {
+                          "numerator": "int",
+                          "denominator": "posint"
+                        },
+                        "optional": {}
+                      },
+                      {
+                        "fields": {
+                          "status": "str",
+                          "reason": "str"
+                        },
+                        "optional": {}
+                      }
+                    ]
+                  }
+                }
+              },
+              "optional": {
+                "mean_code": {
+                  "one_of": [
+                    {
+                      "fields": {
+                        "numerator": "int",
+                        "denominator": "posint"
+                      },
+                      "optional": {}
+                    },
+                    {
+                      "fields": {
+                        "status": "str",
+                        "reason": "str"
+                      },
+                      "optional": {}
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "optional": {
+            "displays": {
+              "map": "str"
+            }
+          }
+        },
+        "W2": {
+          "fields": {
+            "result_id": "str",
+            "status": "str",
+            "values": {
+              "fields": {
+                "mean_staff": {
+                  "one_of": [
+                    {
+                      "fields": {
+                        "numerator": "int",
+                        "denominator": "posint"
+                      },
+                      "optional": {}
+                    },
+                    {
+                      "fields": {
+                        "status": "str",
+                        "reason": "str"
+                      },
+                      "optional": {}
+                    }
+                  ]
+                },
+                "mean_turnover": {
+                  "one_of": [
+                    {
+                      "fields": {
+                        "numerator": "int",
+                        "denominator": "posint"
+                      },
+                      "optional": {}
+                    },
+                    {
+                      "fields": {
+                        "status": "str",
+                        "reason": "str"
+                      },
+                      "optional": {}
+                    }
+                  ]
+                },
+                "ratio": {
+                  "one_of": [
+                    {
+                      "fields": {
+                        "numerator": "int",
+                        "denominator": "posint"
+                      },
+                      "optional": {}
+                    },
+                    {
+                      "fields": {
+                        "status": "str",
+                        "reason": "str"
+                      },
+                      "optional": {}
+                    }
+                  ]
+                },
+                "staff_output": {
+                  "map": {
+                    "one_of": [
+                      {
+                        "fields": {
+                          "numerator": "int",
+                          "denominator": "posint"
+                        },
+                        "optional": {}
+                      },
+                      {
+                        "fields": {
+                          "status": "str",
+                          "reason": "str"
+                        },
+                        "optional": {}
+                      }
+                    ]
+                  }
+                },
+                "other_rev_output": {
+                  "map": {
+                    "fields": {
+                      "numerator": "int",
+                      "denominator": "posint"
+                    },
+                    "optional": {}
+                  }
+                },
+                "turnover_ratio": {
+                  "map": {
+                    "one_of": [
+                      {
+                        "fields": {
+                          "numerator": "int",
+                          "denominator": "posint"
+                        },
+                        "optional": {}
+                      },
+                      {
+                        "fields": {
+                          "status": "str",
+                          "reason": "str"
+                        },
+                        "optional": {}
+                      }
+                    ]
+                  }
+                }
+              },
+              "optional": {}
+            }
+          },
+          "optional": {
+            "displays": {
+              "map": "str"
+            }
+          }
+        }
+      }
+    },
+    "records/R13_task_universe.json": {
+      "fields": {
+        "task_ids": {
+          "list": "str"
+        }
+      },
+      "optional": {}
+    },
+    "records/R13.json": {
+      "fields": {
+        "tasks": {
+          "one_of": [
+            {
+              "list": {
+                "fields": {
+                  "task_id": "str",
+                  "status": "str"
+                },
+                "optional": {}
+              }
+            },
+            {
+              "map": "str"
+            }
+          ]
+        },
+        "reported_attempted_denominator": "int",
+        "counts": {
+          "map": "int"
+        }
+      },
+      "optional": {}
+    },
+    "records/R14_wait_receipt.json": {
+      "fields": {
+        "task_id": "str",
+        "exit_code": "int",
+        "result_present": "bool",
+        "guard_closed": "bool",
+        "reason": "str",
+        "internal_cause": "str"
+      },
+      "optional": {}
+    },
+    "records/R14.json": {
+      "fields": {
+        "task_id": "str",
+        "claimed_terminal_status": "str",
+        "claimed_closed": "bool"
+      },
+      "optional": {}
+    },
+    "records/R15_claims.json": {
+      "fields": {
+        "claims": {
+          "list": {
+            "fields": {
+              "claim_id": "str",
+              "source_pointer": "str",
+              "value": {
+                "one_of": [
+                  "int",
+                  {
+                    "fields": {
+                      "numerator": "int",
+                      "denominator": "posint"
+                    },
+                    "optional": {}
+                  }
+                ]
+              },
+              "unit": "str",
+              "denominator": "int",
+              "scope": "str"
+            },
+            "optional": {}
+          }
+        }
+      },
+      "optional": {}
+    },
+    "records/R15_edges.json": {
+      "fields": {
+        "result_id": "str",
+        "aliases": {
+          "map": "str"
+        },
+        "field_metadata": {
+          "map": {
+            "fields": {
+              "unit": "str",
+              "denominator": "int",
+              "scope": "str"
+            },
+            "optional": {}
+          }
+        }
+      },
+      "optional": {}
+    },
+    "records/R16_limitations.json": {
+      "fields": {
+        "producer_authenticated": "bool",
+        "initial_pairing_verified": "bool",
+        "scientific_validity_certified": "bool",
+        "programme_complete": "bool",
+        "historical_P1": "str"
+      },
+      "optional": {}
+    },
+    "records/R16.json": {
+      "fields": {
+        "producer_authenticated": "bool",
+        "initial_pairing_verified": "bool",
+        "scientific_validity_certified": "bool",
+        "programme_complete": "bool",
+        "historical_P1": "str",
+        "scope": "str"
+      },
+      "optional": {}
+    },
+    "inventory.json": {
+      "fields": {
+        "members": {
+          "list": {
+            "fields": {
+              "path": "str",
+              "bytes": "int",
+              "sha256": "str"
+            },
+            "optional": {}
+          }
+        }
+      },
+      "optional": {}
+    }
+  },
+  "alias_grammar": {
+    "version": "NSC-O15-ALIAS-1",
+    "prefix": "alias:",
+    "lookup_key": "exact_nonempty_suffix",
+    "max_hops": 1,
+    "pointer_escapes": [
+      "~0",
+      "~1"
+    ],
+    "array_index": "canonical_nonnegative_decimal",
+    "clause_id": "O15.claim_source"
+  }
+}

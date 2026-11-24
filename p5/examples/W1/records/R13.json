@@ -1,0 +1,1 @@
+{"counts":{"FAILED":1,"SUCCEEDED":1,"UNATTEMPTED":1},"reported_attempted_denominator":2,"tasks":[{"status":"SUCCEEDED","task_id":"task-a"},{"status":"FAILED","task_id":"task-b"},{"status":"UNATTEMPTED","task_id":"task-c"}]}

@@ -1,0 +1,167 @@
+{
+  "schema": "neurosemanticorr-r4-f2-expected/1",
+  "policy_order": [
+    "literal_only",
+    "suffix_only",
+    "either_unique",
+    "prefer_literal",
+    "prefer_suffix"
+  ],
+  "cases": {
+    "F2-MIRROR-LITERAL": {
+      "group": "alias_mirror",
+      "expected": {
+        "literal_only": "S",
+        "suffix_only": "V",
+        "either_unique": "V",
+        "prefer_literal": "S",
+        "prefer_suffix": "V"
+      },
+      "rationale": "Literal lookup matches value and metadata. Suffix lookup selects the distinct ratio. Unique-target lookup rejects the two destinations."
+    },
+    "F2-MIRROR-SUFFIX": {
+      "group": "alias_mirror",
+      "expected": {
+        "literal_only": "V",
+        "suffix_only": "S",
+        "either_unique": "V",
+        "prefer_literal": "V",
+        "prefer_suffix": "S"
+      },
+      "rationale": "Suffix lookup matches the claim to the second value and its metadata. Literal lookup fails. Unique-target lookup rejects the two destinations."
+    },
+    "F2-CONTEXT-SUFFIX": {
+      "group": "model_scope",
+      "expected": {
+        "literal_only": "S",
+        "suffix_only": "V",
+        "either_unique": "V",
+        "prefer_literal": "S",
+        "prefer_suffix": "V"
+      },
+      "rationale": "All three raw records are byte-identical to F2-MIRROR-LITERAL. A distinct synthetic context declares the suffix-local rule for its transcript adjudication."
+    },
+    "F2-RFC-ESCAPE-ORDER": {
+      "group": "non_alias",
+      "expected": {
+        "literal_only": "S",
+        "suffix_only": "S",
+        "either_unique": "S",
+        "prefer_literal": "S",
+        "prefer_suffix": "S"
+      },
+      "rationale": "RFC 6901 transforms ~1 before ~0, so token ~01 denotes key ~1. The deliberately distinct value at key / exposes reversal of the decoding order."
+    },
+    "F2-IDENTITY-CORRECT": {
+      "group": "non_alias",
+      "expected": {
+        "literal_only": "S",
+        "suffix_only": "S",
+        "either_unique": "S",
+        "prefer_literal": "S",
+        "prefer_suffix": "S"
+      },
+      "rationale": "The intended target preserves the value and cohort-a field metadata."
+    },
+    "F2-IDENTITY-WRONG-TARGET": {
+      "group": "non_alias",
+      "expected": {
+        "literal_only": "V",
+        "suffix_only": "V",
+        "either_unique": "V",
+        "prefer_literal": "V",
+        "prefer_suffix": "V"
+      },
+      "rationale": "Both targets have value 73, but the changed pointer selects cohort-b and conflicts with the claim metadata for cohort-a."
+    },
+    "F2-RFC-ARRAY-INDEX": {
+      "group": "non_alias",
+      "expected": {
+        "literal_only": "S",
+        "suffix_only": "S",
+        "either_unique": "S",
+        "prefer_literal": "S",
+        "prefer_suffix": "S"
+      },
+      "rationale": "Array index /1 resolves to the second element."
+    },
+    "F2-RFC-ARRAY-PADDED": {
+      "group": "non_alias",
+      "expected": {
+        "literal_only": "V",
+        "suffix_only": "V",
+        "either_unique": "V",
+        "prefer_literal": "V",
+        "prefer_suffix": "V"
+      },
+      "rationale": "An array index with a leading zero violates RFC 6901. Matching field metadata is present so the expected failure is specifically resolution."
+    },
+    "F2-RFC-OBJECT-PADDED": {
+      "group": "non_alias",
+      "expected": {
+        "literal_only": "S",
+        "suffix_only": "S",
+        "either_unique": "S",
+        "prefer_literal": "S",
+        "prefer_suffix": "S"
+      },
+      "rationale": "Object member 01 is a literal key and the array index restriction does not apply."
+    },
+    "F2-MISSING-RESULT": {
+      "group": "missing_evidence",
+      "expected": {
+        "literal_only": "U",
+        "suffix_only": "U",
+        "either_unique": "U",
+        "prefer_literal": "U",
+        "prefer_suffix": "U"
+      },
+      "rationale": "R11 is absent. The claim syntax and metadata do not establish a conflict, but the referenced result cannot be verified."
+    }
+  },
+  "transcripts": {
+    "direct_controls_underdetermined": {
+      "classification": "compatible",
+      "identification": "underdetermined",
+      "labels": {
+        "F2-RFC-ESCAPE-ORDER": "S",
+        "F2-RFC-ARRAY-PADDED": "V",
+        "F2-MISSING-RESULT": "U"
+      },
+      "remaining_policies": [
+        "literal_only",
+        "suffix_only",
+        "either_unique",
+        "prefer_literal",
+        "prefer_suffix"
+      ],
+      "rationale": "The direct pointer and missing-evidence controls agree across every alias policy."
+    },
+    "mirror_suffix_identifies_set": {
+      "classification": "compatible",
+      "identification": "underdetermined",
+      "labels": {
+        "F2-MIRROR-SUFFIX": "S"
+      },
+      "remaining_policies": [
+        "suffix_only",
+        "prefer_suffix"
+      ],
+      "rationale": "The alias claim agrees only with the suffix destination. Two policies remain because both select that destination in this case."
+    },
+    "differing_local_rules_out_of_model": {
+      "classification": "out_of_model",
+      "identification": "incompatible",
+      "labels": {
+        "F2-MIRROR-LITERAL": "S",
+        "F2-CONTEXT-SUFFIX": "V"
+      },
+      "remaining_policies": [],
+      "synthetic_local_policies": {
+        "F2-MIRROR-LITERAL": "literal_only",
+        "F2-CONTEXT-SUFFIX": "suffix_only"
+      },
+      "rationale": "Independent manual assessments under the two declared local policies disagree on byte-identical raw evidence. No single global policy yields that transcript."
+    }
+  }
+}

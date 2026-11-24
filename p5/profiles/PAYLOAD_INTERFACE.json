@@ -1,0 +1,493 @@
+{
+  "schema": "nsc-p5-neutral-payload-interface/1",
+  "status": "P5_PROSPECTIVE_VERSIONED_PROFILE_NOT_RETROACTIVE_P4_CHANGE",
+  "base_profile": "FIXED_PROFILE.json",
+  "ablation_binding": "ABLATION_CLAUSE_BINDING.json",
+  "predicate_instances": {
+    "O01": "P3BENCH-PRED-O01-SEMANTIC_COMMITMENT_R01",
+    "O02": "P3BENCH-PRED-O02-RAW_INVENTORY_MEMBERSHIP",
+    "O03": "P3BENCH-PRED-O03-CONFIG_RESOLUTION_TRIPLE",
+    "O04": "P3BENCH-PRED-O04-APPROVED_SOURCE_RUNTIME_ANCHOR",
+    "O05": "P3BENCH-PRED-O05-KEYED_FACTS_POSITIONAL_RECEIPT",
+    "O06": "P3BENCH-PRED-O06-DECLARED_POPULATION_MEMBERSHIP",
+    "O07": "P3BENCH-PRED-O07-WORKFLOW_SPECIFIC_STATE_COHERENCE",
+    "O08": "P3BENCH-PRED-O08-MEASUREMENT_POLICY_STAGE_AUTHORITY",
+    "O09": "P3BENCH-PRED-O09-TARGET_ACTUAL_METHOD_RELATION",
+    "O10": "P3BENCH-PRED-O10-SUPPORTED_OPERATION_APPLICABILITY",
+    "O11": "P3BENCH-PRED-O11-RETAINED_FORMULA_RELATION",
+    "O12": "P3BENCH-PRED-O12-AUTHORITATIVE_CONSUMER_RELATION",
+    "O13": "P3BENCH-PRED-O13-FROZEN_TASK_PARTITION_DENOMINATOR",
+    "O14": "P3BENCH-PRED-O14-WAIT_OUTPUT_TERMINAL_RELATION",
+    "O15": "P3BENCH-PRED-O15-QUANTIFIED_CLAIM_SOURCE_EDGE",
+    "O16": "P3BENCH-PRED-O16-ARTEFACT_ASSURANCE_SCOPE"
+  },
+  "direct_locators": {
+    "O01": {
+      "node_id": "R01",
+      "edge_id": null,
+      "path": "records/R01.json",
+      "json_pointer": "/semantic_digest/value",
+      "obligation_id": "O01",
+      "predicate_instance_id": "P3BENCH-PRED-O01-SEMANTIC_COMMITMENT_R01"
+    },
+    "O02": {
+      "node_id": "INVENTORY",
+      "edge_id": null,
+      "path": "inventory.json",
+      "json_pointer": "/members",
+      "obligation_id": "O02",
+      "predicate_instance_id": "P3BENCH-PRED-O02-RAW_INVENTORY_MEMBERSHIP"
+    },
+    "O03": {
+      "node_id": "R03",
+      "edge_id": "CONFIG_RESOLUTION",
+      "path": "records/R03.json",
+      "json_pointer": "/executed",
+      "obligation_id": "O03",
+      "predicate_instance_id": "P3BENCH-PRED-O03-CONFIG_RESOLUTION_TRIPLE"
+    },
+    "O04": {
+      "node_id": "R04",
+      "edge_id": "SOURCE_ANCHOR",
+      "path": "records/R04.json",
+      "json_pointer": "/executed_source_sha256",
+      "obligation_id": "O04",
+      "predicate_instance_id": "P3BENCH-PRED-O04-APPROVED_SOURCE_RUNTIME_ANCHOR"
+    },
+    "O05": {
+      "node_id": "R05",
+      "edge_id": "DATA_STATE_ALIGNMENT",
+      "path": "records/R05_alignment_receipt.json",
+      "json_pointer": "",
+      "obligation_id": "O05",
+      "predicate_instance_id": "P3BENCH-PRED-O05-KEYED_FACTS_POSITIONAL_RECEIPT"
+    },
+    "O06": {
+      "node_id": "R06",
+      "edge_id": "POPULATION_SOURCE_MAP",
+      "path": "records/R06_materialisation.json",
+      "json_pointer": "/populations",
+      "obligation_id": "O06",
+      "predicate_instance_id": "P3BENCH-PRED-O06-DECLARED_POPULATION_MEMBERSHIP"
+    },
+    "O07": {
+      "node_id": "STATES",
+      "edge_id": "DATA_STATE_COHERENCE",
+      "path": "data/states_or_change_facts.json",
+      "json_pointer": "/rows",
+      "obligation_id": "O07",
+      "predicate_instance_id": "P3BENCH-PRED-O07-WORKFLOW_SPECIFIC_STATE_COHERENCE"
+    },
+    "O08": {
+      "node_id": "R08",
+      "edge_id": null,
+      "path": "records/R08_measurement_policy.json",
+      "json_pointer": "",
+      "obligation_id": "O08",
+      "predicate_instance_id": "P3BENCH-PRED-O08-MEASUREMENT_POLICY_STAGE_AUTHORITY"
+    },
+    "O09": {
+      "node_id": "R09",
+      "edge_id": "TARGET_METHOD",
+      "path": "records/R09_estimand.json",
+      "json_pointer": "/actual_method",
+      "obligation_id": "O09",
+      "predicate_instance_id": "P3BENCH-PRED-O09-TARGET_ACTUAL_METHOD_RELATION"
+    },
+    "O10": {
+      "node_id": "R10",
+      "edge_id": null,
+      "path": "records/R10_design_profile.json",
+      "json_pointer": "/requested_operation",
+      "obligation_id": "O10",
+      "predicate_instance_id": "P3BENCH-PRED-O10-SUPPORTED_OPERATION_APPLICABILITY"
+    },
+    "O11": {
+      "node_id": "R11",
+      "edge_id": "FORMULA_RESULT",
+      "path": "records/R11_result.json",
+      "json_pointer": "/values",
+      "obligation_id": "O11",
+      "predicate_instance_id": "P3BENCH-PRED-O11-RETAINED_FORMULA_RELATION"
+    },
+    "O12": {
+      "node_id": "R12",
+      "edge_id": "RESULT_CONSUMER",
+      "path": "records/R12_consumer.json",
+      "json_pointer": "",
+      "obligation_id": "O12",
+      "predicate_instance_id": "P3BENCH-PRED-O12-AUTHORITATIVE_CONSUMER_RELATION"
+    },
+    "O13": {
+      "node_id": "R13",
+      "edge_id": "TASK_UNIVERSE_PARTITION",
+      "path": "records/R13.json",
+      "json_pointer": "",
+      "obligation_id": "O13",
+      "predicate_instance_id": "P3BENCH-PRED-O13-FROZEN_TASK_PARTITION_DENOMINATOR"
+    },
+    "O14": {
+      "node_id": "R14",
+      "edge_id": "WAIT_TERMINAL",
+      "path": "records/R14.json",
+      "json_pointer": "/claimed_terminal_status",
+      "obligation_id": "O14",
+      "predicate_instance_id": "P3BENCH-PRED-O14-WAIT_OUTPUT_TERMINAL_RELATION"
+    },
+    "O15": {
+      "node_id": "R15",
+      "edge_id": "CLAIM_SOURCE",
+      "path": "records/R15_claims.json",
+      "json_pointer": "/claims",
+      "obligation_id": "O15",
+      "predicate_instance_id": "P3BENCH-PRED-O15-QUANTIFIED_CLAIM_SOURCE_EDGE"
+    },
+    "O16": {
+      "node_id": "R16",
+      "edge_id": "ASSURANCE_SCOPE",
+      "path": "records/R16.json",
+      "json_pointer": "",
+      "obligation_id": "O16",
+      "predicate_instance_id": "P3BENCH-PRED-O16-ARTEFACT_ASSURANCE_SCOPE"
+    }
+  },
+  "dependencies": {
+    "O01": [
+      "semantic_payload.json",
+      "records/R01.json"
+    ],
+    "O02": [
+      "inventory.json"
+    ],
+    "O03": [
+      "records/R03.json",
+      "records/R03_effective.json"
+    ],
+    "O04": [
+      "source/producer.txt",
+      "records/R04.json",
+      "records/R04_expected_anchor.json"
+    ],
+    "O05": [
+      "data/rows.json",
+      "data/states_or_change_facts.json",
+      "records/R05_alignment_receipt.json"
+    ],
+    "O06": [
+      "data/rows.json",
+      "data/states_or_change_facts.json",
+      "records/R06_materialisation.json"
+    ],
+    "O07": [
+      "data/rows.json",
+      "data/states_or_change_facts.json",
+      "data/output_rows.json"
+    ],
+    "O08": [
+      "records/R08_measurement_policy.json"
+    ],
+    "O09": [
+      "records/R09_estimand.json",
+      "records/R06_materialisation.json",
+      "data/states_or_change_facts.json"
+    ],
+    "O10": [
+      "records/R10_design_profile.json"
+    ],
+    "O11": [
+      "records/R11_formula_registry.json",
+      "records/R11_result.json"
+    ],
+    "O12": [
+      "records/R11_result.json",
+      "records/R12_consumer.json"
+    ],
+    "O13": [
+      "records/R13.json",
+      "records/R13_task_universe.json"
+    ],
+    "O14": [
+      "records/R14.json",
+      "records/R14_wait_receipt.json",
+      "records/R13_task_universe.json"
+    ],
+    "O15": [
+      "records/R15_claims.json",
+      "records/R15_edges.json",
+      "records/R11_result.json"
+    ],
+    "O16": [
+      "records/R16.json",
+      "records/R16_limitations.json"
+    ]
+  },
+  "clauses": [
+    {
+      "clause_id": "O01.syntax",
+      "obligation_id": "O01",
+      "level": 0,
+      "meaning": "Strict UTF8/JSON duplicate-key, nonfinite, bounded tree admission for every present JSON file. Syntax admits finite floating tokens; types does not."
+    },
+    {
+      "clause_id": "O01.types",
+      "obligation_id": "O01",
+      "level": 1,
+      "meaning": "Every present parsed file satisfies fixed typed schema, bounded integers, exact rational domains. Missing file is not malformed present evidence."
+    },
+    {
+      "clause_id": "O01.semantic_digest",
+      "obligation_id": "O01",
+      "level": 3,
+      "meaning": "R01 domain=canonical-json-v1, algorithm=sha256 andvalue equals canonical semantic_payload object SHA256; missing either premiseU."
+    },
+    {
+      "clause_id": "O02.inventory",
+      "obligation_id": "O02",
+      "level": 3,
+      "meaning": "Inventory exactly equals all actual safe regular relative files except inventory itself, rawbytes andSHA; exact required membership plus only frozenoptional notes. MissinginventoryU; readable closure withmissingrequiredV."
+    },
+    {
+      "clause_id": "O03.local",
+      "obligation_id": "O03",
+      "level": 2,
+      "meaning": "Declared executable keys subset config_id/method/strict; requiredvalue types fromprofile; actual/effective supported method, config_id nonempty, strictboolean."
+    },
+    {
+      "clause_id": "O03.resolution",
+      "obligation_id": "O03",
+      "level": 4,
+      "meaning": "Resolve omitted declaredkeys fromworkflow defaults; compare exactresolved toseparateeffectiveand executed records."
+    },
+    {
+      "clause_id": "O04.source",
+      "obligation_id": "O04",
+      "level": 3,
+      "meaning": "Actual source/producer.txt rawhash equals executed_source andindependent expectedanchor; expectedanchor alsoequalfixedprofilesource/runtime. Workspacepath documentaryrelocation ignored."
+    },
+    {
+      "clause_id": "O05.local",
+      "obligation_id": "O05",
+      "level": 2,
+      "meaning": "Data/state stableIDs individually unique; flagsproducer_authenticatedandinitial_pairing_verified mustfalse; repeatedIDsV."
+    },
+    {
+      "clause_id": "O05.alignment",
+      "obligation_id": "O05",
+      "level": 3,
+      "meaning": "Data andstate physicalIDsequences exactlyequal andequal receiptsequences. Values/states maystillbe checked bystableID independentlyofphysicalpermutation."
+    },
+    {
+      "clause_id": "O06.local",
+      "obligation_id": "O06",
+      "level": 2,
+      "meaning": "Populationnames unique; IDsunique; positionsdistinct nonnegativeints; equalarraylengths."
+    },
+    {
+      "clause_id": "O06.membership",
+      "obligation_id": "O06",
+      "level": 4,
+      "meaning": "Recompute eligible stableIDsets from data+states; exact populationIDs/supports; enumeration unrestrictedbut eachposition mapsitsID tophysicaldatarow. Unknownstate orambiguousIDs makesmembershipU. W1 observed state AND readiness in approved categories selects rows; known excluded states remain excluded despite a nonnull physical value. Unknown state semantics yields U. W2staff_availableandturnover_availableuseinputavailability; imputation=staffmissingandturnoveravailable."
+    },
+    {
+      "clause_id": "O07.domain",
+      "obligation_id": "O07",
+      "level": 2,
+      "meaning": "Every W1state token in fixedresponsevocabulary, eachW1nonnullreadiness infixedcategoryorder; W2inputavailability andchangetokens supported. Unknown tokenV."
+    },
+    {
+      "clause_id": "O07.coherence",
+      "obligation_id": "O07",
+      "level": 4,
+      "meaning": "W1observed iff physicalvalue nonnull; allnonobservedstates require null. W2availabilitymatchesoriginalnullness; staffmissing withnonnulloutput mustimputed, available unchangedvalue mustunchanged, changednonnulloutput edited; missinguncomputable outputundefined. Other.rev change-kind describes actual relation: missing input/non-null output imputed, available/equal output unchanged, available/unequal output edited; arithmetic is separate. No arithmetic imputation verification here; O11owns it. Duplicate IDs makekeyed relationU. Unknown state vocabulary leaves coherence U with states-file /rows witness, while domain clause V remains decisive."
+    },
+    {
+      "clause_id": "O08.policy",
+      "obligation_id": "O08",
+      "level": 2,
+      "meaning": "W1categoryorder exactlyfixed; displaycodekeys equalcategories, codes strictlyincreasing; allows_arithmetic_mean mustfalse (despitepossibledocumentarywrongactualmethod). W2allow_staff_imputationandinput_and_change_states_separate musttrue ifexecuted_staff_imputationtrue."
+    },
+    {
+      "clause_id": "O09.local",
+      "obligation_id": "O09",
+      "level": 2,
+      "meaning": "Target andactualmethod supported byworkflow; representation either counts_and_denominator/exact_proportions forW1 orseparate_supports/explicit_ratio forW2; populationIDs exactrequiredset."
+    },
+    {
+      "clause_id": "O09.target_method",
+      "obligation_id": "O09",
+      "level": 4,
+      "meaning": "actual_method musttarget_method. RequiresR06materialisationandstates files readable/typed, and declared populationIDs match materialisation names; unknown semantic state tokens or duplicate data IDs do not by themselves prevent this scoped relation. Does not repeat R06 positions or eligibility; no blanket upstream-pass dependency."
+    },
+    {
+      "clause_id": "O10.support",
+      "obligation_id": "O10",
+      "level": 2,
+      "meaning": "supported_operations exactlyfixed list; requested_operation member; population_generalisationandcausal_claim false. Optionalunusedclusterlabelignored."
+    },
+    {
+      "clause_id": "O11.arithmetic",
+      "obligation_id": "O11",
+      "level": 2,
+      "meaning": "Result.status must COMPLETE. Recompute exactvalues fromself-contained result.operands. W1counts allfixedcategories, denominator=len(selected_labels), exactproportions; optionalmean_code onlyforordinal_mean, usesretainedcodes. W2availablemeanstaff andturnover, cleanother zero-fillthenabs, androwturnover/total.rev ratios. Check optionaldisplays viaexact6HALF_EVEN. These operands are retainedwitnesses, notauthenticatedexecutionandnotanundeclared linkage toeverydatafile."
+    },
+    {
+      "clause_id": "O11.formula_binding",
+      "obligation_id": "O11",
+      "level": 4,
+      "meaning": "registryformula_version fixed andregistry.method=result.method supported. W1methoddependentmean_code consistent; W2ratio=ratioofseparatemeans ormeanofcompletecaseratios accordingtoactualresultmethod; staffoutput usesratio fororiginalmissingstaff withavailableturnover, elseoriginalavailablevalue or typedundefined. Divisionbyzero/emptysupport explicit typedundefined. Formula registry missingU eveniflocalarithmeticdecidable."
+    },
+    {
+      "clause_id": "O12.consumer",
+      "obligation_id": "O12",
+      "level": 3,
+      "meaning": "Consumer result_id/status/values and optionaldisplays equal authoritative result; rationalsemanticequality, dictionaryorderignored. No independentrecomputation; consistentlypropagatedwrongarithmeticcanS."
+    },
+    {
+      "clause_id": "O13.local",
+      "obligation_id": "O13",
+      "level": 2,
+      "meaning": "TaskIDsunique andstatusesfixed; tasksarray orobjectnormalized; counts exactlystatuses, attempted=SUCCEEDED+FAILED and includesfailures."
+    },
+    {
+      "clause_id": "O13.universe",
+      "obligation_id": "O13",
+      "level": 3,
+      "meaning": "UniverseuniqueIDs equalsrecordedtaskIDs exactly; unattempted retained, no filtering."
+    },
+    {
+      "clause_id": "O14.local",
+      "obligation_id": "O14",
+      "level": 2,
+      "meaning": "Read R14 only: claimed_terminal_status must SUCCEEDED or FAILED and claimed_closed is Boolean. Wait and universe are lifecycle premises."
+    },
+    {
+      "clause_id": "O14.lifecycle",
+      "obligation_id": "O14",
+      "level": 3,
+      "meaning": "Claimedtask andwaittask identical member offrozenuniverse. exit0+result_present+guard_closed =>SUCCEEDED andclosed true; otherretainedterminalexit =>FAILED, claimed_closed equalsguard_closed andmustfalse unlesssuccessfulclosure. internal_cause UNKNOWN allowed; nooutputmeansnot success."
+    },
+    {
+      "clause_id": "O15.local",
+      "obligation_id": "O15",
+      "level": 2,
+      "meaning": "UniqueclaimIDs; nonemptyfinite source pointers or aliases; scalar/rational values withunit,denominator,scope; edge result_id matchesresult."
+    },
+    {
+      "clause_id": "O15.claim_source",
+      "obligation_id": "O15",
+      "level": 4,
+      "meaning": "Resolve direct pointers or exactly one literal alias:NAME using the exact NAME suffix key in aliases, whose selected value must be a direct pointer. Apply ALIAS_GRAMMAR_V1.json exactly; compare value and field_metadata at the resolved pointer. Unresolved, malformed or recursive references are V. Existing missing-premise U guards remain. No natural-language entailment."
+    },
+    {
+      "clause_id": "O16.scope",
+      "obligation_id": "O16",
+      "level": 2,
+      "meaning": "R16 flagsproducer_authenticated,initial_pairing_verified,scientific_validity_certified,programme_complete false andequalindependentlimitations; historical_P1 FAIL_CLOSED andscope consistency_within_declared_profile. Truthfulpartialexecutionadmittedwithinthisscope."
+    }
+  ],
+  "canonicalisation": "UTF8 JSON sorted objectkeys, separators comma/colon, ensure_ascii=False, no terminalLF; integers/booleans/null exact; no float in admitted typedpayload. semantic_payload keyorder/whitespace harmless, rawinventory bytes separate. Not RFC8785.",
+  "inventory": "All regular safe relative filesexcept inventory.json sortedbypath. Entries exactlypath,bytes,sha256. Requiredpathsfromprofile, optionalnotes/README.txt. No symlink, traversal, absolutenames, duplicateorunexpectedmembers. Missinginventory=U.",
+  "diagnostics": {
+    "required_fields": [
+      "obligation_id",
+      "predicate_instance_id",
+      "kind",
+      "node_id",
+      "edge_id",
+      "path",
+      "json_pointer",
+      "reason_code",
+      "observed",
+      "expected",
+      "numerical_policy"
+    ],
+    "kinds": [
+      "DIRECT_VIOLATION",
+      "DEPENDENCY_U",
+      "NOT_EVALUATED_BY_ABLATION",
+      "SATISFIED"
+    ],
+    "direct": "Use registered direct_locators[obligation]. Exception O01syntax/types admission: node_id=FILE:+offendingrelativepath,edge_id=null,path=offendingrelativepath,json_pointer actual rejected token/duplicated key or missing/ill-typed field pointer. Whole-file emptystring only for invalid UTF8 or truly unlocalisable malformed syntax. Precise admission witnesses remain mandatory where derivable.",
+    "unknown": "Each unavailable localpremise emitsDEPENDENCY_U withnode_id=FILE:+premisepath,edge_id=null,path=premisepath,json_pointer emptystring. AmbiguousstableIDorunknownsemanticstate instead namesactualdata/rows.json ordata/states_or_change_facts.json withjson_pointer=/rows; node_id=FILE:+path. Predicateinstance remains affectedobligation. Additional unknownclause diagnostic allowed evenifaggregateobligationV; clause_id optional.",
+    "omission": "NOT_EVALUATED_BY_ABLATION withobligation/predicateinstance, node/edge/path/pointer null andomittedclause_idorclause_id identifying omittedclause. Thisisnotanevidenceallegation.",
+    "scope": "Exact registered object/array/field witness conformance, notautomaticchanged-leaf discovery orcausalrootcause. Token-level syntax/type locators retained where available; oldv1FAIL retained as chat history. Object/array locators for declared semantic relations are identified explicitly and do not imply leaf discovery."
+  },
+  "global_admission": "Runstrictsyntaxandtypes oneverypresentJSON; anyfailedadmission makesO01V. Locallyowningobligations getU forunreadable/untypedevidence exceptindependentlyreadabledecisiveclauses. Missingfiles alone arenotO01V. MissingR01orsemanticpayloadmakesO01semantic_digestU. Boundedtypevalidationpreserves unknownenumtokensfortheownsemanticobligation; unsupportedconfigkeysbelongO03V notglobalO01 iftheirdeclaredmapvaluesremaincorrecttyped.",
+  "undefined": {
+    "missing_turnover": {
+      "status": "UNDEFINED",
+      "reason": "MISSING_TURNOVER"
+    },
+    "zero_denominator": {
+      "status": "UNDEFINED",
+      "reason": "ZERO_DENOMINATOR"
+    },
+    "empty_support": {
+      "status": "UNDEFINED",
+      "reason": "EMPTY_SUPPORT"
+    },
+    "missing_input": {
+      "status": "UNDEFINED",
+      "reason": "MISSING_INPUT"
+    }
+  },
+  "displays": "Optional result.displays mapsJSONpointers relative toresult.values (e.g./proportions/Not ready at all or/ratio) tostringexact6places; reference mustresolve torational. Consumerdisplays copiedexactly. Undefinedvalues have nofinitedisplay.",
+  "W1_arithmetic": "counts all5categories fromselected_labels. Proportionscount/denominator, undefinedEMPTY_SUPPORT ifdenominator0. ordinal_mean addsmean_code usingdisplay_codes; category_distribution hasnomean_code. Bothmethods mayretaincounts/proportions; wrongtargetmethod caughtO09.",
+  "W2_arithmetic": "mean_staff/mean_turnover fromseparatenonnullsupports. ratio_of_means dividesmeans; mean_of_ratios averagesstaff/turnover overrowswithbothnonnullandturnovernonzero. Ifundefineddenominatorfollow explicitreason. staff_output availableoriginalasrational; missingstaff andusableturnover multipliesratio; otherwisemissing_input. other_rev_output null->0 thenabs. turnover_ratio missingturnover UNDEFINED/MISSING_TURNOVER else divisionbytotal.rev withmissing=>MISSING_INPUT orzero=>ZERO_DENOMINATOR. Retainedrationalcomponentsbounded; internalexactderivedreferencescanexceedboundswithoutbecomingexception.",
+  "source_anchor": "Synthetic documentary source/producer.txt literal, notexecuted; profilepinsrawSHA/runtime. No claimsofproducer authentication.",
+  "path_alias_amendment": "P3 recipes naming records/R06.json andrecords/R10.json are concretely bound to R06_materialisation.json andR10_design_profile.json, the same requiredmembers namedbyP3missingrecipes. Allnormativevectorsunchanged.",
+  "no_runtime_labels": "Casekind/gold/recipe absentpayload; evaluatorannotations separate. No candidateaccess to04_oracle or03_cases manifests.",
+  "header_constraints": {
+    "bundle.schema": "nsc-p4-evidence/2",
+    "bundle.profile_id": "NSC-P5-CORE-1",
+    "bundle.workflow": [
+      "W1",
+      "W2"
+    ],
+    "admission": "Header mismatch is O01 types V at the exact offending/missing field pointer."
+  },
+  "clarifications": [
+    "O09 target is the same method identifier as profile.target_method. R11.status must be COMPLETE under O11 arithmetic.",
+    "O14.local reads R14 only: claimed_terminal_status is SUCCEEDED or FAILED; claimed_closed is a Boolean. Waiting records and universe are lifecycle premises only.",
+    "W1 O06 eligibility is observed AND readiness is in the approved category list; unknown state semantics give U. A known excluded state remains excluded even if the physical value contradicts its state.",
+    "O07 unknown vocabulary token yields domain V and coherence U with the actual states file /rows witness; do not interpret an unknown token as known non-observed.",
+    "O09 requires readable typed states and materialisation plus matching declared population names; unknown state token and duplicated data IDs alone do not block the independent target-method relation.",
+    "O01 syntax/type diagnostics precisely locate duplicated keys, nonfinite tokens and missing or ill-typed fields; only truly unlocalisable syntax/UTF8 failures use whole-file pointer.",
+    "O07 other_rev_change describes actual input/output equality: missing input with nonnull output is imputed; available equal output is unchanged; available unequal output is edited. Exact numeric equality treats original integer as an exact rational reference. O11 independently checks prescribed zero-fill/absolute-value arithmetic from retained result operands."
+  ],
+  "O15_alias_grammar": {
+    "schema": "nsc-o15-alias-grammar/1",
+    "version": "NSC-O15-ALIAS-1",
+    "status": "CURRENT_VERSIONED_GRAMMAR_WITH_DISCLOSED_CLARIFICATIONS",
+    "profile_id": "NSC-P5-CORE-1",
+    "source_pointer": {
+      "direct": "A nonempty Unicode string beginning with /. It identifies a value within the retained R11_result object.",
+      "alias": "The literal case-sensitive prefix alias: followed by a nonempty NAME. NAME is exactly the remaining string; no trimming, Unicode normalisation or recursive prefix removal is performed.",
+      "unsupported": "A bare name, empty string, empty alias: token, URI or fragment identifier is not an admitted reference."
+    },
+    "lookup": {
+      "prefix": "alias:",
+      "name_key": "For source_pointer alias:NAME, look up the exact NAME key in R15_edges.aliases. The prefix is not part of this lookup key.",
+      "one_hop": "The selected map value must be a direct nonempty JSON pointer. A second alias, including a chain or cycle, is rejected.",
+      "names": "Any nonempty admitted Unicode NAME is allowed. It may contain punctuation, whitespace or the text alias:. This does not trigger recursion.",
+      "unused": "Only entries referenced by a claim participate in O15.claim_source. Unused alias entries retain the existing typed string-map admission; they are not recursively traversed."
+    },
+    "pointer": {
+      "escape": "Split after the initial / into tokens; decode ~1 as / and ~0 as ~ once. Every ~ must be followed by 0 or 1. Empty object-key tokens are allowed.",
+      "object": "Use exact Unicode object-key equality.",
+      "array": "Use canonical nonnegative ASCII decimal indices matching exactly 0|[1-9][0-9]*, with digits U+0030 through U+0039 only. Leading zeros, negative indices, Unicode numeral lookalikes, the append token - and out-of-range indices do not designate a retained value.",
+      "scalar": "Traversal beyond a scalar or missing member does not designate a value.",
+      "root": "The empty root pointer remains excluded because the pre-existing O15 profile requires a nonempty field pointer."
+    },
+    "metadata": "The resolved pointer, not the alias token, selects field_metadata. The claim value must equal the designated retained value under active C00-C03 semantics; unit, denominator and scope must equal that field_metadata entry exactly.",
+    "errors": "An admitted, typed unresolved or malformed reference is O15 V with the existing registered O15 witness. The pre-existing global admission rule is unchanged: an empty or ill-typed source_pointer or selected map string is O01 V, and unavailable typed premises produce O15 U unless a separate admitted local contradiction is decisive. Missing required R15/R11 evidence retains existing U prerequisite semantics. This amendment does not invent producer authentication or natural-language entailment.",
+    "boundary": "This new P5 grammar resolves CF15 prospectively. Frozen P4 gold, source, results and 98/100 conformance scores remain unchanged. All other16-obligation clause and numeric semantics are retained.",
+    "clause_scope": "All reference parsing, alias lookup, pointer traversal and value/metadata comparison belong to existing O15.claim_source (level4). O15.local (level2) retains its pre-existing local nonempty-reference and identity checks; this version does not promote these relational grammar checks into an ablation-covered local clause.",
+    "qualification_chronology": {
+      "initial_grammar": "Declared before independent P5 alias-suite outcomes and before the repaired-source qualifications.",
+      "ASCII_clarification_R001": "Prospective source review made decimal array indices explicitly ASCII before final qualification.",
+      "admission_clarification_R002": "After own-author fixture expectation failures, before independent alias-suite execution: retained existing nonempty-string admission O01V/ownerU precedence. No candidate semantic relaxation or P4 relabelling.",
+      "boundary": "P5 tests are post-P4 development/regression checks, not a blinded benchmark. Failed probes and prior grammar versions remain retained."
+    }
+  }
+}

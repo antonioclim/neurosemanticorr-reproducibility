@@ -1,0 +1,177 @@
+{
+  "schema": "nsc-p4-neutral-ablation-clauses/2",
+  "clauses": [
+    {
+      "clause_id": "O01.syntax",
+      "obligation_id": "O01",
+      "level": 0,
+      "meaning": "Strict UTF8/JSON duplicate-key, nonfinite, bounded tree admission for every present JSON file. Syntax admits finite floating tokens; types does not."
+    },
+    {
+      "clause_id": "O01.types",
+      "obligation_id": "O01",
+      "level": 1,
+      "meaning": "Every present parsed file satisfies fixed typed schema, bounded integers, exact rational domains. Missing file is not malformed present evidence."
+    },
+    {
+      "clause_id": "O01.semantic_digest",
+      "obligation_id": "O01",
+      "level": 3,
+      "meaning": "R01 domain=canonical-json-v1, algorithm=sha256 andvalue equals canonical semantic_payload object SHA256; missing either premiseU."
+    },
+    {
+      "clause_id": "O02.inventory",
+      "obligation_id": "O02",
+      "level": 3,
+      "meaning": "Inventory exactly equals all actual safe regular relative files except inventory itself, rawbytes andSHA; exact required membership plus only frozenoptional notes. MissinginventoryU; readable closure withmissingrequiredV."
+    },
+    {
+      "clause_id": "O03.local",
+      "obligation_id": "O03",
+      "level": 2,
+      "meaning": "Declared executable keys subset config_id/method/strict; requiredvalue types fromprofile; actual/effective supported method, config_id nonempty, strictboolean."
+    },
+    {
+      "clause_id": "O03.resolution",
+      "obligation_id": "O03",
+      "level": 4,
+      "meaning": "Resolve omitted declaredkeys fromworkflow defaults; compare exactresolved toseparateeffectiveand executed records."
+    },
+    {
+      "clause_id": "O04.source",
+      "obligation_id": "O04",
+      "level": 3,
+      "meaning": "Actual source/producer.txt rawhash equals executed_source andindependent expectedanchor; expectedanchor alsoequalfixedprofilesource/runtime. Workspacepath documentaryrelocation ignored."
+    },
+    {
+      "clause_id": "O05.local",
+      "obligation_id": "O05",
+      "level": 2,
+      "meaning": "Data/state stableIDs individually unique; flagsproducer_authenticatedandinitial_pairing_verified mustfalse; repeatedIDsV."
+    },
+    {
+      "clause_id": "O05.alignment",
+      "obligation_id": "O05",
+      "level": 3,
+      "meaning": "Data andstate physicalIDsequences exactlyequal andequal receiptsequences. Values/states maystillbe checked bystableID independentlyofphysicalpermutation."
+    },
+    {
+      "clause_id": "O06.local",
+      "obligation_id": "O06",
+      "level": 2,
+      "meaning": "Populationnames unique; IDsunique; positionsdistinct nonnegativeints; equalarraylengths."
+    },
+    {
+      "clause_id": "O06.membership",
+      "obligation_id": "O06",
+      "level": 4,
+      "meaning": "Recompute eligible stableIDsets from data+states; exact populationIDs/supports; enumeration unrestrictedbut eachposition mapsitsID tophysicaldatarow. Unknownstate orambiguousIDs makesmembershipU. W1 observed state AND readiness in approved categories selects rows; known excluded states remain excluded despite a nonnull physical value. Unknown state semantics yields U. W2staff_availableandturnover_availableuseinputavailability; imputation=staffmissingandturnoveravailable."
+    },
+    {
+      "clause_id": "O07.domain",
+      "obligation_id": "O07",
+      "level": 2,
+      "meaning": "Every W1state token in fixedresponsevocabulary, eachW1nonnullreadiness infixedcategoryorder; W2inputavailability andchangetokens supported. Unknown tokenV."
+    },
+    {
+      "clause_id": "O07.coherence",
+      "obligation_id": "O07",
+      "level": 4,
+      "meaning": "W1observed iff physicalvalue nonnull; allnonobservedstates require null. W2availabilitymatchesoriginalnullness; staffmissing withnonnulloutput mustimputed, available unchangedvalue mustunchanged, changednonnulloutput edited; missinguncomputable outputundefined. Other.rev change-kind describes actual relation: missing input/non-null output imputed, available/equal output unchanged, available/unequal output edited; arithmetic is separate. No arithmetic imputation verification here; O11owns it. Duplicate IDs makekeyed relationU. Unknown state vocabulary leaves coherence U with states-file /rows witness, while domain clause V remains decisive."
+    },
+    {
+      "clause_id": "O08.policy",
+      "obligation_id": "O08",
+      "level": 2,
+      "meaning": "W1categoryorder exactlyfixed; displaycodekeys equalcategories, codes strictlyincreasing; allows_arithmetic_mean mustfalse (despitepossibledocumentarywrongactualmethod). W2allow_staff_imputationandinput_and_change_states_separate musttrue ifexecuted_staff_imputationtrue."
+    },
+    {
+      "clause_id": "O09.local",
+      "obligation_id": "O09",
+      "level": 2,
+      "meaning": "Target andactualmethod supported byworkflow; representation either counts_and_denominator/exact_proportions forW1 orseparate_supports/explicit_ratio forW2; populationIDs exactrequiredset."
+    },
+    {
+      "clause_id": "O09.target_method",
+      "obligation_id": "O09",
+      "level": 4,
+      "meaning": "actual_method musttarget_method. RequiresR06materialisationandstates files readable/typed, and declared populationIDs match materialisation names; unknown semantic state tokens or duplicate data IDs do not by themselves prevent this scoped relation. Does not repeat R06 positions or eligibility; no blanket upstream-pass dependency."
+    },
+    {
+      "clause_id": "O10.support",
+      "obligation_id": "O10",
+      "level": 2,
+      "meaning": "supported_operations exactlyfixed list; requested_operation member; population_generalisationandcausal_claim false. Optionalunusedclusterlabelignored."
+    },
+    {
+      "clause_id": "O11.arithmetic",
+      "obligation_id": "O11",
+      "level": 2,
+      "meaning": "Result.status must COMPLETE. Recompute exactvalues fromself-contained result.operands. W1counts allfixedcategories, denominator=len(selected_labels), exactproportions; optionalmean_code onlyforordinal_mean, usesretainedcodes. W2availablemeanstaff andturnover, cleanother zero-fillthenabs, androwturnover/total.rev ratios. Check optionaldisplays viaexact6HALF_EVEN. These operands are retainedwitnesses, notauthenticatedexecutionandnotanundeclared linkage toeverydatafile."
+    },
+    {
+      "clause_id": "O11.formula_binding",
+      "obligation_id": "O11",
+      "level": 4,
+      "meaning": "registryformula_version fixed andregistry.method=result.method supported. W1methoddependentmean_code consistent; W2ratio=ratioofseparatemeans ormeanofcompletecaseratios accordingtoactualresultmethod; staffoutput usesratio fororiginalmissingstaff withavailableturnover, elseoriginalavailablevalue or typedundefined. Divisionbyzero/emptysupport explicit typedundefined. Formula registry missingU eveniflocalarithmeticdecidable."
+    },
+    {
+      "clause_id": "O12.consumer",
+      "obligation_id": "O12",
+      "level": 3,
+      "meaning": "Consumer result_id/status/values and optionaldisplays equal authoritative result; rationalsemanticequality, dictionaryorderignored. No independentrecomputation; consistentlypropagatedwrongarithmeticcanS."
+    },
+    {
+      "clause_id": "O13.local",
+      "obligation_id": "O13",
+      "level": 2,
+      "meaning": "TaskIDsunique andstatusesfixed; tasksarray orobjectnormalized; counts exactlystatuses, attempted=SUCCEEDED+FAILED and includesfailures."
+    },
+    {
+      "clause_id": "O13.universe",
+      "obligation_id": "O13",
+      "level": 3,
+      "meaning": "UniverseuniqueIDs equalsrecordedtaskIDs exactly; unattempted retained, no filtering."
+    },
+    {
+      "clause_id": "O14.local",
+      "obligation_id": "O14",
+      "level": 2,
+      "meaning": "Read R14 only: claimed_terminal_status must SUCCEEDED or FAILED and claimed_closed is Boolean. Wait and universe are lifecycle premises."
+    },
+    {
+      "clause_id": "O14.lifecycle",
+      "obligation_id": "O14",
+      "level": 3,
+      "meaning": "Claimedtask andwaittask identical member offrozenuniverse. exit0+result_present+guard_closed =>SUCCEEDED andclosed true; otherretainedterminalexit =>FAILED, claimed_closed equalsguard_closed andmustfalse unlesssuccessfulclosure. internal_cause UNKNOWN allowed; nooutputmeansnot success."
+    },
+    {
+      "clause_id": "O15.local",
+      "obligation_id": "O15",
+      "level": 2,
+      "meaning": "UniqueclaimIDs; nonemptyfinite source pointers or aliases; scalar/rational values withunit,denominator,scope; edge result_id matchesresult."
+    },
+    {
+      "clause_id": "O15.claim_source",
+      "obligation_id": "O15",
+      "level": 4,
+      "meaning": "Resolve atmostone explicit alias toJSONpointer within R11_result. Claimed value equals designatedvalue andmetadataunit/denominator/scope equal field_metadata entry. UnresolvedaliasV. No natural-languageentailment."
+    },
+    {
+      "clause_id": "O16.scope",
+      "obligation_id": "O16",
+      "level": 2,
+      "meaning": "R16 flagsproducer_authenticated,initial_pairing_verified,scientific_validity_certified,programme_complete false andequalindependentlimitations; historical_P1 FAIL_CLOSED andscope consistency_within_declared_profile. Truthfulpartialexecutionadmittedwithinthisscope."
+    }
+  ],
+  "levels": {
+    "A0_SYNTAX": 0,
+    "A1_STRUCTURE": 1,
+    "A2_LOCAL": 2,
+    "A3_PROVENANCE": 3,
+    "T_FULL": 4,
+    "B_ASSERT": 4
+  },
+  "aggregation": "PerclauseV ifdecisivefinitecontradiction, U ifpremiseunavailable, S otherwise. ObligationV ifanycoveredclauseV; elseU ifanyclauseU oromitted; elseS. Coverage_mask true iffALLmandatoryclausescovered, regardlesspremiseavailability. Everyomittedclause needsNOT_EVALUATED_BY_ABLATION. FullaggregateREJECTifanyV; elseINDETERMINATEifanyU; elseALLOW_WITHIN_SCOPE. Freshall16active; NAforbidden.",
+  "count": 27
+}

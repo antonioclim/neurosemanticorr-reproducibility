@@ -1,0 +1,35 @@
+{
+  "schema": "nsc-o15-alias-grammar/1",
+  "version": "NSC-O15-ALIAS-1",
+  "status": "CURRENT_VERSIONED_GRAMMAR_WITH_DISCLOSED_CLARIFICATIONS",
+  "profile_id": "NSC-P5-CORE-1",
+  "source_pointer": {
+    "direct": "A nonempty Unicode string beginning with /. It identifies a value within the retained R11_result object.",
+    "alias": "The literal case-sensitive prefix alias: followed by a nonempty NAME. NAME is exactly the remaining string; no trimming, Unicode normalisation or recursive prefix removal is performed.",
+    "unsupported": "A bare name, empty string, empty alias: token, URI or fragment identifier is not an admitted reference."
+  },
+  "lookup": {
+    "prefix": "alias:",
+    "name_key": "For source_pointer alias:NAME, look up the exact NAME key in R15_edges.aliases. The prefix is not part of this lookup key.",
+    "one_hop": "The selected map value must be a direct nonempty JSON pointer. A second alias, including a chain or cycle, is rejected.",
+    "names": "Any nonempty admitted Unicode NAME is allowed. It may contain punctuation, whitespace or the text alias:. This does not trigger recursion.",
+    "unused": "Only entries referenced by a claim participate in O15.claim_source. Unused alias entries retain the existing typed string-map admission; they are not recursively traversed."
+  },
+  "pointer": {
+    "escape": "Split after the initial / into tokens; decode ~1 as / and ~0 as ~ once. Every ~ must be followed by 0 or 1. Empty object-key tokens are allowed.",
+    "object": "Use exact Unicode object-key equality.",
+    "array": "Use canonical nonnegative ASCII decimal indices matching exactly 0|[1-9][0-9]*, with digits U+0030 through U+0039 only. Leading zeros, negative indices, Unicode numeral lookalikes, the append token - and out-of-range indices do not designate a retained value.",
+    "scalar": "Traversal beyond a scalar or missing member does not designate a value.",
+    "root": "The empty root pointer remains excluded because the pre-existing O15 profile requires a nonempty field pointer."
+  },
+  "metadata": "The resolved pointer, not the alias token, selects field_metadata. The claim value must equal the designated retained value under active C00-C03 semantics; unit, denominator and scope must equal that field_metadata entry exactly.",
+  "errors": "An admitted, typed unresolved or malformed reference is O15 V with the existing registered O15 witness. The pre-existing global admission rule is unchanged: an empty or ill-typed source_pointer or selected map string is O01 V, and unavailable typed premises produce O15 U unless a separate admitted local contradiction is decisive. Missing required R15/R11 evidence retains existing U prerequisite semantics. This amendment does not invent producer authentication or natural-language entailment.",
+  "boundary": "This new P5 grammar resolves CF15 prospectively. Frozen P4 gold, source, results and 98/100 conformance scores remain unchanged. All other16-obligation clause and numeric semantics are retained.",
+  "clause_scope": "All reference parsing, alias lookup, pointer traversal and value/metadata comparison belong to existing O15.claim_source (level4). O15.local (level2) retains its pre-existing local nonempty-reference and identity checks; this version does not promote these relational grammar checks into an ablation-covered local clause.",
+  "qualification_chronology": {
+    "initial_grammar": "Declared before independent P5 alias-suite outcomes and before the repaired-source qualifications.",
+    "ASCII_clarification_R001": "Prospective source review made decimal array indices explicitly ASCII before final qualification.",
+    "admission_clarification_R002": "After own-author fixture expectation failures, before independent alias-suite execution: retained existing nonempty-string admission O01V/ownerU precedence. No candidate semantic relaxation or P4 relabelling.",
+    "boundary": "P5 tests are post-P4 development/regression checks, not a blinded benchmark. Failed probes and prior grammar versions remain retained."
+  }
+}

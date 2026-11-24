@@ -1,0 +1,136 @@
+{
+  "schema": "neurosemanticorr-r4-f2-fixture-lock/1",
+  "scope": "O15 unit fixtures and manually derived expectations, before evaluation",
+  "n_cases": 10,
+  "n_record_files": 29,
+  "files": {
+    "EXPECTED.json": {
+      "nbytes": 5513,
+      "sha256": "3fa7bd97954ce73bd54819140758e04ea1548b11803f1886fca020aaf11ccdcc"
+    },
+    "FIXTURE_DESIGN.md": {
+      "nbytes": 5219,
+      "sha256": "672f4971d8286eb44c46eb3f511404620a52c768a0d84a4aac49470f0a2c82b4"
+    },
+    "build_fixtures.py": {
+      "nbytes": 7285,
+      "sha256": "6e39e3c42fbf204a9ee3fd8049aa696777d8eb1e07fac6ae511ff412ea765222"
+    },
+    "dockets/F2-CONTEXT-SUFFIX/records/R11_result.json": {
+      "nbytes": 187,
+      "sha256": "5580064e74d7ae93c8ddb595aa7dfcaa52e12ba0713ccf0f68efd37545753dd6"
+    },
+    "dockets/F2-CONTEXT-SUFFIX/records/R15_claims.json": {
+      "nbytes": 196,
+      "sha256": "d0679baf6518e790491e8569f30cdbd99dd5c85adcd955f2d887658bae7b994f"
+    },
+    "dockets/F2-CONTEXT-SUFFIX/records/R15_edges.json": {
+      "nbytes": 403,
+      "sha256": "2d0f8ba072b85f72d33530289c797b0b20a98e9fccdee4e16b08c1e0028575e5"
+    },
+    "dockets/F2-IDENTITY-CORRECT/records/R11_result.json": {
+      "nbytes": 85,
+      "sha256": "50ec68f575de4dd1c3bab4a68a3b665f96a84373c6488fabb44e409c9b6567dd"
+    },
+    "dockets/F2-IDENTITY-CORRECT/records/R15_claims.json": {
+      "nbytes": 192,
+      "sha256": "a6c702f2ef00973ff189384637c2ea547fd7b28bb5476d2bbc8f6ff6841aa41d"
+    },
+    "dockets/F2-IDENTITY-CORRECT/records/R15_edges.json": {
+      "nbytes": 284,
+      "sha256": "5fc75c840589df3ca1d5f59c3de6a13dcbe5001175a9fd1a59b50b8cbb902f30"
+    },
+    "dockets/F2-IDENTITY-WRONG-TARGET/records/R11_result.json": {
+      "nbytes": 85,
+      "sha256": "50ec68f575de4dd1c3bab4a68a3b665f96a84373c6488fabb44e409c9b6567dd"
+    },
+    "dockets/F2-IDENTITY-WRONG-TARGET/records/R15_claims.json": {
+      "nbytes": 191,
+      "sha256": "f10575ad2ff5b9af9d34cc49e07b430fb553bb48f900df1503f54a703025e756"
+    },
+    "dockets/F2-IDENTITY-WRONG-TARGET/records/R15_edges.json": {
+      "nbytes": 284,
+      "sha256": "5fc75c840589df3ca1d5f59c3de6a13dcbe5001175a9fd1a59b50b8cbb902f30"
+    },
+    "dockets/F2-MIRROR-LITERAL/records/R11_result.json": {
+      "nbytes": 187,
+      "sha256": "5580064e74d7ae93c8ddb595aa7dfcaa52e12ba0713ccf0f68efd37545753dd6"
+    },
+    "dockets/F2-MIRROR-LITERAL/records/R15_claims.json": {
+      "nbytes": 196,
+      "sha256": "d0679baf6518e790491e8569f30cdbd99dd5c85adcd955f2d887658bae7b994f"
+    },
+    "dockets/F2-MIRROR-LITERAL/records/R15_edges.json": {
+      "nbytes": 403,
+      "sha256": "2d0f8ba072b85f72d33530289c797b0b20a98e9fccdee4e16b08c1e0028575e5"
+    },
+    "dockets/F2-MIRROR-SUFFIX/records/R11_result.json": {
+      "nbytes": 187,
+      "sha256": "5580064e74d7ae93c8ddb595aa7dfcaa52e12ba0713ccf0f68efd37545753dd6"
+    },
+    "dockets/F2-MIRROR-SUFFIX/records/R15_claims.json": {
+      "nbytes": 256,
+      "sha256": "3593911adc34a18a0333426af70d7bad36da38e624414195129224cb6a569e96"
+    },
+    "dockets/F2-MIRROR-SUFFIX/records/R15_edges.json": {
+      "nbytes": 403,
+      "sha256": "2d0f8ba072b85f72d33530289c797b0b20a98e9fccdee4e16b08c1e0028575e5"
+    },
+    "dockets/F2-MISSING-RESULT/records/R15_claims.json": {
+      "nbytes": 195,
+      "sha256": "adfebb770609cd3b1fe7c6f8741ec05adb4480a075c152687f53e7c736cccd23"
+    },
+    "dockets/F2-MISSING-RESULT/records/R15_edges.json": {
+      "nbytes": 289,
+      "sha256": "d8e8cc907f395e9814a14f04bd6bd8a7d3294053756bc3d778fc2045a2582144"
+    },
+    "dockets/F2-RFC-ARRAY-INDEX/records/R11_result.json": {
+      "nbytes": 95,
+      "sha256": "39d8a43a66fd16eb709decd8aa26b02fdf40b85d031c6781e02166511542a963"
+    },
+    "dockets/F2-RFC-ARRAY-INDEX/records/R15_claims.json": {
+      "nbytes": 195,
+      "sha256": "adfebb770609cd3b1fe7c6f8741ec05adb4480a075c152687f53e7c736cccd23"
+    },
+    "dockets/F2-RFC-ARRAY-INDEX/records/R15_edges.json": {
+      "nbytes": 289,
+      "sha256": "d8e8cc907f395e9814a14f04bd6bd8a7d3294053756bc3d778fc2045a2582144"
+    },
+    "dockets/F2-RFC-ARRAY-PADDED/records/R11_result.json": {
+      "nbytes": 95,
+      "sha256": "39d8a43a66fd16eb709decd8aa26b02fdf40b85d031c6781e02166511542a963"
+    },
+    "dockets/F2-RFC-ARRAY-PADDED/records/R15_claims.json": {
+      "nbytes": 196,
+      "sha256": "519f65b72099789cbfd994aaa2916bd5bfc8f1cb7a0c1802dc9dfe4a3f0dcf0e"
+    },
+    "dockets/F2-RFC-ARRAY-PADDED/records/R15_edges.json": {
+      "nbytes": 289,
+      "sha256": "d8e8cc907f395e9814a14f04bd6bd8a7d3294053756bc3d778fc2045a2582144"
+    },
+    "dockets/F2-RFC-ESCAPE-ORDER/records/R11_result.json": {
+      "nbytes": 83,
+      "sha256": "dbada0bf629c761f562fa7ab291e929805bce40e9cc0e560217963d18f1d23e9"
+    },
+    "dockets/F2-RFC-ESCAPE-ORDER/records/R15_claims.json": {
+      "nbytes": 192,
+      "sha256": "a6c702f2ef00973ff189384637c2ea547fd7b28bb5476d2bbc8f6ff6841aa41d"
+    },
+    "dockets/F2-RFC-ESCAPE-ORDER/records/R15_edges.json": {
+      "nbytes": 282,
+      "sha256": "ee03cf65cd3fe9f476b3fa4e5bfc83f9bb2e7ceb634b6fd539ef9c5b07e131ce"
+    },
+    "dockets/F2-RFC-OBJECT-PADDED/records/R11_result.json": {
+      "nbytes": 92,
+      "sha256": "decef0a76430f27d13861aaccfd132a9b1eb827290b199d66666fadedd9d443c"
+    },
+    "dockets/F2-RFC-OBJECT-PADDED/records/R15_claims.json": {
+      "nbytes": 196,
+      "sha256": "519f65b72099789cbfd994aaa2916bd5bfc8f1cb7a0c1802dc9dfe4a3f0dcf0e"
+    },
+    "dockets/F2-RFC-OBJECT-PADDED/records/R15_edges.json": {
+      "nbytes": 290,
+      "sha256": "2b8945694dae634f5d8fb002187ca8bac64a29661d95074449ef0c4cc45c086a"
+    }
+  }
+}

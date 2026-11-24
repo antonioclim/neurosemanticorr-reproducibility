@@ -1,0 +1,49 @@
+SEMANTICorr (SEMCORR) — Restricted Internal Licence
+Version 1.0 (Internal)
+
+Copyright (c) 2026 Revolvix
+
+IMPORTANT: This software is provided under a restrictive licence for internal use. If you do not
+agree to these terms you must not use, copy, modify or distribute the software.
+
+1. Definitions
+   1.1 “Software” means the SEMANTICorr source code, documentation, configuration files and any
+       accompanying materials provided with this distribution.
+   1.2 “You” means the individual or legal entity exercising permissions granted by this licence.
+   1.3 “Internal Use” means use solely within Your organisation for research, evaluation and
+       operational purposes without redistribution to third parties.
+
+2. Grant of rights (Internal Use only)
+   Subject to the terms of this licence, You are granted a limited, non-exclusive, non-transferable,
+   revocable right to:
+   - use the Software for Internal Use
+   - make copies of the Software as reasonably required for Internal Use
+   - modify the Software for Internal Use, provided that any modified copies remain subject to this
+     licence and are not redistributed
+
+3. Restrictions
+   Unless You have explicit written permission from the copyright holder, You must not:
+   - distribute, publish, sublicense or sell the Software or any derivative work
+   - provide the Software to third parties, whether in source or binary form
+   - use the Software as part of a commercial SaaS offering
+   - remove or alter copyright notices in the Software
+
+4. Attribution
+   You must retain this licence text and all copyright notices in all copies and substantial portions
+   of the Software used for Internal Use.
+
+5. No warranty
+   THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+   INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+   PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE
+   FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+   OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+   DEALINGS IN THE SOFTWARE.
+
+6. Termination
+   This licence terminates automatically if You breach any term of this licence. Upon termination,
+   You must cease all use of the Software and destroy all copies in Your possession or control.
+
+7. Contact
+   For permissions beyond Internal Use, contact the copyright holder.
+

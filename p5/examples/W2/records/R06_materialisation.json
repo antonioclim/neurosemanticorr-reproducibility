@@ -1,0 +1,1 @@
+{"populations":[{"ids":["UNIT-L01","UNIT-L03"],"local_to_source_positions":[0,2],"population_id":"staff_available"},{"ids":["UNIT-L01","UNIT-L02"],"local_to_source_positions":[0,1],"population_id":"turnover_available"},{"ids":["UNIT-L02"],"local_to_source_positions":[1],"population_id":"staff_imputation"}]}
