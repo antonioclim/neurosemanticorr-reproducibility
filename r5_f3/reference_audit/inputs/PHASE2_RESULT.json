@@ -1,0 +1,999 @@
+{
+  "status": "PASS_LOCAL_SCOPED_EVALUATION",
+  "lock_sha256": "db1b10464f1a619ae29edd1941216d34814c00f293e1b4f49dd5bf5edfd3d71a",
+  "archived_frame": {
+    "archive_sha256": {
+      "reference/oracle.py": "3456bb19588780c09241da73ce124153571d5206d1871b2f66d3e7aaf22f96a0",
+      "00_plan/O15_REFERENCE.json": "28f568cb904c2348bbaad4074b8bee01475d138054e494d1c8c9b34bfca2d96e",
+      "evaluation/BLIND_SELECTION.json": "e900b01104a5f5731ebbf6a69d92e4791342cdfb8680bd6eb5f35fd4ea32d625",
+      "frame_design/FRAME.json": "be763881b1a0d53f64f2b86c34d76ca3f98afcc5a90a562a0d7cc4205b600a75"
+    },
+    "frame_size": 192,
+    "label_replay": "192 sealed either_unique labels reproduced",
+    "document_hashes_verified": 576,
+    "mismatch_counts": {
+      "literal_only": 0,
+      "suffix_only": 48,
+      "either_unique": 32,
+      "prefer_literal": 16,
+      "prefer_suffix": 32
+    },
+    "ceiling": 24,
+    "initial_decision": {
+      "status": "UNDETERMINED",
+      "retained_policies": [
+        "literal_only",
+        "suffix_only",
+        "either_unique",
+        "prefer_literal",
+        "prefer_suffix"
+      ],
+      "attainable_counts": [
+        0,
+        16,
+        32,
+        48
+      ],
+      "interval": [
+        0,
+        48
+      ]
+    },
+    "minimum_witness": {
+      "status": "SEPARATING_SET",
+      "case_ids": [
+        "R1PROS-1175F475261EE917E0E06A6A"
+      ],
+      "opposite_pairs": [
+        [
+          "literal_only",
+          "suffix_only"
+        ],
+        [
+          "literal_only",
+          "either_unique"
+        ],
+        [
+          "literal_only",
+          "prefer_suffix"
+        ],
+        [
+          "suffix_only",
+          "prefer_literal"
+        ],
+        [
+          "either_unique",
+          "prefer_literal"
+        ],
+        [
+          "prefer_literal",
+          "prefer_suffix"
+        ]
+      ],
+      "case_labels": {
+        "R1PROS-1175F475261EE917E0E06A6A": {
+          "literal_only": "S",
+          "suffix_only": "V",
+          "either_unique": "V",
+          "prefer_literal": "S",
+          "prefer_suffix": "V"
+        }
+      },
+      "chosen_probe_family": "dual_alias_conflict",
+      "singletons_sufficient": 16
+    },
+    "possible_decisions_after_witness": {
+      "S": {
+        "status": "AT_OR_BELOW",
+        "retained_policies": [
+          "literal_only",
+          "prefer_literal"
+        ],
+        "attainable_counts": [
+          0,
+          16
+        ],
+        "interval": [
+          0,
+          16
+        ]
+      },
+      "V": {
+        "status": "ABOVE",
+        "retained_policies": [
+          "suffix_only",
+          "either_unique",
+          "prefer_suffix"
+        ],
+        "attainable_counts": [
+          32,
+          48
+        ],
+        "interval": [
+          32,
+          48
+        ]
+      }
+    },
+    "equivalent_policy_label_pairs_on_frame": [
+      [
+        "either_unique",
+        "prefer_suffix"
+      ]
+    ]
+  },
+  "new_probes": {
+    "total_dossiers": 10,
+    "policy_checks": 50,
+    "labels": {
+      "F2-MIRROR-LITERAL": {
+        "literal_only": "S",
+        "suffix_only": "V",
+        "either_unique": "V",
+        "prefer_literal": "S",
+        "prefer_suffix": "V"
+      },
+      "F2-MIRROR-SUFFIX": {
+        "literal_only": "V",
+        "suffix_only": "S",
+        "either_unique": "V",
+        "prefer_literal": "V",
+        "prefer_suffix": "S"
+      },
+      "F2-CONTEXT-SUFFIX": {
+        "literal_only": "S",
+        "suffix_only": "V",
+        "either_unique": "V",
+        "prefer_literal": "S",
+        "prefer_suffix": "V"
+      },
+      "F2-RFC-ESCAPE-ORDER": {
+        "literal_only": "S",
+        "suffix_only": "S",
+        "either_unique": "S",
+        "prefer_literal": "S",
+        "prefer_suffix": "S"
+      },
+      "F2-IDENTITY-CORRECT": {
+        "literal_only": "S",
+        "suffix_only": "S",
+        "either_unique": "S",
+        "prefer_literal": "S",
+        "prefer_suffix": "S"
+      },
+      "F2-IDENTITY-WRONG-TARGET": {
+        "literal_only": "V",
+        "suffix_only": "V",
+        "either_unique": "V",
+        "prefer_literal": "V",
+        "prefer_suffix": "V"
+      },
+      "F2-RFC-ARRAY-INDEX": {
+        "literal_only": "S",
+        "suffix_only": "S",
+        "either_unique": "S",
+        "prefer_literal": "S",
+        "prefer_suffix": "S"
+      },
+      "F2-RFC-ARRAY-PADDED": {
+        "literal_only": "V",
+        "suffix_only": "V",
+        "either_unique": "V",
+        "prefer_literal": "V",
+        "prefer_suffix": "V"
+      },
+      "F2-RFC-OBJECT-PADDED": {
+        "literal_only": "S",
+        "suffix_only": "S",
+        "either_unique": "S",
+        "prefer_literal": "S",
+        "prefer_suffix": "S"
+      },
+      "F2-MISSING-RESULT": {
+        "literal_only": "U",
+        "suffix_only": "U",
+        "either_unique": "U",
+        "prefer_literal": "U",
+        "prefer_suffix": "U"
+      }
+    },
+    "traces": {
+      "F2-MIRROR-LITERAL": {
+        "literal_only": {
+          "expected": "S",
+          "rationale": {
+            "violations": [],
+            "missing": [],
+            "resolved": [
+              {
+                "claim_id": "claim",
+                "pointer": "/values/mean_staff"
+              }
+            ]
+          }
+        },
+        "suffix_only": {
+          "expected": "V",
+          "rationale": {
+            "violations": [
+              {
+                "claim_id": "claim",
+                "problem": "unit, denominator or scope does not match field metadata"
+              }
+            ],
+            "missing": [],
+            "resolved": []
+          }
+        },
+        "either_unique": {
+          "expected": "V",
+          "rationale": {
+            "violations": [
+              {
+                "claim_id": "claim",
+                "problem": "alias spellings map to different pointers"
+              }
+            ],
+            "missing": [],
+            "resolved": []
+          }
+        },
+        "prefer_literal": {
+          "expected": "S",
+          "rationale": {
+            "violations": [],
+            "missing": [],
+            "resolved": [
+              {
+                "claim_id": "claim",
+                "pointer": "/values/mean_staff"
+              }
+            ]
+          }
+        },
+        "prefer_suffix": {
+          "expected": "V",
+          "rationale": {
+            "violations": [
+              {
+                "claim_id": "claim",
+                "problem": "unit, denominator or scope does not match field metadata"
+              }
+            ],
+            "missing": [],
+            "resolved": []
+          }
+        }
+      },
+      "F2-MIRROR-SUFFIX": {
+        "literal_only": {
+          "expected": "V",
+          "rationale": {
+            "violations": [
+              {
+                "claim_id": "claim",
+                "problem": "unit, denominator or scope does not match field metadata"
+              }
+            ],
+            "missing": [],
+            "resolved": []
+          }
+        },
+        "suffix_only": {
+          "expected": "S",
+          "rationale": {
+            "violations": [],
+            "missing": [],
+            "resolved": [
+              {
+                "claim_id": "claim",
+                "pointer": "/values/turnover_ratio/row01"
+              }
+            ]
+          }
+        },
+        "either_unique": {
+          "expected": "V",
+          "rationale": {
+            "violations": [
+              {
+                "claim_id": "claim",
+                "problem": "alias spellings map to different pointers"
+              }
+            ],
+            "missing": [],
+            "resolved": []
+          }
+        },
+        "prefer_literal": {
+          "expected": "V",
+          "rationale": {
+            "violations": [
+              {
+                "claim_id": "claim",
+                "problem": "unit, denominator or scope does not match field metadata"
+              }
+            ],
+            "missing": [],
+            "resolved": []
+          }
+        },
+        "prefer_suffix": {
+          "expected": "S",
+          "rationale": {
+            "violations": [],
+            "missing": [],
+            "resolved": [
+              {
+                "claim_id": "claim",
+                "pointer": "/values/turnover_ratio/row01"
+              }
+            ]
+          }
+        }
+      },
+      "F2-CONTEXT-SUFFIX": {
+        "literal_only": {
+          "expected": "S",
+          "rationale": {
+            "violations": [],
+            "missing": [],
+            "resolved": [
+              {
+                "claim_id": "claim",
+                "pointer": "/values/mean_staff"
+              }
+            ]
+          }
+        },
+        "suffix_only": {
+          "expected": "V",
+          "rationale": {
+            "violations": [
+              {
+                "claim_id": "claim",
+                "problem": "unit, denominator or scope does not match field metadata"
+              }
+            ],
+            "missing": [],
+            "resolved": []
+          }
+        },
+        "either_unique": {
+          "expected": "V",
+          "rationale": {
+            "violations": [
+              {
+                "claim_id": "claim",
+                "problem": "alias spellings map to different pointers"
+              }
+            ],
+            "missing": [],
+            "resolved": []
+          }
+        },
+        "prefer_literal": {
+          "expected": "S",
+          "rationale": {
+            "violations": [],
+            "missing": [],
+            "resolved": [
+              {
+                "claim_id": "claim",
+                "pointer": "/values/mean_staff"
+              }
+            ]
+          }
+        },
+        "prefer_suffix": {
+          "expected": "V",
+          "rationale": {
+            "violations": [
+              {
+                "claim_id": "claim",
+                "problem": "unit, denominator or scope does not match field metadata"
+              }
+            ],
+            "missing": [],
+            "resolved": []
+          }
+        }
+      },
+      "F2-RFC-ESCAPE-ORDER": {
+        "literal_only": {
+          "expected": "S",
+          "rationale": {
+            "violations": [],
+            "missing": [],
+            "resolved": [
+              {
+                "claim_id": "claim",
+                "pointer": "/values/~01"
+              }
+            ]
+          }
+        },
+        "suffix_only": {
+          "expected": "S",
+          "rationale": {
+            "violations": [],
+            "missing": [],
+            "resolved": [
+              {
+                "claim_id": "claim",
+                "pointer": "/values/~01"
+              }
+            ]
+          }
+        },
+        "either_unique": {
+          "expected": "S",
+          "rationale": {
+            "violations": [],
+            "missing": [],
+            "resolved": [
+              {
+                "claim_id": "claim",
+                "pointer": "/values/~01"
+              }
+            ]
+          }
+        },
+        "prefer_literal": {
+          "expected": "S",
+          "rationale": {
+            "violations": [],
+            "missing": [],
+            "resolved": [
+              {
+                "claim_id": "claim",
+                "pointer": "/values/~01"
+              }
+            ]
+          }
+        },
+        "prefer_suffix": {
+          "expected": "S",
+          "rationale": {
+            "violations": [],
+            "missing": [],
+            "resolved": [
+              {
+                "claim_id": "claim",
+                "pointer": "/values/~01"
+              }
+            ]
+          }
+        }
+      },
+      "F2-IDENTITY-CORRECT": {
+        "literal_only": {
+          "expected": "S",
+          "rationale": {
+            "violations": [],
+            "missing": [],
+            "resolved": [
+              {
+                "claim_id": "claim",
+                "pointer": "/values/~01"
+              }
+            ]
+          }
+        },
+        "suffix_only": {
+          "expected": "S",
+          "rationale": {
+            "violations": [],
+            "missing": [],
+            "resolved": [
+              {
+                "claim_id": "claim",
+                "pointer": "/values/~01"
+              }
+            ]
+          }
+        },
+        "either_unique": {
+          "expected": "S",
+          "rationale": {
+            "violations": [],
+            "missing": [],
+            "resolved": [
+              {
+                "claim_id": "claim",
+                "pointer": "/values/~01"
+              }
+            ]
+          }
+        },
+        "prefer_literal": {
+          "expected": "S",
+          "rationale": {
+            "violations": [],
+            "missing": [],
+            "resolved": [
+              {
+                "claim_id": "claim",
+                "pointer": "/values/~01"
+              }
+            ]
+          }
+        },
+        "prefer_suffix": {
+          "expected": "S",
+          "rationale": {
+            "violations": [],
+            "missing": [],
+            "resolved": [
+              {
+                "claim_id": "claim",
+                "pointer": "/values/~01"
+              }
+            ]
+          }
+        }
+      },
+      "F2-IDENTITY-WRONG-TARGET": {
+        "literal_only": {
+          "expected": "V",
+          "rationale": {
+            "violations": [
+              {
+                "claim_id": "claim",
+                "problem": "unit, denominator or scope does not match field metadata"
+              }
+            ],
+            "missing": [],
+            "resolved": []
+          }
+        },
+        "suffix_only": {
+          "expected": "V",
+          "rationale": {
+            "violations": [
+              {
+                "claim_id": "claim",
+                "problem": "unit, denominator or scope does not match field metadata"
+              }
+            ],
+            "missing": [],
+            "resolved": []
+          }
+        },
+        "either_unique": {
+          "expected": "V",
+          "rationale": {
+            "violations": [
+              {
+                "claim_id": "claim",
+                "problem": "unit, denominator or scope does not match field metadata"
+              }
+            ],
+            "missing": [],
+            "resolved": []
+          }
+        },
+        "prefer_literal": {
+          "expected": "V",
+          "rationale": {
+            "violations": [
+              {
+                "claim_id": "claim",
+                "problem": "unit, denominator or scope does not match field metadata"
+              }
+            ],
+            "missing": [],
+            "resolved": []
+          }
+        },
+        "prefer_suffix": {
+          "expected": "V",
+          "rationale": {
+            "violations": [
+              {
+                "claim_id": "claim",
+                "problem": "unit, denominator or scope does not match field metadata"
+              }
+            ],
+            "missing": [],
+            "resolved": []
+          }
+        }
+      },
+      "F2-RFC-ARRAY-INDEX": {
+        "literal_only": {
+          "expected": "S",
+          "rationale": {
+            "violations": [],
+            "missing": [],
+            "resolved": [
+              {
+                "claim_id": "claim",
+                "pointer": "/values/rows/1"
+              }
+            ]
+          }
+        },
+        "suffix_only": {
+          "expected": "S",
+          "rationale": {
+            "violations": [],
+            "missing": [],
+            "resolved": [
+              {
+                "claim_id": "claim",
+                "pointer": "/values/rows/1"
+              }
+            ]
+          }
+        },
+        "either_unique": {
+          "expected": "S",
+          "rationale": {
+            "violations": [],
+            "missing": [],
+            "resolved": [
+              {
+                "claim_id": "claim",
+                "pointer": "/values/rows/1"
+              }
+            ]
+          }
+        },
+        "prefer_literal": {
+          "expected": "S",
+          "rationale": {
+            "violations": [],
+            "missing": [],
+            "resolved": [
+              {
+                "claim_id": "claim",
+                "pointer": "/values/rows/1"
+              }
+            ]
+          }
+        },
+        "prefer_suffix": {
+          "expected": "S",
+          "rationale": {
+            "violations": [],
+            "missing": [],
+            "resolved": [
+              {
+                "claim_id": "claim",
+                "pointer": "/values/rows/1"
+              }
+            ]
+          }
+        }
+      },
+      "F2-RFC-ARRAY-PADDED": {
+        "literal_only": {
+          "expected": "V",
+          "rationale": {
+            "violations": [
+              {
+                "claim_id": "claim",
+                "problem": "pointer '/values/rows/01' does not resolve"
+              }
+            ],
+            "missing": [],
+            "resolved": []
+          }
+        },
+        "suffix_only": {
+          "expected": "V",
+          "rationale": {
+            "violations": [
+              {
+                "claim_id": "claim",
+                "problem": "pointer '/values/rows/01' does not resolve"
+              }
+            ],
+            "missing": [],
+            "resolved": []
+          }
+        },
+        "either_unique": {
+          "expected": "V",
+          "rationale": {
+            "violations": [
+              {
+                "claim_id": "claim",
+                "problem": "pointer '/values/rows/01' does not resolve"
+              }
+            ],
+            "missing": [],
+            "resolved": []
+          }
+        },
+        "prefer_literal": {
+          "expected": "V",
+          "rationale": {
+            "violations": [
+              {
+                "claim_id": "claim",
+                "problem": "pointer '/values/rows/01' does not resolve"
+              }
+            ],
+            "missing": [],
+            "resolved": []
+          }
+        },
+        "prefer_suffix": {
+          "expected": "V",
+          "rationale": {
+            "violations": [
+              {
+                "claim_id": "claim",
+                "problem": "pointer '/values/rows/01' does not resolve"
+              }
+            ],
+            "missing": [],
+            "resolved": []
+          }
+        }
+      },
+      "F2-RFC-OBJECT-PADDED": {
+        "literal_only": {
+          "expected": "S",
+          "rationale": {
+            "violations": [],
+            "missing": [],
+            "resolved": [
+              {
+                "claim_id": "claim",
+                "pointer": "/values/rows/01"
+              }
+            ]
+          }
+        },
+        "suffix_only": {
+          "expected": "S",
+          "rationale": {
+            "violations": [],
+            "missing": [],
+            "resolved": [
+              {
+                "claim_id": "claim",
+                "pointer": "/values/rows/01"
+              }
+            ]
+          }
+        },
+        "either_unique": {
+          "expected": "S",
+          "rationale": {
+            "violations": [],
+            "missing": [],
+            "resolved": [
+              {
+                "claim_id": "claim",
+                "pointer": "/values/rows/01"
+              }
+            ]
+          }
+        },
+        "prefer_literal": {
+          "expected": "S",
+          "rationale": {
+            "violations": [],
+            "missing": [],
+            "resolved": [
+              {
+                "claim_id": "claim",
+                "pointer": "/values/rows/01"
+              }
+            ]
+          }
+        },
+        "prefer_suffix": {
+          "expected": "S",
+          "rationale": {
+            "violations": [],
+            "missing": [],
+            "resolved": [
+              {
+                "claim_id": "claim",
+                "pointer": "/values/rows/01"
+              }
+            ]
+          }
+        }
+      },
+      "F2-MISSING-RESULT": {
+        "literal_only": {
+          "expected": "U",
+          "rationale": {
+            "violations": [],
+            "missing": [
+              "records/R11_result.json"
+            ],
+            "resolved": [
+              {
+                "claim_id": "claim",
+                "pointer": "/values/rows/1"
+              }
+            ]
+          }
+        },
+        "suffix_only": {
+          "expected": "U",
+          "rationale": {
+            "violations": [],
+            "missing": [
+              "records/R11_result.json"
+            ],
+            "resolved": [
+              {
+                "claim_id": "claim",
+                "pointer": "/values/rows/1"
+              }
+            ]
+          }
+        },
+        "either_unique": {
+          "expected": "U",
+          "rationale": {
+            "violations": [],
+            "missing": [
+              "records/R11_result.json"
+            ],
+            "resolved": [
+              {
+                "claim_id": "claim",
+                "pointer": "/values/rows/1"
+              }
+            ]
+          }
+        },
+        "prefer_literal": {
+          "expected": "U",
+          "rationale": {
+            "violations": [],
+            "missing": [
+              "records/R11_result.json"
+            ],
+            "resolved": [
+              {
+                "claim_id": "claim",
+                "pointer": "/values/rows/1"
+              }
+            ]
+          }
+        },
+        "prefer_suffix": {
+          "expected": "U",
+          "rationale": {
+            "violations": [],
+            "missing": [
+              "records/R11_result.json"
+            ],
+            "resolved": [
+              {
+                "claim_id": "claim",
+                "pointer": "/values/rows/1"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "transcripts": {
+    "direct_controls_underdetermined": {
+      "observations": {
+        "F2-RFC-ESCAPE-ORDER": "S",
+        "F2-RFC-ARRAY-PADDED": "V",
+        "F2-MISSING-RESULT": "U"
+      },
+      "separately_compatible": {
+        "F2-RFC-ESCAPE-ORDER": [
+          "literal_only",
+          "suffix_only",
+          "either_unique",
+          "prefer_literal",
+          "prefer_suffix"
+        ],
+        "F2-RFC-ARRAY-PADDED": [
+          "literal_only",
+          "suffix_only",
+          "either_unique",
+          "prefer_literal",
+          "prefer_suffix"
+        ],
+        "F2-MISSING-RESULT": [
+          "literal_only",
+          "suffix_only",
+          "either_unique",
+          "prefer_literal",
+          "prefer_suffix"
+        ]
+      },
+      "synthetic_local_policy_checks": {},
+      "global": {
+        "status": "UNDETERMINED",
+        "retained_policies": [
+          "literal_only",
+          "suffix_only",
+          "either_unique",
+          "prefer_literal",
+          "prefer_suffix"
+        ],
+        "attainable_counts": [
+          0,
+          16,
+          32,
+          48
+        ],
+        "interval": [
+          0,
+          48
+        ]
+      },
+      "matches_frozen_expectation": true,
+      "count_scope": "archived 192 only, conditional on same global model"
+    },
+    "mirror_suffix_identifies_set": {
+      "observations": {
+        "F2-MIRROR-SUFFIX": "S"
+      },
+      "separately_compatible": {
+        "F2-MIRROR-SUFFIX": [
+          "suffix_only",
+          "prefer_suffix"
+        ]
+      },
+      "synthetic_local_policy_checks": {},
+      "global": {
+        "status": "ABOVE",
+        "retained_policies": [
+          "suffix_only",
+          "prefer_suffix"
+        ],
+        "attainable_counts": [
+          32,
+          48
+        ],
+        "interval": [
+          32,
+          48
+        ]
+      },
+      "matches_frozen_expectation": true,
+      "count_scope": "archived 192 only, conditional on same global model"
+    },
+    "differing_local_rules_out_of_model": {
+      "observations": {
+        "F2-MIRROR-LITERAL": "S",
+        "F2-CONTEXT-SUFFIX": "V"
+      },
+      "separately_compatible": {
+        "F2-MIRROR-LITERAL": [
+          "literal_only",
+          "prefer_literal"
+        ],
+        "F2-CONTEXT-SUFFIX": [
+          "suffix_only",
+          "either_unique",
+          "prefer_suffix"
+        ]
+      },
+      "synthetic_local_policy_checks": {
+        "F2-MIRROR-LITERAL": true,
+        "F2-CONTEXT-SUFFIX": true
+      },
+      "global": {
+        "status": "OUT_OF_MODEL",
+        "retained_policies": [],
+        "attainable_counts": [],
+        "interval": null
+      },
+      "matches_frozen_expectation": true,
+      "count_scope": "archived 192 only, conditional on same global model"
+    }
+  },
+  "failures": [],
+  "archived_checkers_reexecuted": 0,
+  "submission_status": "DO_NOT_SUBMIT"
+}

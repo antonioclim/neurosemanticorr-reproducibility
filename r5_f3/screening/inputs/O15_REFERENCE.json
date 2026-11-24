@@ -1,0 +1,5388 @@
+{
+  "cases": [
+    {
+      "case_id": "R1PROS-FF87C2100EEED7703D4D2F3F",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-FF87C2100EEED7703D4D2F3F-claim01",
+            "problem": "claimed value does not match the resolved result"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2937,
+          "sha256": "14936b8991299989ddc35b44acc0a76c02481dbced9bea6fcd58978e0071ca63"
+        },
+        "records/R15_claims.json": {
+          "bytes": 215,
+          "sha256": "ec152b8e03316f3f2e8c872de71627401e678086cab1846833166e5a3a499ad7"
+        },
+        "records/R15_edges.json": {
+          "bytes": 330,
+          "sha256": "c8e5c635a9e1e0782e316ce86f4ff19d186b46a0ee6b85743f7063357b0a4665"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-4B39C813AD0B3C2AEEEBB718",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-4B39C813AD0B3C2AEEEBB718-claim01",
+            "problem": "no mapping for alias"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 790,
+          "sha256": "82c9be52921a5597383c6eeb7e382310a0b4c8fd84fc6bbc1a23eee4a9570450"
+        },
+        "records/R15_claims.json": {
+          "bytes": 178,
+          "sha256": "d0f20787ce0c8cf31f31d6cfe34b1357299d205967c625a85211bbf55542ca61"
+        },
+        "records/R15_edges.json": {
+          "bytes": 264,
+          "sha256": "19ab8c3145097506d18cc0d297bba974c6dd45564ec40714d29b05ba4d1ad5df"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-4F406B016E21152D46FEB93C",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-4F406B016E21152D46FEB93C-claim01",
+            "pointer": "/values/mean_staff"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2588,
+          "sha256": "5517c180878849db4608df638481da22693e64acf3a859643d31a9080be0d69c"
+        },
+        "records/R15_claims.json": {
+          "bytes": 213,
+          "sha256": "f5a2a90750950fdae17e6dad2ddacd2c1fa97b85d8448782102e4d4fd1db3ec8"
+        },
+        "records/R15_edges.json": {
+          "bytes": 380,
+          "sha256": "82b29bdee473c6a6365f58ed69051996bd602e7015c588e9ed3b699d4bc11f3a"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-828C19208EB78977277C652E",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-828C19208EB78977277C652E-claim01",
+            "problem": "a source pointer must start with /"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2907,
+          "sha256": "2fe9fabb3b4a59bcc85898a1906845a5de4917ca984daad1a3a18306fb5ac5aa"
+        },
+        "records/R15_claims.json": {
+          "bytes": 210,
+          "sha256": "0725eeaf10b38e1e35a94980280254d750002efacfd8d7b2e60495fa76866131"
+        },
+        "records/R15_edges.json": {
+          "bytes": 399,
+          "sha256": "f1786c602174417bb2f4faa08fdd68f05fbd3ac2fd7a5b0bb48cda5dba187ddf"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-E99740384FF8ECA28831131E",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-E99740384FF8ECA28831131E-claim01",
+            "problem": "claimed value does not match the resolved result"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 790,
+          "sha256": "466c7b3ed69b346838258d982a007f23bd8c2a0189185be9fc39633cb57eb721"
+        },
+        "records/R15_claims.json": {
+          "bytes": 170,
+          "sha256": "a3d111bac794179b6a7638fbeebc911cc91b43985b0fc0d3c154b503e23a8447"
+        },
+        "records/R15_edges.json": {
+          "bytes": 264,
+          "sha256": "160ac76b85bb8da41321820b3101f22c96b58ef0d8c6b020f78054900fb8b6fe"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-68697A8B7B48465BE0B5FA6F",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-68697A8B7B48465BE0B5FA6F-claim01",
+            "pointer": "/values/denominator"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 822,
+          "sha256": "5d2a3b69f5cd421dc8cd1e72950120bc76cd4f8dff7247d765c70400daa9e9ff"
+        },
+        "records/R15_claims.json": {
+          "bytes": 179,
+          "sha256": "b12e5f409603eac378233ed3572d2e1389eeac998a22f567724e745fc0fe3160"
+        },
+        "records/R15_edges.json": {
+          "bytes": 310,
+          "sha256": "719ae073223dd9b4ebb8660a56d0d538f666afdf391d35f6656b8af82d389126"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-8C4169B3F6D5B0281812F2C1",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-8C4169B3F6D5B0281812F2C1-claim01",
+            "problem": "unit, denominator or scope does not match field metadata"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 808,
+          "sha256": "2fa2a70e2579af0ff86f60e1c5a960e7c974a1928d01156ded7965c747c05b41"
+        },
+        "records/R15_claims.json": {
+          "bytes": 170,
+          "sha256": "1cf088a75261d338fc96d5c3ae18942581c20a98b8cf0e43aa81773201e4d967"
+        },
+        "records/R15_edges.json": {
+          "bytes": 264,
+          "sha256": "cc35da79d17b048e43fe6af4a2d83e35244e1d60edb671444193145223d82cd9"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-A8069737B3D7ACD7302B04B9",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-A8069737B3D7ACD7302B04B9-claim01",
+            "problem": "no mapping for alias"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 1958,
+          "sha256": "43581498ae617200338ce20e346cf9b96b2838484fb9c0908f3fa21e1d3e7f2f"
+        },
+        "records/R15_claims.json": {
+          "bytes": 213,
+          "sha256": "af3d197c49b90b5edaa1905bbe9e7888d12c4d707df5552083fab9f3b1208408"
+        },
+        "records/R15_edges.json": {
+          "bytes": 281,
+          "sha256": "c9328c243ab70079e5119b30da29c1f94a9d21c3af72a16851a4208e23bcc11e"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-2D8E32A7407285A08766F5FC",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-2D8E32A7407285A08766F5FC-claim01",
+            "problem": "claimed value does not match the resolved result"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 1940,
+          "sha256": "c6afc09d66cee9b5f6b98bb2f8b01f5915b3947d56b02cb86ac70f652681e086"
+        },
+        "records/R15_claims.json": {
+          "bytes": 209,
+          "sha256": "386f4fabf0ce803de8817c72513d6bad7171a25d38ee7f34e960eeabd18e162f"
+        },
+        "records/R15_edges.json": {
+          "bytes": 324,
+          "sha256": "edb44ad99c9d6d0eed291e9ff796a05860c9ee219bf1ec4252d1ae0341f5482c"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-474732F54A8AFD6AA363AD39",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-474732F54A8AFD6AA363AD39-claim01",
+            "problem": "claimed value does not match the resolved result"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2896,
+          "sha256": "ed9f3865b16478c948469e75cca43d8d7dbf0b670a5d7e3dc7b5f98b47ff310e"
+        },
+        "records/R15_claims.json": {
+          "bytes": 213,
+          "sha256": "a4a3542ff797d87cef795e7f6817d13d19681184664f451950b858d203baedd5"
+        },
+        "records/R15_edges.json": {
+          "bytes": 328,
+          "sha256": "ceba67d9b298df2a7360762a50a4ae2963d216aea2083b7e5b2afccb28c96b57"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-3FCE1F9A844BE04DD51FADEB",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-3FCE1F9A844BE04DD51FADEB-claim01",
+            "problem": "no field metadata for '/values/mean_staff'"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2913,
+          "sha256": "f1a287e5f7f612d2d8464c32fca63bd59d0576e847034ad04ecdb8fea27db574"
+        },
+        "records/R15_claims.json": {
+          "bytes": 201,
+          "sha256": "d5c02cd85634b73a02f86884edbfc01b0c8c48d20c5b482ef417e10eec777ca2"
+        },
+        "records/R15_edges.json": {
+          "bytes": 204,
+          "sha256": "1ad7a4bed6b7beeaf279e1da42c2c4e32e3b1a4f2ef7a64c3688a30046dc5526"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-BF7017973C83A02B19885EFB",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-BF7017973C83A02B19885EFB-claim01",
+            "problem": "no field metadata for '/values/denominator'"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 844,
+          "sha256": "18cb36dc82ea9845800e37752b9f8ab82f9dec5890535b0c2a2f6eedc08bee2c"
+        },
+        "records/R15_claims.json": {
+          "bytes": 170,
+          "sha256": "92c18350133ac8782e8b8faa238b33dbd28e639f58f35a8df1440571c8018c0e"
+        },
+        "records/R15_edges.json": {
+          "bytes": 182,
+          "sha256": "22ca83a472ab17ebd41d18c8abaf1a9def3ce4c8a30d1a595da678bdb35826f5"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-FABC78936B66F8E64A6DE66F",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-FABC78936B66F8E64A6DE66F-claim01",
+            "problem": "unit, denominator or scope does not match field metadata"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2260,
+          "sha256": "a2938397ae30c21acc2535fc8f39e2981a2b5c474a641afe53736f94e75419ca"
+        },
+        "records/R15_claims.json": {
+          "bytes": 202,
+          "sha256": "cd86bd71eaaf84c08b98ce2582e085a74ceb1e295ee49b4e8097dc826bf54314"
+        },
+        "records/R15_edges.json": {
+          "bytes": 281,
+          "sha256": "4a5a6892d330d7d7d5ab2a5abde386bb0abc13fd8169bf1fb326a92bd3d14655"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-6136DEC7F330A09E27DCFDB1",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-6136DEC7F330A09E27DCFDB1-claim01",
+            "problem": "claimed value does not match the resolved result"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 807,
+          "sha256": "fb5eadc87d6fbffc2b89797aa8cb51f2ace9ba1b7a3a0b1f7785b364f61c674f"
+        },
+        "records/R15_claims.json": {
+          "bytes": 180,
+          "sha256": "6b4058fca16aedc76c8fff7161775a8684db5a7314c1f60a8f071040476abdf0"
+        },
+        "records/R15_edges.json": {
+          "bytes": 309,
+          "sha256": "ff6743304c97195e5810902c2230611c208549370d7d6991099a2e8458edd66e"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-7BCDA72B0A616FD40511FB6D",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-7BCDA72B0A616FD40511FB6D-claim01",
+            "problem": "no mapping for alias"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 785,
+          "sha256": "2e8ba50698becf35292d5bbeeef67cd3a66d67bfdc76a2cdbe2563a0072aef6a"
+        },
+        "records/R15_claims.json": {
+          "bytes": 179,
+          "sha256": "fbf4499a2fea4e1ee685092bede67b26833330a43b8d79fbcf3f764a1f00a55c"
+        },
+        "records/R15_edges.json": {
+          "bytes": 259,
+          "sha256": "f6822bc10a9555edc144fcde5666325f70a7e71fdc0e9772e02d86d07e7d0066"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-DCE92A61707B9D29FA4AAAAF",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-DCE92A61707B9D29FA4AAAAF-claim01",
+            "problem": "claimed value does not match the resolved result"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 824,
+          "sha256": "214fd44b5115492c1629e6e8feb6d7cc8910170de248d3352931178a70e61405"
+        },
+        "records/R15_claims.json": {
+          "bytes": 178,
+          "sha256": "286726144e5d66c531e06ff09d5fc3b4c5007c1055ab2afab93e0714782e0e56"
+        },
+        "records/R15_edges.json": {
+          "bytes": 304,
+          "sha256": "3ce1e5054ba052064fd084e843e5c27a500781f76e740801f53f7ef18c5ec031"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-64E70DD91FA2297DFBC8F905",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-64E70DD91FA2297DFBC8F905-claim01",
+            "pointer": "/values/denominator"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 826,
+          "sha256": "30a889d951e385d237d07faf46ccf5f74189ae321849f9c55deb04afdc3d60ef"
+        },
+        "records/R15_claims.json": {
+          "bytes": 180,
+          "sha256": "fd4c0892dd1586d537e880518199a2b0916b068ef4ba658c292fbd767662aee0"
+        },
+        "records/R15_edges.json": {
+          "bytes": 315,
+          "sha256": "8189da271afca93e3974a9b5c043089b7d1adbd369fb5c9fe316a11bbfcd3d5f"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-74EBE4A6CA03054A9B5089EF",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-74EBE4A6CA03054A9B5089EF-claim01",
+            "problem": "alias spellings map to different pointers"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2290,
+          "sha256": "52f2ede785ac52c4fe47b8118c05e44304688fbe0cd95e8dd58dee49f93f2191"
+        },
+        "records/R15_claims.json": {
+          "bytes": 213,
+          "sha256": "8de1a564da7b68b76b1a441c6a44eb9ea6857bf30ce8980b7736faa0bd63a831"
+        },
+        "records/R15_edges.json": {
+          "bytes": 422,
+          "sha256": "d217c9ad772a60e84eda7b9b9d0434f811f83b808cf8c91d8069c6412066e034"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-BE4039BBCCBF0FD3B0D0B4E4",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-BE4039BBCCBF0FD3B0D0B4E4-claim01",
+            "pointer": "/values/proportions/Moderately ready"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 822,
+          "sha256": "dfb8a0ddf12abcbaf297c13fa45f93cbae92a8421049655bd417ab60f3020a80"
+        },
+        "records/R15_claims.json": {
+          "bytes": 223,
+          "sha256": "a384d43f22a0cc1ca4f8066649ae32e10d098d8098b74e2b58bfbaa8513e9322"
+        },
+        "records/R15_edges.json": {
+          "bytes": 264,
+          "sha256": "abd0fcc5a72820944d33004f7f0310ef471cf8ac787cff56e03c75d354efc9f7"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-C0D7118DDA7A5E2405A19501",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-C0D7118DDA7A5E2405A19501-claim01",
+            "problem": "a source pointer must start with /"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 840,
+          "sha256": "88fd65453dadaea0a3a83093152007e285acf1bcb3ad6f3bacabf0fa4165f27e"
+        },
+        "records/R15_claims.json": {
+          "bytes": 178,
+          "sha256": "0d198cf3200ea949c18f5daadc8f1936d1011e257cce143f4b9a81072bae1a98"
+        },
+        "records/R15_edges.json": {
+          "bytes": 377,
+          "sha256": "f95475ff5490e8bef70d58035b731ea8e0cc22ee2ac63042066c1280ae5fdf8b"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-906A1A7076790F53FE53D911",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-906A1A7076790F53FE53D911-claim01",
+            "pointer": "/values/proportions/Fully ready"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 808,
+          "sha256": "5a0a5e21d549784733dd41d7e464b8a2541f661398ffde1803bacc2120bd87c3"
+        },
+        "records/R15_claims.json": {
+          "bytes": 218,
+          "sha256": "bd07402b852d1c6bb3dbd4e0279a3e8fd6a5e63b8807ec73a3a84b60c17c3924"
+        },
+        "records/R15_edges.json": {
+          "bytes": 259,
+          "sha256": "4c69d566dd762310d95a54cd2b90ee7221cc6161f6dc269a61a18ecaaf6f4218"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-E98B2F39205D3C72E76B83EB",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-E98B2F39205D3C72E76B83EB-claim01",
+            "problem": "claimed value does not match the resolved result"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 3300,
+          "sha256": "0ef55afe4537cc30ad2bdc7a99b25dd15b518c907d4442c0e4d73fb8828a1794"
+        },
+        "records/R15_claims.json": {
+          "bytes": 202,
+          "sha256": "d6158334ba15218941f3f8f9963cdd6140520104ec592d0802afacf40e337766"
+        },
+        "records/R15_edges.json": {
+          "bytes": 281,
+          "sha256": "33e2f438434e247a3a926719b1d292ce44deca0fa32b6c6dda96f646240a270f"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-AF1B274DEFC2320605B042DA",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-AF1B274DEFC2320605B042DA-claim01",
+            "pointer": "/values/denominator"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 787,
+          "sha256": "023d71d3e4e2f7e583cf315396ee041a8850b6c0ee4f4292b59399f12e9e266a"
+        },
+        "records/R15_claims.json": {
+          "bytes": 170,
+          "sha256": "99c46d76ffac116eb3958ed42bc0fe164c70b1f6a9c11e619e6f8b7284cd93f4"
+        },
+        "records/R15_edges.json": {
+          "bytes": 259,
+          "sha256": "94fd3c0372a210cb945cf28ecb4d54e82cde75b9d6663b1624f7601b4900fa53"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-FE70508B671262443BFD17D2",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-FE70508B671262443BFD17D2-claim01",
+            "pointer": "/values/denominator"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 804,
+          "sha256": "b9652a22b39b070792390ac43e478a7e03806c04d7b49780e472be77dd511a81"
+        },
+        "records/R15_claims.json": {
+          "bytes": 178,
+          "sha256": "21681cda7b4ca5d59b82f4595f89225fe9870c414c8e324b9da547ada7afc011"
+        },
+        "records/R15_edges.json": {
+          "bytes": 359,
+          "sha256": "45f6401b08344088a61b6f9b3abe512dd9ab57eb6ab12940ccd767be9c8b90ed"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-1935C25A7C3B6C606E2E53CF",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-1935C25A7C3B6C606E2E53CF-claim01",
+            "pointer": "/values/denominator"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 797,
+          "sha256": "579a17820bb4322d5166374220c30f3d4f49c77caf85f2dce9d51574396517e8"
+        },
+        "records/R15_claims.json": {
+          "bytes": 180,
+          "sha256": "edec7ed60196dfbebd91dae3c0da4d0876ab321f45a0409ecf510ad55599b04a"
+        },
+        "records/R15_edges.json": {
+          "bytes": 365,
+          "sha256": "6938503ac2a942991ebe47c50bd373a5e2d3dde119f012b0226fbcdb3762e43c"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-DAF71252C06276BF222931E9",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-DAF71252C06276BF222931E9-claim01",
+            "pointer": "/values/proportions/Very ready"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 805,
+          "sha256": "36dcf1a041a98eb58d4675908b85fd74ba2038182774a881dab82b47f344d5fc"
+        },
+        "records/R15_claims.json": {
+          "bytes": 217,
+          "sha256": "becd30107f5696ce72080f87d15bf9785010d121ad8daeaad5a7ced715fb24ae"
+        },
+        "records/R15_edges.json": {
+          "bytes": 258,
+          "sha256": "9c781e0d597ae2d5c0c6a56f94f249afe4e390b2e666a873527c504970f6c7c0"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-77E02D21BAC351C5B46AE474",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-77E02D21BAC351C5B46AE474-claim01",
+            "pointer": "/values/denominator"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 820,
+          "sha256": "ee809846e46b1d1292c84fd77ba3813f7d0a12e7d03afe0d8a0bace75db40a00"
+        },
+        "records/R15_claims.json": {
+          "bytes": 181,
+          "sha256": "b652a9d64d67fb9dcf5fd3651921ffa00a00ba282234cb92399459f36d6d74dc"
+        },
+        "records/R15_edges.json": {
+          "bytes": 361,
+          "sha256": "c08e1c7d12d977e1edef6ed88a9af2b7c9c6795c528dde354c3742aef757669a"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-C54EF2C19D9F3053F265BB26",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-C54EF2C19D9F3053F265BB26-claim01",
+            "pointer": "/values/turnover_ratio/R1PROS-C54EF2C19D9F3053F265BB26-R01"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2917,
+          "sha256": "cfa0bc3937370b5cfec8b69a7aabe21e7165e5f51a5be9c05e6d4652ecc5c42a"
+        },
+        "records/R15_claims.json": {
+          "bytes": 240,
+          "sha256": "295d8dcb8be9424bd8da35f04e75b584316118cd017b9184de360f1da08d7bb3"
+        },
+        "records/R15_edges.json": {
+          "bytes": 281,
+          "sha256": "a64f2bf0d7dadc3afa18b97020fa9a1a62cffb935be27c76fcd213276c788d67"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-66FE38DFC6BACE208C497E52",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-66FE38DFC6BACE208C497E52-claim01",
+            "problem": "unit, denominator or scope does not match field metadata"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 3532,
+          "sha256": "f8fdd376d5afda0c813674a55a8b4946640d60936f6f88ed2ef380efb3d614dc"
+        },
+        "records/R15_claims.json": {
+          "bytes": 201,
+          "sha256": "563e4ae5320926a5683493a9bf91c74757aacc2902fecfdcf5fb29806e831f7f"
+        },
+        "records/R15_edges.json": {
+          "bytes": 281,
+          "sha256": "2cc297fe2ae73fd1b0e03dc8886974af28ab71a66eb5dbf93fe4e18ba38d2586"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-C71AACF05AE5573BCF293B15",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-C71AACF05AE5573BCF293B15-claim01",
+            "pointer": "/values/denominator"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 811,
+          "sha256": "ba35ed98d3e9af0d981984ec49a153bfe64207eaf5105c60a2531b5f7e3bb020"
+        },
+        "records/R15_claims.json": {
+          "bytes": 178,
+          "sha256": "7bcb07ccf4322c29a3ff5ef6c3e4a4b2db8cc6b92336b881b856085dadeb43be"
+        },
+        "records/R15_edges.json": {
+          "bytes": 309,
+          "sha256": "43d882c7500c6f69ef0449b264b2c84e9915aa4c6529c2577a80c95b41701370"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-BD4B3DED0006995DFEA1C1BA",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-BD4B3DED0006995DFEA1C1BA-claim01",
+            "problem": "claimed value does not match the resolved result"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 1934,
+          "sha256": "ccce9999ab05a8f3c3ca5cd65a947b50a449e46dab309a9f135d7f4729c12e79"
+        },
+        "records/R15_claims.json": {
+          "bytes": 201,
+          "sha256": "27604bcf6204eed259236fdb3d64dcfe2812d40a89cd18e4b27ba268d6e9f391"
+        },
+        "records/R15_edges.json": {
+          "bytes": 281,
+          "sha256": "0274035b5c41bdc7b7ca76eebc9d9ca717230fda4815be4a98bc42399341526a"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-3624B02DC258BCA1C741A321",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-3624B02DC258BCA1C741A321-claim01",
+            "pointer": "/values/turnover_ratio/R1PROS-3624B02DC258BCA1C741A321-R01"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 3532,
+          "sha256": "f0983890c0cbff2751043ec41390d4cd888b63ac3196fa6c0b6cf5eac659a1b7"
+        },
+        "records/R15_claims.json": {
+          "bytes": 242,
+          "sha256": "8170afd5ca38bc5b40c4de2e3790d3321a8f13489115f60f14968eed46b5174b"
+        },
+        "records/R15_edges.json": {
+          "bytes": 281,
+          "sha256": "b3b38ef64e34d58356008a736c7e29d2796cecbee22b8eaad46647bd386b97fb"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-0A0AC18782DA1A65F4552668",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-0A0AC18782DA1A65F4552668-claim01",
+            "pointer": "/values/proportions/Very ready"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 812,
+          "sha256": "a2581cd78498dd086ff9838a17d92eb79ca91ee1324919dc675888221a31bc61"
+        },
+        "records/R15_claims.json": {
+          "bytes": 217,
+          "sha256": "4cfdad61dc2a6ca10af2c35b14b3ae4885460b74b9bc4b2bbf917c678d95660b"
+        },
+        "records/R15_edges.json": {
+          "bytes": 258,
+          "sha256": "e88784145424cfb11c94f4c88fd5c71f9feff371538310d83367f1cb8b8447ff"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-8460AAD580BC23094A4D2320",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-8460AAD580BC23094A4D2320-claim01",
+            "problem": "no field metadata for '/values/mean_staff'"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 3887,
+          "sha256": "8ea90709cf5afe6a6bddd9c12324b1a9a1b0c96b1dc712fe8a037554f6b8a684"
+        },
+        "records/R15_claims.json": {
+          "bytes": 202,
+          "sha256": "20d0335acc269ce78b80ac7a991bd8fbc42e1bca723fd5dcee1d75c14b5681c9"
+        },
+        "records/R15_edges.json": {
+          "bytes": 204,
+          "sha256": "d95de0847bc1d9614d05e854044618696c4c963befc16401091b91082a35a7d6"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-F8961B41691DB4F331CF2145",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-F8961B41691DB4F331CF2145-claim01",
+            "problem": "claimed value does not match the resolved result"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 812,
+          "sha256": "a3491dec5ab84958f84fcd765bb09fe2d3a164289f9f1313ee1093123ad9f925"
+        },
+        "records/R15_claims.json": {
+          "bytes": 170,
+          "sha256": "c30b51e3d7eac1b0793c0d06755453c4084ac05aabfa1c47daf0f8cfb9c9e34d"
+        },
+        "records/R15_edges.json": {
+          "bytes": 264,
+          "sha256": "5907f4c17c1a9b4a52809661e51b6860d1054bab30fb295473033f68aaf6fe57"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-13DE79A1275C571B0419536A",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-13DE79A1275C571B0419536A-claim01",
+            "pointer": "/values/denominator"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 788,
+          "sha256": "93e0a5e9fac0be3466193d8048bda48716df407e2ab0e512016b111a2ff823ba"
+        },
+        "records/R15_claims.json": {
+          "bytes": 178,
+          "sha256": "bfa7c7a5904e9ab8da28bcb4d05eaa0517deac5e3083e8a15b2935b14dffc3e0"
+        },
+        "records/R15_edges.json": {
+          "bytes": 355,
+          "sha256": "6464735c56dc01bd593a128ee5ee0b7324e84f0f48ac44edcf075d45fa537fce"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-C03093D8D95D4686B92E3E4C",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-C03093D8D95D4686B92E3E4C-claim01",
+            "pointer": "/values/denominator"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 822,
+          "sha256": "a7b2c42a6c756a85078ec3900299506430b450dd50718b9b94143905e35d0bd9"
+        },
+        "records/R15_claims.json": {
+          "bytes": 180,
+          "sha256": "b1f6b505e3542a65bf78e0146dd1a0fc86bee9049a3e47945701a4a89246d894"
+        },
+        "records/R15_edges.json": {
+          "bytes": 309,
+          "sha256": "f6598a1fb9e84830df6826ea6495e904df3ef47894380aacd8d628c381225502"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-E7C992BCB7392C6EB8C70053",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-E7C992BCB7392C6EB8C70053-claim01",
+            "problem": "no mapping for alias"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 1967,
+          "sha256": "731a0364561c3fb603a3e86960d739c890f706470b8c0e5e1c30b3c9b0415e40"
+        },
+        "records/R15_claims.json": {
+          "bytes": 215,
+          "sha256": "3145b3558980344f76cc2833f21e3f69e2e0cc2c69ee5b46b130b45d51a7ae34"
+        },
+        "records/R15_edges.json": {
+          "bytes": 281,
+          "sha256": "2e773408499d4be835dc969785d7d616f81ad2e2cb4239fc07c92fdaecbc4eaf"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-D128D7C3D308AB0C103D3CF8",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-D128D7C3D308AB0C103D3CF8-claim01",
+            "pointer": "/values/mean_staff"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2252,
+          "sha256": "6b25051830a84d78e52130c9f7bd34c949f10d29e227bc7a0e978a4d21e2fb4f"
+        },
+        "records/R15_claims.json": {
+          "bytes": 213,
+          "sha256": "81e7821628a881d643358104da076ecf753b8da48ff74b847f8abad71d3f304d"
+        },
+        "records/R15_edges.json": {
+          "bytes": 333,
+          "sha256": "00d38c1956204041d3e742c4308dba9cf32590dffb95382eabf2243f3d75d165"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-8C51A5D5677EB12EB25CA0B3",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-8C51A5D5677EB12EB25CA0B3-claim01",
+            "problem": "a source pointer must start with /"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 820,
+          "sha256": "a1307b8071c5a8c07ce2b77af863768869379877dce45c3bcdb537e51b90cba3"
+        },
+        "records/R15_claims.json": {
+          "bytes": 180,
+          "sha256": "f320f3b40584b54fe2218b778e3483f33e885f504d74b7e40bbe1bfdce34ea91"
+        },
+        "records/R15_edges.json": {
+          "bytes": 387,
+          "sha256": "17fe67853bd3ca358772a3c27dbef948d8deae1d6b2601fa34db883b8064f90a"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-1036B42920F039EB6003AE76",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-1036B42920F039EB6003AE76-claim01",
+            "problem": "claimed value does not match the resolved result"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2596,
+          "sha256": "4f9889e506933267a519e78327efa9c90167ebc58f2a88a94b1270459cccf761"
+        },
+        "records/R15_claims.json": {
+          "bytes": 202,
+          "sha256": "eb37200c8ea8b30977c34cda72544381b1295d2e7362d68dc8bfc745d7d2127d"
+        },
+        "records/R15_edges.json": {
+          "bytes": 281,
+          "sha256": "9f9a1cd2362c6a399ee68631f8a65ad4d9f074b248ba343300b365144e821f3e"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-9F3A559F1425212E8101BA9E",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-9F3A559F1425212E8101BA9E-claim01",
+            "problem": "a source pointer must start with /"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 1943,
+          "sha256": "f7c6688a7e617ead75d348321e984722c0e5fcd7b3b5cf94e3261750a4521277"
+        },
+        "records/R15_claims.json": {
+          "bytes": 210,
+          "sha256": "e974ac81b603db74a3d70f79cb018bc0a7ba744199a8caf603a4848a69bee83a"
+        },
+        "records/R15_edges.json": {
+          "bytes": 396,
+          "sha256": "3ab7e61d8d56c20e9d067f6fc6eac3455de2b6f095acac2cb77bc0876770145f"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-6C3BD9AF1A5EE0E2D4136A78",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-6C3BD9AF1A5EE0E2D4136A78-claim01",
+            "problem": "claimed value does not match the resolved result"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2238,
+          "sha256": "1a282f36c8bda685dd518aa8196b7f44db9a8b13f6a78afb02fab8109f164fed"
+        },
+        "records/R15_claims.json": {
+          "bytes": 212,
+          "sha256": "3568632881876c1e194d761f1c10e0e76855e716789f5c09106dfd2d5f1c42ad"
+        },
+        "records/R15_edges.json": {
+          "bytes": 327,
+          "sha256": "3565e94d946e0d37ef4fa5bcde1fcdbb1d2fdb70883f7cf0cb39dda8a8746d2d"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-17EAE07A978E6DF8D7824C3A",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-17EAE07A978E6DF8D7824C3A-claim01",
+            "problem": "alias spellings map to different pointers"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 1924,
+          "sha256": "a9a2ef588ed728580a6b8706eef7cda08af412e5e02925dfc6ae03fb614a7114"
+        },
+        "records/R15_claims.json": {
+          "bytes": 211,
+          "sha256": "0ce9e147d054f2977b8e6d4d5c874e8b4fe4c7176ac9d54909e5e1e8bbd7a892"
+        },
+        "records/R15_edges.json": {
+          "bytes": 418,
+          "sha256": "ddfb8f0fe89c90863a09116110aa94c273076a7f0537f7761e270ab229ef4ece"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-5A6E1A8076312DD451727DDE",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-5A6E1A8076312DD451727DDE-claim01",
+            "pointer": "/values/denominator"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 811,
+          "sha256": "e53b21b2ca7d2929a132331795719e408678a91a4e5d91406580b5f8338984e4"
+        },
+        "records/R15_claims.json": {
+          "bytes": 180,
+          "sha256": "e7b0d805d36ef1e9f87dd4557ee189b84c27a839c1f980d8b377b7c22f034d34"
+        },
+        "records/R15_edges.json": {
+          "bytes": 317,
+          "sha256": "63149960f9c82fee21ed7b7f3c50e719908ff6440a587ef6c7c05e3f217b0d26"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-A7165F7258E3ED06080C9C0D",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-A7165F7258E3ED06080C9C0D-claim01",
+            "problem": "claimed value does not match the resolved result"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 817,
+          "sha256": "07a78b069fdf9a962fe251b807ea08ee9ec2e6074d842e5f4ab89938a2473978"
+        },
+        "records/R15_claims.json": {
+          "bytes": 170,
+          "sha256": "cfaeaf45e46773786d944d0ef22d5750e0ad2f1bdf2b8ccfc39545e74f791df3"
+        },
+        "records/R15_edges.json": {
+          "bytes": 264,
+          "sha256": "8bcd24fed7e450feb86a12a509abb80f97e29f8dc604e488eedaca7466cd3710"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-124E69CDFD1DB8946A66C2FB",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-124E69CDFD1DB8946A66C2FB-claim01",
+            "pointer": "/values/mean_staff"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 4170,
+          "sha256": "28b4427f4e44343609bf58b2afc67a87e698c36932223dec3626015d59d7e7a5"
+        },
+        "records/R15_claims.json": {
+          "bytes": 215,
+          "sha256": "859cb324ee4f91942bcae184ad72715389253ffdc4b73b67b49502f5ceb0b2fc"
+        },
+        "records/R15_edges.json": {
+          "bytes": 329,
+          "sha256": "582160a4aca2b46b7208304a9282f2fbe7a84b62a743661a2b432d7565ce6b4f"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-5EBB36D419F0360E085F3DAB",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-5EBB36D419F0360E085F3DAB-claim01",
+            "problem": "no field metadata for '/values/denominator'"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 814,
+          "sha256": "be75f297041a09ce94e6b0833808ce6337c1d31ec67a88dc9c4b4ef91500b5c2"
+        },
+        "records/R15_claims.json": {
+          "bytes": 170,
+          "sha256": "50456a84f24501d93ada65a1f07acda4cc034cdaea37bf846fcd893225bf5b9e"
+        },
+        "records/R15_edges.json": {
+          "bytes": 185,
+          "sha256": "11c36b39f371cdc92a0271fd0f64127cce8c1c7ed57b7d11b0d3c5bd6c7114e5"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-BEA54209ABF77D5AE749B1B2",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-BEA54209ABF77D5AE749B1B2-claim01",
+            "problem": "no mapping for alias"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2566,
+          "sha256": "156fbcb86dbcdeaf9c99b1e5bb701244879c9a768a6afa8da4375a88dcff0da1"
+        },
+        "records/R15_claims.json": {
+          "bytes": 212,
+          "sha256": "215af4ffed111d6fe2378ecc8165455670c749fa346dcdd15aecf91fdd7408e6"
+        },
+        "records/R15_edges.json": {
+          "bytes": 281,
+          "sha256": "e0a1b35a4ebea4b2f0de32f85f644da0ddee4daab058c7f5cac6bef3e7ffb066"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-587363AE9EB73EBB7634923F",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-587363AE9EB73EBB7634923F-claim01",
+            "problem": "alias spellings map to different pointers"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 798,
+          "sha256": "5026d3ed11d96ab9cc599ce9734a982cc0a02bcfcf93a226de5cfa52a3c45b06"
+        },
+        "records/R15_claims.json": {
+          "bytes": 178,
+          "sha256": "bac13fff7c88c8b8861d741a0793678e811e04ce748b9a52570420523ba2ee85"
+        },
+        "records/R15_edges.json": {
+          "bytes": 366,
+          "sha256": "ab667d474f60a8e2738c60f3ba7bb385993d9253d3aa76c5eace6689f86bd272"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-DB3DA1113DB857AF2E60A102",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-DB3DA1113DB857AF2E60A102-claim01",
+            "pointer": "/values/proportions/Not ready at all"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 827,
+          "sha256": "c65559328906c5ea16538e0d422214b4acd0510c22bb591954b39a7eff4941a7"
+        },
+        "records/R15_claims.json": {
+          "bytes": 223,
+          "sha256": "e1b2fc13dbb6d8d06d872cec4e1e11a3d8e6a20abf322b8a096ae3611851c46d"
+        },
+        "records/R15_edges.json": {
+          "bytes": 264,
+          "sha256": "f753f42fdc3445ddf8088dd6fb6902743e3843129088f7f8c5bba542d0051af1"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-8EBF8C98C22FC084FBAC20A8",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-8EBF8C98C22FC084FBAC20A8-claim01",
+            "pointer": "/values/denominator"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 800,
+          "sha256": "5c51fb60576858d9baa6ab3c591d6dfcc051316c1e8e76ff195e40210eb0e35f"
+        },
+        "records/R15_claims.json": {
+          "bytes": 178,
+          "sha256": "5b80eef4913a5d6e94495a962cfd5bd2d3546e04d35f51d7841a94fc1810f942"
+        },
+        "records/R15_edges.json": {
+          "bytes": 361,
+          "sha256": "1d8c1a0cc753b921e7002421d47e0fb742eedc4adee1ec9b5e1af824ec123165"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-22D30AF8249FB18371413FBA",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-22D30AF8249FB18371413FBA-claim01",
+            "pointer": "/values/denominator"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 792,
+          "sha256": "d501f3811ad78028cf383a03ece1bcbcb235a1e85b53ec094062cd63b1e8582e"
+        },
+        "records/R15_claims.json": {
+          "bytes": 170,
+          "sha256": "314bf970d8f2c0614bb55aa28adc9a4b3f23248aad7c91d6bf5477f69b8a5550"
+        },
+        "records/R15_edges.json": {
+          "bytes": 264,
+          "sha256": "ec3d8da24a9138bd2ea99aaa2afca0e27e3e8624f645dd3f775575e882987e34"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-920C82475245F1769CBAE375",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-920C82475245F1769CBAE375-claim01",
+            "pointer": "/values/denominator"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 811,
+          "sha256": "4a2ced86688e5c4c08b928af2e1f8a226d1b98b82312cb3fa33432309bc1bb40"
+        },
+        "records/R15_claims.json": {
+          "bytes": 170,
+          "sha256": "53feed2cf297f3bb77308c07618a292ad6b4043b9987d8c14ae391a9b377934f"
+        },
+        "records/R15_edges.json": {
+          "bytes": 258,
+          "sha256": "0cdecb53dbcb7fe6dd651cb0f480f394a56b7d5af4fe7d77945b52fffdf4abb8"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-C7F8ACCA09AA71BFDB8235C5",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-C7F8ACCA09AA71BFDB8235C5-claim01",
+            "pointer": "/values/mean_staff"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2565,
+          "sha256": "ea008753c2bbcbc1100c8cb9c05838239183263ba797fcfc89f3eebfa5e39e2d"
+        },
+        "records/R15_claims.json": {
+          "bytes": 211,
+          "sha256": "be918170c2e82a12535b2d0a6b57e57509ac62842f269d0a86166205f5f2ae1e"
+        },
+        "records/R15_edges.json": {
+          "bytes": 376,
+          "sha256": "561d112287c3fd9b73482308c5abd0c379a09a16a035af1d73c9799536c05eab"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-3C6D1CE93407DE1A5236BC4E",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-3C6D1CE93407DE1A5236BC4E-claim01",
+            "problem": "unit, denominator or scope does not match field metadata"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 860,
+          "sha256": "a48480a484f413095b8cfac73670804d486db57509593192af4e634cbf56fa6c"
+        },
+        "records/R15_claims.json": {
+          "bytes": 170,
+          "sha256": "4ce358677ddaf1e0a65e529ad0f1f376d8ce51ced872230d0b0e787b2aec0b87"
+        },
+        "records/R15_edges.json": {
+          "bytes": 262,
+          "sha256": "04263ab26972832619e0cf677ff6abf1c8a5e579521a8bcb44581fab42dbe887"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-1970CED9FF2B0B979860569B",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-1970CED9FF2B0B979860569B-claim01",
+            "problem": "no mapping for alias"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 795,
+          "sha256": "a512e4229407ea645c7bb3b7e9fdfa2ab1b54c5247cac0b018ea6a5e3b6355f4"
+        },
+        "records/R15_claims.json": {
+          "bytes": 180,
+          "sha256": "b5c01cc2fec5312b62d2f2a8b2ac3048ffc4364981bf4337b9f0fa831cdad70d"
+        },
+        "records/R15_edges.json": {
+          "bytes": 259,
+          "sha256": "809641db2bfbea6b1e99a7a7c06df232fe81d412767b3a7c3cce4a821f30a37f"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-E4BD2B2059C4309007230305",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-E4BD2B2059C4309007230305-claim01",
+            "problem": "claimed value does not match the resolved result"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 900,
+          "sha256": "367e0aee4ddb57af53d4229589412c6786f1f08c0eedc6c0712b0c90466a34e9"
+        },
+        "records/R15_claims.json": {
+          "bytes": 180,
+          "sha256": "d2fc797089cf83a9452c7adee9ce9ca518411e61f99ab724bc5c01c1d5e3ddcd"
+        },
+        "records/R15_edges.json": {
+          "bytes": 311,
+          "sha256": "e79471c9cd096a3ea152a615ba59c2a80a63d57b34101be6a3ff926caf985b47"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-7AA3F576E78CEC4181DBE45A",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-7AA3F576E78CEC4181DBE45A-claim01",
+            "problem": "unit, denominator or scope does not match field metadata"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 822,
+          "sha256": "53afe52a3c9e32cb4a6d795aa64e9039faf4fbbcbbdac5f9e7a83d40a648ad96"
+        },
+        "records/R15_claims.json": {
+          "bytes": 170,
+          "sha256": "49c6ba6d953555fafca1e3caee3a8294187d5859511a7909036792941f5d1f42"
+        },
+        "records/R15_edges.json": {
+          "bytes": 262,
+          "sha256": "76bda1846d75350611c8654c964af3ac6c79e0c4b95cd34dd834f6744a8f858b"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-82D1E50DF23F5E670D9AAC42",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-82D1E50DF23F5E670D9AAC42-claim01",
+            "pointer": "/values/denominator"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 807,
+          "sha256": "6f45c83976b324ff2849339306c6004a34239701ccdbed4f9d8e2d40a8a4328c"
+        },
+        "records/R15_claims.json": {
+          "bytes": 170,
+          "sha256": "3df55f24ae3161d3e0504ae052c7e004272f27e4f503462cbc41754b58cbad29"
+        },
+        "records/R15_edges.json": {
+          "bytes": 264,
+          "sha256": "339662705b271f3bbd16df21283cd996aedec4811e2fe192af75401d19ef820f"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-8A3023DC17FC97AD9A04E422",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-8A3023DC17FC97AD9A04E422-claim01",
+            "pointer": "/values/mean_staff"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 3215,
+          "sha256": "69d13561e87600605782409b65373f51033cfdf8b6ee28490fd8ca6cd1e4ed8b"
+        },
+        "records/R15_claims.json": {
+          "bytes": 202,
+          "sha256": "61a454aea00dfa5911ad790ed49d848c293191ec2476bd5f3261efbadc206ec7"
+        },
+        "records/R15_edges.json": {
+          "bytes": 281,
+          "sha256": "14070507a1f512f8435125ed8203cc1079a0e7299419cbf2a28926ffc7bb3b04"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-9673BA5203FBAAA856BA0805",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-9673BA5203FBAAA856BA0805-claim01",
+            "problem": "claimed value does not match the resolved result"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 783,
+          "sha256": "89a442f4684afcc8785afc6cd50c667c638a77d31f57379c3165bcc28e22cae8"
+        },
+        "records/R15_claims.json": {
+          "bytes": 180,
+          "sha256": "267c9a8083b389358f69eba3950b9baf6157bdde26015c203760a4ba41f264bd"
+        },
+        "records/R15_edges.json": {
+          "bytes": 306,
+          "sha256": "0a182e70801f5c88d1eb0f85a16dcd671259e2e8eeba7eda06d1d808716b31a0"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-CF4D3FCEA55EA1700B94580F",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-CF4D3FCEA55EA1700B94580F-claim01",
+            "problem": "unit, denominator or scope does not match field metadata"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 863,
+          "sha256": "05bf409da94f88233d60e6c4b1829459006b1960ad01027e91ba0e1d85125577"
+        },
+        "records/R15_claims.json": {
+          "bytes": 170,
+          "sha256": "130dd948c240cded138bc4d7dcf7df1ce3586333754b2060ab6123079cde2596"
+        },
+        "records/R15_edges.json": {
+          "bytes": 259,
+          "sha256": "d712b80d23b0261e4e83b2cd3ec638c5f9bff94cbb87b00730bb36f05b5f459d"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-82D2D6EDED7A56CC3310C298",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-82D2D6EDED7A56CC3310C298-claim01",
+            "problem": "unit, denominator or scope does not match field metadata"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 833,
+          "sha256": "401515a9551b76e0c6af179eeba86a6ffdbce73f2140b8586b3857f7e49d6275"
+        },
+        "records/R15_claims.json": {
+          "bytes": 170,
+          "sha256": "4e84cfdae5effea662f890030e27b3fa24ba177fcb46d8c879c9aa7d83250072"
+        },
+        "records/R15_edges.json": {
+          "bytes": 264,
+          "sha256": "b1bc8a9ebd1da6181a4723e8aa9187de288e58e15d130bda76360ab97872a1f8"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-0480CE588DE12DEA6BCEEAA6",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-0480CE588DE12DEA6BCEEAA6-claim01",
+            "problem": "no mapping for alias"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 3570,
+          "sha256": "0d2b53362c431c5ebadd116d9f56f22370150ad064696881ba0cb5d5a2c12553"
+        },
+        "records/R15_claims.json": {
+          "bytes": 213,
+          "sha256": "6969a487f479b8a9a380851f67055fdec0de85501957199dc5fb31d237505bd6"
+        },
+        "records/R15_edges.json": {
+          "bytes": 281,
+          "sha256": "f1c47aa5539e2e5481660e4d0b103e8dd69023d4d0a447dd16c8b3907f3ccd34"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-F289193A1E2E468FBF542716",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-F289193A1E2E468FBF542716-claim01",
+            "problem": "alias spellings map to different pointers"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 826,
+          "sha256": "768898d7482f7d4c9a5b26f214e969f4a66f0bd726dfcf184bec507f87b4f0d7"
+        },
+        "records/R15_claims.json": {
+          "bytes": 179,
+          "sha256": "9a017d6dbef8a54457f428deed7b5dd5534a85a945195cbe62d4c28780e4a08d"
+        },
+        "records/R15_edges.json": {
+          "bytes": 380,
+          "sha256": "b62272bb231c99cf72f88099c38499665f633c7b6d6c4a68b6c2010ccc0b281d"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-0F36E739E785676995CED722",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-0F36E739E785676995CED722-claim01",
+            "problem": "a source pointer must start with /"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 825,
+          "sha256": "de35f6db8a20b44def4a8cb114b1d2b554914f62498d40b975a7290b404680ba"
+        },
+        "records/R15_claims.json": {
+          "bytes": 178,
+          "sha256": "1b8d4e02f7ce2c571c067f3feb9991648fb38f71eeed51ef09058440bb6bf568"
+        },
+        "records/R15_edges.json": {
+          "bytes": 378,
+          "sha256": "d36c3e430a1e24780517d6e649b184229223278dcf0bcd10b3b2de7871b9f770"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-2D7B28F1A768D97DAB6669E2",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-2D7B28F1A768D97DAB6669E2-claim01",
+            "problem": "alias spellings map to different pointers"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 829,
+          "sha256": "4a79685199a776519d54ebc5862918892808fcd377b2bc3703b76db21323f0e8"
+        },
+        "records/R15_claims.json": {
+          "bytes": 181,
+          "sha256": "4a190106832873b376f2b86fcd96cbeb69478e3dc0fafdda74577b75b381a5db"
+        },
+        "records/R15_edges.json": {
+          "bytes": 372,
+          "sha256": "60ba87e44c9187ab475e78a7ab47d1566f9a6ec0ccc9f186f3ced8dab5a41c96"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-DD8F3BF4E3D2A99FFAB7B120",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-DD8F3BF4E3D2A99FFAB7B120-claim01",
+            "problem": "a source pointer must start with /"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 806,
+          "sha256": "c9a8bbc099264a98ba4ade955d3d02932ca683c2fd19cd0c7bfeca3a7a084bd7"
+        },
+        "records/R15_claims.json": {
+          "bytes": 178,
+          "sha256": "17acdaf3e78c72cbc8bf313578d49cf9558b29835fb2e01743178d1a5e3b1318"
+        },
+        "records/R15_edges.json": {
+          "bytes": 383,
+          "sha256": "8404c9e6be12173c7c28533bac5b4cd26a0f346519cbb67b9a7a79c054acc024"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-65B9A9D9823EF8982F964130",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-65B9A9D9823EF8982F964130-claim01",
+            "problem": "a source pointer must start with /"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 3561,
+          "sha256": "64f2dfb0e1a4fbfb5a9a477d876696d6752270d217d883b283a9fa54a968e0ed"
+        },
+        "records/R15_claims.json": {
+          "bytes": 211,
+          "sha256": "967084c4d9408b594a3e5b59efb8284a09d36ce5824c2a8186a3a8f590c925b7"
+        },
+        "records/R15_edges.json": {
+          "bytes": 399,
+          "sha256": "01e0a8379957c89a54ce3c4afcc4f18b24f6dd95eb2721632c1a5f93aba1d0d0"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-59B799EA83B34695CFCD4C4F",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-59B799EA83B34695CFCD4C4F-claim01",
+            "pointer": "/values/mean_staff"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 4256,
+          "sha256": "447bddebcd9262f23f428bd38d4a66b64562bc91adaaa6f8f81e15d7f9e631f0"
+        },
+        "records/R15_claims.json": {
+          "bytes": 212,
+          "sha256": "394b98285c906f6fbb208ed097d62e68a2ae46b66c3c803c23f503a606c77ca9"
+        },
+        "records/R15_edges.json": {
+          "bytes": 326,
+          "sha256": "7ee9002d56977502ffd4ae0d71fd543361ba239e2352e3d9b7d9fff5c4197cfe"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-922369D794C572EEEA7F9597",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-922369D794C572EEEA7F9597-claim01",
+            "pointer": "/values/denominator"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 841,
+          "sha256": "da495e34c66a12d5984b95e5df862aac87c19a9364ccc6061b0bcd7881cfb6a5"
+        },
+        "records/R15_claims.json": {
+          "bytes": 181,
+          "sha256": "304cdbc24d48c063c7f68397a2a4b9b2034316297a82173cda7fed161510ed70"
+        },
+        "records/R15_edges.json": {
+          "bytes": 312,
+          "sha256": "8604b4ff54b237f5f8d59c14b0574c8ec1a6244af1822269f88aea0a18fbf920"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-104F7825352EB905462FD239",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-104F7825352EB905462FD239-claim01",
+            "pointer": "/values/mean_staff"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2259,
+          "sha256": "b7b7102570956ff3f7c5b4f6272934b2c16c60d9565b31b75536d84895ea3753"
+        },
+        "records/R15_claims.json": {
+          "bytes": 210,
+          "sha256": "15f3e2251dbbd4a221c307cfd16d0cfcf28db39fe8cb44033629e3186a85a113"
+        },
+        "records/R15_edges.json": {
+          "bytes": 324,
+          "sha256": "93a2f64800e9dc9224150c360fc8418e43a6c8b8568cf276a823d661ff139bd1"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-324C7BEF147C73146C3BCBD5",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-324C7BEF147C73146C3BCBD5-claim01",
+            "pointer": "/values/mean_staff"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2604,
+          "sha256": "d5d950677a145efb31f7924552438c645c3f554d5b2cd57224f4220b625af00a"
+        },
+        "records/R15_claims.json": {
+          "bytes": 210,
+          "sha256": "47dc91e89f8d52222a3cb1705f3ba4d33bb4e470967b3354495a76ec91b36257"
+        },
+        "records/R15_edges.json": {
+          "bytes": 374,
+          "sha256": "a4910bc1014e462a49c7a264c0fc7eb08389334fbe501509a459c845c1d13de5"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-7F6B931AD4E6D3C88C0F6E53",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-7F6B931AD4E6D3C88C0F6E53-claim01",
+            "problem": "claimed value does not match the resolved result"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 784,
+          "sha256": "ee95b55313d2d09b9ac4cdaceee1f172b287bb6e58051024f65625c4642a73b4"
+        },
+        "records/R15_claims.json": {
+          "bytes": 179,
+          "sha256": "0046529692586b67e71a5044ee0ada1bb59baf4da718e34db9dc7c9e020bc6e3"
+        },
+        "records/R15_edges.json": {
+          "bytes": 310,
+          "sha256": "be3009249495174fe02d33b3cb59435596c989a98195a1858f06eace256f25b4"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-680F2485A2812505955ABC69",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-680F2485A2812505955ABC69-claim01",
+            "problem": "alias spellings map to different pointers"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 3204,
+          "sha256": "be34547b40794300d9156fc19e52ba8b286f987f5e67352fae5f9c2f5342a3c8"
+        },
+        "records/R15_claims.json": {
+          "bytes": 211,
+          "sha256": "aa7511e1f51712aa8da479bf4883829f6e297f6dfadcc7d5a58717707ff1f91c"
+        },
+        "records/R15_edges.json": {
+          "bytes": 416,
+          "sha256": "fff2d529a7f4e7e8ffadad1efef2fd46c7d0c551f7dfab8ac3f3b0f3512cd1cf"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-BFA19B18218F3434C14BE4E4",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-BFA19B18218F3434C14BE4E4-claim01",
+            "pointer": "/values/mean_staff"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2636,
+          "sha256": "99810e4313102b3a98e724f5b1b0342fb26a7e503e582e68d4592fec1c88c3b8"
+        },
+        "records/R15_claims.json": {
+          "bytes": 212,
+          "sha256": "41a2bc44d43ffa1197abbcf0f73d28662ee709e139f8032fd787a831956de95f"
+        },
+        "records/R15_edges.json": {
+          "bytes": 332,
+          "sha256": "b53a2e4af507e6d9a1da8dab3c380133aa9a8b3275a395463e74fe8f9cfded3b"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-E85CB91AD3B588586057AA19",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-E85CB91AD3B588586057AA19-claim01",
+            "problem": "a source pointer must start with /"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 832,
+          "sha256": "62615d7608cbe25b7b9b8bbe7ae6b25576913d82312e146a3b74d0b1f4563515"
+        },
+        "records/R15_claims.json": {
+          "bytes": 180,
+          "sha256": "f6f6f98b4038e0e2df3ff53a32a73aff8675582212754478e771bc274f23bf90"
+        },
+        "records/R15_edges.json": {
+          "bytes": 384,
+          "sha256": "8e7a582e5daad0c1c76fb0ae045d4a46b729a40aae17c10a85132a315047f96e"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-C9A208C2B3618CDC61422EA7",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-C9A208C2B3618CDC61422EA7-claim01",
+            "pointer": "/values/denominator"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 822,
+          "sha256": "0dfeb4e7756baee240dbe987e232bacf453fca9ac9482fecfc43c4dff5cc6943"
+        },
+        "records/R15_claims.json": {
+          "bytes": 181,
+          "sha256": "6af96c36c6c91e4186df4efdc3c3d072e22c7179319c078015e1ebf35121a294"
+        },
+        "records/R15_edges.json": {
+          "bytes": 318,
+          "sha256": "ae32f296df21c1e18d2dafe3240dfd232633fd9e974cf5dce443cdf9b4626f8e"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-DBF29576460759B4D9728F26",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-DBF29576460759B4D9728F26-claim01",
+            "pointer": "/values/mean_staff"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2581,
+          "sha256": "9a1719baf4c9839da9d41e9e16c8fbc434300752d966215f496e10630dff2576"
+        },
+        "records/R15_claims.json": {
+          "bytes": 210,
+          "sha256": "3aa13e32ee4fd0917a979543c1e9b77e66c00ad62037747061d93dba0431f3b3"
+        },
+        "records/R15_edges.json": {
+          "bytes": 376,
+          "sha256": "02085fd1f2e7aec3be375424a10e626aa074f4cb74597d21541bfc13e2c9752e"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-0DE9F2FC7356EEE2D4D3BDDC",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-0DE9F2FC7356EEE2D4D3BDDC-claim01",
+            "problem": "a source pointer must start with /"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 788,
+          "sha256": "4ef405a0400bf5d6e8be5df16b6910df0f1d5c5491eceec43a903befb1262d1c"
+        },
+        "records/R15_claims.json": {
+          "bytes": 181,
+          "sha256": "e12341bdd6692e30c32720f6c7c0c63f14f4577f8de2274d29b8d03d24f995ad"
+        },
+        "records/R15_edges.json": {
+          "bytes": 387,
+          "sha256": "9d8904fcc4fbf473e0ff27d4a3dfbfd84309ec915e2236ec2e090e1eec215ccf"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-04C1FD00E6341D84C901EEEA",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-04C1FD00E6341D84C901EEEA-claim01",
+            "problem": "a source pointer must start with /"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 3580,
+          "sha256": "15ff7c0e92369f9edb9440e5736d929156440ece61cc16b2c021167dd7f79a63"
+        },
+        "records/R15_claims.json": {
+          "bytes": 212,
+          "sha256": "7c3556f0702db2249e29e6cf237a2499741174c9573d267add0a3e04828edca6"
+        },
+        "records/R15_edges.json": {
+          "bytes": 402,
+          "sha256": "686a196e036fcf7d6aa36d5169f739cdd1b348f5fa8f773937f7bb001140969c"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-DB45477B743C963338B35159",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-DB45477B743C963338B35159-claim01",
+            "pointer": "/values/proportions/Fully ready"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 808,
+          "sha256": "9d8605c72f6383380f86f39cf3ef04dc407ab86ebf8442a8fa89250c06aef63b"
+        },
+        "records/R15_claims.json": {
+          "bytes": 218,
+          "sha256": "3a6241189b85d3f58a14c5e764757864e8ad843cce6882cd187c9ef5ff2cc3ee"
+        },
+        "records/R15_edges.json": {
+          "bytes": 259,
+          "sha256": "cbe1364a40190b3afa3306ed97d02a6add121e023f34f834fe6fa66a1f15d456"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-685C25DBCB02503FCAEECE9C",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-685C25DBCB02503FCAEECE9C-claim01",
+            "problem": "unit, denominator or scope does not match field metadata"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 4194,
+          "sha256": "6613bb49a65a2a8a108c1e92d5d0820516b67b05153f506a1d350880f96f7c24"
+        },
+        "records/R15_claims.json": {
+          "bytes": 201,
+          "sha256": "a5f777d59a1bfbc5800aa83aa10b468617cfad0659e73d631321f0d0c28dba60"
+        },
+        "records/R15_edges.json": {
+          "bytes": 281,
+          "sha256": "270289b0a4266b1f896fe8851b19c2b8f3c099bdd0cff7e0a16b6d7cba3836d5"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-EFC26FF8C68781DB17BC8C57",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-EFC26FF8C68781DB17BC8C57-claim01",
+            "pointer": "/values/denominator"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 824,
+          "sha256": "c47f0919b07850be0e925b4cb9e4c9b0338fd8efeaa1ede484bd1a73121a9fab"
+        },
+        "records/R15_claims.json": {
+          "bytes": 179,
+          "sha256": "8c3ba7b477520819371496681583125f91b04824b9220e40613a1e1acc222490"
+        },
+        "records/R15_edges.json": {
+          "bytes": 363,
+          "sha256": "b6c221a82ff0f6eb15ee36e1a9b38de39d3014156582cbce9a000af690504da8"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-A1CCBED4F29A722F662B7C91",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-A1CCBED4F29A722F662B7C91-claim01",
+            "pointer": "/values/mean_staff"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 4244,
+          "sha256": "1355cadc6322c47b2e8a951e70db79406776db1789bcb996ffb7b509695041d2"
+        },
+        "records/R15_claims.json": {
+          "bytes": 211,
+          "sha256": "eccd7f8dee62cb0bcd3c3b348e4c3495e57420f667cc4fd0d738e4301e2a4ec4"
+        },
+        "records/R15_edges.json": {
+          "bytes": 331,
+          "sha256": "cf7d8180a685c1d9d14a714682795da5036d2a88396db01b46575e18bb2c7eec"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-186F26AA206E42202B12BE02",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-186F26AA206E42202B12BE02-claim01",
+            "problem": "a source pointer must start with /"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 4214,
+          "sha256": "66486ca0a33eba16aaa95fdb04411abe37807b64e028503d3f8c8a90fd59660d"
+        },
+        "records/R15_claims.json": {
+          "bytes": 214,
+          "sha256": "d10da9f0d543ea03efaa098f7eb7732ef6f0e7a3818db3ef85e8826b7c37b0c5"
+        },
+        "records/R15_edges.json": {
+          "bytes": 408,
+          "sha256": "c6210bbf6865f7f6d37f0c7bc38c635b6a80fd9722e65d5dbbb0aaab509a24ca"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-DAE8F90CA375037D0485CCB0",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-DAE8F90CA375037D0485CCB0-claim01",
+            "problem": "no mapping for alias"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 783,
+          "sha256": "d0fa75a0ac7e613ce1332a1b57cc9b5e2102a247528a95b1329e7a2c86b89d9a"
+        },
+        "records/R15_claims.json": {
+          "bytes": 179,
+          "sha256": "90bb3358a34306d7a052d395c6b8bda552e8db7435978b285bac5902c721f07c"
+        },
+        "records/R15_edges.json": {
+          "bytes": 264,
+          "sha256": "359901f82727e8424637c1de536aeac8206c6c00d0d9a5b8ec8ceaa10fdebae3"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-0F80539A37AEC3A1C8793BC0",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-0F80539A37AEC3A1C8793BC0-claim01",
+            "problem": "no mapping for alias"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 820,
+          "sha256": "65f058e353659e4165d949dfb00e7f380155622dcbc4507784cc8d523044041c"
+        },
+        "records/R15_claims.json": {
+          "bytes": 178,
+          "sha256": "8ade41681539793f6b8133bde9f63a1514ea099fccae7ee602fba92142a674ff"
+        },
+        "records/R15_edges.json": {
+          "bytes": 264,
+          "sha256": "199d4dffaadc969ee5238ecd3796e0bcde046c9a2c47c20e4eefa2a7ec7ff143"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-5797E2E1B382A9189AF5D36B",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-5797E2E1B382A9189AF5D36B-claim01",
+            "pointer": "/values/denominator"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 809,
+          "sha256": "a1b464fa4f4afe9a0b0cea2a83263f351049812e60dde624fff9627ecc710f48"
+        },
+        "records/R15_claims.json": {
+          "bytes": 179,
+          "sha256": "cf50ec410a36a3bcd47f6c49ab4512d6638b78145c34aaf4a3d2d16f453d9d91"
+        },
+        "records/R15_edges.json": {
+          "bytes": 363,
+          "sha256": "9d81a5dca3a14882809d0eefe25842a1c704f3fbe7bba73341f05c75e1fa7a8a"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-90015A2677F1659B24145F89",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-90015A2677F1659B24145F89-claim01",
+            "problem": "unit, denominator or scope does not match field metadata"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 3556,
+          "sha256": "628b35ae3ece5a89ea036358c0fc8b6229ff58c19f5abb77c71b9b5b91147629"
+        },
+        "records/R15_claims.json": {
+          "bytes": 202,
+          "sha256": "f3812a18d3def8f34c7ef88e70ee49d476d1bf6c053960541a83666832fdee72"
+        },
+        "records/R15_edges.json": {
+          "bytes": 281,
+          "sha256": "55b587b48a243b28f94eb2142652306e0204eb6dba4c8b3349aac7efab93a5a0"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-5C2AE8EEDE54A6815528F4B7",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-5C2AE8EEDE54A6815528F4B7-claim01",
+            "problem": "no field metadata for '/values/mean_staff'"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2249,
+          "sha256": "3243b77c07652dd47863c0ebec4ab8a60114e0ff5801a891f217b6da1a098149"
+        },
+        "records/R15_claims.json": {
+          "bytes": 202,
+          "sha256": "7c173ef0a660416da6df6e5724974da2bef6b5b0e6bd59d88b3f8d0df42c172b"
+        },
+        "records/R15_edges.json": {
+          "bytes": 204,
+          "sha256": "42080788241c918044ed6731a16952e93e385db0d14ad1a2387ee05460cd7690"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-B323F524F5F74F84F62AE309",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-B323F524F5F74F84F62AE309-claim01",
+            "problem": "no field metadata for '/values/denominator'"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 791,
+          "sha256": "6910c425aef754040c29eed5a60d8f7dbe8022e8a0500887c48d6a283fb1344c"
+        },
+        "records/R15_claims.json": {
+          "bytes": 170,
+          "sha256": "a65e0769a7962ce6dcf86b5c96c1d052599164825c82db5b9b3a359162b60c8c"
+        },
+        "records/R15_edges.json": {
+          "bytes": 181,
+          "sha256": "61c9e68019cbfdafa09dc7c3db028537ae9bb1f31dddecd33ec1ec7c8fa7666f"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-C928ACACF83D8A1319D7E94A",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-C928ACACF83D8A1319D7E94A-claim01",
+            "problem": "a source pointer must start with /"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 3537,
+          "sha256": "07df10d9589a9edcd88e5b2be987536de3db5481d1dd5f63697da6a46dfc8a3c"
+        },
+        "records/R15_claims.json": {
+          "bytes": 213,
+          "sha256": "668b7078060f3872ee4b83618fd5424626a6c7d2b8fe4e25efc296df103a0dfe"
+        },
+        "records/R15_edges.json": {
+          "bytes": 408,
+          "sha256": "0f9f34dfefc97d90a1906e1ae3f8bdb4a979bbb7768566107ba1d23b3e5e62c9"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-21D4D74D2BCB6DEC1750EFBA",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-21D4D74D2BCB6DEC1750EFBA-claim01",
+            "pointer": "/values/mean_staff"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 3532,
+          "sha256": "4571e28a59f1dcc0a459bce1a3792c5aa875779d7af1c4439d0d0ed7601801d3"
+        },
+        "records/R15_claims.json": {
+          "bytes": 214,
+          "sha256": "cd10d9421757a7d29b62a3f069ef0ee99126a13092403c1d98abbf0151489ec0"
+        },
+        "records/R15_edges.json": {
+          "bytes": 382,
+          "sha256": "df7a0067ec8cc7b6623bab6e96050c18a6c7a3c95b22f23ca77fcc79d5f3f66c"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-523A733BA59F808604C87201",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-523A733BA59F808604C87201-claim01",
+            "problem": "alias spellings map to different pointers"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 782,
+          "sha256": "677e428efa2f010d1638835902e1544b3bb83b82b9da27055dc65862c7ceb96b"
+        },
+        "records/R15_claims.json": {
+          "bytes": 178,
+          "sha256": "49967f8f919be7de4722490125ac188f71eebeef732f7c090fc0a902826d4683"
+        },
+        "records/R15_edges.json": {
+          "bytes": 366,
+          "sha256": "242213f8877a12e378ac4efe931ca69db9013020618f0937cfe3b3751f2c2840"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-CC118DC3F3E137638A05A267",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-CC118DC3F3E137638A05A267-claim01",
+            "pointer": "/values/turnover_ratio/R1PROS-CC118DC3F3E137638A05A267-R01"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 3942,
+          "sha256": "4d5ebbc2e1e76ada6212baccc341f8ca589cb47db905c5d11edd84dbd2349081"
+        },
+        "records/R15_claims.json": {
+          "bytes": 243,
+          "sha256": "e11fde6bc8b74506502935e3b8210fbb1d74a0d671e1e4ff1d528aee5e579315"
+        },
+        "records/R15_edges.json": {
+          "bytes": 281,
+          "sha256": "af63433a3d02628f7d181bbbeed8f96f7be65d6bd0903ab1e1e71fb8ce0428ed"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-DA35D38F047DBE30292EC0CB",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-DA35D38F047DBE30292EC0CB-claim01",
+            "problem": "no mapping for alias"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 4206,
+          "sha256": "bf7f132ed75f044b8064fc8a39dd7ae6e7374814c5052ac3c842650b3c288806"
+        },
+        "records/R15_claims.json": {
+          "bytes": 211,
+          "sha256": "ca31b46fc6ca325d06486bfdb9bd47b108214d52fde2631896f59b3892d50dd0"
+        },
+        "records/R15_edges.json": {
+          "bytes": 281,
+          "sha256": "6e777cd2ffada876495fac9676de06be7da76adc4c384d2e36e429381355f850"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-E89646F7043436E0EFCBB80F",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-E89646F7043436E0EFCBB80F-claim01",
+            "problem": "claimed value does not match the resolved result"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 861,
+          "sha256": "99f18b80514d6111d5ce4f273f4cc982780964df16347ddaabb62e9d77d84aa6"
+        },
+        "records/R15_claims.json": {
+          "bytes": 170,
+          "sha256": "79c82c4b02bc8ac91c11dcd2e778560027c9e5a4ca5debb545e7571fe411fb2b"
+        },
+        "records/R15_edges.json": {
+          "bytes": 262,
+          "sha256": "3b1c8878a62c8d1c86b061ddbf424c16e75b0a65e76ff03db8066a35280c01c1"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-3CD508D1139A570248B432AB",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-3CD508D1139A570248B432AB-claim01",
+            "problem": "claimed value does not match the resolved result"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 820,
+          "sha256": "994f2c669a07ba2b8762d9edcad4fd54506f97835ef11f731692fa9e275386dd"
+        },
+        "records/R15_claims.json": {
+          "bytes": 179,
+          "sha256": "fac227468da1c2e1e67ec680762e8fead4101972a5456f7690d8e1c82ad49ef6"
+        },
+        "records/R15_edges.json": {
+          "bytes": 305,
+          "sha256": "7256b14ff379725edf9712ce2bffe2fc148865266b418b94aa09044f374a55d9"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-70A2198C03853E1C95A7DEEB",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-70A2198C03853E1C95A7DEEB-claim01",
+            "problem": "claimed value does not match the resolved result"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2285,
+          "sha256": "6784d76d1ac836000950c26eca9c180e41f089e6227d935f82a01a58c2811866"
+        },
+        "records/R15_claims.json": {
+          "bytes": 202,
+          "sha256": "f340c3de35a4b0af31f8a99d7821c4e3b1e47876c084acd445fd06bb62a9218d"
+        },
+        "records/R15_edges.json": {
+          "bytes": 281,
+          "sha256": "97f7d435bc52f55b98e6e901e6bf25e459073b732a81babd86a27ed947057559"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-A648164BB47AE9C889378704",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-A648164BB47AE9C889378704-claim01",
+            "problem": "no mapping for alias"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 832,
+          "sha256": "aa953c83d1a94bf9559d0fc5c72e80a1be33dd6248718281dd2f395622f99eab"
+        },
+        "records/R15_claims.json": {
+          "bytes": 180,
+          "sha256": "b2f0d0aad959e8ed1cde2347dbbb0259993a975b3f9cabba41ce3216edbe36fd"
+        },
+        "records/R15_edges.json": {
+          "bytes": 262,
+          "sha256": "4a366ba52143d667768eb759752453b6fbe06e5b65fafeea33ed3091c6d93a93"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-5508C661D29CA9DC6D627FE1",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-5508C661D29CA9DC6D627FE1-claim01",
+            "problem": "unit, denominator or scope does not match field metadata"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 3565,
+          "sha256": "142ed6cb9ba498fa8d2955335e6f0f30a05cff519e4de1122602d0118c9fbc14"
+        },
+        "records/R15_claims.json": {
+          "bytes": 201,
+          "sha256": "1faa314c43b9b99b95ab645692a145c5a426fc02f9fb1a8079e3100c65ff9daf"
+        },
+        "records/R15_edges.json": {
+          "bytes": 281,
+          "sha256": "42b625d3f980b6bebb240ab620ca70631974d26b852675ccdae966536fbad8b0"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-74440782B92D987B3EB89616",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-74440782B92D987B3EB89616-claim01",
+            "problem": "claimed value does not match the resolved result"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 3556,
+          "sha256": "7c9a278c9cf8a01257da4a143d8a7e2b1793a6735a6924dc13f67a91204f9a72"
+        },
+        "records/R15_claims.json": {
+          "bytes": 211,
+          "sha256": "10e6ea7b32b819ddf06ea144a23e40294b05a742701df5d68af2a1599e9663e3"
+        },
+        "records/R15_edges.json": {
+          "bytes": 325,
+          "sha256": "b74e7eaa8a70dc2e1ff91a842f03d3d6329dd07665a33ac8e511dc158769e4c9"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-9BD78373C0513EF242E03DC2",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-9BD78373C0513EF242E03DC2-claim01",
+            "problem": "a source pointer must start with /"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2943,
+          "sha256": "ac2ca06939de4c55d60454f75d7d92ed782eae22ef994b437e7f5c5ffea0ff9f"
+        },
+        "records/R15_claims.json": {
+          "bytes": 213,
+          "sha256": "f7921efd51c230ea50cd9b3e0c1c475dc5e2ed4f7f1de5a76d4f11a3121b0bd3"
+        },
+        "records/R15_edges.json": {
+          "bytes": 405,
+          "sha256": "20d318e17f2eec75e84527fbceec20c145fcc8ccd4e04dc1ad8d2e13b4a8c387"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-B07558AAD5D511D0905D1E43",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-B07558AAD5D511D0905D1E43-claim01",
+            "problem": "claimed value does not match the resolved result"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2896,
+          "sha256": "fcecff9372b8a745bdf163730d15a8c0dfa3faecb5ba21e618707c00a41ae243"
+        },
+        "records/R15_claims.json": {
+          "bytes": 202,
+          "sha256": "86fef474e2d62fe4ddf1a374b4d3a563cb385fc287b40056c71d9bcdd4ad7cae"
+        },
+        "records/R15_edges.json": {
+          "bytes": 281,
+          "sha256": "c263bf63ed402425910bda7880cd02f33492bd7dcd16bbcb76ee89098f489443"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-49A3D2795C5C40F46703B97C",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-49A3D2795C5C40F46703B97C-claim01",
+            "problem": "claimed value does not match the resolved result"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 840,
+          "sha256": "52bbf7b29dc3603390b41b94b237d5aef3fd6ef65c7b8f2510fba287fbc79702"
+        },
+        "records/R15_claims.json": {
+          "bytes": 170,
+          "sha256": "b1511090af1843d0cdc06b5e33c2d03397c62d759e7b1db5c6f0bea601b01bda"
+        },
+        "records/R15_edges.json": {
+          "bytes": 264,
+          "sha256": "912215a1f0ad8a8b431bda6aeec2768403290141b908382cd3a625967d3f71d9"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-896F5DC28958D162DB6E19E1",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-896F5DC28958D162DB6E19E1-claim01",
+            "pointer": "/values/mean_staff"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2599,
+          "sha256": "8e8c6055617a9bfcfc48ce9a8d74bfff08b2b075549db69d07fdd04d164f1333"
+        },
+        "records/R15_claims.json": {
+          "bytes": 202,
+          "sha256": "e4825319bdfce4517b7966b80f144123fa34ac8f6c219ee925976632bb73a5c5"
+        },
+        "records/R15_edges.json": {
+          "bytes": 281,
+          "sha256": "b401f214e2a36f326a7675509f39598ab6e59f101202d0cb7e72d21c0b76fea0"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-2508A28C025D8EFFE11EFF7D",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-2508A28C025D8EFFE11EFF7D-claim01",
+            "problem": "no field metadata for '/values/mean_staff'"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 3568,
+          "sha256": "46a7de76ce9c7a471d44d2f089f7e789422cbb428ec72a4af3a76f3c16f7f5cf"
+        },
+        "records/R15_claims.json": {
+          "bytes": 201,
+          "sha256": "c0cb0a13f996530701cf46be6b3a593490c3e386b2490fc14f34870e61eef3b9"
+        },
+        "records/R15_edges.json": {
+          "bytes": 204,
+          "sha256": "56b3a2cf9cb4194d7b8559fc40544453580c58c4c9a2d2db3325b74a75eb7255"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-610B3B2A2BCE68145CCC1828",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-610B3B2A2BCE68145CCC1828-claim01",
+            "problem": "unit, denominator or scope does not match field metadata"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 803,
+          "sha256": "e7c6f25806fb8ecb787d0d816a88981bb9908046f0a5a4f3a547c483e979a71a"
+        },
+        "records/R15_claims.json": {
+          "bytes": 170,
+          "sha256": "f4efc41cddeef7cc2f08ef0f0bb68b82a6407dae354ac83069dd40eb419df5f0"
+        },
+        "records/R15_edges.json": {
+          "bytes": 264,
+          "sha256": "50d114fee6b2adae36e2aaffb8fb478a06cab299d493f874bd1db0e9969962b6"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-3FF96DFE087E17A004AD1643",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-3FF96DFE087E17A004AD1643-claim01",
+            "pointer": "/values/denominator"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 818,
+          "sha256": "4104ed184eaac6e2830ec8784576ece0b15236045374f0b28b429f6e6e66936d"
+        },
+        "records/R15_claims.json": {
+          "bytes": 170,
+          "sha256": "d7d9ba6b80c927c473ffdb288b0ecd1bdee0b3096fe7314ed28f88e27b0eacf8"
+        },
+        "records/R15_edges.json": {
+          "bytes": 264,
+          "sha256": "d659c9286c4b1f4c2a21c3b91ad2ed825759449b170976fc76316ad788700b0f"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-C61620557AD9225A24CFE491",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-C61620557AD9225A24CFE491-claim01",
+            "problem": "unit, denominator or scope does not match field metadata"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 3531,
+          "sha256": "f8a0bd2b128bc70b1abefc04a902f148d109f4dd849a2e1d727a42579e6b72d4"
+        },
+        "records/R15_claims.json": {
+          "bytes": 202,
+          "sha256": "37cf14f248f7dbab43c8bc0fdbe4ea7567ec4de3e47ea6166803cb8f3300d4fe"
+        },
+        "records/R15_edges.json": {
+          "bytes": 281,
+          "sha256": "23ec445b4a76897fa1dccd1cbb3b6cff1ef16d5fb89ba65bea26d93a24d35d7e"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-2F5D2431C94CE132E7866640",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-2F5D2431C94CE132E7866640-claim01",
+            "problem": "no field metadata for '/values/mean_staff'"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 1944,
+          "sha256": "e4e616eef8cd71777e7dc37863a393e7c14c1739f70d8dc20aed3e50c5394d02"
+        },
+        "records/R15_claims.json": {
+          "bytes": 202,
+          "sha256": "72f5c32e2b81e99a62de282d9f29c8526765097cfe3aec87cf62e7d1c0eb68f1"
+        },
+        "records/R15_edges.json": {
+          "bytes": 204,
+          "sha256": "2b6563382e5a03ddcb00c4e05c136d2170676ddd89d9aebd60a5cda896a7ef03"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-2B452F380ED3FE69E275B439",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-2B452F380ED3FE69E275B439-claim01",
+            "problem": "claimed value does not match the resolved result"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 863,
+          "sha256": "db883b98ea03fbe02ca1bdd6b9853e3be67811a692ba91053eda8f966095a965"
+        },
+        "records/R15_claims.json": {
+          "bytes": 170,
+          "sha256": "a0764040e03e73009aa3d12497e724b7684617fa2a4bdbefa95a7e1eb6d93138"
+        },
+        "records/R15_edges.json": {
+          "bytes": 262,
+          "sha256": "d4d5b52d5144f7d1689b25a5ce472393dea007cd72f49b2853c967c74db08e3b"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-CFF15042C7FD83CD8A376416",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-CFF15042C7FD83CD8A376416-claim01",
+            "pointer": "/values/mean_staff"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2587,
+          "sha256": "eec7400792802879afd143f0253462aeffc34688e57b11878684856a2471f34d"
+        },
+        "records/R15_claims.json": {
+          "bytes": 216,
+          "sha256": "db71ad9990d95ed95f2c5e0242d14648834a1bb8eb210151c8ff7269683b44b6"
+        },
+        "records/R15_edges.json": {
+          "bytes": 386,
+          "sha256": "4ac3989dff7e3c04dfeb11aa0611972d515216572180897fa137f3154bb2e4b0"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-44032BD5F24E1933A01E3BFE",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-44032BD5F24E1933A01E3BFE-claim01",
+            "pointer": "/values/denominator"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 789,
+          "sha256": "b4c5b30efb2b69e98f0b6dc8e405bfb16c5324dade422f96827861609e99df32"
+        },
+        "records/R15_claims.json": {
+          "bytes": 179,
+          "sha256": "3846f32c99c16553afdd7a082165f2d55864671b443547f3cf6d3d03a704ca26"
+        },
+        "records/R15_edges.json": {
+          "bytes": 311,
+          "sha256": "5fd9ab30de2de22ebf3f4cca9c598accb73b4053cf9657eca5b471414b14c786"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-7083E883FD24E66379D12557",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-7083E883FD24E66379D12557-claim01",
+            "problem": "claimed value does not match the resolved result"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 783,
+          "sha256": "6695d0347f0cc2a9bd3acb68ff393418b2aac70a81c9606b6a3cc502acf7ca6f"
+        },
+        "records/R15_claims.json": {
+          "bytes": 170,
+          "sha256": "f15240e78c4ee3f2d48f6629bc1bef019e3f625d9a40e696163f2b24db9e4b29"
+        },
+        "records/R15_edges.json": {
+          "bytes": 262,
+          "sha256": "7b3e5a91a80c4a549ff2a2f3d2850467f9f4a3f4f8aa32f95f9272508b79c520"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-CB91AA323BE76ABF0FBDBD68",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-CB91AA323BE76ABF0FBDBD68-claim01",
+            "problem": "no mapping for alias"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 3600,
+          "sha256": "6b2e2e9040c1e03aad853b3325ff8d539c4374785f2f631fa0e545b788256ea7"
+        },
+        "records/R15_claims.json": {
+          "bytes": 211,
+          "sha256": "42623f6ee436586b27d79e25fcea799ec5c4e2042c18bdaa771dfe0085c49ed7"
+        },
+        "records/R15_edges.json": {
+          "bytes": 281,
+          "sha256": "829ee1e9f37dbcbaa66c56665515c958604e8c34512e775da82e9b8ba7bbc98e"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-7B16AD637B4CABC03E1C4834",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-7B16AD637B4CABC03E1C4834-claim01",
+            "problem": "unit, denominator or scope does not match field metadata"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2273,
+          "sha256": "5bccbc7eb6eaac96edc8092fc5f7b4973ba7f033135cdfb6da2934ac35270dc7"
+        },
+        "records/R15_claims.json": {
+          "bytes": 202,
+          "sha256": "11ff295a00a776b28cfb301ac4c5d0a9520896e78ee7fefabc0720a1a8a6f648"
+        },
+        "records/R15_edges.json": {
+          "bytes": 281,
+          "sha256": "6eb6784ed35ee06ff55de3d1f9eff89be562da6426b9cd1da80f3abc3d25655a"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-0D9807EC6E7251FAC89650DE",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-0D9807EC6E7251FAC89650DE-claim01",
+            "pointer": "/values/turnover_ratio/R1PROS-0D9807EC6E7251FAC89650DE-R01"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2259,
+          "sha256": "a667505d9979352e3a8b53de913b6725ee8a08f0d89b01263d013e4785501feb"
+        },
+        "records/R15_claims.json": {
+          "bytes": 240,
+          "sha256": "69cf92c4a5445b20acf0c95cdf6b10366c24542360e8d85af5a20ad08caa462b"
+        },
+        "records/R15_edges.json": {
+          "bytes": 281,
+          "sha256": "28c56436d96c4f7f123c57aec1fea2f7162676b8ed2854a08eded79ffefb280d"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-F43B18F8DF3F6C3374DC0643",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-F43B18F8DF3F6C3374DC0643-claim01",
+            "pointer": "/values/denominator"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 826,
+          "sha256": "f6e2f7472c7236f84621c25dd47a9c599af70b455d148457d11f495295058dd8"
+        },
+        "records/R15_claims.json": {
+          "bytes": 178,
+          "sha256": "7ea7195af61368bf087070965778f45d12892fa172e944d111661f141936c494"
+        },
+        "records/R15_edges.json": {
+          "bytes": 303,
+          "sha256": "85327f438234985ce8c2518ba8bc5ea588ab732bb12a587f1f3599e090f0f171"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-1E5CAEDD4472A14780BC7276",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-1E5CAEDD4472A14780BC7276-claim01",
+            "problem": "no field metadata for '/values/denominator'"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 806,
+          "sha256": "f54c70cbc1be4da40cebd2d4c515dc6de9aa9ab65fcf809e6ed90b75818508ae"
+        },
+        "records/R15_claims.json": {
+          "bytes": 170,
+          "sha256": "11789e2dbdca60a8a25e09a7ec935924f3cdc043c5c2ca2ee2878b334df69720"
+        },
+        "records/R15_edges.json": {
+          "bytes": 181,
+          "sha256": "cab00452a09da10091b3758179b704b80f73a732049bcfb3a283a209ca16902c"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-C5C4CE08E069D6FECCFFCCEF",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-C5C4CE08E069D6FECCFFCCEF-claim01",
+            "pointer": "/values/denominator"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 836,
+          "sha256": "92c3bfc4a89ed4f4fbd81183a5b3a7948a8606c0c71891fd5d433d39b9ddc0e9"
+        },
+        "records/R15_claims.json": {
+          "bytes": 180,
+          "sha256": "233d88452dea1555c4a2bfd63840dd3c79cccfde1eea36fefa7c5cdb3cea7fd7"
+        },
+        "records/R15_edges.json": {
+          "bytes": 311,
+          "sha256": "712a243ff829f4d3540224d3c53e9dc9b31addd909c75983c7ccb97ec8d30310"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-1175F475261EE917E0E06A6A",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-1175F475261EE917E0E06A6A-claim01",
+            "problem": "alias spellings map to different pointers"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2914,
+          "sha256": "38dea2b37fb2d7a787a8576561d9cf04436f5e843d8fcff0d3bb2558d5e401a5"
+        },
+        "records/R15_claims.json": {
+          "bytes": 212,
+          "sha256": "4dd9bc22793c590906821a814d22c92e8a43ad67fb59ec53cbd164c2a281c962"
+        },
+        "records/R15_edges.json": {
+          "bytes": 420,
+          "sha256": "ee0f72b18424f24e3d676f3877180633762bf83b9a7807195f633f54c85e9277"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-412E26AEC41288D5D17ECAC3",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-412E26AEC41288D5D17ECAC3-claim01",
+            "problem": "claimed value does not match the resolved result"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 1962,
+          "sha256": "c42774e08c04aad0abd191bd1a675da1c8bbeaf3d847337e13275646b3bc50c1"
+        },
+        "records/R15_claims.json": {
+          "bytes": 202,
+          "sha256": "8fd80431ec91fcc2afe60105524c5404835acd5913de908e09a0c87b741fba40"
+        },
+        "records/R15_edges.json": {
+          "bytes": 281,
+          "sha256": "14a6f0e561bb43b586317083a1606a6013673c49ec2320bfeaa0bc26eea18e7e"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-716BBC5753F6B254F4D79139",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-716BBC5753F6B254F4D79139-claim01",
+            "pointer": "/values/mean_staff"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 4332,
+          "sha256": "238482e03945c2e2833f72ed1e666c22d3b01510522d2c7c03ec74d676aacabb"
+        },
+        "records/R15_claims.json": {
+          "bytes": 202,
+          "sha256": "2678318dbba2adad6ec5624c016a9863dbe44e07f76a36fecbc69d42eac7bd4b"
+        },
+        "records/R15_edges.json": {
+          "bytes": 281,
+          "sha256": "0284b268d52298ee8acccc9ff4b701955bb79475e968ae94f5734701abce6369"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-E537A37980B897D058072E86",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-E537A37980B897D058072E86-claim01",
+            "problem": "alias spellings map to different pointers"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2256,
+          "sha256": "1670983742aec494a64434a5fbf7fba21d205a6bf1f79fede31bd6182d1f769c"
+        },
+        "records/R15_claims.json": {
+          "bytes": 216,
+          "sha256": "f949253838c7ec432452ae0486671d488c43e64f86d734dcc8a4c5f37d322c19"
+        },
+        "records/R15_edges.json": {
+          "bytes": 426,
+          "sha256": "6321cf21ddc54a4552e0a8464001261893ba4106307e713f5fbc88d21f4ccd7b"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-AA6C3896FA81A43C86468F2C",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-AA6C3896FA81A43C86468F2C-claim01",
+            "problem": "claimed value does not match the resolved result"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 803,
+          "sha256": "e2c9e97e691f21b0029c55a58b58c6b07f8f5c06310ec24a9ffae3491b822b7b"
+        },
+        "records/R15_claims.json": {
+          "bytes": 170,
+          "sha256": "9f47549760c3f09fc4f56283b2ce01f08bfeb7883fd57c4bfb064e5e41d60d64"
+        },
+        "records/R15_edges.json": {
+          "bytes": 258,
+          "sha256": "6761ab4d294913e5e116a9ec76ba2cb00800f8592d1066acbb1bcd67afa3b85a"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-8C212CB16D676EFB19316BB5",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-8C212CB16D676EFB19316BB5-claim01",
+            "problem": "alias spellings map to different pointers"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 1938,
+          "sha256": "d67b2929abd8cbe882bbacd23a45fc0d4568fb4ba0e9f739bc5f1125e79d7edd"
+        },
+        "records/R15_claims.json": {
+          "bytes": 210,
+          "sha256": "db26be65c0d4f3917862ab90e1497f69ea200013ef188bd6d39cadb70be8dddd"
+        },
+        "records/R15_edges.json": {
+          "bytes": 416,
+          "sha256": "f56e2a4db8c49dcdddb3be378eb2660a3da116f966d6d120d518a22a32e5f878"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-1C52CAC128E9A3065F6D10FB",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-1C52CAC128E9A3065F6D10FB-claim01",
+            "problem": "no field metadata for '/values/mean_staff'"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2891,
+          "sha256": "b5542edee7b6b856f436b63c688053c872a7fac16978c9649f9d4ebf47dbc332"
+        },
+        "records/R15_claims.json": {
+          "bytes": 202,
+          "sha256": "79b58551634a4450759d7bd2875cba97bd648b119af8ab97e4c50a68adc37044"
+        },
+        "records/R15_edges.json": {
+          "bytes": 204,
+          "sha256": "6e29fa34feac32e033550cde1821f3087b246de9d969f263644158294d2c8b8c"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-CC8FEE4EABF0F107B8CD88D1",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-CC8FEE4EABF0F107B8CD88D1-claim01",
+            "problem": "no field metadata for '/values/denominator'"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 806,
+          "sha256": "65450936bdc0b40236c8506d8e69fef88935af06a99a4c4631013614a8ed932c"
+        },
+        "records/R15_claims.json": {
+          "bytes": 170,
+          "sha256": "eafa0d3a3be92772f6fccc4221b429d1b0c7b9025eae1c54dc6159043ef23fca"
+        },
+        "records/R15_edges.json": {
+          "bytes": 187,
+          "sha256": "d652f76d5f9790c22f5052124862d2b5a3b28d5f7f944903c86a14e8aacd298c"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-D1E7EF1A7FCFE40222DA5B82",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-D1E7EF1A7FCFE40222DA5B82-claim01",
+            "pointer": "/values/denominator"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 862,
+          "sha256": "4f053727c2aa11bcf35e2c19d48edb6f62d77e88b95f4f020a3448676589353f"
+        },
+        "records/R15_claims.json": {
+          "bytes": 179,
+          "sha256": "23acb3674f10ae87719ca7e50329b4508b9617e011168465ba939ceafc44ae26"
+        },
+        "records/R15_edges.json": {
+          "bytes": 316,
+          "sha256": "9867df0330cd9898647a32fc76c5a5dc4647b2ac61b4bb485b3e1a7a25a95b6e"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-98A99B18C283F43FD92B3274",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-98A99B18C283F43FD92B3274-claim01",
+            "pointer": "/values/mean_staff"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2256,
+          "sha256": "3c31117365cfbb7a0c3ceaf6f8934d26d1255bb66e4ee87cc98594034efd0616"
+        },
+        "records/R15_claims.json": {
+          "bytes": 213,
+          "sha256": "ca1c4aaebdfc2034be24704d0c6060ef25132c15df23b716ec42e6bfdf3d520d"
+        },
+        "records/R15_edges.json": {
+          "bytes": 334,
+          "sha256": "6aa9e921a058d52ac0bee75c484ea6d59676fefeac1969e2e85e29a5b9dcf91b"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-08D35BB2A05132C2F9C23814",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-08D35BB2A05132C2F9C23814-claim01",
+            "pointer": "/values/mean_staff"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 3517,
+          "sha256": "89bab7d662c6280667aa28107587175f1238bde582839292055738e5eb6324dd"
+        },
+        "records/R15_claims.json": {
+          "bytes": 211,
+          "sha256": "010d034a802019b0a8dfc8a9466734feb1803d8db234d4d688917d0d02b74b62"
+        },
+        "records/R15_edges.json": {
+          "bytes": 331,
+          "sha256": "358493a6530474e6e688a1fb3798c7610af869692810815b66c17ee248c71b29"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-7FD0F7ABD559D2277B021393",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-7FD0F7ABD559D2277B021393-claim01",
+            "pointer": "/values/mean_staff"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2645,
+          "sha256": "6d460dcd9f3ab8283d91dbcb44c8fb80193cce5c84808a28d3f66d995ee600e9"
+        },
+        "records/R15_claims.json": {
+          "bytes": 216,
+          "sha256": "e9054da8b3a15b57ee7326f66b4ed08ed8ce4f38ccb0a90472c425140383e7b0"
+        },
+        "records/R15_edges.json": {
+          "bytes": 336,
+          "sha256": "c810812558eff2d3e8f0aaff53cfb75221927ccff2d4aa0c207f06b769eaec2a"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-B80AB32CD3DD0DB5DED1570B",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-B80AB32CD3DD0DB5DED1570B-claim01",
+            "problem": "claimed value does not match the resolved result"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 787,
+          "sha256": "2c2553901ebd41152551b65f2d5334c796027f2d94ca8483eb921c07047cafea"
+        },
+        "records/R15_claims.json": {
+          "bytes": 181,
+          "sha256": "77809c1abd35db4efa1e26c419f2b6bd7e98813378b07fa709c524bc0497ce3a"
+        },
+        "records/R15_edges.json": {
+          "bytes": 312,
+          "sha256": "ab00c77ec157f1244a9d2a969ffa7c7ce049f542235e4674b6b2b7a53bd4c014"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-977012E674002231DA760291",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-977012E674002231DA760291-claim01",
+            "pointer": "/values/denominator"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 838,
+          "sha256": "e240e3b2341b6afc25a908b451bfc7ac797d1b5eb2369b8c818ba94e15722067"
+        },
+        "records/R15_claims.json": {
+          "bytes": 178,
+          "sha256": "03d4df7e9cf2c6095449b2aa5894f58e52dd31d9d72b584443d4e0b6f119422c"
+        },
+        "records/R15_edges.json": {
+          "bytes": 315,
+          "sha256": "a1c534561968e522fd742049c7aefd54674e6da25b5c182c23c4af7798e60ad6"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-C3B614C15E40AE726DDBAAE2",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-C3B614C15E40AE726DDBAAE2-claim01",
+            "pointer": "/values/denominator"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 807,
+          "sha256": "82b7c0ea9b7c3cf64ddf63771d910fd92c60479aaad928aa4ef26e52bb76a2ba"
+        },
+        "records/R15_claims.json": {
+          "bytes": 179,
+          "sha256": "d7563388981192ca62acdae73fe4d11cb6b646057a28586ba0f9cb14b82c2290"
+        },
+        "records/R15_edges.json": {
+          "bytes": 305,
+          "sha256": "b158561daf2771c9b543c2928088355bfdc49f7e7769b4efd1fca731a9594995"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-FF19FE3600812EFED48556BD",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-FF19FE3600812EFED48556BD-claim01",
+            "problem": "a source pointer must start with /"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 847,
+          "sha256": "745c7e0c082c62dc4152fe9b5dcf45624c55cd2cca1b4c0d9194568ce8f2edc5"
+        },
+        "records/R15_claims.json": {
+          "bytes": 179,
+          "sha256": "185e54375070da934d479891e5193893054d3c1a2b193bcd0d51f951e92a783b"
+        },
+        "records/R15_edges.json": {
+          "bytes": 384,
+          "sha256": "9dd3590015987a347c6a25b8a1f66d703f9740fca7c36b133ab937cd590f7810"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-CC5EB68756C725BB7254BA13",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-CC5EB68756C725BB7254BA13-claim01",
+            "problem": "claimed value does not match the resolved result"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 1928,
+          "sha256": "73def91fdb032963480a3228cd72d3feb667f1a338fd744d6b0de1234e6af22d"
+        },
+        "records/R15_claims.json": {
+          "bytes": 213,
+          "sha256": "e78ca70e1672c41f920c946f8c8dc677bdab6695a127a695670a422728aa92ad"
+        },
+        "records/R15_edges.json": {
+          "bytes": 328,
+          "sha256": "da721686c5ec84c740aa244ede6a6c1dfa7457b0e6445dfa546c8583cb3cc358"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-C7D5DE31E2F7971F130A0CA9",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-C7D5DE31E2F7971F130A0CA9-claim01",
+            "pointer": "/values/mean_staff"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 3878,
+          "sha256": "d8fa4c4e3c66a3816c6684fa6b686e00a061e0eb9d903f53fc974f9c5d17f33a"
+        },
+        "records/R15_claims.json": {
+          "bytes": 211,
+          "sha256": "c9d58c01c4897b29bf286671d11283edc73e9283911ff831fcfd9c3b3203e429"
+        },
+        "records/R15_edges.json": {
+          "bytes": 325,
+          "sha256": "a437f67007ba350cfdc2e31540ee0c70763d146cd0b34339bdfdbb7676224181"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-5387EBD2C25E8B2DAFC60EB9",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-5387EBD2C25E8B2DAFC60EB9-claim01",
+            "pointer": "/values/mean_staff"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 3971,
+          "sha256": "1cf60bda13e34d4e8a68d272d903cd696f406a846e2be5682be642a29f2eea13"
+        },
+        "records/R15_claims.json": {
+          "bytes": 211,
+          "sha256": "ffb03fc9f3f20a3162e5e9d941cb91aeb6dd5f7d8d15d19cda9a64944d715986"
+        },
+        "records/R15_edges.json": {
+          "bytes": 325,
+          "sha256": "d383e32e1cbd420d05d109bbb8f61ee791096f3655379540f5b2c5a6f6be1b37"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-033D751FAC9706A77BFA58B0",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-033D751FAC9706A77BFA58B0-claim01",
+            "problem": "a source pointer must start with /"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2258,
+          "sha256": "34d5120e64c1f2fd7f5f8ee9b65276c24b030db063d5beb47de6fa0f3687fa27"
+        },
+        "records/R15_claims.json": {
+          "bytes": 215,
+          "sha256": "11fa301af02f0f72274791844d9480e5bfc70e8aa5f0841ff4b4999cde70a988"
+        },
+        "records/R15_edges.json": {
+          "bytes": 414,
+          "sha256": "8884e2a4cff398efda19718ac885796a5326a2de8cb605ba6ee466542b24df88"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-90DD7237391958C3BF1BC903",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-90DD7237391958C3BF1BC903-claim01",
+            "problem": "no mapping for alias"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 824,
+          "sha256": "c23253d5af37b8cc9a9a05e42cd8877a4c03e663d0f80890fa5fc67bc3d12a7c"
+        },
+        "records/R15_claims.json": {
+          "bytes": 178,
+          "sha256": "833dd5dc03207e4e3104363899240470ff5130cc29e00a0300075a7692b436f0"
+        },
+        "records/R15_edges.json": {
+          "bytes": 264,
+          "sha256": "cd7cc6c7183072cf99d17136fdc8785520a0e8ea65f32e7b33197ffa18361de5"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-752954E8441BEE2CF1BFC156",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-752954E8441BEE2CF1BFC156-claim01",
+            "problem": "unit, denominator or scope does not match field metadata"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 839,
+          "sha256": "f592014d137b5107a877aad2b77c594f01943b2a8733a743b66ff6216d3ad263"
+        },
+        "records/R15_claims.json": {
+          "bytes": 170,
+          "sha256": "6037d2750bbb4907379404d7b51d669d8ff2eacbb4fa7b46111df7a6c1bd8134"
+        },
+        "records/R15_edges.json": {
+          "bytes": 258,
+          "sha256": "5c72a84890f5f8891a3b9a758842240b1f11229dc99b4929a6fdc29dcb7c3e9b"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-180E2EA48E238916583F5180",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-180E2EA48E238916583F5180-claim01",
+            "pointer": "/values/mean_staff"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2251,
+          "sha256": "9b58d19cd25f72d100aab1230a7502e25dd3764389aeffab5b546f6f75fc1417"
+        },
+        "records/R15_claims.json": {
+          "bytes": 214,
+          "sha256": "062ae49be0b6fcd4da79093ccc50a42aac9ac994ac05f9bc4c78ee316d6a547f"
+        },
+        "records/R15_edges.json": {
+          "bytes": 334,
+          "sha256": "9738a467be5f651e15df2909a916a0e7e948373e9b806b4f5b3369f0843f7179"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-F2BE621CEF01B4289A9D8B3C",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-F2BE621CEF01B4289A9D8B3C-claim01",
+            "problem": "no field metadata for '/values/denominator'"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 812,
+          "sha256": "448735b6e4268e7e40a15c5ad27db9683d86c1a5a02bb068cc6e82a5237edb5b"
+        },
+        "records/R15_claims.json": {
+          "bytes": 170,
+          "sha256": "21d9f65ff6f6b88c3becfeda5e455d1a08c5139dc6941a50d500998d23b830a2"
+        },
+        "records/R15_edges.json": {
+          "bytes": 187,
+          "sha256": "486bdd9e819dc43d0a24ce1797f04b1db04192f18fd5b89fb6be5a5167be3dc0"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-AB2800CF9871CB349B9CF2E8",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-AB2800CF9871CB349B9CF2E8-claim01",
+            "pointer": "/values/proportions/Not ready at all"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 789,
+          "sha256": "059b313f6427d9a5954746bc6320c5da20d6e112f5c3b98033ae3268fbfd7921"
+        },
+        "records/R15_claims.json": {
+          "bytes": 223,
+          "sha256": "54a8aca96d6b6df341f2a1b6d7673a5cfd681669a72c90e38ded4412c8435c91"
+        },
+        "records/R15_edges.json": {
+          "bytes": 264,
+          "sha256": "11e32c0cbeb9e950fda2b06138632085bebe2c76c4d8cab7cf90046576291fd8"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-FF07F436C4685C3EA3600423",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-FF07F436C4685C3EA3600423-claim01",
+            "problem": "no field metadata for '/values/mean_staff'"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 3881,
+          "sha256": "f65ab937757e45c65955c21bc1cdef208c2e2080cc16228c62f86651f1a91416"
+        },
+        "records/R15_claims.json": {
+          "bytes": 201,
+          "sha256": "85c0d761aee2ffc7c7142125ec725b918ca32320c2877f1d5ce45ac6b1a9ab93"
+        },
+        "records/R15_edges.json": {
+          "bytes": 204,
+          "sha256": "87cec9498caac63316094285ca441aa4c1dd49248cc201d7d9e2c01a873f53d1"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-62A70AF41829567CCD079A7E",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-62A70AF41829567CCD079A7E-claim01",
+            "problem": "claimed value does not match the resolved result"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 3211,
+          "sha256": "4d9d6f5ae2a46e2e4085195b6e0ef861727b6d85da3b69022c60ff87b16b5ef2"
+        },
+        "records/R15_claims.json": {
+          "bytes": 211,
+          "sha256": "553cd9ba2e56da1affaa244e7b18dad32f22d45769c1a5aa4168998cf2f7ba54"
+        },
+        "records/R15_edges.json": {
+          "bytes": 325,
+          "sha256": "6953f0a302b77231c9215fce41507bfa31797b8f823edd8d5199a58e07b6de6a"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-88706A0C103160F4F4C08F90",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-88706A0C103160F4F4C08F90-claim01",
+            "pointer": "/values/mean_staff"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2276,
+          "sha256": "5ca311e08ba35a72f55714bf4b63af62bae9f690b1debeb0271d595f9ac5ce7e"
+        },
+        "records/R15_claims.json": {
+          "bytes": 201,
+          "sha256": "9b3fed8abdabbbdf1572a89c4270870923d1c06a4202ae1cb0926f7844e85c8d"
+        },
+        "records/R15_edges.json": {
+          "bytes": 281,
+          "sha256": "dc5f3344eb0e3eaf4a2f3a9388345226f325b2640028e2aa13727ae3c93f07f3"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-17DE6EF8C12A7DFAA8267E56",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-17DE6EF8C12A7DFAA8267E56-claim01",
+            "pointer": "/values/mean_staff"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2564,
+          "sha256": "48e1d318ba8509a5f0942150040178278a4919958772e1e69784f176f29213fd"
+        },
+        "records/R15_claims.json": {
+          "bytes": 202,
+          "sha256": "321586ba630353d709bfb476508c19fd4ec5168ae4281a305d320c12f2afe048"
+        },
+        "records/R15_edges.json": {
+          "bytes": 281,
+          "sha256": "1c8403c3c7d1be763c7768ac2ef2c11ea8ded0a3650f9792132ac387a918dd0c"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-4807FD2E079EF2F991866F6D",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-4807FD2E079EF2F991866F6D-claim01",
+            "pointer": "/values/turnover_ratio/R1PROS-4807FD2E079EF2F991866F6D-R01"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 3579,
+          "sha256": "072bb6d4c9a2228f9bc1834d6463b9b545dbca3f03716d190a11af4550c298d8"
+        },
+        "records/R15_claims.json": {
+          "bytes": 243,
+          "sha256": "f8b34c230f81ffb6dd6d51c11f40dbe45d1040102b1f21187842d546824ef21c"
+        },
+        "records/R15_edges.json": {
+          "bytes": 281,
+          "sha256": "a4f67a976e84ceda7751adc3f5ab0e5abbdb74d524bab21af6cbb0fdbd19b2a8"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-F882C4A9601C48DDB5216CCE",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-F882C4A9601C48DDB5216CCE-claim01",
+            "problem": "claimed value does not match the resolved result"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 843,
+          "sha256": "4b07f71e89d35122c5cd497f3fbe317d4096a35c275d7b8c35384ed7df0befec"
+        },
+        "records/R15_claims.json": {
+          "bytes": 178,
+          "sha256": "1e7d35fe4c314fdb6b31c209f9d098b8db1158ac53b7d9a9bd74c7566f6453f3"
+        },
+        "records/R15_edges.json": {
+          "bytes": 304,
+          "sha256": "3d15fb73c680bfc3a399a06a2da8866ee241c39d1a35bd5dbcb3e0b349c01602"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-205AE33CD70600D35956547E",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-205AE33CD70600D35956547E-claim01",
+            "problem": "no field metadata for '/values/denominator'"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 821,
+          "sha256": "4f026c05457ddf5859b4be8435b8ca5ddf129a1d9a50ed1c4b8a05c67c245539"
+        },
+        "records/R15_claims.json": {
+          "bytes": 170,
+          "sha256": "8103bb4d8d018895cfa33e28512d82e59ac9ed4f0a50e4c61855f0a2ee25c6d7"
+        },
+        "records/R15_edges.json": {
+          "bytes": 181,
+          "sha256": "c4df147ca375dfda2833bb1a2a9ff425e96a9fc9713b9ed646516d532369d00f"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-336299AC712C781F68A01883",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-336299AC712C781F68A01883-claim01",
+            "problem": "claimed value does not match the resolved result"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 1938,
+          "sha256": "3a97c6c9cf8dc788c28386ae4ef8e687bccad65aa05666936b323947904eb107"
+        },
+        "records/R15_claims.json": {
+          "bytes": 201,
+          "sha256": "bf2d65a19d697b86b9b7cb49f7a5c448c00863a466335056cc3cd3c6f4ebc33c"
+        },
+        "records/R15_edges.json": {
+          "bytes": 281,
+          "sha256": "5f0f1807eb1aba748448a06652113d2e05e37488bdeb03f27c9877b922f15d6e"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-5E826BF511F1C27079F71204",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-5E826BF511F1C27079F71204-claim01",
+            "problem": "alias spellings map to different pointers"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 839,
+          "sha256": "ce8249accfdfde21bf525ac19eaa807925c35324104690a23a7f333d8120c0ad"
+        },
+        "records/R15_claims.json": {
+          "bytes": 178,
+          "sha256": "537c83330ba2040ab01dc6874df63c77c0a542c9ca571e8233b4bf149892620d"
+        },
+        "records/R15_edges.json": {
+          "bytes": 374,
+          "sha256": "70d56579935637dd938ebfd281673120dc0ac241ee811181f31539d57341524e"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-DA38EA9CE3029FD531E40653",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-DA38EA9CE3029FD531E40653-claim01",
+            "problem": "no mapping for alias"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2593,
+          "sha256": "bf7a197263b53164c400ab902401f51745a7afd97fe3b22f31637f2a63bc923b"
+        },
+        "records/R15_claims.json": {
+          "bytes": 209,
+          "sha256": "c22f7710255de824237d74d34929ed796b9a4a432cf3c8bdb9f30bf184d67715"
+        },
+        "records/R15_edges.json": {
+          "bytes": 281,
+          "sha256": "73f2d504bb68a050894cac912a91a45c19613965847c2677da7eabf23a33432b"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-2FEE93C5D1A6B23745FB971F",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-2FEE93C5D1A6B23745FB971F-claim01",
+            "pointer": "/values/mean_staff"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2291,
+          "sha256": "49de81192df40802d9f7132564424d4a4b0d06fd8550c6a0867ab29375cb586f"
+        },
+        "records/R15_claims.json": {
+          "bytes": 215,
+          "sha256": "69aa360262d31aaf1bae3eedb38d7a67d0aa88e0c3eefdd727c6c88898562315"
+        },
+        "records/R15_edges.json": {
+          "bytes": 330,
+          "sha256": "dd627f5cbf7118006c6e4600fac2a15d01de987c6dbafe2b88be1c95146192d4"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-25DBBF9AF054202D7EB98360",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-25DBBF9AF054202D7EB98360-claim01",
+            "problem": "alias spellings map to different pointers"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 810,
+          "sha256": "807055dcffaf72621247692caa390f2f01dd1985df4f99efb67fc2ca2b8f14d8"
+        },
+        "records/R15_claims.json": {
+          "bytes": 180,
+          "sha256": "91e9172bf21474756cfb8b0084e4f09caeb7a52f5b16c9416d32205d10d01e07"
+        },
+        "records/R15_edges.json": {
+          "bytes": 372,
+          "sha256": "71b73e47a55161e3c79efc23114bbfd2ec64b4f0dc4f682a2683b0321c3ab3b8"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-4F72B4FF02FC5A2B9B48061A",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-4F72B4FF02FC5A2B9B48061A-claim01",
+            "pointer": "/values/mean_staff"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2598,
+          "sha256": "b604d8354fd38be3061d05b4fe6aca661fbfecf4eff3d69b80b74009abc82ee4"
+        },
+        "records/R15_claims.json": {
+          "bytes": 213,
+          "sha256": "d5e63b5aa73939b441be3de1f6f817bd43fc877f08b43f3e33a73bf88504802a"
+        },
+        "records/R15_edges.json": {
+          "bytes": 328,
+          "sha256": "3ed194543fbaacbe7d6dfdf2d1bf13696f8a4d9492e564eb3bee721f4bb78a91"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-417D14F6956A87054CD8B40F",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-417D14F6956A87054CD8B40F-claim01",
+            "pointer": "/values/mean_staff"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 4228,
+          "sha256": "314fa5300f9a54ed2863f43c1e38ba421f9aaaa8f17229cb745cf492f51a7992"
+        },
+        "records/R15_claims.json": {
+          "bytes": 202,
+          "sha256": "f41000bfbde65e8040783b388369007a6cee07ff8206c03b930015f2f82bf471"
+        },
+        "records/R15_edges.json": {
+          "bytes": 281,
+          "sha256": "d786e9f309ce8d9b60ef31bcb35261acd0ca675752271325f48bb6206777706c"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-2D2BDD2EFAFE2386E57B10AF",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-2D2BDD2EFAFE2386E57B10AF-claim01",
+            "pointer": "/values/mean_staff"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 1945,
+          "sha256": "1fcb64409eed71750c8baf5d025b80de20e6ea416cffb18667e60aad599412cf"
+        },
+        "records/R15_claims.json": {
+          "bytes": 201,
+          "sha256": "de007b8b2b3569c3a105f012df1121a3a6c6be22798f8febfdc17c7e42890c10"
+        },
+        "records/R15_edges.json": {
+          "bytes": 281,
+          "sha256": "aaaba6c84ae1b6c06617edeec655f83ee632af918bbc1c79e4ab219a2ed9c09f"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-B8D40CC724A213F0C9842977",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-B8D40CC724A213F0C9842977-claim01",
+            "pointer": "/values/denominator"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 841,
+          "sha256": "40fe313bb48473fc6b49e37ae63d9bc086dd56c9461e543c8d09e9af8b1ba62b"
+        },
+        "records/R15_claims.json": {
+          "bytes": 178,
+          "sha256": "ee658821f917908e16047d34b0a98bb6b7baf46c82ce2e430d324f1d689e6cd4"
+        },
+        "records/R15_edges.json": {
+          "bytes": 315,
+          "sha256": "090acb52a516e776c1e34ac40d63bd3fc5202678a74792619fdc7d84cf6ce60b"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-60B2D6C3DD1742E9A9B8993E",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-60B2D6C3DD1742E9A9B8993E-claim01",
+            "pointer": "/values/denominator"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 826,
+          "sha256": "fc69ae0e5f9670e1265dee6061791353b5345c6d67ddd4740a3e27a45078f32a"
+        },
+        "records/R15_claims.json": {
+          "bytes": 178,
+          "sha256": "85e3608116e5d3b608a9788fa86582fad6c232da099aba9b855f4242bd07046d"
+        },
+        "records/R15_edges.json": {
+          "bytes": 313,
+          "sha256": "016e02a45eef76233e99f2293b387d22cef60d8c7b588c1cde09c726f12904f2"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-051DFFE3458F37243F4093B1",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-051DFFE3458F37243F4093B1-claim01",
+            "problem": "unit, denominator or scope does not match field metadata"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 3640,
+          "sha256": "bae1c5a61638a3f0fba56436f87c464e1011c8c82ec01eab703d6431cea43a56"
+        },
+        "records/R15_claims.json": {
+          "bytes": 202,
+          "sha256": "fe36228215afea7f7a6c88c2c2a85ba26338a91ab8a68b158231a9d789b53c36"
+        },
+        "records/R15_edges.json": {
+          "bytes": 281,
+          "sha256": "ebb95ac21fb0e5bca3ebdf7f14b0630fc58419e19b3c1eda466535ca36eddce8"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-37609B736EFCBBE016FC5646",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-37609B736EFCBBE016FC5646-claim01",
+            "pointer": "/values/proportions/Fully ready"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 795,
+          "sha256": "007dfa298dfbb5bfc2e0fc2bf92cadc4f0bd477fdedba569b44cd9c8397cf83d"
+        },
+        "records/R15_claims.json": {
+          "bytes": 218,
+          "sha256": "d31daf1cf46c5f2f2760cbdaaea99a199d9434a2e961955bb8338ce6327313bb"
+        },
+        "records/R15_edges.json": {
+          "bytes": 259,
+          "sha256": "c0ccc8c679b1aedc76b85f9eac5d286bf29cca4f627034bbcdb44349a44356c0"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-457486FB11C264299AF5962C",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-457486FB11C264299AF5962C-claim01",
+            "problem": "alias spellings map to different pointers"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2286,
+          "sha256": "18d50149779ece8d7705cf7e9e39d1e5a0e10b97a1da1bbb18ffb9c03d325ab2"
+        },
+        "records/R15_claims.json": {
+          "bytes": 213,
+          "sha256": "15931cd055ad200cde5c83bdabd4b1edd63eb740cabaea3cace06a5464cb0c62"
+        },
+        "records/R15_edges.json": {
+          "bytes": 422,
+          "sha256": "b523e0f93795a1b4cd2746b4b01a4b4b629f798d501bf264428790147d5f9187"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-C9704A360B71B6F6AD5B85DD",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-C9704A360B71B6F6AD5B85DD-claim01",
+            "pointer": "/values/mean_staff"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 4279,
+          "sha256": "97279bbc6d483dbaace82136fcb1a3cc7d14e4737459e586bdfedeca11601d4c"
+        },
+        "records/R15_claims.json": {
+          "bytes": 213,
+          "sha256": "18f84878ac8e9105cdf96580ec82c7ade206e4d4aff23bc8d783bac8202bb6b2"
+        },
+        "records/R15_edges.json": {
+          "bytes": 382,
+          "sha256": "4e5a545112e25a7b49ed409999d0d5f65d5dc7fb48548d9931a36c5e2df0634e"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-E564DA66BE3F9FFFB956B206",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-E564DA66BE3F9FFFB956B206-claim01",
+            "problem": "a source pointer must start with /"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 823,
+          "sha256": "73837054c7a11cd65244b7baf14bf33170da907fed01533d5c9466d0ed39134f"
+        },
+        "records/R15_claims.json": {
+          "bytes": 179,
+          "sha256": "625c4e14905423dabf551d35e47745c0d540ec654d46585d1bc8be3bb48719df"
+        },
+        "records/R15_edges.json": {
+          "bytes": 380,
+          "sha256": "8a3b6b4ed9c4491ea64e48354347c22d0e7e2937753308abb0667b54150610f8"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-9DE07811DCB2EC1095F690C0",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-9DE07811DCB2EC1095F690C0-claim01",
+            "problem": "alias spellings map to different pointers"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 797,
+          "sha256": "06e00ad31d1fc6a06871ef1e8dcffb645ff9cbd780fdfa98fef6485af3027676"
+        },
+        "records/R15_claims.json": {
+          "bytes": 180,
+          "sha256": "01ee896f9084530548d79c1cb012d4f85e1b87afd01924a770d3021c1b5f82be"
+        },
+        "records/R15_edges.json": {
+          "bytes": 370,
+          "sha256": "035f779cf8ee9f4ba9c862d52dc11f79d0a7449cc274aa623964952344e4e00f"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-460CD68376842136036B144D",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-460CD68376842136036B144D-claim01",
+            "pointer": "/values/denominator"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 811,
+          "sha256": "860b2d3f6a31df064e46bae48f3b586545837b3f5c4228cddac3fce553bbceb0"
+        },
+        "records/R15_claims.json": {
+          "bytes": 180,
+          "sha256": "07096c3664bd773a945d354b3fd606f7637f3f3179b37193be0f31b70054e630"
+        },
+        "records/R15_edges.json": {
+          "bytes": 365,
+          "sha256": "31be905790602ed9287ab73acdb5f04619cfbe308ece44817b232647fabf63a1"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-4842953C0A97BCE579FA5969",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-4842953C0A97BCE579FA5969-claim01",
+            "problem": "no mapping for alias"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2248,
+          "sha256": "1c4f4ee323646e387269697de8642e644e88fe783974bde3b3c5fd9a7de5c01d"
+        },
+        "records/R15_claims.json": {
+          "bytes": 211,
+          "sha256": "3ef5c936d5a240f139a92e7da1f888e3dfe0ad15d75e8ee7700eeb5230eb0c93"
+        },
+        "records/R15_edges.json": {
+          "bytes": 281,
+          "sha256": "c1a171c9900c2c977bcfe68a6dc358a0ff98a0558ab3b359bd613748d9acf2ae"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-759259226695637B96E42F33",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-759259226695637B96E42F33-claim01",
+            "pointer": "/values/mean_staff"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 4275,
+          "sha256": "44cb763ff50925b5f9b57ea17a08549b83a11a93098bcabd47bce4698174a3af"
+        },
+        "records/R15_claims.json": {
+          "bytes": 210,
+          "sha256": "71710bf0ef839e2374d47a129ddf6fdf7f37cbb0140fa3a9810ccd0f468a4c79"
+        },
+        "records/R15_edges.json": {
+          "bytes": 330,
+          "sha256": "6687b4f820af2e16b9b207d6a7cc5913d19228c7475800cb30eb9b28d0c08661"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-4A5EE5D3722E7F2EBB220152",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-4A5EE5D3722E7F2EBB220152-claim01",
+            "problem": "no mapping for alias"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 814,
+          "sha256": "be5c6b57369e561e66c24a7612c6faa704b5b378df52469353e221241db26f0f"
+        },
+        "records/R15_claims.json": {
+          "bytes": 181,
+          "sha256": "fe1abf344542a365456f41f2dfb2e833b4b76506feb70556df0a9dabce08b383"
+        },
+        "records/R15_edges.json": {
+          "bytes": 264,
+          "sha256": "f50d4ec37ffa6e05ae39674fe3690bf4e2f15930d7d6ded84d2a645c0543c7b6"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-2136326455C5BF7CE50A3BBF",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-2136326455C5BF7CE50A3BBF-claim01",
+            "problem": "unit, denominator or scope does not match field metadata"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 811,
+          "sha256": "1053ee190c206187e5016b09de1a66d7f6baf13631eab80ae2fe493f0ff5598f"
+        },
+        "records/R15_claims.json": {
+          "bytes": 170,
+          "sha256": "c156d952b923f574de16206b9d2cf862ed33d3723e10139a7249cdfcd021b080"
+        },
+        "records/R15_edges.json": {
+          "bytes": 258,
+          "sha256": "0e2825f3a8066e03afccd3e6f33908db824a4b60a332ab2da1d5bac2594034cb"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-41A18B90A7C461F7BE35BE5D",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-41A18B90A7C461F7BE35BE5D-claim01",
+            "pointer": "/values/denominator"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 822,
+          "sha256": "d5a23ef54e03e961856a0ba2181c4b4a58a6d2be4c960fed8b5513de8026c33a"
+        },
+        "records/R15_claims.json": {
+          "bytes": 170,
+          "sha256": "80386b0006faa51ea2152c27925b4bb796648327e221f0bd5cd9d713d932bcc1"
+        },
+        "records/R15_edges.json": {
+          "bytes": 262,
+          "sha256": "e65fcf0ec3fae646986f4c865d024f61e4af54679be31e43547db5a4108d8ff4"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-874CCEBB226F2F305EFC6C3D",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-874CCEBB226F2F305EFC6C3D-claim01",
+            "pointer": "/values/turnover_ratio/R1PROS-874CCEBB226F2F305EFC6C3D-R01"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2963,
+          "sha256": "ae97fe98f2639cb700eb2ed29887b53757f524159e561eb330c066a4baa777b9"
+        },
+        "records/R15_claims.json": {
+          "bytes": 243,
+          "sha256": "7403a66caded8481dad75baa98dd34994bc9196aac6627ee90e22d5626f98524"
+        },
+        "records/R15_edges.json": {
+          "bytes": 281,
+          "sha256": "65c8a2bce0cf2607b3585eba69a438d0a0f7711c49fb0a18854af1361af3d14b"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-664B5F6D3882B7E464979148",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-664B5F6D3882B7E464979148-claim01",
+            "pointer": "/values/denominator"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 850,
+          "sha256": "509ad8cafccd844cd1b470bb81d3953266cc1fcb12fab59c249c3d18be48d263"
+        },
+        "records/R15_claims.json": {
+          "bytes": 170,
+          "sha256": "603a3146b10ac90fd3d675a9c6d0d960ae656df7287336ff049109c470727931"
+        },
+        "records/R15_edges.json": {
+          "bytes": 264,
+          "sha256": "2328962eb72bd933bf41905cc5b02d511fe55551ddbea1b922c664aa258d930e"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-346BD2ED3B875923D15105E1",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-346BD2ED3B875923D15105E1-claim01",
+            "pointer": "/values/mean_staff"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 3862,
+          "sha256": "122769c9d6f0ebe8fee64a9e0952261cf79bb2cdad20bffdb9bfd7bc8cee5aad"
+        },
+        "records/R15_claims.json": {
+          "bytes": 201,
+          "sha256": "1e90c196300f9e778f1dc8dc6dda9d54e4c234c32ca8875f92cdae1746a53342"
+        },
+        "records/R15_edges.json": {
+          "bytes": 281,
+          "sha256": "0c291f7ec313ea6e3819284ca2ab6c9e61649249b670d2d3853f87c6ece99db9"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-1A9FDEDE85BF9E9BE369DB1D-claim01",
+            "pointer": "/values/mean_staff"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 3830,
+          "sha256": "79d90f8a2529ae5dcbac6e02dd225b45f8008c9e853718b47fe7180638c14ca5"
+        },
+        "records/R15_claims.json": {
+          "bytes": 213,
+          "sha256": "206165c2f900a6b0c74586bfcc12266d575e71dd4ee62ee816bc8c14b13ff1ef"
+        },
+        "records/R15_edges.json": {
+          "bytes": 327,
+          "sha256": "482118488e732f73df24c5bc290c107d923a2eaaff5df99a4f09aad1bed47d86"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-038583672404A67F49664D3B",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-038583672404A67F49664D3B-claim01",
+            "pointer": "/values/mean_staff"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 4203,
+          "sha256": "1dc9d20aa058f062e48554e754628d0ec8c6fe12e67a15ebeba8a5a8af833493"
+        },
+        "records/R15_claims.json": {
+          "bytes": 212,
+          "sha256": "8abec2211ee14c8ba394c23dff26293e2bace711ed486a60b5e44a8654e634f5"
+        },
+        "records/R15_edges.json": {
+          "bytes": 378,
+          "sha256": "45e477509476e638f2ba0e441ba7f678fe72b6691f9595ae18a884fa9a21d1e3"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-010B2575E5342CFAA222E93F",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-010B2575E5342CFAA222E93F-claim01",
+            "pointer": "/values/turnover_ratio/R1PROS-010B2575E5342CFAA222E93F-R01"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2932,
+          "sha256": "9e9a9a18af25871d934570f53b1d72cdf4fc2afd5b50f5f88ca9f577cf537305"
+        },
+        "records/R15_claims.json": {
+          "bytes": 244,
+          "sha256": "c5fb7ad62b2500c73f81b7f2b7b7d6e7721da4c8dc28903a8e62bdaa1dbb02c5"
+        },
+        "records/R15_edges.json": {
+          "bytes": 281,
+          "sha256": "ccb5d41d56277a71dbdbe56846b78076173fa75486790632ff70f5a142567ba1"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-C27E1535EBF41A14E9D3B7B1",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-C27E1535EBF41A14E9D3B7B1-claim01",
+            "problem": "claimed value does not match the resolved result"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 3902,
+          "sha256": "92a7b19145868c73964c09b506b08b1e3132300b96a1221122b9867083081796"
+        },
+        "records/R15_claims.json": {
+          "bytes": 212,
+          "sha256": "d649cd95000183a6803e4290b6a60117556804d118a2072eeb8ad5593df0dc65"
+        },
+        "records/R15_edges.json": {
+          "bytes": 326,
+          "sha256": "5ef0d25c3e3b8961759845ac0a3e453b240a067e4e51e1de88497ef5876d37b8"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-FC035E57AA769864CCE94B58",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-FC035E57AA769864CCE94B58-claim01",
+            "problem": "no field metadata for '/values/denominator'"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 798,
+          "sha256": "18327d302f11db31cecb593f2ed4e17aa47afd4c09ba1032b444ea10a0bdfb25"
+        },
+        "records/R15_claims.json": {
+          "bytes": 170,
+          "sha256": "02d7cf514e66aa99f2936e951256c58eb688c236d5bfe58374b9a719de0960da"
+        },
+        "records/R15_edges.json": {
+          "bytes": 185,
+          "sha256": "0b0c33b83a97327db510c7d3e9c362877b39ce119fe71e20c5211dd80e0fe9e1"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-4209340D6ECCECE00B7C0626",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-4209340D6ECCECE00B7C0626-claim01",
+            "pointer": "/values/denominator"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 817,
+          "sha256": "69eb9e441b456f6ffeeed2b0aaf983e81fb8c20563269e955a8688a4548a48ab"
+        },
+        "records/R15_claims.json": {
+          "bytes": 178,
+          "sha256": "410f0e073f03a7d066d797c35f3162d3f1d9178adc83e6bfe06a32f808b37c40"
+        },
+        "records/R15_edges.json": {
+          "bytes": 307,
+          "sha256": "d7bd6fbc2bb8cf509552e9c6db31d82f44b8570c757e930ffa92818fa25bd2a7"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-B93EE0C25333F23219D4CDD2",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-B93EE0C25333F23219D4CDD2-claim01",
+            "pointer": "/values/denominator"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 807,
+          "sha256": "8f09073f3cffe13da0fe76f2013ec5b6d2bbf48c61654d0281344d8dec05e502"
+        },
+        "records/R15_claims.json": {
+          "bytes": 170,
+          "sha256": "879e45d5f0b8cdeca90d073c8b61818a58ad3a6bea49a445aa84a8f49913b4a3"
+        },
+        "records/R15_edges.json": {
+          "bytes": 264,
+          "sha256": "ff41b31a25cbe292ead820d801cb898827e41f3e2b1c337c89b90b6311cbda21"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-183259B6AFF4361C0C798C9D",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-183259B6AFF4361C0C798C9D-claim01",
+            "problem": "no field metadata for '/values/mean_staff'"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2238,
+          "sha256": "de71cae950ae00611bbefeb321ddc8339a5c31362fb0b3ab87f201ff802df8de"
+        },
+        "records/R15_claims.json": {
+          "bytes": 201,
+          "sha256": "c34b22dc4a7cdbf88ab011f2ec402ad11171e7fa76742fa9422c333f1570d6da"
+        },
+        "records/R15_edges.json": {
+          "bytes": 204,
+          "sha256": "eaebe096f70e631bce832c86cc5cddba2edd6109e433d9dcaddcd245afe04045"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-81886D0F22CD34BEFE0BC76C",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-81886D0F22CD34BEFE0BC76C-claim01",
+            "problem": "alias spellings map to different pointers"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 810,
+          "sha256": "5dd7e34734cd834597af559ce23fbbd866615ecc276d2d413ba1b70589742b98"
+        },
+        "records/R15_claims.json": {
+          "bytes": 179,
+          "sha256": "d65c7d27d9647d8e68e0af1d5d3836aac8da71fb58a95b66e28d1bf4fa1360c2"
+        },
+        "records/R15_edges.json": {
+          "bytes": 380,
+          "sha256": "cc494ff54c06f0c176cc019fda4a8b55294e34ad1c1fe1d186f28ab2f3abc4aa"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-07FE73EDA23434619CA3E213",
+      "expected": "S",
+      "rationale": {
+        "missing": [],
+        "resolved": [
+          {
+            "claim_id": "R1PROS-07FE73EDA23434619CA3E213-claim01",
+            "pointer": "/values/turnover_ratio/R1PROS-07FE73EDA23434619CA3E213-R01"
+          }
+        ],
+        "violations": []
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 1936,
+          "sha256": "798b75802723ad2cedaf64ec35c24bb245e3dc4326ac8914f459008c9204b5cb"
+        },
+        "records/R15_claims.json": {
+          "bytes": 244,
+          "sha256": "cc9b4d9b26e7ec19d32a27a9039e011f02dab5e9e31243dbd52935d88152b4f4"
+        },
+        "records/R15_edges.json": {
+          "bytes": 281,
+          "sha256": "1b26fa0872cbc3d14cca2463b353283c48b6caa0cf7c5f14d592de48bf35a457"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-FA5331C86A93414CF95CB42B",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-FA5331C86A93414CF95CB42B-claim01",
+            "problem": "claimed value does not match the resolved result"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 3581,
+          "sha256": "4d473ace51a7c6e864159cb20b98dab20b7ce0d83de4eb91b030f3b48ffb7fc8"
+        },
+        "records/R15_claims.json": {
+          "bytes": 201,
+          "sha256": "dc4cabfa9017df795c6bc80c6afd37e694a7e1722761f272ffacfd1275dff949"
+        },
+        "records/R15_edges.json": {
+          "bytes": 281,
+          "sha256": "13727a3dfcdcda11f96b2a4771926bd5900fe0c1421c0edeaf112cad593580c6"
+        }
+      }
+    },
+    {
+      "case_id": "R1PROS-D398EDD5B02E2AB2D301945C",
+      "expected": "V",
+      "rationale": {
+        "missing": [],
+        "resolved": [],
+        "violations": [
+          {
+            "claim_id": "R1PROS-D398EDD5B02E2AB2D301945C-claim01",
+            "problem": "alias spellings map to different pointers"
+          }
+        ]
+      },
+      "reference_evidence": {
+        "records/R11_result.json": {
+          "bytes": 2916,
+          "sha256": "25f679842cbe77cd3ed84187a66df68aaf6ffa18b84102306a19288ce76824a7"
+        },
+        "records/R15_claims.json": {
+          "bytes": 210,
+          "sha256": "ed0d6513a80517c92c32511ec84be42d8639527d0739ebb954d3a18a5ddf2fea"
+        },
+        "records/R15_edges.json": {
+          "bytes": 414,
+          "sha256": "53f4a1210d3f37789f96f24dc166e9153a9d97b82ce55a25a91755309829ea4a"
+        }
+      }
+    }
+  ],
+  "frame_sha256": "be763881b1a0d53f64f2b86c34d76ca3f98afcc5a90a562a0d7cc4205b600a75",
+  "schema": "nsc-pros-o15-reference/1",
+  "scope": "O15 only",
+  "source_sha256": {
+    "REFERENCE_METHOD.md": "72fe169618bcbdda69e51b4365f285dd9480cbe2a3c5f32f0f0366741a1205eb",
+    "oracle.py": "3456bb19588780c09241da73ce124153571d5206d1871b2f66d3e7aaf22f96a0",
+    "seal_reference.py": "095c4ae40bdbb35eca636f050d25fc863e9b59d12673900e71c4f4d6bf16b640"
+  }
+}

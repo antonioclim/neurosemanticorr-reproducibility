@@ -1,0 +1,7 @@
+{
+  "local_timestamp": "2026-11-23T16:18:28+02:00",
+  "status": "COMMITTED_BEFORE_REFERENCE_SCORING",
+  "selection_sha256": "e900b01104a5f5731ebbf6a69d92e4791342cdfb8680bd6eb5f35fd4ea32d625",
+  "docket_manifest_for_screen_sha256": "7557febc53dbf6ac494d0a58b397d48e47e8727f3feea38fc95c0feb1f794d38",
+  "selector_did_not_read_reference": true
+}

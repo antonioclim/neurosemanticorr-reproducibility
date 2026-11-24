@@ -1,0 +1,467 @@
+{
+  "checker_invocations": 0,
+  "comparisons": [
+    {
+      "context": "community-library",
+      "field": "found_errors",
+      "matches": true,
+      "policy": "screen_and_uniform"
+    },
+    {
+      "context": "community-library",
+      "field": "reviewed",
+      "matches": true,
+      "policy": "screen_and_uniform"
+    },
+    {
+      "context": "community-library",
+      "field": "certainty_errors",
+      "matches": true,
+      "policy": "screen_and_uniform"
+    },
+    {
+      "context": "community-library",
+      "field": "residual_population",
+      "matches": true,
+      "policy": "screen_and_uniform"
+    },
+    {
+      "context": "community-library",
+      "field": "residual_sample",
+      "matches": true,
+      "policy": "screen_and_uniform"
+    },
+    {
+      "context": "community-library",
+      "field": "residual_errors_observed",
+      "matches": true,
+      "policy": "screen_and_uniform"
+    },
+    {
+      "context": "community-library",
+      "field": "conditional_upper",
+      "matches": true,
+      "policy": "screen_and_uniform"
+    },
+    {
+      "context": "community-library",
+      "field": "interval",
+      "matches": true,
+      "policy": "screen_and_uniform"
+    },
+    {
+      "context": "community-library",
+      "field": "found_case_ids",
+      "matches": true,
+      "policy": "screen_and_uniform"
+    },
+    {
+      "context": "community-library",
+      "field": "found_errors",
+      "matches": true,
+      "policy": "uniform_completion"
+    },
+    {
+      "context": "community-library",
+      "field": "reviewed",
+      "matches": true,
+      "policy": "uniform_completion"
+    },
+    {
+      "context": "community-library",
+      "field": "certainty_errors",
+      "matches": true,
+      "policy": "uniform_completion"
+    },
+    {
+      "context": "community-library",
+      "field": "residual_population",
+      "matches": true,
+      "policy": "uniform_completion"
+    },
+    {
+      "context": "community-library",
+      "field": "residual_sample",
+      "matches": true,
+      "policy": "uniform_completion"
+    },
+    {
+      "context": "community-library",
+      "field": "residual_errors_observed",
+      "matches": true,
+      "policy": "uniform_completion"
+    },
+    {
+      "context": "community-library",
+      "field": "conditional_upper",
+      "matches": true,
+      "policy": "uniform_completion"
+    },
+    {
+      "context": "community-library",
+      "field": "interval",
+      "matches": true,
+      "policy": "uniform_completion"
+    },
+    {
+      "context": "community-library",
+      "field": "found_case_ids",
+      "matches": true,
+      "policy": "uniform_completion"
+    },
+    {
+      "context": "district-energy",
+      "field": "found_errors",
+      "matches": true,
+      "policy": "screen_and_uniform"
+    },
+    {
+      "context": "district-energy",
+      "field": "reviewed",
+      "matches": true,
+      "policy": "screen_and_uniform"
+    },
+    {
+      "context": "district-energy",
+      "field": "certainty_errors",
+      "matches": true,
+      "policy": "screen_and_uniform"
+    },
+    {
+      "context": "district-energy",
+      "field": "residual_population",
+      "matches": true,
+      "policy": "screen_and_uniform"
+    },
+    {
+      "context": "district-energy",
+      "field": "residual_sample",
+      "matches": true,
+      "policy": "screen_and_uniform"
+    },
+    {
+      "context": "district-energy",
+      "field": "residual_errors_observed",
+      "matches": true,
+      "policy": "screen_and_uniform"
+    },
+    {
+      "context": "district-energy",
+      "field": "conditional_upper",
+      "matches": true,
+      "policy": "screen_and_uniform"
+    },
+    {
+      "context": "district-energy",
+      "field": "interval",
+      "matches": true,
+      "policy": "screen_and_uniform"
+    },
+    {
+      "context": "district-energy",
+      "field": "found_case_ids",
+      "matches": true,
+      "policy": "screen_and_uniform"
+    },
+    {
+      "context": "district-energy",
+      "field": "found_errors",
+      "matches": true,
+      "policy": "uniform_completion"
+    },
+    {
+      "context": "district-energy",
+      "field": "reviewed",
+      "matches": true,
+      "policy": "uniform_completion"
+    },
+    {
+      "context": "district-energy",
+      "field": "certainty_errors",
+      "matches": true,
+      "policy": "uniform_completion"
+    },
+    {
+      "context": "district-energy",
+      "field": "residual_population",
+      "matches": true,
+      "policy": "uniform_completion"
+    },
+    {
+      "context": "district-energy",
+      "field": "residual_sample",
+      "matches": true,
+      "policy": "uniform_completion"
+    },
+    {
+      "context": "district-energy",
+      "field": "residual_errors_observed",
+      "matches": true,
+      "policy": "uniform_completion"
+    },
+    {
+      "context": "district-energy",
+      "field": "conditional_upper",
+      "matches": true,
+      "policy": "uniform_completion"
+    },
+    {
+      "context": "district-energy",
+      "field": "interval",
+      "matches": true,
+      "policy": "uniform_completion"
+    },
+    {
+      "context": "district-energy",
+      "field": "found_case_ids",
+      "matches": true,
+      "policy": "uniform_completion"
+    },
+    {
+      "context": "mobility-access",
+      "field": "found_errors",
+      "matches": true,
+      "policy": "screen_and_uniform"
+    },
+    {
+      "context": "mobility-access",
+      "field": "reviewed",
+      "matches": true,
+      "policy": "screen_and_uniform"
+    },
+    {
+      "context": "mobility-access",
+      "field": "certainty_errors",
+      "matches": true,
+      "policy": "screen_and_uniform"
+    },
+    {
+      "context": "mobility-access",
+      "field": "residual_population",
+      "matches": true,
+      "policy": "screen_and_uniform"
+    },
+    {
+      "context": "mobility-access",
+      "field": "residual_sample",
+      "matches": true,
+      "policy": "screen_and_uniform"
+    },
+    {
+      "context": "mobility-access",
+      "field": "residual_errors_observed",
+      "matches": true,
+      "policy": "screen_and_uniform"
+    },
+    {
+      "context": "mobility-access",
+      "field": "conditional_upper",
+      "matches": true,
+      "policy": "screen_and_uniform"
+    },
+    {
+      "context": "mobility-access",
+      "field": "interval",
+      "matches": true,
+      "policy": "screen_and_uniform"
+    },
+    {
+      "context": "mobility-access",
+      "field": "found_case_ids",
+      "matches": true,
+      "policy": "screen_and_uniform"
+    },
+    {
+      "context": "mobility-access",
+      "field": "found_errors",
+      "matches": true,
+      "policy": "uniform_completion"
+    },
+    {
+      "context": "mobility-access",
+      "field": "reviewed",
+      "matches": true,
+      "policy": "uniform_completion"
+    },
+    {
+      "context": "mobility-access",
+      "field": "certainty_errors",
+      "matches": true,
+      "policy": "uniform_completion"
+    },
+    {
+      "context": "mobility-access",
+      "field": "residual_population",
+      "matches": true,
+      "policy": "uniform_completion"
+    },
+    {
+      "context": "mobility-access",
+      "field": "residual_sample",
+      "matches": true,
+      "policy": "uniform_completion"
+    },
+    {
+      "context": "mobility-access",
+      "field": "residual_errors_observed",
+      "matches": true,
+      "policy": "uniform_completion"
+    },
+    {
+      "context": "mobility-access",
+      "field": "conditional_upper",
+      "matches": true,
+      "policy": "uniform_completion"
+    },
+    {
+      "context": "mobility-access",
+      "field": "interval",
+      "matches": true,
+      "policy": "uniform_completion"
+    },
+    {
+      "context": "mobility-access",
+      "field": "found_case_ids",
+      "matches": true,
+      "policy": "uniform_completion"
+    },
+    {
+      "context": "skills-bursary",
+      "field": "found_errors",
+      "matches": true,
+      "policy": "screen_and_uniform"
+    },
+    {
+      "context": "skills-bursary",
+      "field": "reviewed",
+      "matches": true,
+      "policy": "screen_and_uniform"
+    },
+    {
+      "context": "skills-bursary",
+      "field": "certainty_errors",
+      "matches": true,
+      "policy": "screen_and_uniform"
+    },
+    {
+      "context": "skills-bursary",
+      "field": "residual_population",
+      "matches": true,
+      "policy": "screen_and_uniform"
+    },
+    {
+      "context": "skills-bursary",
+      "field": "residual_sample",
+      "matches": true,
+      "policy": "screen_and_uniform"
+    },
+    {
+      "context": "skills-bursary",
+      "field": "residual_errors_observed",
+      "matches": true,
+      "policy": "screen_and_uniform"
+    },
+    {
+      "context": "skills-bursary",
+      "field": "conditional_upper",
+      "matches": true,
+      "policy": "screen_and_uniform"
+    },
+    {
+      "context": "skills-bursary",
+      "field": "interval",
+      "matches": true,
+      "policy": "screen_and_uniform"
+    },
+    {
+      "context": "skills-bursary",
+      "field": "found_case_ids",
+      "matches": true,
+      "policy": "screen_and_uniform"
+    },
+    {
+      "context": "skills-bursary",
+      "field": "found_errors",
+      "matches": true,
+      "policy": "uniform_completion"
+    },
+    {
+      "context": "skills-bursary",
+      "field": "reviewed",
+      "matches": true,
+      "policy": "uniform_completion"
+    },
+    {
+      "context": "skills-bursary",
+      "field": "certainty_errors",
+      "matches": true,
+      "policy": "uniform_completion"
+    },
+    {
+      "context": "skills-bursary",
+      "field": "residual_population",
+      "matches": true,
+      "policy": "uniform_completion"
+    },
+    {
+      "context": "skills-bursary",
+      "field": "residual_sample",
+      "matches": true,
+      "policy": "uniform_completion"
+    },
+    {
+      "context": "skills-bursary",
+      "field": "residual_errors_observed",
+      "matches": true,
+      "policy": "uniform_completion"
+    },
+    {
+      "context": "skills-bursary",
+      "field": "conditional_upper",
+      "matches": true,
+      "policy": "uniform_completion"
+    },
+    {
+      "context": "skills-bursary",
+      "field": "interval",
+      "matches": true,
+      "policy": "uniform_completion"
+    },
+    {
+      "context": "skills-bursary",
+      "field": "found_case_ids",
+      "matches": true,
+      "policy": "uniform_completion"
+    }
+  ],
+  "context_policy_reports": 8,
+  "field_comparisons": 72,
+  "input_sha256": {
+    "ANALYSIS_PLAN.md": "8f30bc5cdc2fec5dc3f04dae55ca1b090d935750548daa8381211e6e3fc85830",
+    "BLIND_SELECTION.json": "e900b01104a5f5731ebbf6a69d92e4791342cdfb8680bd6eb5f35fd4ea32d625",
+    "O15_REFERENCE.json": "28f568cb904c2348bbaad4074b8bee01475d138054e494d1c8c9b34bfca2d96e",
+    "PERMUTATIONS.json": "2449f546e053a9446b6fd65cf0e81fc6cfc87114a800d0aead9a1d25f9f9da86",
+    "PROSPECTIVE_RESULTS.json": "dcfaaf9b0bc690fecb19db40db1f75c81461d152a7f7000ca70d4e6c6bba8e0f",
+    "SELECTION_COMMITMENT.json": "1ae99cfff82d6920aca8f3197c0e6da1cafdd40ab19e9adab2d6d11cd6324e0a"
+  },
+  "new_draws": 0,
+  "new_human_adjudications": 0,
+  "pooled": {
+    "screen_bonferroni_upper": 60,
+    "screen_flags": 64,
+    "screen_found": 32,
+    "screen_residual_draw": 48,
+    "screen_residual_hits": 0,
+    "screen_reviewed": 112,
+    "uniform_found": 19,
+    "uniform_reviewed": 112
+  },
+  "schema": "nsc-f3-screening-replay/1",
+  "scope": "Retrospective software replay; original prospective result of 60 is preserved",
+  "source_sha256": {
+    "cli.py": "12190d06b6ef3636c52e555bee73306e0691f3bfd73a2adae510669acb2adec0",
+    "replay_archived.py": "8029725136ccddbe14a2e34d9fa2ca0080f45e7d7fcae5a7c84fef269b154ed0",
+    "screening.py": "fe3705d7350aa00609c70d1b9cde9dedd4bc65b4d8873cc0f92c6e47d0798088"
+  },
+  "status": "PASS_ARCHIVED_DESIGN_REPLAY"
+}

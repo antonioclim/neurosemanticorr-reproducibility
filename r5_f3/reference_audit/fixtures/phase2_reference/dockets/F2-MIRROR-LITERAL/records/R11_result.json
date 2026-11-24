@@ -1,0 +1,12 @@
+{
+  "values": {
+    "mean_staff": 26,
+    "turnover_ratio": {
+      "row01": {
+        "numerator": 142,
+        "denominator": 205
+      }
+    }
+  },
+  "result_id": "F2-MIRROR-result"
+}

@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "neuroSEMANTICorr screening request v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "plan_input",
+    "checker_outputs",
+    "observations",
+    "alpha",
+    "sampling_basis"
+  ],
+  "properties": {
+    "schema": {
+      "const": "nsc-screening-request/1"
+    },
+    "plan_input": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "case_ids",
+        "flagged_ids",
+        "budget",
+        "permutation",
+        "design_id"
+      ],
+      "properties": {
+        "case_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "flagged_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "permutation": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "budget": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "design_id": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "checker_outputs": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "minItems": 2,
+        "maxItems": 2,
+        "items": {
+          "enum": [
+            "S",
+            "V",
+            "U"
+          ]
+        }
+      }
+    },
+    "observations": {
+      "type": "object",
+      "additionalProperties": {
+        "enum": [
+          "S",
+          "V",
+          "U"
+        ]
+      }
+    },
+    "alpha": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sampling_basis": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "$comment": "Runtime validation additionally enforces permutation equality, nonempty trimmed IDs, agreement pairs, selected-only observations and the exact rational range; hashes bind bytes or stated canonical JSON but do not authenticate SRS provenance."
+}

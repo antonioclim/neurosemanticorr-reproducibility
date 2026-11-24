@@ -1,0 +1,1047 @@
+{
+  "agreement_error_cases": [
+    {
+      "case_id": "R1PROS-25DBBF9AF054202D7EB98360",
+      "context": "community-library",
+      "judgement": "S",
+      "probe": "dual_alias_conflict",
+      "reference": "V",
+      "screen": {
+        "reasons": [
+          "conflicting_spelling_targets"
+        ],
+        "status": "flagged"
+      }
+    },
+    {
+      "case_id": "R1PROS-587363AE9EB73EBB7634923F",
+      "context": "community-library",
+      "judgement": "S",
+      "probe": "dual_alias_conflict",
+      "reference": "V",
+      "screen": {
+        "reasons": [
+          "conflicting_spelling_targets"
+        ],
+        "status": "flagged"
+      }
+    },
+    {
+      "case_id": "R1PROS-5E826BF511F1C27079F71204",
+      "context": "community-library",
+      "judgement": "S",
+      "probe": "dual_alias_conflict",
+      "reference": "V",
+      "screen": {
+        "reasons": [
+          "conflicting_spelling_targets"
+        ],
+        "status": "flagged"
+      }
+    },
+    {
+      "case_id": "R1PROS-81886D0F22CD34BEFE0BC76C",
+      "context": "community-library",
+      "judgement": "S",
+      "probe": "dual_alias_conflict",
+      "reference": "V",
+      "screen": {
+        "reasons": [
+          "conflicting_spelling_targets"
+        ],
+        "status": "flagged"
+      }
+    },
+    {
+      "case_id": "R1PROS-C03093D8D95D4686B92E3E4C",
+      "context": "community-library",
+      "judgement": "V",
+      "probe": "suffix_alias_clean",
+      "reference": "S",
+      "screen": {
+        "reasons": [
+          "suffix_without_literal"
+        ],
+        "status": "flagged"
+      }
+    },
+    {
+      "case_id": "R1PROS-C3B614C15E40AE726DDBAAE2",
+      "context": "community-library",
+      "judgement": "V",
+      "probe": "suffix_alias_clean",
+      "reference": "S",
+      "screen": {
+        "reasons": [
+          "suffix_without_literal"
+        ],
+        "status": "flagged"
+      }
+    },
+    {
+      "case_id": "R1PROS-C71AACF05AE5573BCF293B15",
+      "context": "community-library",
+      "judgement": "V",
+      "probe": "suffix_alias_clean",
+      "reference": "S",
+      "screen": {
+        "reasons": [
+          "suffix_without_literal"
+        ],
+        "status": "flagged"
+      }
+    },
+    {
+      "case_id": "R1PROS-F43B18F8DF3F6C3374DC0643",
+      "context": "community-library",
+      "judgement": "V",
+      "probe": "suffix_alias_clean",
+      "reference": "S",
+      "screen": {
+        "reasons": [
+          "suffix_without_literal"
+        ],
+        "status": "flagged"
+      }
+    },
+    {
+      "case_id": "R1PROS-2D7B28F1A768D97DAB6669E2",
+      "context": "district-energy",
+      "judgement": "S",
+      "probe": "dual_alias_conflict",
+      "reference": "V",
+      "screen": {
+        "reasons": [
+          "conflicting_spelling_targets"
+        ],
+        "status": "flagged"
+      }
+    },
+    {
+      "case_id": "R1PROS-4209340D6ECCECE00B7C0626",
+      "context": "district-energy",
+      "judgement": "V",
+      "probe": "suffix_alias_clean",
+      "reference": "S",
+      "screen": {
+        "reasons": [
+          "suffix_without_literal"
+        ],
+        "status": "flagged"
+      }
+    },
+    {
+      "case_id": "R1PROS-523A733BA59F808604C87201",
+      "context": "district-energy",
+      "judgement": "S",
+      "probe": "dual_alias_conflict",
+      "reference": "V",
+      "screen": {
+        "reasons": [
+          "conflicting_spelling_targets"
+        ],
+        "status": "flagged"
+      }
+    },
+    {
+      "case_id": "R1PROS-68697A8B7B48465BE0B5FA6F",
+      "context": "district-energy",
+      "judgement": "V",
+      "probe": "suffix_alias_clean",
+      "reference": "S",
+      "screen": {
+        "reasons": [
+          "suffix_without_literal"
+        ],
+        "status": "flagged"
+      }
+    },
+    {
+      "case_id": "R1PROS-922369D794C572EEEA7F9597",
+      "context": "district-energy",
+      "judgement": "V",
+      "probe": "suffix_alias_clean",
+      "reference": "S",
+      "screen": {
+        "reasons": [
+          "suffix_without_literal"
+        ],
+        "status": "flagged"
+      }
+    },
+    {
+      "case_id": "R1PROS-9DE07811DCB2EC1095F690C0",
+      "context": "district-energy",
+      "judgement": "S",
+      "probe": "dual_alias_conflict",
+      "reference": "V",
+      "screen": {
+        "reasons": [
+          "conflicting_spelling_targets"
+        ],
+        "status": "flagged"
+      }
+    },
+    {
+      "case_id": "R1PROS-C5C4CE08E069D6FECCFFCCEF",
+      "context": "district-energy",
+      "judgement": "V",
+      "probe": "suffix_alias_clean",
+      "reference": "S",
+      "screen": {
+        "reasons": [
+          "suffix_without_literal"
+        ],
+        "status": "flagged"
+      }
+    },
+    {
+      "case_id": "R1PROS-F289193A1E2E468FBF542716",
+      "context": "district-energy",
+      "judgement": "S",
+      "probe": "dual_alias_conflict",
+      "reference": "V",
+      "screen": {
+        "reasons": [
+          "conflicting_spelling_targets"
+        ],
+        "status": "flagged"
+      }
+    },
+    {
+      "case_id": "R1PROS-104F7825352EB905462FD239",
+      "context": "mobility-access",
+      "judgement": "V",
+      "probe": "suffix_alias_clean",
+      "reference": "S",
+      "screen": {
+        "reasons": [
+          "suffix_without_literal"
+        ],
+        "status": "flagged"
+      }
+    },
+    {
+      "case_id": "R1PROS-124E69CDFD1DB8946A66C2FB",
+      "context": "mobility-access",
+      "judgement": "V",
+      "probe": "suffix_alias_clean",
+      "reference": "S",
+      "screen": {
+        "reasons": [
+          "suffix_without_literal"
+        ],
+        "status": "flagged"
+      }
+    },
+    {
+      "case_id": "R1PROS-457486FB11C264299AF5962C",
+      "context": "mobility-access",
+      "judgement": "S",
+      "probe": "dual_alias_conflict",
+      "reference": "V",
+      "screen": {
+        "reasons": [
+          "conflicting_spelling_targets"
+        ],
+        "status": "flagged"
+      }
+    },
+    {
+      "case_id": "R1PROS-4F72B4FF02FC5A2B9B48061A",
+      "context": "mobility-access",
+      "judgement": "V",
+      "probe": "suffix_alias_clean",
+      "reference": "S",
+      "screen": {
+        "reasons": [
+          "suffix_without_literal"
+        ],
+        "status": "flagged"
+      }
+    },
+    {
+      "case_id": "R1PROS-74EBE4A6CA03054A9B5089EF",
+      "context": "mobility-access",
+      "judgement": "S",
+      "probe": "dual_alias_conflict",
+      "reference": "V",
+      "screen": {
+        "reasons": [
+          "conflicting_spelling_targets"
+        ],
+        "status": "flagged"
+      }
+    },
+    {
+      "case_id": "R1PROS-8C212CB16D676EFB19316BB5",
+      "context": "mobility-access",
+      "judgement": "S",
+      "probe": "dual_alias_conflict",
+      "reference": "V",
+      "screen": {
+        "reasons": [
+          "conflicting_spelling_targets"
+        ],
+        "status": "flagged"
+      }
+    },
+    {
+      "case_id": "R1PROS-C7D5DE31E2F7971F130A0CA9",
+      "context": "mobility-access",
+      "judgement": "V",
+      "probe": "suffix_alias_clean",
+      "reference": "S",
+      "screen": {
+        "reasons": [
+          "suffix_without_literal"
+        ],
+        "status": "flagged"
+      }
+    },
+    {
+      "case_id": "R1PROS-D398EDD5B02E2AB2D301945C",
+      "context": "mobility-access",
+      "judgement": "S",
+      "probe": "dual_alias_conflict",
+      "reference": "V",
+      "screen": {
+        "reasons": [
+          "conflicting_spelling_targets"
+        ],
+        "status": "flagged"
+      }
+    },
+    {
+      "case_id": "R1PROS-1175F475261EE917E0E06A6A",
+      "context": "skills-bursary",
+      "judgement": "S",
+      "probe": "dual_alias_conflict",
+      "reference": "V",
+      "screen": {
+        "reasons": [
+          "conflicting_spelling_targets"
+        ],
+        "status": "flagged"
+      }
+    },
+    {
+      "case_id": "R1PROS-17EAE07A978E6DF8D7824C3A",
+      "context": "skills-bursary",
+      "judgement": "S",
+      "probe": "dual_alias_conflict",
+      "reference": "V",
+      "screen": {
+        "reasons": [
+          "conflicting_spelling_targets"
+        ],
+        "status": "flagged"
+      }
+    },
+    {
+      "case_id": "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+      "context": "skills-bursary",
+      "judgement": "V",
+      "probe": "suffix_alias_clean",
+      "reference": "S",
+      "screen": {
+        "reasons": [
+          "suffix_without_literal"
+        ],
+        "status": "flagged"
+      }
+    },
+    {
+      "case_id": "R1PROS-2FEE93C5D1A6B23745FB971F",
+      "context": "skills-bursary",
+      "judgement": "V",
+      "probe": "suffix_alias_clean",
+      "reference": "S",
+      "screen": {
+        "reasons": [
+          "suffix_without_literal"
+        ],
+        "status": "flagged"
+      }
+    },
+    {
+      "case_id": "R1PROS-5387EBD2C25E8B2DAFC60EB9",
+      "context": "skills-bursary",
+      "judgement": "V",
+      "probe": "suffix_alias_clean",
+      "reference": "S",
+      "screen": {
+        "reasons": [
+          "suffix_without_literal"
+        ],
+        "status": "flagged"
+      }
+    },
+    {
+      "case_id": "R1PROS-59B799EA83B34695CFCD4C4F",
+      "context": "skills-bursary",
+      "judgement": "V",
+      "probe": "suffix_alias_clean",
+      "reference": "S",
+      "screen": {
+        "reasons": [
+          "suffix_without_literal"
+        ],
+        "status": "flagged"
+      }
+    },
+    {
+      "case_id": "R1PROS-680F2485A2812505955ABC69",
+      "context": "skills-bursary",
+      "judgement": "S",
+      "probe": "dual_alias_conflict",
+      "reference": "V",
+      "screen": {
+        "reasons": [
+          "conflicting_spelling_targets"
+        ],
+        "status": "flagged"
+      }
+    },
+    {
+      "case_id": "R1PROS-E537A37980B897D058072E86",
+      "context": "skills-bursary",
+      "judgement": "S",
+      "probe": "dual_alias_conflict",
+      "reference": "V",
+      "screen": {
+        "reasons": [
+          "conflicting_spelling_targets"
+        ],
+        "status": "flagged"
+      }
+    }
+  ],
+  "blind_selection_sha256": "e900b01104a5f5731ebbf6a69d92e4791342cdfb8680bd6eb5f35fd4ea32d625",
+  "contexts": {
+    "community-library": {
+      "O15_agreements": 48,
+      "aggregate_agreements": 48,
+      "agreement_errors": 8,
+      "comparable": 48,
+      "full_vector_agreements": 48,
+      "non_O15_nonS_pairs": 0,
+      "policy_results": {
+        "disagreement_only": {
+          "agreement_errors_found": 0,
+          "agreement_errors_missed": 8,
+          "agreement_reviews": 0,
+          "agreement_reviews_without_agreement_error": 0,
+          "certainty_agreement_errors": 0,
+          "certainty_shortfall": 0,
+          "deterministic_interval": [
+            0,
+            48
+          ],
+          "flagged_agreements_reviewed": 0,
+          "flagged_reviews_without_agreement_error": 0,
+          "found_case_ids": [],
+          "illustrative_ceiling_status": "NOT_ESTABLISHED",
+          "missed_case_ids": [
+            "R1PROS-25DBBF9AF054202D7EB98360",
+            "R1PROS-587363AE9EB73EBB7634923F",
+            "R1PROS-5E826BF511F1C27079F71204",
+            "R1PROS-81886D0F22CD34BEFE0BC76C",
+            "R1PROS-C03093D8D95D4686B92E3E4C",
+            "R1PROS-C3B614C15E40AE726DDBAAE2",
+            "R1PROS-C71AACF05AE5573BCF293B15",
+            "R1PROS-F43B18F8DF3F6C3374DC0643"
+          ],
+          "one_look_upper": null,
+          "residual_errors_sampled": 0,
+          "residual_population": 48,
+          "residual_sample": 0,
+          "reviewed_disagreements": 0,
+          "reviews": 0,
+          "unused_slots": 28
+        },
+        "screen_and_uniform": {
+          "agreement_errors_found": 8,
+          "agreement_errors_missed": 0,
+          "agreement_reviews": 28,
+          "agreement_reviews_without_agreement_error": 20,
+          "certainty_agreement_errors": 8,
+          "certainty_shortfall": 0,
+          "deterministic_interval": [
+            8,
+            28
+          ],
+          "flagged_agreements_reviewed": 16,
+          "flagged_reviews_without_agreement_error": 8,
+          "found_case_ids": [
+            "R1PROS-25DBBF9AF054202D7EB98360",
+            "R1PROS-587363AE9EB73EBB7634923F",
+            "R1PROS-5E826BF511F1C27079F71204",
+            "R1PROS-81886D0F22CD34BEFE0BC76C",
+            "R1PROS-C03093D8D95D4686B92E3E4C",
+            "R1PROS-C3B614C15E40AE726DDBAAE2",
+            "R1PROS-C71AACF05AE5573BCF293B15",
+            "R1PROS-F43B18F8DF3F6C3374DC0643"
+          ],
+          "illustrative_ceiling_status": "VIOLATED",
+          "missed_case_ids": [],
+          "one_look_upper": 15,
+          "residual_errors_sampled": 0,
+          "residual_population": 32,
+          "residual_sample": 12,
+          "reviewed_disagreements": 0,
+          "reviews": 28,
+          "unused_slots": 0
+        },
+        "uniform_completion": {
+          "agreement_errors_found": 5,
+          "agreement_errors_missed": 3,
+          "agreement_reviews": 28,
+          "agreement_reviews_without_agreement_error": 23,
+          "certainty_agreement_errors": 0,
+          "certainty_shortfall": 0,
+          "deterministic_interval": [
+            5,
+            25
+          ],
+          "flagged_agreements_reviewed": 9,
+          "flagged_reviews_without_agreement_error": 4,
+          "found_case_ids": [
+            "R1PROS-5E826BF511F1C27079F71204",
+            "R1PROS-81886D0F22CD34BEFE0BC76C",
+            "R1PROS-C3B614C15E40AE726DDBAAE2",
+            "R1PROS-C71AACF05AE5573BCF293B15",
+            "R1PROS-F43B18F8DF3F6C3374DC0643"
+          ],
+          "illustrative_ceiling_status": "NOT_ESTABLISHED",
+          "missed_case_ids": [
+            "R1PROS-25DBBF9AF054202D7EB98360",
+            "R1PROS-587363AE9EB73EBB7634923F",
+            "R1PROS-C03093D8D95D4686B92E3E4C"
+          ],
+          "one_look_upper": 15,
+          "residual_errors_sampled": 5,
+          "residual_population": 48,
+          "residual_sample": 28,
+          "reviewed_disagreements": 0,
+          "reviews": 28,
+          "unused_slots": 0
+        }
+      },
+      "reference_counts": {
+        "S": 20,
+        "V": 28
+      },
+      "scheduled": 48,
+      "screen_flagged_agreements": 16,
+      "screen_unavailable": 0,
+      "total_status_by_arm": {
+        "B_ASSERT": {
+          "S": 20,
+          "V": 28
+        },
+        "T_FULL": {
+          "S": 20,
+          "V": 28
+        }
+      }
+    },
+    "district-energy": {
+      "O15_agreements": 48,
+      "aggregate_agreements": 48,
+      "agreement_errors": 8,
+      "comparable": 48,
+      "full_vector_agreements": 48,
+      "non_O15_nonS_pairs": 0,
+      "policy_results": {
+        "disagreement_only": {
+          "agreement_errors_found": 0,
+          "agreement_errors_missed": 8,
+          "agreement_reviews": 0,
+          "agreement_reviews_without_agreement_error": 0,
+          "certainty_agreement_errors": 0,
+          "certainty_shortfall": 0,
+          "deterministic_interval": [
+            0,
+            48
+          ],
+          "flagged_agreements_reviewed": 0,
+          "flagged_reviews_without_agreement_error": 0,
+          "found_case_ids": [],
+          "illustrative_ceiling_status": "NOT_ESTABLISHED",
+          "missed_case_ids": [
+            "R1PROS-2D7B28F1A768D97DAB6669E2",
+            "R1PROS-4209340D6ECCECE00B7C0626",
+            "R1PROS-523A733BA59F808604C87201",
+            "R1PROS-68697A8B7B48465BE0B5FA6F",
+            "R1PROS-922369D794C572EEEA7F9597",
+            "R1PROS-9DE07811DCB2EC1095F690C0",
+            "R1PROS-C5C4CE08E069D6FECCFFCCEF",
+            "R1PROS-F289193A1E2E468FBF542716"
+          ],
+          "one_look_upper": null,
+          "residual_errors_sampled": 0,
+          "residual_population": 48,
+          "residual_sample": 0,
+          "reviewed_disagreements": 0,
+          "reviews": 0,
+          "unused_slots": 28
+        },
+        "screen_and_uniform": {
+          "agreement_errors_found": 8,
+          "agreement_errors_missed": 0,
+          "agreement_reviews": 28,
+          "agreement_reviews_without_agreement_error": 20,
+          "certainty_agreement_errors": 8,
+          "certainty_shortfall": 0,
+          "deterministic_interval": [
+            8,
+            28
+          ],
+          "flagged_agreements_reviewed": 16,
+          "flagged_reviews_without_agreement_error": 8,
+          "found_case_ids": [
+            "R1PROS-2D7B28F1A768D97DAB6669E2",
+            "R1PROS-4209340D6ECCECE00B7C0626",
+            "R1PROS-523A733BA59F808604C87201",
+            "R1PROS-68697A8B7B48465BE0B5FA6F",
+            "R1PROS-922369D794C572EEEA7F9597",
+            "R1PROS-9DE07811DCB2EC1095F690C0",
+            "R1PROS-C5C4CE08E069D6FECCFFCCEF",
+            "R1PROS-F289193A1E2E468FBF542716"
+          ],
+          "illustrative_ceiling_status": "VIOLATED",
+          "missed_case_ids": [],
+          "one_look_upper": 15,
+          "residual_errors_sampled": 0,
+          "residual_population": 32,
+          "residual_sample": 12,
+          "reviewed_disagreements": 0,
+          "reviews": 28,
+          "unused_slots": 0
+        },
+        "uniform_completion": {
+          "agreement_errors_found": 5,
+          "agreement_errors_missed": 3,
+          "agreement_reviews": 28,
+          "agreement_reviews_without_agreement_error": 23,
+          "certainty_agreement_errors": 0,
+          "certainty_shortfall": 0,
+          "deterministic_interval": [
+            5,
+            25
+          ],
+          "flagged_agreements_reviewed": 9,
+          "flagged_reviews_without_agreement_error": 4,
+          "found_case_ids": [
+            "R1PROS-2D7B28F1A768D97DAB6669E2",
+            "R1PROS-4209340D6ECCECE00B7C0626",
+            "R1PROS-68697A8B7B48465BE0B5FA6F",
+            "R1PROS-922369D794C572EEEA7F9597",
+            "R1PROS-F289193A1E2E468FBF542716"
+          ],
+          "illustrative_ceiling_status": "NOT_ESTABLISHED",
+          "missed_case_ids": [
+            "R1PROS-523A733BA59F808604C87201",
+            "R1PROS-9DE07811DCB2EC1095F690C0",
+            "R1PROS-C5C4CE08E069D6FECCFFCCEF"
+          ],
+          "one_look_upper": 15,
+          "residual_errors_sampled": 5,
+          "residual_population": 48,
+          "residual_sample": 28,
+          "reviewed_disagreements": 0,
+          "reviews": 28,
+          "unused_slots": 0
+        }
+      },
+      "reference_counts": {
+        "S": 20,
+        "V": 28
+      },
+      "scheduled": 48,
+      "screen_flagged_agreements": 16,
+      "screen_unavailable": 0,
+      "total_status_by_arm": {
+        "B_ASSERT": {
+          "S": 20,
+          "V": 28
+        },
+        "T_FULL": {
+          "S": 20,
+          "V": 28
+        }
+      }
+    },
+    "mobility-access": {
+      "O15_agreements": 48,
+      "aggregate_agreements": 48,
+      "agreement_errors": 8,
+      "comparable": 48,
+      "full_vector_agreements": 48,
+      "non_O15_nonS_pairs": 0,
+      "policy_results": {
+        "disagreement_only": {
+          "agreement_errors_found": 0,
+          "agreement_errors_missed": 8,
+          "agreement_reviews": 0,
+          "agreement_reviews_without_agreement_error": 0,
+          "certainty_agreement_errors": 0,
+          "certainty_shortfall": 0,
+          "deterministic_interval": [
+            0,
+            48
+          ],
+          "flagged_agreements_reviewed": 0,
+          "flagged_reviews_without_agreement_error": 0,
+          "found_case_ids": [],
+          "illustrative_ceiling_status": "NOT_ESTABLISHED",
+          "missed_case_ids": [
+            "R1PROS-104F7825352EB905462FD239",
+            "R1PROS-124E69CDFD1DB8946A66C2FB",
+            "R1PROS-457486FB11C264299AF5962C",
+            "R1PROS-4F72B4FF02FC5A2B9B48061A",
+            "R1PROS-74EBE4A6CA03054A9B5089EF",
+            "R1PROS-8C212CB16D676EFB19316BB5",
+            "R1PROS-C7D5DE31E2F7971F130A0CA9",
+            "R1PROS-D398EDD5B02E2AB2D301945C"
+          ],
+          "one_look_upper": null,
+          "residual_errors_sampled": 0,
+          "residual_population": 48,
+          "residual_sample": 0,
+          "reviewed_disagreements": 0,
+          "reviews": 0,
+          "unused_slots": 28
+        },
+        "screen_and_uniform": {
+          "agreement_errors_found": 8,
+          "agreement_errors_missed": 0,
+          "agreement_reviews": 28,
+          "agreement_reviews_without_agreement_error": 20,
+          "certainty_agreement_errors": 8,
+          "certainty_shortfall": 0,
+          "deterministic_interval": [
+            8,
+            28
+          ],
+          "flagged_agreements_reviewed": 16,
+          "flagged_reviews_without_agreement_error": 8,
+          "found_case_ids": [
+            "R1PROS-104F7825352EB905462FD239",
+            "R1PROS-124E69CDFD1DB8946A66C2FB",
+            "R1PROS-457486FB11C264299AF5962C",
+            "R1PROS-4F72B4FF02FC5A2B9B48061A",
+            "R1PROS-74EBE4A6CA03054A9B5089EF",
+            "R1PROS-8C212CB16D676EFB19316BB5",
+            "R1PROS-C7D5DE31E2F7971F130A0CA9",
+            "R1PROS-D398EDD5B02E2AB2D301945C"
+          ],
+          "illustrative_ceiling_status": "VIOLATED",
+          "missed_case_ids": [],
+          "one_look_upper": 15,
+          "residual_errors_sampled": 0,
+          "residual_population": 32,
+          "residual_sample": 12,
+          "reviewed_disagreements": 0,
+          "reviews": 28,
+          "unused_slots": 0
+        },
+        "uniform_completion": {
+          "agreement_errors_found": 5,
+          "agreement_errors_missed": 3,
+          "agreement_reviews": 28,
+          "agreement_reviews_without_agreement_error": 23,
+          "certainty_agreement_errors": 0,
+          "certainty_shortfall": 0,
+          "deterministic_interval": [
+            5,
+            25
+          ],
+          "flagged_agreements_reviewed": 9,
+          "flagged_reviews_without_agreement_error": 4,
+          "found_case_ids": [
+            "R1PROS-124E69CDFD1DB8946A66C2FB",
+            "R1PROS-457486FB11C264299AF5962C",
+            "R1PROS-74EBE4A6CA03054A9B5089EF",
+            "R1PROS-C7D5DE31E2F7971F130A0CA9",
+            "R1PROS-D398EDD5B02E2AB2D301945C"
+          ],
+          "illustrative_ceiling_status": "NOT_ESTABLISHED",
+          "missed_case_ids": [
+            "R1PROS-104F7825352EB905462FD239",
+            "R1PROS-4F72B4FF02FC5A2B9B48061A",
+            "R1PROS-8C212CB16D676EFB19316BB5"
+          ],
+          "one_look_upper": 15,
+          "residual_errors_sampled": 5,
+          "residual_population": 48,
+          "residual_sample": 28,
+          "reviewed_disagreements": 0,
+          "reviews": 28,
+          "unused_slots": 0
+        }
+      },
+      "reference_counts": {
+        "S": 20,
+        "V": 28
+      },
+      "scheduled": 48,
+      "screen_flagged_agreements": 16,
+      "screen_unavailable": 0,
+      "total_status_by_arm": {
+        "B_ASSERT": {
+          "S": 20,
+          "V": 28
+        },
+        "T_FULL": {
+          "S": 20,
+          "V": 28
+        }
+      }
+    },
+    "skills-bursary": {
+      "O15_agreements": 48,
+      "aggregate_agreements": 48,
+      "agreement_errors": 8,
+      "comparable": 48,
+      "full_vector_agreements": 48,
+      "non_O15_nonS_pairs": 0,
+      "policy_results": {
+        "disagreement_only": {
+          "agreement_errors_found": 0,
+          "agreement_errors_missed": 8,
+          "agreement_reviews": 0,
+          "agreement_reviews_without_agreement_error": 0,
+          "certainty_agreement_errors": 0,
+          "certainty_shortfall": 0,
+          "deterministic_interval": [
+            0,
+            48
+          ],
+          "flagged_agreements_reviewed": 0,
+          "flagged_reviews_without_agreement_error": 0,
+          "found_case_ids": [],
+          "illustrative_ceiling_status": "NOT_ESTABLISHED",
+          "missed_case_ids": [
+            "R1PROS-1175F475261EE917E0E06A6A",
+            "R1PROS-17EAE07A978E6DF8D7824C3A",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+            "R1PROS-2FEE93C5D1A6B23745FB971F",
+            "R1PROS-5387EBD2C25E8B2DAFC60EB9",
+            "R1PROS-59B799EA83B34695CFCD4C4F",
+            "R1PROS-680F2485A2812505955ABC69",
+            "R1PROS-E537A37980B897D058072E86"
+          ],
+          "one_look_upper": null,
+          "residual_errors_sampled": 0,
+          "residual_population": 48,
+          "residual_sample": 0,
+          "reviewed_disagreements": 0,
+          "reviews": 0,
+          "unused_slots": 28
+        },
+        "screen_and_uniform": {
+          "agreement_errors_found": 8,
+          "agreement_errors_missed": 0,
+          "agreement_reviews": 28,
+          "agreement_reviews_without_agreement_error": 20,
+          "certainty_agreement_errors": 8,
+          "certainty_shortfall": 0,
+          "deterministic_interval": [
+            8,
+            28
+          ],
+          "flagged_agreements_reviewed": 16,
+          "flagged_reviews_without_agreement_error": 8,
+          "found_case_ids": [
+            "R1PROS-1175F475261EE917E0E06A6A",
+            "R1PROS-17EAE07A978E6DF8D7824C3A",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+            "R1PROS-2FEE93C5D1A6B23745FB971F",
+            "R1PROS-5387EBD2C25E8B2DAFC60EB9",
+            "R1PROS-59B799EA83B34695CFCD4C4F",
+            "R1PROS-680F2485A2812505955ABC69",
+            "R1PROS-E537A37980B897D058072E86"
+          ],
+          "illustrative_ceiling_status": "VIOLATED",
+          "missed_case_ids": [],
+          "one_look_upper": 15,
+          "residual_errors_sampled": 0,
+          "residual_population": 32,
+          "residual_sample": 12,
+          "reviewed_disagreements": 0,
+          "reviews": 28,
+          "unused_slots": 0
+        },
+        "uniform_completion": {
+          "agreement_errors_found": 4,
+          "agreement_errors_missed": 4,
+          "agreement_reviews": 28,
+          "agreement_reviews_without_agreement_error": 24,
+          "certainty_agreement_errors": 0,
+          "certainty_shortfall": 0,
+          "deterministic_interval": [
+            4,
+            24
+          ],
+          "flagged_agreements_reviewed": 11,
+          "flagged_reviews_without_agreement_error": 7,
+          "found_case_ids": [
+            "R1PROS-17EAE07A978E6DF8D7824C3A",
+            "R1PROS-5387EBD2C25E8B2DAFC60EB9",
+            "R1PROS-680F2485A2812505955ABC69",
+            "R1PROS-E537A37980B897D058072E86"
+          ],
+          "illustrative_ceiling_status": "NOT_ESTABLISHED",
+          "missed_case_ids": [
+            "R1PROS-1175F475261EE917E0E06A6A",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+            "R1PROS-2FEE93C5D1A6B23745FB971F",
+            "R1PROS-59B799EA83B34695CFCD4C4F"
+          ],
+          "one_look_upper": 13,
+          "residual_errors_sampled": 4,
+          "residual_population": 48,
+          "residual_sample": 28,
+          "reviewed_disagreements": 0,
+          "reviews": 28,
+          "unused_slots": 0
+        }
+      },
+      "reference_counts": {
+        "S": 20,
+        "V": 28
+      },
+      "scheduled": 48,
+      "screen_flagged_agreements": 16,
+      "screen_unavailable": 0,
+      "total_status_by_arm": {
+        "B_ASSERT": {
+          "S": 20,
+          "V": 28
+        },
+        "T_FULL": {
+          "S": 20,
+          "V": 28
+        }
+      }
+    }
+  },
+  "freeze_sha256": "c3137288fa18d8704615165f4c3865e45647aa9bd9dc9cdd54ae102f6e128631",
+  "per_context_alpha": "1/80",
+  "per_context_budget": 28,
+  "per_context_illustrative_ceiling": 6,
+  "pooled": {
+    "O15_agreements": 192,
+    "aggregate_agreements": 192,
+    "agreement_errors": 32,
+    "comparable": 192,
+    "full_vector_agreements": 192,
+    "non_O15_nonS_pairs": 0,
+    "scheduled": 192,
+    "screen_flagged_agreements": 64,
+    "screen_unavailable": 0
+  },
+  "pooled_policies": {
+    "disagreement_only": {
+      "agreement_errors_found": 0,
+      "agreement_errors_missed": 32,
+      "agreement_reviews": 0,
+      "agreement_reviews_without_agreement_error": 0,
+      "flagged_agreements_reviewed": 0,
+      "flagged_reviews_without_agreement_error": 0,
+      "reviewed_disagreements": 0,
+      "reviews": 0,
+      "unused_slots": 112
+    },
+    "screen_and_uniform": {
+      "agreement_errors_found": 32,
+      "agreement_errors_missed": 0,
+      "agreement_reviews": 112,
+      "agreement_reviews_without_agreement_error": 80,
+      "flagged_agreements_reviewed": 64,
+      "flagged_reviews_without_agreement_error": 32,
+      "reviewed_disagreements": 0,
+      "reviews": 112,
+      "unused_slots": 0
+    },
+    "uniform_completion": {
+      "agreement_errors_found": 19,
+      "agreement_errors_missed": 13,
+      "agreement_reviews": 112,
+      "agreement_reviews_without_agreement_error": 93,
+      "flagged_agreements_reviewed": 38,
+      "flagged_reviews_without_agreement_error": 19,
+      "reviewed_disagreements": 0,
+      "reviews": 112,
+      "unused_slots": 0
+    }
+  },
+  "primary_detection_gain": 13,
+  "primary_familywise_upper_sum": 60,
+  "probe_counts_after_unblinding": {
+    "alias_chain": {
+      "agreement_errors": 0,
+      "cases": 16,
+      "flagged": 16
+    },
+    "direct_clean": {
+      "agreement_errors": 0,
+      "cases": 16,
+      "flagged": 0
+    },
+    "direct_nested_clean": {
+      "agreement_errors": 0,
+      "cases": 16,
+      "flagged": 0
+    },
+    "direct_wrong_metadata": {
+      "agreement_errors": 0,
+      "cases": 16,
+      "flagged": 0
+    },
+    "direct_wrong_value": {
+      "agreement_errors": 0,
+      "cases": 16,
+      "flagged": 0
+    },
+    "dual_alias_conflict": {
+      "agreement_errors": 16,
+      "cases": 16,
+      "flagged": 16
+    },
+    "dual_alias_equivalent": {
+      "agreement_errors": 0,
+      "cases": 16,
+      "flagged": 0
+    },
+    "exact_alias_clean": {
+      "agreement_errors": 0,
+      "cases": 16,
+      "flagged": 0
+    },
+    "suffix_alias_clean": {
+      "agreement_errors": 16,
+      "cases": 16,
+      "flagged": 16
+    },
+    "suffix_alias_wrong_value": {
+      "agreement_errors": 0,
+      "cases": 16,
+      "flagged": 16
+    },
+    "unmapped_alias": {
+      "agreement_errors": 0,
+      "cases": 16,
+      "flagged": 0
+    },
+    "untracked_direct": {
+      "agreement_errors": 0,
+      "cases": 16,
+      "flagged": 0
+    }
+  },
+  "reference_sha256": "28f568cb904c2348bbaad4074b8bee01475d138054e494d1c8c9b34bfca2d96e",
+  "schema": "nsc-pros-o15-audit-results/1"
+}

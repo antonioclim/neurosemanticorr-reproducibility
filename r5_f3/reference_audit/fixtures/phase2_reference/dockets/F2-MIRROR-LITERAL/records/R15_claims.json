@@ -1,0 +1,12 @@
+{
+  "claims": [
+    {
+      "claim_id": "claim",
+      "source_pointer": "alias:claim",
+      "value": 26,
+      "unit": "staff",
+      "denominator": 5,
+      "scope": "finite_table"
+    }
+  ]
+}

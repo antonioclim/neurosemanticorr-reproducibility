@@ -1,0 +1,36 @@
+{
+  "archive_sha256": "c2ecc59137d0f7f9912fac73486f5ddc03ffdbdeca27d4e0f71b5fb586222767",
+  "scope": "Frozen historical records copied byte-for-byte; new F3 replay does not change the historical experiment",
+  "files": {
+    "BLIND_SELECTION.json": {
+      "source_path_in_archive": "evaluation/BLIND_SELECTION.json",
+      "sha256": "e900b01104a5f5731ebbf6a69d92e4791342cdfb8680bd6eb5f35fd4ea32d625",
+      "bytes": 91063
+    },
+    "PROSPECTIVE_RESULTS.json": {
+      "source_path_in_archive": "evaluation/PROSPECTIVE_RESULTS.json",
+      "sha256": "dcfaaf9b0bc690fecb19db40db1f75c81461d152a7f7000ca70d4e6c6bba8e0f",
+      "bytes": 30172
+    },
+    "PERMUTATIONS.json": {
+      "source_path_in_archive": "00_plan/PERMUTATIONS.json",
+      "sha256": "2449f546e053a9446b6fd65cf0e81fc6cfc87114a800d0aead9a1d25f9f9da86",
+      "bytes": 8230
+    },
+    "O15_REFERENCE.json": {
+      "source_path_in_archive": "00_plan/O15_REFERENCE.json",
+      "sha256": "28f568cb904c2348bbaad4074b8bee01475d138054e494d1c8c9b34bfca2d96e",
+      "bytes": 166272
+    },
+    "ANALYSIS_PLAN.md": {
+      "source_path_in_archive": "00_plan/ANALYSIS_PLAN.md",
+      "sha256": "8f30bc5cdc2fec5dc3f04dae55ca1b090d935750548daa8381211e6e3fc85830",
+      "bytes": 6614
+    },
+    "SELECTION_COMMITMENT.json": {
+      "source_path_in_archive": "evaluation/SELECTION_COMMITMENT.json",
+      "sha256": "1ae99cfff82d6920aca8f3197c0e6da1cafdd40ab19e9adab2d6d11cd6324e0a",
+      "bytes": 343
+    }
+  }
+}
