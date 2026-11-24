@@ -1,0 +1,2 @@
+# Keep frozen protocol, corpus fragments and P5 qualification inputs byte-identical.
+* -text
