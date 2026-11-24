@@ -1,0 +1,19 @@
+{
+  "aliases": {
+    "alias:claim": "/values/mean_staff",
+    "claim": "/values/turnover_ratio/row01"
+  },
+  "field_metadata": {
+    "/values/mean_staff": {
+      "unit": "staff",
+      "denominator": 5,
+      "scope": "finite_table"
+    },
+    "/values/turnover_ratio/row01": {
+      "unit": "ratio",
+      "denominator": 1,
+      "scope": "finite_table"
+    }
+  },
+  "result_id": "F2-MIRROR-result"
+}

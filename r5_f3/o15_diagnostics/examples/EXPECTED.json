@@ -1,0 +1,104 @@
+{
+  "scope": "New synthetic documentary examples; three O15 records, not complete native bundles. Known answers are declared from construction.",
+  "cases": [
+    {
+      "case_id": "F3-EXAMPLE-DIRECT",
+      "path": "dockets/direct",
+      "input_binding": {
+        "domain": "sorted-relative-path-byte-manifest-v1",
+        "sha256": "842c6ce2c6b68575005cce2bb354af946bc636c202b84bdad3ba10a12aa83a31",
+        "bytes": 1103,
+        "files": [
+          {
+            "path": "records/R11_result.json",
+            "bytes": 112,
+            "sha256": "7b3b0c6799ef2a61e7d390b1e23afc759f0612c67fc2f22d201f3d18861356ab"
+          },
+          {
+            "path": "records/R15_claims.json",
+            "bytes": 142,
+            "sha256": "c2f38bdc6777438aefa74b2b135675fd0af3c1dced900d6ee9121afad35ca67c"
+          },
+          {
+            "path": "records/R15_edges.json",
+            "bytes": 849,
+            "sha256": "89f9f4f40986279d42c09327d8f2fe99f4808bbb51afeea2eaeb339ed477f7e3"
+          }
+        ]
+      },
+      "expected_documentary_verdicts": {
+        "literal_only": "S",
+        "suffix_only": "S",
+        "either_unique": "S",
+        "prefer_literal": "S",
+        "prefer_suffix": "S"
+      }
+    },
+    {
+      "case_id": "F3-EXAMPLE-CONFLICTING_ALIAS",
+      "path": "dockets/conflicting_alias",
+      "input_binding": {
+        "domain": "sorted-relative-path-byte-manifest-v1",
+        "sha256": "6cdcf396c35c5f01bc056260b026f8b4bb745e0a9aa3b3967ba35350162f1c0e",
+        "bytes": 1168,
+        "files": [
+          {
+            "path": "records/R11_result.json",
+            "bytes": 123,
+            "sha256": "1a1600fb3ca6f1d06a48d863ff764d5692fe192a7184512b9571a75e3ebb9d30"
+          },
+          {
+            "path": "records/R15_claims.json",
+            "bytes": 157,
+            "sha256": "21c3a916bbd5d28f49faea2e7e29ab1a172275f7ab36b7b46031f6cc335c3517"
+          },
+          {
+            "path": "records/R15_edges.json",
+            "bytes": 888,
+            "sha256": "006e2fd01d5983b8ef0165fd700646ff28c352d913b3119f0440ed5dd722e50c"
+          }
+        ]
+      },
+      "expected_documentary_verdicts": {
+        "literal_only": "S",
+        "suffix_only": "V",
+        "either_unique": "V",
+        "prefer_literal": "S",
+        "prefer_suffix": "V"
+      }
+    },
+    {
+      "case_id": "F3-EXAMPLE-CHAIN",
+      "path": "dockets/chain",
+      "input_binding": {
+        "domain": "sorted-relative-path-byte-manifest-v1",
+        "sha256": "462dbb66bc46cbf04e7c26943fe730b8d3e24f1b5ed1fc35208a2b3c6b1f7708",
+        "bytes": 1134,
+        "files": [
+          {
+            "path": "records/R11_result.json",
+            "bytes": 111,
+            "sha256": "4ac06e5f8d61d7611b3520bd1fe51a7fc7cdee5ff434dd5263dc8b85504b2223"
+          },
+          {
+            "path": "records/R15_claims.json",
+            "bytes": 145,
+            "sha256": "ab1c381028eb1832dcc6b124a25720009f05fc5f73feb5605d2a9b26011922ef"
+          },
+          {
+            "path": "records/R15_edges.json",
+            "bytes": 878,
+            "sha256": "277982347956bec241988c1c32c51b082c0aa67b6caeac598a631e8fe5d62b12"
+          }
+        ]
+      },
+      "expected_documentary_verdicts": {
+        "literal_only": "V",
+        "suffix_only": "V",
+        "either_unique": "V",
+        "prefer_literal": "V",
+        "prefer_suffix": "V"
+      }
+    }
+  ]
+}

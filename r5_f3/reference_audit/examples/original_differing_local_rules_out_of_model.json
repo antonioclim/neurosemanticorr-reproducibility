@@ -1,0 +1,5024 @@
+{
+  "budget": 0,
+  "frame_id": "NSC_PROS_v1.O15.192",
+  "matrix": {
+    "canonicalisation": "nsc-json-utf8-sort-keys-v1",
+    "payload": {
+      "cases": [
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-010B2575E5342CFAA222E93F",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-033D751FAC9706A77BFA58B0",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-038583672404A67F49664D3B",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-0480CE588DE12DEA6BCEEAA6",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-04C1FD00E6341D84C901EEEA",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-051DFFE3458F37243F4093B1",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-07FE73EDA23434619CA3E213",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-08D35BB2A05132C2F9C23814",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-0A0AC18782DA1A65F4552668",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-0D9807EC6E7251FAC89650DE",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-0DE9F2FC7356EEE2D4D3BDDC",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-0F36E739E785676995CED722",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-0F80539A37AEC3A1C8793BC0",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-1036B42920F039EB6003AE76",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-104F7825352EB905462FD239",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-1175F475261EE917E0E06A6A",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-124E69CDFD1DB8946A66C2FB",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-13DE79A1275C571B0419536A",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-17DE6EF8C12A7DFAA8267E56",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-17EAE07A978E6DF8D7824C3A",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-180E2EA48E238916583F5180",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-183259B6AFF4361C0C798C9D",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-186F26AA206E42202B12BE02",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-1935C25A7C3B6C606E2E53CF",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-1970CED9FF2B0B979860569B",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-1A9FDEDE85BF9E9BE369DB1D",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-1C52CAC128E9A3065F6D10FB",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-1E5CAEDD4472A14780BC7276",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-205AE33CD70600D35956547E",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-2136326455C5BF7CE50A3BBF",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-21D4D74D2BCB6DEC1750EFBA",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-22D30AF8249FB18371413FBA",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-2508A28C025D8EFFE11EFF7D",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-25DBBF9AF054202D7EB98360",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-2B452F380ED3FE69E275B439",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-2D2BDD2EFAFE2386E57B10AF",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-2D7B28F1A768D97DAB6669E2",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-2D8E32A7407285A08766F5FC",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-2F5D2431C94CE132E7866640",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-2FEE93C5D1A6B23745FB971F",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-324C7BEF147C73146C3BCBD5",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-336299AC712C781F68A01883",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-346BD2ED3B875923D15105E1",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-3624B02DC258BCA1C741A321",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-37609B736EFCBBE016FC5646",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-3C6D1CE93407DE1A5236BC4E",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-3CD508D1139A570248B432AB",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-3FCE1F9A844BE04DD51FADEB",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-3FF96DFE087E17A004AD1643",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-412E26AEC41288D5D17ECAC3",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-417D14F6956A87054CD8B40F",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-41A18B90A7C461F7BE35BE5D",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-4209340D6ECCECE00B7C0626",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-44032BD5F24E1933A01E3BFE",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-457486FB11C264299AF5962C",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-460CD68376842136036B144D",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-474732F54A8AFD6AA363AD39",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-4807FD2E079EF2F991866F6D",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-4842953C0A97BCE579FA5969",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-49A3D2795C5C40F46703B97C",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-4A5EE5D3722E7F2EBB220152",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-4B39C813AD0B3C2AEEEBB718",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-4F406B016E21152D46FEB93C",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-4F72B4FF02FC5A2B9B48061A",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-523A733BA59F808604C87201",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-5387EBD2C25E8B2DAFC60EB9",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-5508C661D29CA9DC6D627FE1",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-5797E2E1B382A9189AF5D36B",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-587363AE9EB73EBB7634923F",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-59B799EA83B34695CFCD4C4F",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-5A6E1A8076312DD451727DDE",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-5C2AE8EEDE54A6815528F4B7",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-5E826BF511F1C27079F71204",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-5EBB36D419F0360E085F3DAB",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-60B2D6C3DD1742E9A9B8993E",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-610B3B2A2BCE68145CCC1828",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-6136DEC7F330A09E27DCFDB1",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-62A70AF41829567CCD079A7E",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-64E70DD91FA2297DFBC8F905",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-65B9A9D9823EF8982F964130",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-664B5F6D3882B7E464979148",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-66FE38DFC6BACE208C497E52",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-680F2485A2812505955ABC69",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-685C25DBCB02503FCAEECE9C",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-68697A8B7B48465BE0B5FA6F",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-6C3BD9AF1A5EE0E2D4136A78",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-7083E883FD24E66379D12557",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-70A2198C03853E1C95A7DEEB",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-716BBC5753F6B254F4D79139",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-74440782B92D987B3EB89616",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-74EBE4A6CA03054A9B5089EF",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-752954E8441BEE2CF1BFC156",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-759259226695637B96E42F33",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-77E02D21BAC351C5B46AE474",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-7AA3F576E78CEC4181DBE45A",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-7B16AD637B4CABC03E1C4834",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-7BCDA72B0A616FD40511FB6D",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-7F6B931AD4E6D3C88C0F6E53",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-7FD0F7ABD559D2277B021393",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-81886D0F22CD34BEFE0BC76C",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-828C19208EB78977277C652E",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-82D1E50DF23F5E670D9AAC42",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-82D2D6EDED7A56CC3310C298",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-8460AAD580BC23094A4D2320",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-874CCEBB226F2F305EFC6C3D",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-88706A0C103160F4F4C08F90",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-896F5DC28958D162DB6E19E1",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-8A3023DC17FC97AD9A04E422",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-8C212CB16D676EFB19316BB5",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-8C4169B3F6D5B0281812F2C1",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-8C51A5D5677EB12EB25CA0B3",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-8EBF8C98C22FC084FBAC20A8",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-90015A2677F1659B24145F89",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-906A1A7076790F53FE53D911",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-90DD7237391958C3BF1BC903",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-920C82475245F1769CBAE375",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-922369D794C572EEEA7F9597",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-9673BA5203FBAAA856BA0805",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-977012E674002231DA760291",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-98A99B18C283F43FD92B3274",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-9BD78373C0513EF242E03DC2",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-9DE07811DCB2EC1095F690C0",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-9F3A559F1425212E8101BA9E",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-A1CCBED4F29A722F662B7C91",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-A648164BB47AE9C889378704",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-A7165F7258E3ED06080C9C0D",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-A8069737B3D7ACD7302B04B9",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-AA6C3896FA81A43C86468F2C",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-AB2800CF9871CB349B9CF2E8",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-AF1B274DEFC2320605B042DA",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-B07558AAD5D511D0905D1E43",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-B323F524F5F74F84F62AE309",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-B80AB32CD3DD0DB5DED1570B",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-B8D40CC724A213F0C9842977",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-B93EE0C25333F23219D4CDD2",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-BD4B3DED0006995DFEA1C1BA",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-BE4039BBCCBF0FD3B0D0B4E4",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-BEA54209ABF77D5AE749B1B2",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-BF7017973C83A02B19885EFB",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-BFA19B18218F3434C14BE4E4",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-C03093D8D95D4686B92E3E4C",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-C0D7118DDA7A5E2405A19501",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-C27E1535EBF41A14E9D3B7B1",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-C3B614C15E40AE726DDBAAE2",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-C54EF2C19D9F3053F265BB26",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-C5C4CE08E069D6FECCFFCCEF",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-C61620557AD9225A24CFE491",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-C71AACF05AE5573BCF293B15",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-C7D5DE31E2F7971F130A0CA9",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-C7F8ACCA09AA71BFDB8235C5",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-C928ACACF83D8A1319D7E94A",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-C9704A360B71B6F6AD5B85DD",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-C9A208C2B3618CDC61422EA7",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-CB91AA323BE76ABF0FBDBD68",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-CC118DC3F3E137638A05A267",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-CC5EB68756C725BB7254BA13",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-CC8FEE4EABF0F107B8CD88D1",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-CF4D3FCEA55EA1700B94580F",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-CFF15042C7FD83CD8A376416",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-D128D7C3D308AB0C103D3CF8",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-D1E7EF1A7FCFE40222DA5B82",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-D398EDD5B02E2AB2D301945C",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-DA35D38F047DBE30292EC0CB",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-DA38EA9CE3029FD531E40653",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-DAE8F90CA375037D0485CCB0",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-DAF71252C06276BF222931E9",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-DB3DA1113DB857AF2E60A102",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-DB45477B743C963338B35159",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-DBF29576460759B4D9728F26",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-DCE92A61707B9D29FA4AAAAF",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-DD8F3BF4E3D2A99FFAB7B120",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-E4BD2B2059C4309007230305",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-E537A37980B897D058072E86",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-E564DA66BE3F9FFFB956B206",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-E7C992BCB7392C6EB8C70053",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-E85CB91AD3B588586057AA19",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-E89646F7043436E0EFCBB80F",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-E98B2F39205D3C72E76B83EB",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-E99740384FF8ECA28831131E",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-EFC26FF8C68781DB17BC8C57",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-F289193A1E2E468FBF542716",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-F2BE621CEF01B4289A9D8B3C",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "R1PROS-F43B18F8DF3F6C3374DC0643",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-F882C4A9601C48DDB5216CCE",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-F8961B41691DB4F331CF2145",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-FA5331C86A93414CF95CB42B",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-FABC78936B66F8E64A6DE66F",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-FC035E57AA769864CCE94B58",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "district-energy",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S"
+          ],
+          "case_id": "R1PROS-FE70508B671262443BFD17D2",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-FF07F436C4685C3EA3600423",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "mobility-access",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-FF19FE3600812EFED48556BD",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "community-library",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "R1PROS-FF87C2100EEED7703D4D2F3F",
+          "checker_labels": {
+            "b": "V",
+            "t": "V"
+          },
+          "context_id": "skills-bursary",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V",
+            "U"
+          ],
+          "case_id": "F2-CONTEXT-SUFFIX",
+          "checker_labels": {
+            "b": null,
+            "t": null
+          },
+          "context_id": "external-probes",
+          "exception_eligible": true,
+          "role": "external_query",
+          "weight": "0"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V",
+            "U"
+          ],
+          "case_id": "F2-IDENTITY-CORRECT",
+          "checker_labels": {
+            "b": null,
+            "t": null
+          },
+          "context_id": "external-probes",
+          "exception_eligible": true,
+          "role": "external_query",
+          "weight": "0"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V",
+            "U"
+          ],
+          "case_id": "F2-IDENTITY-WRONG-TARGET",
+          "checker_labels": {
+            "b": null,
+            "t": null
+          },
+          "context_id": "external-probes",
+          "exception_eligible": true,
+          "role": "external_query",
+          "weight": "0"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V",
+            "U"
+          ],
+          "case_id": "F2-MIRROR-LITERAL",
+          "checker_labels": {
+            "b": null,
+            "t": null
+          },
+          "context_id": "external-probes",
+          "exception_eligible": true,
+          "role": "external_query",
+          "weight": "0"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V",
+            "U"
+          ],
+          "case_id": "F2-MIRROR-SUFFIX",
+          "checker_labels": {
+            "b": null,
+            "t": null
+          },
+          "context_id": "external-probes",
+          "exception_eligible": true,
+          "role": "external_query",
+          "weight": "0"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V",
+            "U"
+          ],
+          "case_id": "F2-MISSING-RESULT",
+          "checker_labels": {
+            "b": null,
+            "t": null
+          },
+          "context_id": "external-probes",
+          "exception_eligible": true,
+          "role": "external_query",
+          "weight": "0"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V",
+            "U"
+          ],
+          "case_id": "F2-RFC-ARRAY-INDEX",
+          "checker_labels": {
+            "b": null,
+            "t": null
+          },
+          "context_id": "external-probes",
+          "exception_eligible": true,
+          "role": "external_query",
+          "weight": "0"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V",
+            "U"
+          ],
+          "case_id": "F2-RFC-ARRAY-PADDED",
+          "checker_labels": {
+            "b": null,
+            "t": null
+          },
+          "context_id": "external-probes",
+          "exception_eligible": true,
+          "role": "external_query",
+          "weight": "0"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V",
+            "U"
+          ],
+          "case_id": "F2-RFC-ESCAPE-ORDER",
+          "checker_labels": {
+            "b": null,
+            "t": null
+          },
+          "context_id": "external-probes",
+          "exception_eligible": true,
+          "role": "external_query",
+          "weight": "0"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V",
+            "U"
+          ],
+          "case_id": "F2-RFC-OBJECT-PADDED",
+          "checker_labels": {
+            "b": null,
+            "t": null
+          },
+          "context_id": "external-probes",
+          "exception_eligible": true,
+          "role": "external_query",
+          "weight": "0"
+        }
+      ],
+      "centres": [
+        {
+          "centre_id": "literal_only",
+          "convention_by_case": {
+            "F2-CONTEXT-SUFFIX": "literal_only",
+            "F2-IDENTITY-CORRECT": "literal_only",
+            "F2-IDENTITY-WRONG-TARGET": "literal_only",
+            "F2-MIRROR-LITERAL": "literal_only",
+            "F2-MIRROR-SUFFIX": "literal_only",
+            "F2-MISSING-RESULT": "literal_only",
+            "F2-RFC-ARRAY-INDEX": "literal_only",
+            "F2-RFC-ARRAY-PADDED": "literal_only",
+            "F2-RFC-ESCAPE-ORDER": "literal_only",
+            "F2-RFC-OBJECT-PADDED": "literal_only",
+            "R1PROS-010B2575E5342CFAA222E93F": "literal_only",
+            "R1PROS-033D751FAC9706A77BFA58B0": "literal_only",
+            "R1PROS-038583672404A67F49664D3B": "literal_only",
+            "R1PROS-0480CE588DE12DEA6BCEEAA6": "literal_only",
+            "R1PROS-04C1FD00E6341D84C901EEEA": "literal_only",
+            "R1PROS-051DFFE3458F37243F4093B1": "literal_only",
+            "R1PROS-07FE73EDA23434619CA3E213": "literal_only",
+            "R1PROS-08D35BB2A05132C2F9C23814": "literal_only",
+            "R1PROS-0A0AC18782DA1A65F4552668": "literal_only",
+            "R1PROS-0D9807EC6E7251FAC89650DE": "literal_only",
+            "R1PROS-0DE9F2FC7356EEE2D4D3BDDC": "literal_only",
+            "R1PROS-0F36E739E785676995CED722": "literal_only",
+            "R1PROS-0F80539A37AEC3A1C8793BC0": "literal_only",
+            "R1PROS-1036B42920F039EB6003AE76": "literal_only",
+            "R1PROS-104F7825352EB905462FD239": "literal_only",
+            "R1PROS-1175F475261EE917E0E06A6A": "literal_only",
+            "R1PROS-124E69CDFD1DB8946A66C2FB": "literal_only",
+            "R1PROS-13DE79A1275C571B0419536A": "literal_only",
+            "R1PROS-17DE6EF8C12A7DFAA8267E56": "literal_only",
+            "R1PROS-17EAE07A978E6DF8D7824C3A": "literal_only",
+            "R1PROS-180E2EA48E238916583F5180": "literal_only",
+            "R1PROS-183259B6AFF4361C0C798C9D": "literal_only",
+            "R1PROS-186F26AA206E42202B12BE02": "literal_only",
+            "R1PROS-1935C25A7C3B6C606E2E53CF": "literal_only",
+            "R1PROS-1970CED9FF2B0B979860569B": "literal_only",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D": "literal_only",
+            "R1PROS-1C52CAC128E9A3065F6D10FB": "literal_only",
+            "R1PROS-1E5CAEDD4472A14780BC7276": "literal_only",
+            "R1PROS-205AE33CD70600D35956547E": "literal_only",
+            "R1PROS-2136326455C5BF7CE50A3BBF": "literal_only",
+            "R1PROS-21D4D74D2BCB6DEC1750EFBA": "literal_only",
+            "R1PROS-22D30AF8249FB18371413FBA": "literal_only",
+            "R1PROS-2508A28C025D8EFFE11EFF7D": "literal_only",
+            "R1PROS-25DBBF9AF054202D7EB98360": "literal_only",
+            "R1PROS-2B452F380ED3FE69E275B439": "literal_only",
+            "R1PROS-2D2BDD2EFAFE2386E57B10AF": "literal_only",
+            "R1PROS-2D7B28F1A768D97DAB6669E2": "literal_only",
+            "R1PROS-2D8E32A7407285A08766F5FC": "literal_only",
+            "R1PROS-2F5D2431C94CE132E7866640": "literal_only",
+            "R1PROS-2FEE93C5D1A6B23745FB971F": "literal_only",
+            "R1PROS-324C7BEF147C73146C3BCBD5": "literal_only",
+            "R1PROS-336299AC712C781F68A01883": "literal_only",
+            "R1PROS-346BD2ED3B875923D15105E1": "literal_only",
+            "R1PROS-3624B02DC258BCA1C741A321": "literal_only",
+            "R1PROS-37609B736EFCBBE016FC5646": "literal_only",
+            "R1PROS-3C6D1CE93407DE1A5236BC4E": "literal_only",
+            "R1PROS-3CD508D1139A570248B432AB": "literal_only",
+            "R1PROS-3FCE1F9A844BE04DD51FADEB": "literal_only",
+            "R1PROS-3FF96DFE087E17A004AD1643": "literal_only",
+            "R1PROS-412E26AEC41288D5D17ECAC3": "literal_only",
+            "R1PROS-417D14F6956A87054CD8B40F": "literal_only",
+            "R1PROS-41A18B90A7C461F7BE35BE5D": "literal_only",
+            "R1PROS-4209340D6ECCECE00B7C0626": "literal_only",
+            "R1PROS-44032BD5F24E1933A01E3BFE": "literal_only",
+            "R1PROS-457486FB11C264299AF5962C": "literal_only",
+            "R1PROS-460CD68376842136036B144D": "literal_only",
+            "R1PROS-474732F54A8AFD6AA363AD39": "literal_only",
+            "R1PROS-4807FD2E079EF2F991866F6D": "literal_only",
+            "R1PROS-4842953C0A97BCE579FA5969": "literal_only",
+            "R1PROS-49A3D2795C5C40F46703B97C": "literal_only",
+            "R1PROS-4A5EE5D3722E7F2EBB220152": "literal_only",
+            "R1PROS-4B39C813AD0B3C2AEEEBB718": "literal_only",
+            "R1PROS-4F406B016E21152D46FEB93C": "literal_only",
+            "R1PROS-4F72B4FF02FC5A2B9B48061A": "literal_only",
+            "R1PROS-523A733BA59F808604C87201": "literal_only",
+            "R1PROS-5387EBD2C25E8B2DAFC60EB9": "literal_only",
+            "R1PROS-5508C661D29CA9DC6D627FE1": "literal_only",
+            "R1PROS-5797E2E1B382A9189AF5D36B": "literal_only",
+            "R1PROS-587363AE9EB73EBB7634923F": "literal_only",
+            "R1PROS-59B799EA83B34695CFCD4C4F": "literal_only",
+            "R1PROS-5A6E1A8076312DD451727DDE": "literal_only",
+            "R1PROS-5C2AE8EEDE54A6815528F4B7": "literal_only",
+            "R1PROS-5E826BF511F1C27079F71204": "literal_only",
+            "R1PROS-5EBB36D419F0360E085F3DAB": "literal_only",
+            "R1PROS-60B2D6C3DD1742E9A9B8993E": "literal_only",
+            "R1PROS-610B3B2A2BCE68145CCC1828": "literal_only",
+            "R1PROS-6136DEC7F330A09E27DCFDB1": "literal_only",
+            "R1PROS-62A70AF41829567CCD079A7E": "literal_only",
+            "R1PROS-64E70DD91FA2297DFBC8F905": "literal_only",
+            "R1PROS-65B9A9D9823EF8982F964130": "literal_only",
+            "R1PROS-664B5F6D3882B7E464979148": "literal_only",
+            "R1PROS-66FE38DFC6BACE208C497E52": "literal_only",
+            "R1PROS-680F2485A2812505955ABC69": "literal_only",
+            "R1PROS-685C25DBCB02503FCAEECE9C": "literal_only",
+            "R1PROS-68697A8B7B48465BE0B5FA6F": "literal_only",
+            "R1PROS-6C3BD9AF1A5EE0E2D4136A78": "literal_only",
+            "R1PROS-7083E883FD24E66379D12557": "literal_only",
+            "R1PROS-70A2198C03853E1C95A7DEEB": "literal_only",
+            "R1PROS-716BBC5753F6B254F4D79139": "literal_only",
+            "R1PROS-74440782B92D987B3EB89616": "literal_only",
+            "R1PROS-74EBE4A6CA03054A9B5089EF": "literal_only",
+            "R1PROS-752954E8441BEE2CF1BFC156": "literal_only",
+            "R1PROS-759259226695637B96E42F33": "literal_only",
+            "R1PROS-77E02D21BAC351C5B46AE474": "literal_only",
+            "R1PROS-7AA3F576E78CEC4181DBE45A": "literal_only",
+            "R1PROS-7B16AD637B4CABC03E1C4834": "literal_only",
+            "R1PROS-7BCDA72B0A616FD40511FB6D": "literal_only",
+            "R1PROS-7F6B931AD4E6D3C88C0F6E53": "literal_only",
+            "R1PROS-7FD0F7ABD559D2277B021393": "literal_only",
+            "R1PROS-81886D0F22CD34BEFE0BC76C": "literal_only",
+            "R1PROS-828C19208EB78977277C652E": "literal_only",
+            "R1PROS-82D1E50DF23F5E670D9AAC42": "literal_only",
+            "R1PROS-82D2D6EDED7A56CC3310C298": "literal_only",
+            "R1PROS-8460AAD580BC23094A4D2320": "literal_only",
+            "R1PROS-874CCEBB226F2F305EFC6C3D": "literal_only",
+            "R1PROS-88706A0C103160F4F4C08F90": "literal_only",
+            "R1PROS-896F5DC28958D162DB6E19E1": "literal_only",
+            "R1PROS-8A3023DC17FC97AD9A04E422": "literal_only",
+            "R1PROS-8C212CB16D676EFB19316BB5": "literal_only",
+            "R1PROS-8C4169B3F6D5B0281812F2C1": "literal_only",
+            "R1PROS-8C51A5D5677EB12EB25CA0B3": "literal_only",
+            "R1PROS-8EBF8C98C22FC084FBAC20A8": "literal_only",
+            "R1PROS-90015A2677F1659B24145F89": "literal_only",
+            "R1PROS-906A1A7076790F53FE53D911": "literal_only",
+            "R1PROS-90DD7237391958C3BF1BC903": "literal_only",
+            "R1PROS-920C82475245F1769CBAE375": "literal_only",
+            "R1PROS-922369D794C572EEEA7F9597": "literal_only",
+            "R1PROS-9673BA5203FBAAA856BA0805": "literal_only",
+            "R1PROS-977012E674002231DA760291": "literal_only",
+            "R1PROS-98A99B18C283F43FD92B3274": "literal_only",
+            "R1PROS-9BD78373C0513EF242E03DC2": "literal_only",
+            "R1PROS-9DE07811DCB2EC1095F690C0": "literal_only",
+            "R1PROS-9F3A559F1425212E8101BA9E": "literal_only",
+            "R1PROS-A1CCBED4F29A722F662B7C91": "literal_only",
+            "R1PROS-A648164BB47AE9C889378704": "literal_only",
+            "R1PROS-A7165F7258E3ED06080C9C0D": "literal_only",
+            "R1PROS-A8069737B3D7ACD7302B04B9": "literal_only",
+            "R1PROS-AA6C3896FA81A43C86468F2C": "literal_only",
+            "R1PROS-AB2800CF9871CB349B9CF2E8": "literal_only",
+            "R1PROS-AF1B274DEFC2320605B042DA": "literal_only",
+            "R1PROS-B07558AAD5D511D0905D1E43": "literal_only",
+            "R1PROS-B323F524F5F74F84F62AE309": "literal_only",
+            "R1PROS-B80AB32CD3DD0DB5DED1570B": "literal_only",
+            "R1PROS-B8D40CC724A213F0C9842977": "literal_only",
+            "R1PROS-B93EE0C25333F23219D4CDD2": "literal_only",
+            "R1PROS-BD4B3DED0006995DFEA1C1BA": "literal_only",
+            "R1PROS-BE4039BBCCBF0FD3B0D0B4E4": "literal_only",
+            "R1PROS-BEA54209ABF77D5AE749B1B2": "literal_only",
+            "R1PROS-BF7017973C83A02B19885EFB": "literal_only",
+            "R1PROS-BFA19B18218F3434C14BE4E4": "literal_only",
+            "R1PROS-C03093D8D95D4686B92E3E4C": "literal_only",
+            "R1PROS-C0D7118DDA7A5E2405A19501": "literal_only",
+            "R1PROS-C27E1535EBF41A14E9D3B7B1": "literal_only",
+            "R1PROS-C3B614C15E40AE726DDBAAE2": "literal_only",
+            "R1PROS-C54EF2C19D9F3053F265BB26": "literal_only",
+            "R1PROS-C5C4CE08E069D6FECCFFCCEF": "literal_only",
+            "R1PROS-C61620557AD9225A24CFE491": "literal_only",
+            "R1PROS-C71AACF05AE5573BCF293B15": "literal_only",
+            "R1PROS-C7D5DE31E2F7971F130A0CA9": "literal_only",
+            "R1PROS-C7F8ACCA09AA71BFDB8235C5": "literal_only",
+            "R1PROS-C928ACACF83D8A1319D7E94A": "literal_only",
+            "R1PROS-C9704A360B71B6F6AD5B85DD": "literal_only",
+            "R1PROS-C9A208C2B3618CDC61422EA7": "literal_only",
+            "R1PROS-CB91AA323BE76ABF0FBDBD68": "literal_only",
+            "R1PROS-CC118DC3F3E137638A05A267": "literal_only",
+            "R1PROS-CC5EB68756C725BB7254BA13": "literal_only",
+            "R1PROS-CC8FEE4EABF0F107B8CD88D1": "literal_only",
+            "R1PROS-CF4D3FCEA55EA1700B94580F": "literal_only",
+            "R1PROS-CFF15042C7FD83CD8A376416": "literal_only",
+            "R1PROS-D128D7C3D308AB0C103D3CF8": "literal_only",
+            "R1PROS-D1E7EF1A7FCFE40222DA5B82": "literal_only",
+            "R1PROS-D398EDD5B02E2AB2D301945C": "literal_only",
+            "R1PROS-DA35D38F047DBE30292EC0CB": "literal_only",
+            "R1PROS-DA38EA9CE3029FD531E40653": "literal_only",
+            "R1PROS-DAE8F90CA375037D0485CCB0": "literal_only",
+            "R1PROS-DAF71252C06276BF222931E9": "literal_only",
+            "R1PROS-DB3DA1113DB857AF2E60A102": "literal_only",
+            "R1PROS-DB45477B743C963338B35159": "literal_only",
+            "R1PROS-DBF29576460759B4D9728F26": "literal_only",
+            "R1PROS-DCE92A61707B9D29FA4AAAAF": "literal_only",
+            "R1PROS-DD8F3BF4E3D2A99FFAB7B120": "literal_only",
+            "R1PROS-E4BD2B2059C4309007230305": "literal_only",
+            "R1PROS-E537A37980B897D058072E86": "literal_only",
+            "R1PROS-E564DA66BE3F9FFFB956B206": "literal_only",
+            "R1PROS-E7C992BCB7392C6EB8C70053": "literal_only",
+            "R1PROS-E85CB91AD3B588586057AA19": "literal_only",
+            "R1PROS-E89646F7043436E0EFCBB80F": "literal_only",
+            "R1PROS-E98B2F39205D3C72E76B83EB": "literal_only",
+            "R1PROS-E99740384FF8ECA28831131E": "literal_only",
+            "R1PROS-EFC26FF8C68781DB17BC8C57": "literal_only",
+            "R1PROS-F289193A1E2E468FBF542716": "literal_only",
+            "R1PROS-F2BE621CEF01B4289A9D8B3C": "literal_only",
+            "R1PROS-F43B18F8DF3F6C3374DC0643": "literal_only",
+            "R1PROS-F882C4A9601C48DDB5216CCE": "literal_only",
+            "R1PROS-F8961B41691DB4F331CF2145": "literal_only",
+            "R1PROS-FA5331C86A93414CF95CB42B": "literal_only",
+            "R1PROS-FABC78936B66F8E64A6DE66F": "literal_only",
+            "R1PROS-FC035E57AA769864CCE94B58": "literal_only",
+            "R1PROS-FE70508B671262443BFD17D2": "literal_only",
+            "R1PROS-FF07F436C4685C3EA3600423": "literal_only",
+            "R1PROS-FF19FE3600812EFED48556BD": "literal_only",
+            "R1PROS-FF87C2100EEED7703D4D2F3F": "literal_only"
+          }
+        },
+        {
+          "centre_id": "suffix_only",
+          "convention_by_case": {
+            "F2-CONTEXT-SUFFIX": "suffix_only",
+            "F2-IDENTITY-CORRECT": "suffix_only",
+            "F2-IDENTITY-WRONG-TARGET": "suffix_only",
+            "F2-MIRROR-LITERAL": "suffix_only",
+            "F2-MIRROR-SUFFIX": "suffix_only",
+            "F2-MISSING-RESULT": "suffix_only",
+            "F2-RFC-ARRAY-INDEX": "suffix_only",
+            "F2-RFC-ARRAY-PADDED": "suffix_only",
+            "F2-RFC-ESCAPE-ORDER": "suffix_only",
+            "F2-RFC-OBJECT-PADDED": "suffix_only",
+            "R1PROS-010B2575E5342CFAA222E93F": "suffix_only",
+            "R1PROS-033D751FAC9706A77BFA58B0": "suffix_only",
+            "R1PROS-038583672404A67F49664D3B": "suffix_only",
+            "R1PROS-0480CE588DE12DEA6BCEEAA6": "suffix_only",
+            "R1PROS-04C1FD00E6341D84C901EEEA": "suffix_only",
+            "R1PROS-051DFFE3458F37243F4093B1": "suffix_only",
+            "R1PROS-07FE73EDA23434619CA3E213": "suffix_only",
+            "R1PROS-08D35BB2A05132C2F9C23814": "suffix_only",
+            "R1PROS-0A0AC18782DA1A65F4552668": "suffix_only",
+            "R1PROS-0D9807EC6E7251FAC89650DE": "suffix_only",
+            "R1PROS-0DE9F2FC7356EEE2D4D3BDDC": "suffix_only",
+            "R1PROS-0F36E739E785676995CED722": "suffix_only",
+            "R1PROS-0F80539A37AEC3A1C8793BC0": "suffix_only",
+            "R1PROS-1036B42920F039EB6003AE76": "suffix_only",
+            "R1PROS-104F7825352EB905462FD239": "suffix_only",
+            "R1PROS-1175F475261EE917E0E06A6A": "suffix_only",
+            "R1PROS-124E69CDFD1DB8946A66C2FB": "suffix_only",
+            "R1PROS-13DE79A1275C571B0419536A": "suffix_only",
+            "R1PROS-17DE6EF8C12A7DFAA8267E56": "suffix_only",
+            "R1PROS-17EAE07A978E6DF8D7824C3A": "suffix_only",
+            "R1PROS-180E2EA48E238916583F5180": "suffix_only",
+            "R1PROS-183259B6AFF4361C0C798C9D": "suffix_only",
+            "R1PROS-186F26AA206E42202B12BE02": "suffix_only",
+            "R1PROS-1935C25A7C3B6C606E2E53CF": "suffix_only",
+            "R1PROS-1970CED9FF2B0B979860569B": "suffix_only",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D": "suffix_only",
+            "R1PROS-1C52CAC128E9A3065F6D10FB": "suffix_only",
+            "R1PROS-1E5CAEDD4472A14780BC7276": "suffix_only",
+            "R1PROS-205AE33CD70600D35956547E": "suffix_only",
+            "R1PROS-2136326455C5BF7CE50A3BBF": "suffix_only",
+            "R1PROS-21D4D74D2BCB6DEC1750EFBA": "suffix_only",
+            "R1PROS-22D30AF8249FB18371413FBA": "suffix_only",
+            "R1PROS-2508A28C025D8EFFE11EFF7D": "suffix_only",
+            "R1PROS-25DBBF9AF054202D7EB98360": "suffix_only",
+            "R1PROS-2B452F380ED3FE69E275B439": "suffix_only",
+            "R1PROS-2D2BDD2EFAFE2386E57B10AF": "suffix_only",
+            "R1PROS-2D7B28F1A768D97DAB6669E2": "suffix_only",
+            "R1PROS-2D8E32A7407285A08766F5FC": "suffix_only",
+            "R1PROS-2F5D2431C94CE132E7866640": "suffix_only",
+            "R1PROS-2FEE93C5D1A6B23745FB971F": "suffix_only",
+            "R1PROS-324C7BEF147C73146C3BCBD5": "suffix_only",
+            "R1PROS-336299AC712C781F68A01883": "suffix_only",
+            "R1PROS-346BD2ED3B875923D15105E1": "suffix_only",
+            "R1PROS-3624B02DC258BCA1C741A321": "suffix_only",
+            "R1PROS-37609B736EFCBBE016FC5646": "suffix_only",
+            "R1PROS-3C6D1CE93407DE1A5236BC4E": "suffix_only",
+            "R1PROS-3CD508D1139A570248B432AB": "suffix_only",
+            "R1PROS-3FCE1F9A844BE04DD51FADEB": "suffix_only",
+            "R1PROS-3FF96DFE087E17A004AD1643": "suffix_only",
+            "R1PROS-412E26AEC41288D5D17ECAC3": "suffix_only",
+            "R1PROS-417D14F6956A87054CD8B40F": "suffix_only",
+            "R1PROS-41A18B90A7C461F7BE35BE5D": "suffix_only",
+            "R1PROS-4209340D6ECCECE00B7C0626": "suffix_only",
+            "R1PROS-44032BD5F24E1933A01E3BFE": "suffix_only",
+            "R1PROS-457486FB11C264299AF5962C": "suffix_only",
+            "R1PROS-460CD68376842136036B144D": "suffix_only",
+            "R1PROS-474732F54A8AFD6AA363AD39": "suffix_only",
+            "R1PROS-4807FD2E079EF2F991866F6D": "suffix_only",
+            "R1PROS-4842953C0A97BCE579FA5969": "suffix_only",
+            "R1PROS-49A3D2795C5C40F46703B97C": "suffix_only",
+            "R1PROS-4A5EE5D3722E7F2EBB220152": "suffix_only",
+            "R1PROS-4B39C813AD0B3C2AEEEBB718": "suffix_only",
+            "R1PROS-4F406B016E21152D46FEB93C": "suffix_only",
+            "R1PROS-4F72B4FF02FC5A2B9B48061A": "suffix_only",
+            "R1PROS-523A733BA59F808604C87201": "suffix_only",
+            "R1PROS-5387EBD2C25E8B2DAFC60EB9": "suffix_only",
+            "R1PROS-5508C661D29CA9DC6D627FE1": "suffix_only",
+            "R1PROS-5797E2E1B382A9189AF5D36B": "suffix_only",
+            "R1PROS-587363AE9EB73EBB7634923F": "suffix_only",
+            "R1PROS-59B799EA83B34695CFCD4C4F": "suffix_only",
+            "R1PROS-5A6E1A8076312DD451727DDE": "suffix_only",
+            "R1PROS-5C2AE8EEDE54A6815528F4B7": "suffix_only",
+            "R1PROS-5E826BF511F1C27079F71204": "suffix_only",
+            "R1PROS-5EBB36D419F0360E085F3DAB": "suffix_only",
+            "R1PROS-60B2D6C3DD1742E9A9B8993E": "suffix_only",
+            "R1PROS-610B3B2A2BCE68145CCC1828": "suffix_only",
+            "R1PROS-6136DEC7F330A09E27DCFDB1": "suffix_only",
+            "R1PROS-62A70AF41829567CCD079A7E": "suffix_only",
+            "R1PROS-64E70DD91FA2297DFBC8F905": "suffix_only",
+            "R1PROS-65B9A9D9823EF8982F964130": "suffix_only",
+            "R1PROS-664B5F6D3882B7E464979148": "suffix_only",
+            "R1PROS-66FE38DFC6BACE208C497E52": "suffix_only",
+            "R1PROS-680F2485A2812505955ABC69": "suffix_only",
+            "R1PROS-685C25DBCB02503FCAEECE9C": "suffix_only",
+            "R1PROS-68697A8B7B48465BE0B5FA6F": "suffix_only",
+            "R1PROS-6C3BD9AF1A5EE0E2D4136A78": "suffix_only",
+            "R1PROS-7083E883FD24E66379D12557": "suffix_only",
+            "R1PROS-70A2198C03853E1C95A7DEEB": "suffix_only",
+            "R1PROS-716BBC5753F6B254F4D79139": "suffix_only",
+            "R1PROS-74440782B92D987B3EB89616": "suffix_only",
+            "R1PROS-74EBE4A6CA03054A9B5089EF": "suffix_only",
+            "R1PROS-752954E8441BEE2CF1BFC156": "suffix_only",
+            "R1PROS-759259226695637B96E42F33": "suffix_only",
+            "R1PROS-77E02D21BAC351C5B46AE474": "suffix_only",
+            "R1PROS-7AA3F576E78CEC4181DBE45A": "suffix_only",
+            "R1PROS-7B16AD637B4CABC03E1C4834": "suffix_only",
+            "R1PROS-7BCDA72B0A616FD40511FB6D": "suffix_only",
+            "R1PROS-7F6B931AD4E6D3C88C0F6E53": "suffix_only",
+            "R1PROS-7FD0F7ABD559D2277B021393": "suffix_only",
+            "R1PROS-81886D0F22CD34BEFE0BC76C": "suffix_only",
+            "R1PROS-828C19208EB78977277C652E": "suffix_only",
+            "R1PROS-82D1E50DF23F5E670D9AAC42": "suffix_only",
+            "R1PROS-82D2D6EDED7A56CC3310C298": "suffix_only",
+            "R1PROS-8460AAD580BC23094A4D2320": "suffix_only",
+            "R1PROS-874CCEBB226F2F305EFC6C3D": "suffix_only",
+            "R1PROS-88706A0C103160F4F4C08F90": "suffix_only",
+            "R1PROS-896F5DC28958D162DB6E19E1": "suffix_only",
+            "R1PROS-8A3023DC17FC97AD9A04E422": "suffix_only",
+            "R1PROS-8C212CB16D676EFB19316BB5": "suffix_only",
+            "R1PROS-8C4169B3F6D5B0281812F2C1": "suffix_only",
+            "R1PROS-8C51A5D5677EB12EB25CA0B3": "suffix_only",
+            "R1PROS-8EBF8C98C22FC084FBAC20A8": "suffix_only",
+            "R1PROS-90015A2677F1659B24145F89": "suffix_only",
+            "R1PROS-906A1A7076790F53FE53D911": "suffix_only",
+            "R1PROS-90DD7237391958C3BF1BC903": "suffix_only",
+            "R1PROS-920C82475245F1769CBAE375": "suffix_only",
+            "R1PROS-922369D794C572EEEA7F9597": "suffix_only",
+            "R1PROS-9673BA5203FBAAA856BA0805": "suffix_only",
+            "R1PROS-977012E674002231DA760291": "suffix_only",
+            "R1PROS-98A99B18C283F43FD92B3274": "suffix_only",
+            "R1PROS-9BD78373C0513EF242E03DC2": "suffix_only",
+            "R1PROS-9DE07811DCB2EC1095F690C0": "suffix_only",
+            "R1PROS-9F3A559F1425212E8101BA9E": "suffix_only",
+            "R1PROS-A1CCBED4F29A722F662B7C91": "suffix_only",
+            "R1PROS-A648164BB47AE9C889378704": "suffix_only",
+            "R1PROS-A7165F7258E3ED06080C9C0D": "suffix_only",
+            "R1PROS-A8069737B3D7ACD7302B04B9": "suffix_only",
+            "R1PROS-AA6C3896FA81A43C86468F2C": "suffix_only",
+            "R1PROS-AB2800CF9871CB349B9CF2E8": "suffix_only",
+            "R1PROS-AF1B274DEFC2320605B042DA": "suffix_only",
+            "R1PROS-B07558AAD5D511D0905D1E43": "suffix_only",
+            "R1PROS-B323F524F5F74F84F62AE309": "suffix_only",
+            "R1PROS-B80AB32CD3DD0DB5DED1570B": "suffix_only",
+            "R1PROS-B8D40CC724A213F0C9842977": "suffix_only",
+            "R1PROS-B93EE0C25333F23219D4CDD2": "suffix_only",
+            "R1PROS-BD4B3DED0006995DFEA1C1BA": "suffix_only",
+            "R1PROS-BE4039BBCCBF0FD3B0D0B4E4": "suffix_only",
+            "R1PROS-BEA54209ABF77D5AE749B1B2": "suffix_only",
+            "R1PROS-BF7017973C83A02B19885EFB": "suffix_only",
+            "R1PROS-BFA19B18218F3434C14BE4E4": "suffix_only",
+            "R1PROS-C03093D8D95D4686B92E3E4C": "suffix_only",
+            "R1PROS-C0D7118DDA7A5E2405A19501": "suffix_only",
+            "R1PROS-C27E1535EBF41A14E9D3B7B1": "suffix_only",
+            "R1PROS-C3B614C15E40AE726DDBAAE2": "suffix_only",
+            "R1PROS-C54EF2C19D9F3053F265BB26": "suffix_only",
+            "R1PROS-C5C4CE08E069D6FECCFFCCEF": "suffix_only",
+            "R1PROS-C61620557AD9225A24CFE491": "suffix_only",
+            "R1PROS-C71AACF05AE5573BCF293B15": "suffix_only",
+            "R1PROS-C7D5DE31E2F7971F130A0CA9": "suffix_only",
+            "R1PROS-C7F8ACCA09AA71BFDB8235C5": "suffix_only",
+            "R1PROS-C928ACACF83D8A1319D7E94A": "suffix_only",
+            "R1PROS-C9704A360B71B6F6AD5B85DD": "suffix_only",
+            "R1PROS-C9A208C2B3618CDC61422EA7": "suffix_only",
+            "R1PROS-CB91AA323BE76ABF0FBDBD68": "suffix_only",
+            "R1PROS-CC118DC3F3E137638A05A267": "suffix_only",
+            "R1PROS-CC5EB68756C725BB7254BA13": "suffix_only",
+            "R1PROS-CC8FEE4EABF0F107B8CD88D1": "suffix_only",
+            "R1PROS-CF4D3FCEA55EA1700B94580F": "suffix_only",
+            "R1PROS-CFF15042C7FD83CD8A376416": "suffix_only",
+            "R1PROS-D128D7C3D308AB0C103D3CF8": "suffix_only",
+            "R1PROS-D1E7EF1A7FCFE40222DA5B82": "suffix_only",
+            "R1PROS-D398EDD5B02E2AB2D301945C": "suffix_only",
+            "R1PROS-DA35D38F047DBE30292EC0CB": "suffix_only",
+            "R1PROS-DA38EA9CE3029FD531E40653": "suffix_only",
+            "R1PROS-DAE8F90CA375037D0485CCB0": "suffix_only",
+            "R1PROS-DAF71252C06276BF222931E9": "suffix_only",
+            "R1PROS-DB3DA1113DB857AF2E60A102": "suffix_only",
+            "R1PROS-DB45477B743C963338B35159": "suffix_only",
+            "R1PROS-DBF29576460759B4D9728F26": "suffix_only",
+            "R1PROS-DCE92A61707B9D29FA4AAAAF": "suffix_only",
+            "R1PROS-DD8F3BF4E3D2A99FFAB7B120": "suffix_only",
+            "R1PROS-E4BD2B2059C4309007230305": "suffix_only",
+            "R1PROS-E537A37980B897D058072E86": "suffix_only",
+            "R1PROS-E564DA66BE3F9FFFB956B206": "suffix_only",
+            "R1PROS-E7C992BCB7392C6EB8C70053": "suffix_only",
+            "R1PROS-E85CB91AD3B588586057AA19": "suffix_only",
+            "R1PROS-E89646F7043436E0EFCBB80F": "suffix_only",
+            "R1PROS-E98B2F39205D3C72E76B83EB": "suffix_only",
+            "R1PROS-E99740384FF8ECA28831131E": "suffix_only",
+            "R1PROS-EFC26FF8C68781DB17BC8C57": "suffix_only",
+            "R1PROS-F289193A1E2E468FBF542716": "suffix_only",
+            "R1PROS-F2BE621CEF01B4289A9D8B3C": "suffix_only",
+            "R1PROS-F43B18F8DF3F6C3374DC0643": "suffix_only",
+            "R1PROS-F882C4A9601C48DDB5216CCE": "suffix_only",
+            "R1PROS-F8961B41691DB4F331CF2145": "suffix_only",
+            "R1PROS-FA5331C86A93414CF95CB42B": "suffix_only",
+            "R1PROS-FABC78936B66F8E64A6DE66F": "suffix_only",
+            "R1PROS-FC035E57AA769864CCE94B58": "suffix_only",
+            "R1PROS-FE70508B671262443BFD17D2": "suffix_only",
+            "R1PROS-FF07F436C4685C3EA3600423": "suffix_only",
+            "R1PROS-FF19FE3600812EFED48556BD": "suffix_only",
+            "R1PROS-FF87C2100EEED7703D4D2F3F": "suffix_only"
+          }
+        },
+        {
+          "centre_id": "either_unique",
+          "convention_by_case": {
+            "F2-CONTEXT-SUFFIX": "either_unique",
+            "F2-IDENTITY-CORRECT": "either_unique",
+            "F2-IDENTITY-WRONG-TARGET": "either_unique",
+            "F2-MIRROR-LITERAL": "either_unique",
+            "F2-MIRROR-SUFFIX": "either_unique",
+            "F2-MISSING-RESULT": "either_unique",
+            "F2-RFC-ARRAY-INDEX": "either_unique",
+            "F2-RFC-ARRAY-PADDED": "either_unique",
+            "F2-RFC-ESCAPE-ORDER": "either_unique",
+            "F2-RFC-OBJECT-PADDED": "either_unique",
+            "R1PROS-010B2575E5342CFAA222E93F": "either_unique",
+            "R1PROS-033D751FAC9706A77BFA58B0": "either_unique",
+            "R1PROS-038583672404A67F49664D3B": "either_unique",
+            "R1PROS-0480CE588DE12DEA6BCEEAA6": "either_unique",
+            "R1PROS-04C1FD00E6341D84C901EEEA": "either_unique",
+            "R1PROS-051DFFE3458F37243F4093B1": "either_unique",
+            "R1PROS-07FE73EDA23434619CA3E213": "either_unique",
+            "R1PROS-08D35BB2A05132C2F9C23814": "either_unique",
+            "R1PROS-0A0AC18782DA1A65F4552668": "either_unique",
+            "R1PROS-0D9807EC6E7251FAC89650DE": "either_unique",
+            "R1PROS-0DE9F2FC7356EEE2D4D3BDDC": "either_unique",
+            "R1PROS-0F36E739E785676995CED722": "either_unique",
+            "R1PROS-0F80539A37AEC3A1C8793BC0": "either_unique",
+            "R1PROS-1036B42920F039EB6003AE76": "either_unique",
+            "R1PROS-104F7825352EB905462FD239": "either_unique",
+            "R1PROS-1175F475261EE917E0E06A6A": "either_unique",
+            "R1PROS-124E69CDFD1DB8946A66C2FB": "either_unique",
+            "R1PROS-13DE79A1275C571B0419536A": "either_unique",
+            "R1PROS-17DE6EF8C12A7DFAA8267E56": "either_unique",
+            "R1PROS-17EAE07A978E6DF8D7824C3A": "either_unique",
+            "R1PROS-180E2EA48E238916583F5180": "either_unique",
+            "R1PROS-183259B6AFF4361C0C798C9D": "either_unique",
+            "R1PROS-186F26AA206E42202B12BE02": "either_unique",
+            "R1PROS-1935C25A7C3B6C606E2E53CF": "either_unique",
+            "R1PROS-1970CED9FF2B0B979860569B": "either_unique",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D": "either_unique",
+            "R1PROS-1C52CAC128E9A3065F6D10FB": "either_unique",
+            "R1PROS-1E5CAEDD4472A14780BC7276": "either_unique",
+            "R1PROS-205AE33CD70600D35956547E": "either_unique",
+            "R1PROS-2136326455C5BF7CE50A3BBF": "either_unique",
+            "R1PROS-21D4D74D2BCB6DEC1750EFBA": "either_unique",
+            "R1PROS-22D30AF8249FB18371413FBA": "either_unique",
+            "R1PROS-2508A28C025D8EFFE11EFF7D": "either_unique",
+            "R1PROS-25DBBF9AF054202D7EB98360": "either_unique",
+            "R1PROS-2B452F380ED3FE69E275B439": "either_unique",
+            "R1PROS-2D2BDD2EFAFE2386E57B10AF": "either_unique",
+            "R1PROS-2D7B28F1A768D97DAB6669E2": "either_unique",
+            "R1PROS-2D8E32A7407285A08766F5FC": "either_unique",
+            "R1PROS-2F5D2431C94CE132E7866640": "either_unique",
+            "R1PROS-2FEE93C5D1A6B23745FB971F": "either_unique",
+            "R1PROS-324C7BEF147C73146C3BCBD5": "either_unique",
+            "R1PROS-336299AC712C781F68A01883": "either_unique",
+            "R1PROS-346BD2ED3B875923D15105E1": "either_unique",
+            "R1PROS-3624B02DC258BCA1C741A321": "either_unique",
+            "R1PROS-37609B736EFCBBE016FC5646": "either_unique",
+            "R1PROS-3C6D1CE93407DE1A5236BC4E": "either_unique",
+            "R1PROS-3CD508D1139A570248B432AB": "either_unique",
+            "R1PROS-3FCE1F9A844BE04DD51FADEB": "either_unique",
+            "R1PROS-3FF96DFE087E17A004AD1643": "either_unique",
+            "R1PROS-412E26AEC41288D5D17ECAC3": "either_unique",
+            "R1PROS-417D14F6956A87054CD8B40F": "either_unique",
+            "R1PROS-41A18B90A7C461F7BE35BE5D": "either_unique",
+            "R1PROS-4209340D6ECCECE00B7C0626": "either_unique",
+            "R1PROS-44032BD5F24E1933A01E3BFE": "either_unique",
+            "R1PROS-457486FB11C264299AF5962C": "either_unique",
+            "R1PROS-460CD68376842136036B144D": "either_unique",
+            "R1PROS-474732F54A8AFD6AA363AD39": "either_unique",
+            "R1PROS-4807FD2E079EF2F991866F6D": "either_unique",
+            "R1PROS-4842953C0A97BCE579FA5969": "either_unique",
+            "R1PROS-49A3D2795C5C40F46703B97C": "either_unique",
+            "R1PROS-4A5EE5D3722E7F2EBB220152": "either_unique",
+            "R1PROS-4B39C813AD0B3C2AEEEBB718": "either_unique",
+            "R1PROS-4F406B016E21152D46FEB93C": "either_unique",
+            "R1PROS-4F72B4FF02FC5A2B9B48061A": "either_unique",
+            "R1PROS-523A733BA59F808604C87201": "either_unique",
+            "R1PROS-5387EBD2C25E8B2DAFC60EB9": "either_unique",
+            "R1PROS-5508C661D29CA9DC6D627FE1": "either_unique",
+            "R1PROS-5797E2E1B382A9189AF5D36B": "either_unique",
+            "R1PROS-587363AE9EB73EBB7634923F": "either_unique",
+            "R1PROS-59B799EA83B34695CFCD4C4F": "either_unique",
+            "R1PROS-5A6E1A8076312DD451727DDE": "either_unique",
+            "R1PROS-5C2AE8EEDE54A6815528F4B7": "either_unique",
+            "R1PROS-5E826BF511F1C27079F71204": "either_unique",
+            "R1PROS-5EBB36D419F0360E085F3DAB": "either_unique",
+            "R1PROS-60B2D6C3DD1742E9A9B8993E": "either_unique",
+            "R1PROS-610B3B2A2BCE68145CCC1828": "either_unique",
+            "R1PROS-6136DEC7F330A09E27DCFDB1": "either_unique",
+            "R1PROS-62A70AF41829567CCD079A7E": "either_unique",
+            "R1PROS-64E70DD91FA2297DFBC8F905": "either_unique",
+            "R1PROS-65B9A9D9823EF8982F964130": "either_unique",
+            "R1PROS-664B5F6D3882B7E464979148": "either_unique",
+            "R1PROS-66FE38DFC6BACE208C497E52": "either_unique",
+            "R1PROS-680F2485A2812505955ABC69": "either_unique",
+            "R1PROS-685C25DBCB02503FCAEECE9C": "either_unique",
+            "R1PROS-68697A8B7B48465BE0B5FA6F": "either_unique",
+            "R1PROS-6C3BD9AF1A5EE0E2D4136A78": "either_unique",
+            "R1PROS-7083E883FD24E66379D12557": "either_unique",
+            "R1PROS-70A2198C03853E1C95A7DEEB": "either_unique",
+            "R1PROS-716BBC5753F6B254F4D79139": "either_unique",
+            "R1PROS-74440782B92D987B3EB89616": "either_unique",
+            "R1PROS-74EBE4A6CA03054A9B5089EF": "either_unique",
+            "R1PROS-752954E8441BEE2CF1BFC156": "either_unique",
+            "R1PROS-759259226695637B96E42F33": "either_unique",
+            "R1PROS-77E02D21BAC351C5B46AE474": "either_unique",
+            "R1PROS-7AA3F576E78CEC4181DBE45A": "either_unique",
+            "R1PROS-7B16AD637B4CABC03E1C4834": "either_unique",
+            "R1PROS-7BCDA72B0A616FD40511FB6D": "either_unique",
+            "R1PROS-7F6B931AD4E6D3C88C0F6E53": "either_unique",
+            "R1PROS-7FD0F7ABD559D2277B021393": "either_unique",
+            "R1PROS-81886D0F22CD34BEFE0BC76C": "either_unique",
+            "R1PROS-828C19208EB78977277C652E": "either_unique",
+            "R1PROS-82D1E50DF23F5E670D9AAC42": "either_unique",
+            "R1PROS-82D2D6EDED7A56CC3310C298": "either_unique",
+            "R1PROS-8460AAD580BC23094A4D2320": "either_unique",
+            "R1PROS-874CCEBB226F2F305EFC6C3D": "either_unique",
+            "R1PROS-88706A0C103160F4F4C08F90": "either_unique",
+            "R1PROS-896F5DC28958D162DB6E19E1": "either_unique",
+            "R1PROS-8A3023DC17FC97AD9A04E422": "either_unique",
+            "R1PROS-8C212CB16D676EFB19316BB5": "either_unique",
+            "R1PROS-8C4169B3F6D5B0281812F2C1": "either_unique",
+            "R1PROS-8C51A5D5677EB12EB25CA0B3": "either_unique",
+            "R1PROS-8EBF8C98C22FC084FBAC20A8": "either_unique",
+            "R1PROS-90015A2677F1659B24145F89": "either_unique",
+            "R1PROS-906A1A7076790F53FE53D911": "either_unique",
+            "R1PROS-90DD7237391958C3BF1BC903": "either_unique",
+            "R1PROS-920C82475245F1769CBAE375": "either_unique",
+            "R1PROS-922369D794C572EEEA7F9597": "either_unique",
+            "R1PROS-9673BA5203FBAAA856BA0805": "either_unique",
+            "R1PROS-977012E674002231DA760291": "either_unique",
+            "R1PROS-98A99B18C283F43FD92B3274": "either_unique",
+            "R1PROS-9BD78373C0513EF242E03DC2": "either_unique",
+            "R1PROS-9DE07811DCB2EC1095F690C0": "either_unique",
+            "R1PROS-9F3A559F1425212E8101BA9E": "either_unique",
+            "R1PROS-A1CCBED4F29A722F662B7C91": "either_unique",
+            "R1PROS-A648164BB47AE9C889378704": "either_unique",
+            "R1PROS-A7165F7258E3ED06080C9C0D": "either_unique",
+            "R1PROS-A8069737B3D7ACD7302B04B9": "either_unique",
+            "R1PROS-AA6C3896FA81A43C86468F2C": "either_unique",
+            "R1PROS-AB2800CF9871CB349B9CF2E8": "either_unique",
+            "R1PROS-AF1B274DEFC2320605B042DA": "either_unique",
+            "R1PROS-B07558AAD5D511D0905D1E43": "either_unique",
+            "R1PROS-B323F524F5F74F84F62AE309": "either_unique",
+            "R1PROS-B80AB32CD3DD0DB5DED1570B": "either_unique",
+            "R1PROS-B8D40CC724A213F0C9842977": "either_unique",
+            "R1PROS-B93EE0C25333F23219D4CDD2": "either_unique",
+            "R1PROS-BD4B3DED0006995DFEA1C1BA": "either_unique",
+            "R1PROS-BE4039BBCCBF0FD3B0D0B4E4": "either_unique",
+            "R1PROS-BEA54209ABF77D5AE749B1B2": "either_unique",
+            "R1PROS-BF7017973C83A02B19885EFB": "either_unique",
+            "R1PROS-BFA19B18218F3434C14BE4E4": "either_unique",
+            "R1PROS-C03093D8D95D4686B92E3E4C": "either_unique",
+            "R1PROS-C0D7118DDA7A5E2405A19501": "either_unique",
+            "R1PROS-C27E1535EBF41A14E9D3B7B1": "either_unique",
+            "R1PROS-C3B614C15E40AE726DDBAAE2": "either_unique",
+            "R1PROS-C54EF2C19D9F3053F265BB26": "either_unique",
+            "R1PROS-C5C4CE08E069D6FECCFFCCEF": "either_unique",
+            "R1PROS-C61620557AD9225A24CFE491": "either_unique",
+            "R1PROS-C71AACF05AE5573BCF293B15": "either_unique",
+            "R1PROS-C7D5DE31E2F7971F130A0CA9": "either_unique",
+            "R1PROS-C7F8ACCA09AA71BFDB8235C5": "either_unique",
+            "R1PROS-C928ACACF83D8A1319D7E94A": "either_unique",
+            "R1PROS-C9704A360B71B6F6AD5B85DD": "either_unique",
+            "R1PROS-C9A208C2B3618CDC61422EA7": "either_unique",
+            "R1PROS-CB91AA323BE76ABF0FBDBD68": "either_unique",
+            "R1PROS-CC118DC3F3E137638A05A267": "either_unique",
+            "R1PROS-CC5EB68756C725BB7254BA13": "either_unique",
+            "R1PROS-CC8FEE4EABF0F107B8CD88D1": "either_unique",
+            "R1PROS-CF4D3FCEA55EA1700B94580F": "either_unique",
+            "R1PROS-CFF15042C7FD83CD8A376416": "either_unique",
+            "R1PROS-D128D7C3D308AB0C103D3CF8": "either_unique",
+            "R1PROS-D1E7EF1A7FCFE40222DA5B82": "either_unique",
+            "R1PROS-D398EDD5B02E2AB2D301945C": "either_unique",
+            "R1PROS-DA35D38F047DBE30292EC0CB": "either_unique",
+            "R1PROS-DA38EA9CE3029FD531E40653": "either_unique",
+            "R1PROS-DAE8F90CA375037D0485CCB0": "either_unique",
+            "R1PROS-DAF71252C06276BF222931E9": "either_unique",
+            "R1PROS-DB3DA1113DB857AF2E60A102": "either_unique",
+            "R1PROS-DB45477B743C963338B35159": "either_unique",
+            "R1PROS-DBF29576460759B4D9728F26": "either_unique",
+            "R1PROS-DCE92A61707B9D29FA4AAAAF": "either_unique",
+            "R1PROS-DD8F3BF4E3D2A99FFAB7B120": "either_unique",
+            "R1PROS-E4BD2B2059C4309007230305": "either_unique",
+            "R1PROS-E537A37980B897D058072E86": "either_unique",
+            "R1PROS-E564DA66BE3F9FFFB956B206": "either_unique",
+            "R1PROS-E7C992BCB7392C6EB8C70053": "either_unique",
+            "R1PROS-E85CB91AD3B588586057AA19": "either_unique",
+            "R1PROS-E89646F7043436E0EFCBB80F": "either_unique",
+            "R1PROS-E98B2F39205D3C72E76B83EB": "either_unique",
+            "R1PROS-E99740384FF8ECA28831131E": "either_unique",
+            "R1PROS-EFC26FF8C68781DB17BC8C57": "either_unique",
+            "R1PROS-F289193A1E2E468FBF542716": "either_unique",
+            "R1PROS-F2BE621CEF01B4289A9D8B3C": "either_unique",
+            "R1PROS-F43B18F8DF3F6C3374DC0643": "either_unique",
+            "R1PROS-F882C4A9601C48DDB5216CCE": "either_unique",
+            "R1PROS-F8961B41691DB4F331CF2145": "either_unique",
+            "R1PROS-FA5331C86A93414CF95CB42B": "either_unique",
+            "R1PROS-FABC78936B66F8E64A6DE66F": "either_unique",
+            "R1PROS-FC035E57AA769864CCE94B58": "either_unique",
+            "R1PROS-FE70508B671262443BFD17D2": "either_unique",
+            "R1PROS-FF07F436C4685C3EA3600423": "either_unique",
+            "R1PROS-FF19FE3600812EFED48556BD": "either_unique",
+            "R1PROS-FF87C2100EEED7703D4D2F3F": "either_unique"
+          }
+        },
+        {
+          "centre_id": "prefer_literal",
+          "convention_by_case": {
+            "F2-CONTEXT-SUFFIX": "prefer_literal",
+            "F2-IDENTITY-CORRECT": "prefer_literal",
+            "F2-IDENTITY-WRONG-TARGET": "prefer_literal",
+            "F2-MIRROR-LITERAL": "prefer_literal",
+            "F2-MIRROR-SUFFIX": "prefer_literal",
+            "F2-MISSING-RESULT": "prefer_literal",
+            "F2-RFC-ARRAY-INDEX": "prefer_literal",
+            "F2-RFC-ARRAY-PADDED": "prefer_literal",
+            "F2-RFC-ESCAPE-ORDER": "prefer_literal",
+            "F2-RFC-OBJECT-PADDED": "prefer_literal",
+            "R1PROS-010B2575E5342CFAA222E93F": "prefer_literal",
+            "R1PROS-033D751FAC9706A77BFA58B0": "prefer_literal",
+            "R1PROS-038583672404A67F49664D3B": "prefer_literal",
+            "R1PROS-0480CE588DE12DEA6BCEEAA6": "prefer_literal",
+            "R1PROS-04C1FD00E6341D84C901EEEA": "prefer_literal",
+            "R1PROS-051DFFE3458F37243F4093B1": "prefer_literal",
+            "R1PROS-07FE73EDA23434619CA3E213": "prefer_literal",
+            "R1PROS-08D35BB2A05132C2F9C23814": "prefer_literal",
+            "R1PROS-0A0AC18782DA1A65F4552668": "prefer_literal",
+            "R1PROS-0D9807EC6E7251FAC89650DE": "prefer_literal",
+            "R1PROS-0DE9F2FC7356EEE2D4D3BDDC": "prefer_literal",
+            "R1PROS-0F36E739E785676995CED722": "prefer_literal",
+            "R1PROS-0F80539A37AEC3A1C8793BC0": "prefer_literal",
+            "R1PROS-1036B42920F039EB6003AE76": "prefer_literal",
+            "R1PROS-104F7825352EB905462FD239": "prefer_literal",
+            "R1PROS-1175F475261EE917E0E06A6A": "prefer_literal",
+            "R1PROS-124E69CDFD1DB8946A66C2FB": "prefer_literal",
+            "R1PROS-13DE79A1275C571B0419536A": "prefer_literal",
+            "R1PROS-17DE6EF8C12A7DFAA8267E56": "prefer_literal",
+            "R1PROS-17EAE07A978E6DF8D7824C3A": "prefer_literal",
+            "R1PROS-180E2EA48E238916583F5180": "prefer_literal",
+            "R1PROS-183259B6AFF4361C0C798C9D": "prefer_literal",
+            "R1PROS-186F26AA206E42202B12BE02": "prefer_literal",
+            "R1PROS-1935C25A7C3B6C606E2E53CF": "prefer_literal",
+            "R1PROS-1970CED9FF2B0B979860569B": "prefer_literal",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D": "prefer_literal",
+            "R1PROS-1C52CAC128E9A3065F6D10FB": "prefer_literal",
+            "R1PROS-1E5CAEDD4472A14780BC7276": "prefer_literal",
+            "R1PROS-205AE33CD70600D35956547E": "prefer_literal",
+            "R1PROS-2136326455C5BF7CE50A3BBF": "prefer_literal",
+            "R1PROS-21D4D74D2BCB6DEC1750EFBA": "prefer_literal",
+            "R1PROS-22D30AF8249FB18371413FBA": "prefer_literal",
+            "R1PROS-2508A28C025D8EFFE11EFF7D": "prefer_literal",
+            "R1PROS-25DBBF9AF054202D7EB98360": "prefer_literal",
+            "R1PROS-2B452F380ED3FE69E275B439": "prefer_literal",
+            "R1PROS-2D2BDD2EFAFE2386E57B10AF": "prefer_literal",
+            "R1PROS-2D7B28F1A768D97DAB6669E2": "prefer_literal",
+            "R1PROS-2D8E32A7407285A08766F5FC": "prefer_literal",
+            "R1PROS-2F5D2431C94CE132E7866640": "prefer_literal",
+            "R1PROS-2FEE93C5D1A6B23745FB971F": "prefer_literal",
+            "R1PROS-324C7BEF147C73146C3BCBD5": "prefer_literal",
+            "R1PROS-336299AC712C781F68A01883": "prefer_literal",
+            "R1PROS-346BD2ED3B875923D15105E1": "prefer_literal",
+            "R1PROS-3624B02DC258BCA1C741A321": "prefer_literal",
+            "R1PROS-37609B736EFCBBE016FC5646": "prefer_literal",
+            "R1PROS-3C6D1CE93407DE1A5236BC4E": "prefer_literal",
+            "R1PROS-3CD508D1139A570248B432AB": "prefer_literal",
+            "R1PROS-3FCE1F9A844BE04DD51FADEB": "prefer_literal",
+            "R1PROS-3FF96DFE087E17A004AD1643": "prefer_literal",
+            "R1PROS-412E26AEC41288D5D17ECAC3": "prefer_literal",
+            "R1PROS-417D14F6956A87054CD8B40F": "prefer_literal",
+            "R1PROS-41A18B90A7C461F7BE35BE5D": "prefer_literal",
+            "R1PROS-4209340D6ECCECE00B7C0626": "prefer_literal",
+            "R1PROS-44032BD5F24E1933A01E3BFE": "prefer_literal",
+            "R1PROS-457486FB11C264299AF5962C": "prefer_literal",
+            "R1PROS-460CD68376842136036B144D": "prefer_literal",
+            "R1PROS-474732F54A8AFD6AA363AD39": "prefer_literal",
+            "R1PROS-4807FD2E079EF2F991866F6D": "prefer_literal",
+            "R1PROS-4842953C0A97BCE579FA5969": "prefer_literal",
+            "R1PROS-49A3D2795C5C40F46703B97C": "prefer_literal",
+            "R1PROS-4A5EE5D3722E7F2EBB220152": "prefer_literal",
+            "R1PROS-4B39C813AD0B3C2AEEEBB718": "prefer_literal",
+            "R1PROS-4F406B016E21152D46FEB93C": "prefer_literal",
+            "R1PROS-4F72B4FF02FC5A2B9B48061A": "prefer_literal",
+            "R1PROS-523A733BA59F808604C87201": "prefer_literal",
+            "R1PROS-5387EBD2C25E8B2DAFC60EB9": "prefer_literal",
+            "R1PROS-5508C661D29CA9DC6D627FE1": "prefer_literal",
+            "R1PROS-5797E2E1B382A9189AF5D36B": "prefer_literal",
+            "R1PROS-587363AE9EB73EBB7634923F": "prefer_literal",
+            "R1PROS-59B799EA83B34695CFCD4C4F": "prefer_literal",
+            "R1PROS-5A6E1A8076312DD451727DDE": "prefer_literal",
+            "R1PROS-5C2AE8EEDE54A6815528F4B7": "prefer_literal",
+            "R1PROS-5E826BF511F1C27079F71204": "prefer_literal",
+            "R1PROS-5EBB36D419F0360E085F3DAB": "prefer_literal",
+            "R1PROS-60B2D6C3DD1742E9A9B8993E": "prefer_literal",
+            "R1PROS-610B3B2A2BCE68145CCC1828": "prefer_literal",
+            "R1PROS-6136DEC7F330A09E27DCFDB1": "prefer_literal",
+            "R1PROS-62A70AF41829567CCD079A7E": "prefer_literal",
+            "R1PROS-64E70DD91FA2297DFBC8F905": "prefer_literal",
+            "R1PROS-65B9A9D9823EF8982F964130": "prefer_literal",
+            "R1PROS-664B5F6D3882B7E464979148": "prefer_literal",
+            "R1PROS-66FE38DFC6BACE208C497E52": "prefer_literal",
+            "R1PROS-680F2485A2812505955ABC69": "prefer_literal",
+            "R1PROS-685C25DBCB02503FCAEECE9C": "prefer_literal",
+            "R1PROS-68697A8B7B48465BE0B5FA6F": "prefer_literal",
+            "R1PROS-6C3BD9AF1A5EE0E2D4136A78": "prefer_literal",
+            "R1PROS-7083E883FD24E66379D12557": "prefer_literal",
+            "R1PROS-70A2198C03853E1C95A7DEEB": "prefer_literal",
+            "R1PROS-716BBC5753F6B254F4D79139": "prefer_literal",
+            "R1PROS-74440782B92D987B3EB89616": "prefer_literal",
+            "R1PROS-74EBE4A6CA03054A9B5089EF": "prefer_literal",
+            "R1PROS-752954E8441BEE2CF1BFC156": "prefer_literal",
+            "R1PROS-759259226695637B96E42F33": "prefer_literal",
+            "R1PROS-77E02D21BAC351C5B46AE474": "prefer_literal",
+            "R1PROS-7AA3F576E78CEC4181DBE45A": "prefer_literal",
+            "R1PROS-7B16AD637B4CABC03E1C4834": "prefer_literal",
+            "R1PROS-7BCDA72B0A616FD40511FB6D": "prefer_literal",
+            "R1PROS-7F6B931AD4E6D3C88C0F6E53": "prefer_literal",
+            "R1PROS-7FD0F7ABD559D2277B021393": "prefer_literal",
+            "R1PROS-81886D0F22CD34BEFE0BC76C": "prefer_literal",
+            "R1PROS-828C19208EB78977277C652E": "prefer_literal",
+            "R1PROS-82D1E50DF23F5E670D9AAC42": "prefer_literal",
+            "R1PROS-82D2D6EDED7A56CC3310C298": "prefer_literal",
+            "R1PROS-8460AAD580BC23094A4D2320": "prefer_literal",
+            "R1PROS-874CCEBB226F2F305EFC6C3D": "prefer_literal",
+            "R1PROS-88706A0C103160F4F4C08F90": "prefer_literal",
+            "R1PROS-896F5DC28958D162DB6E19E1": "prefer_literal",
+            "R1PROS-8A3023DC17FC97AD9A04E422": "prefer_literal",
+            "R1PROS-8C212CB16D676EFB19316BB5": "prefer_literal",
+            "R1PROS-8C4169B3F6D5B0281812F2C1": "prefer_literal",
+            "R1PROS-8C51A5D5677EB12EB25CA0B3": "prefer_literal",
+            "R1PROS-8EBF8C98C22FC084FBAC20A8": "prefer_literal",
+            "R1PROS-90015A2677F1659B24145F89": "prefer_literal",
+            "R1PROS-906A1A7076790F53FE53D911": "prefer_literal",
+            "R1PROS-90DD7237391958C3BF1BC903": "prefer_literal",
+            "R1PROS-920C82475245F1769CBAE375": "prefer_literal",
+            "R1PROS-922369D794C572EEEA7F9597": "prefer_literal",
+            "R1PROS-9673BA5203FBAAA856BA0805": "prefer_literal",
+            "R1PROS-977012E674002231DA760291": "prefer_literal",
+            "R1PROS-98A99B18C283F43FD92B3274": "prefer_literal",
+            "R1PROS-9BD78373C0513EF242E03DC2": "prefer_literal",
+            "R1PROS-9DE07811DCB2EC1095F690C0": "prefer_literal",
+            "R1PROS-9F3A559F1425212E8101BA9E": "prefer_literal",
+            "R1PROS-A1CCBED4F29A722F662B7C91": "prefer_literal",
+            "R1PROS-A648164BB47AE9C889378704": "prefer_literal",
+            "R1PROS-A7165F7258E3ED06080C9C0D": "prefer_literal",
+            "R1PROS-A8069737B3D7ACD7302B04B9": "prefer_literal",
+            "R1PROS-AA6C3896FA81A43C86468F2C": "prefer_literal",
+            "R1PROS-AB2800CF9871CB349B9CF2E8": "prefer_literal",
+            "R1PROS-AF1B274DEFC2320605B042DA": "prefer_literal",
+            "R1PROS-B07558AAD5D511D0905D1E43": "prefer_literal",
+            "R1PROS-B323F524F5F74F84F62AE309": "prefer_literal",
+            "R1PROS-B80AB32CD3DD0DB5DED1570B": "prefer_literal",
+            "R1PROS-B8D40CC724A213F0C9842977": "prefer_literal",
+            "R1PROS-B93EE0C25333F23219D4CDD2": "prefer_literal",
+            "R1PROS-BD4B3DED0006995DFEA1C1BA": "prefer_literal",
+            "R1PROS-BE4039BBCCBF0FD3B0D0B4E4": "prefer_literal",
+            "R1PROS-BEA54209ABF77D5AE749B1B2": "prefer_literal",
+            "R1PROS-BF7017973C83A02B19885EFB": "prefer_literal",
+            "R1PROS-BFA19B18218F3434C14BE4E4": "prefer_literal",
+            "R1PROS-C03093D8D95D4686B92E3E4C": "prefer_literal",
+            "R1PROS-C0D7118DDA7A5E2405A19501": "prefer_literal",
+            "R1PROS-C27E1535EBF41A14E9D3B7B1": "prefer_literal",
+            "R1PROS-C3B614C15E40AE726DDBAAE2": "prefer_literal",
+            "R1PROS-C54EF2C19D9F3053F265BB26": "prefer_literal",
+            "R1PROS-C5C4CE08E069D6FECCFFCCEF": "prefer_literal",
+            "R1PROS-C61620557AD9225A24CFE491": "prefer_literal",
+            "R1PROS-C71AACF05AE5573BCF293B15": "prefer_literal",
+            "R1PROS-C7D5DE31E2F7971F130A0CA9": "prefer_literal",
+            "R1PROS-C7F8ACCA09AA71BFDB8235C5": "prefer_literal",
+            "R1PROS-C928ACACF83D8A1319D7E94A": "prefer_literal",
+            "R1PROS-C9704A360B71B6F6AD5B85DD": "prefer_literal",
+            "R1PROS-C9A208C2B3618CDC61422EA7": "prefer_literal",
+            "R1PROS-CB91AA323BE76ABF0FBDBD68": "prefer_literal",
+            "R1PROS-CC118DC3F3E137638A05A267": "prefer_literal",
+            "R1PROS-CC5EB68756C725BB7254BA13": "prefer_literal",
+            "R1PROS-CC8FEE4EABF0F107B8CD88D1": "prefer_literal",
+            "R1PROS-CF4D3FCEA55EA1700B94580F": "prefer_literal",
+            "R1PROS-CFF15042C7FD83CD8A376416": "prefer_literal",
+            "R1PROS-D128D7C3D308AB0C103D3CF8": "prefer_literal",
+            "R1PROS-D1E7EF1A7FCFE40222DA5B82": "prefer_literal",
+            "R1PROS-D398EDD5B02E2AB2D301945C": "prefer_literal",
+            "R1PROS-DA35D38F047DBE30292EC0CB": "prefer_literal",
+            "R1PROS-DA38EA9CE3029FD531E40653": "prefer_literal",
+            "R1PROS-DAE8F90CA375037D0485CCB0": "prefer_literal",
+            "R1PROS-DAF71252C06276BF222931E9": "prefer_literal",
+            "R1PROS-DB3DA1113DB857AF2E60A102": "prefer_literal",
+            "R1PROS-DB45477B743C963338B35159": "prefer_literal",
+            "R1PROS-DBF29576460759B4D9728F26": "prefer_literal",
+            "R1PROS-DCE92A61707B9D29FA4AAAAF": "prefer_literal",
+            "R1PROS-DD8F3BF4E3D2A99FFAB7B120": "prefer_literal",
+            "R1PROS-E4BD2B2059C4309007230305": "prefer_literal",
+            "R1PROS-E537A37980B897D058072E86": "prefer_literal",
+            "R1PROS-E564DA66BE3F9FFFB956B206": "prefer_literal",
+            "R1PROS-E7C992BCB7392C6EB8C70053": "prefer_literal",
+            "R1PROS-E85CB91AD3B588586057AA19": "prefer_literal",
+            "R1PROS-E89646F7043436E0EFCBB80F": "prefer_literal",
+            "R1PROS-E98B2F39205D3C72E76B83EB": "prefer_literal",
+            "R1PROS-E99740384FF8ECA28831131E": "prefer_literal",
+            "R1PROS-EFC26FF8C68781DB17BC8C57": "prefer_literal",
+            "R1PROS-F289193A1E2E468FBF542716": "prefer_literal",
+            "R1PROS-F2BE621CEF01B4289A9D8B3C": "prefer_literal",
+            "R1PROS-F43B18F8DF3F6C3374DC0643": "prefer_literal",
+            "R1PROS-F882C4A9601C48DDB5216CCE": "prefer_literal",
+            "R1PROS-F8961B41691DB4F331CF2145": "prefer_literal",
+            "R1PROS-FA5331C86A93414CF95CB42B": "prefer_literal",
+            "R1PROS-FABC78936B66F8E64A6DE66F": "prefer_literal",
+            "R1PROS-FC035E57AA769864CCE94B58": "prefer_literal",
+            "R1PROS-FE70508B671262443BFD17D2": "prefer_literal",
+            "R1PROS-FF07F436C4685C3EA3600423": "prefer_literal",
+            "R1PROS-FF19FE3600812EFED48556BD": "prefer_literal",
+            "R1PROS-FF87C2100EEED7703D4D2F3F": "prefer_literal"
+          }
+        },
+        {
+          "centre_id": "prefer_suffix",
+          "convention_by_case": {
+            "F2-CONTEXT-SUFFIX": "prefer_suffix",
+            "F2-IDENTITY-CORRECT": "prefer_suffix",
+            "F2-IDENTITY-WRONG-TARGET": "prefer_suffix",
+            "F2-MIRROR-LITERAL": "prefer_suffix",
+            "F2-MIRROR-SUFFIX": "prefer_suffix",
+            "F2-MISSING-RESULT": "prefer_suffix",
+            "F2-RFC-ARRAY-INDEX": "prefer_suffix",
+            "F2-RFC-ARRAY-PADDED": "prefer_suffix",
+            "F2-RFC-ESCAPE-ORDER": "prefer_suffix",
+            "F2-RFC-OBJECT-PADDED": "prefer_suffix",
+            "R1PROS-010B2575E5342CFAA222E93F": "prefer_suffix",
+            "R1PROS-033D751FAC9706A77BFA58B0": "prefer_suffix",
+            "R1PROS-038583672404A67F49664D3B": "prefer_suffix",
+            "R1PROS-0480CE588DE12DEA6BCEEAA6": "prefer_suffix",
+            "R1PROS-04C1FD00E6341D84C901EEEA": "prefer_suffix",
+            "R1PROS-051DFFE3458F37243F4093B1": "prefer_suffix",
+            "R1PROS-07FE73EDA23434619CA3E213": "prefer_suffix",
+            "R1PROS-08D35BB2A05132C2F9C23814": "prefer_suffix",
+            "R1PROS-0A0AC18782DA1A65F4552668": "prefer_suffix",
+            "R1PROS-0D9807EC6E7251FAC89650DE": "prefer_suffix",
+            "R1PROS-0DE9F2FC7356EEE2D4D3BDDC": "prefer_suffix",
+            "R1PROS-0F36E739E785676995CED722": "prefer_suffix",
+            "R1PROS-0F80539A37AEC3A1C8793BC0": "prefer_suffix",
+            "R1PROS-1036B42920F039EB6003AE76": "prefer_suffix",
+            "R1PROS-104F7825352EB905462FD239": "prefer_suffix",
+            "R1PROS-1175F475261EE917E0E06A6A": "prefer_suffix",
+            "R1PROS-124E69CDFD1DB8946A66C2FB": "prefer_suffix",
+            "R1PROS-13DE79A1275C571B0419536A": "prefer_suffix",
+            "R1PROS-17DE6EF8C12A7DFAA8267E56": "prefer_suffix",
+            "R1PROS-17EAE07A978E6DF8D7824C3A": "prefer_suffix",
+            "R1PROS-180E2EA48E238916583F5180": "prefer_suffix",
+            "R1PROS-183259B6AFF4361C0C798C9D": "prefer_suffix",
+            "R1PROS-186F26AA206E42202B12BE02": "prefer_suffix",
+            "R1PROS-1935C25A7C3B6C606E2E53CF": "prefer_suffix",
+            "R1PROS-1970CED9FF2B0B979860569B": "prefer_suffix",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D": "prefer_suffix",
+            "R1PROS-1C52CAC128E9A3065F6D10FB": "prefer_suffix",
+            "R1PROS-1E5CAEDD4472A14780BC7276": "prefer_suffix",
+            "R1PROS-205AE33CD70600D35956547E": "prefer_suffix",
+            "R1PROS-2136326455C5BF7CE50A3BBF": "prefer_suffix",
+            "R1PROS-21D4D74D2BCB6DEC1750EFBA": "prefer_suffix",
+            "R1PROS-22D30AF8249FB18371413FBA": "prefer_suffix",
+            "R1PROS-2508A28C025D8EFFE11EFF7D": "prefer_suffix",
+            "R1PROS-25DBBF9AF054202D7EB98360": "prefer_suffix",
+            "R1PROS-2B452F380ED3FE69E275B439": "prefer_suffix",
+            "R1PROS-2D2BDD2EFAFE2386E57B10AF": "prefer_suffix",
+            "R1PROS-2D7B28F1A768D97DAB6669E2": "prefer_suffix",
+            "R1PROS-2D8E32A7407285A08766F5FC": "prefer_suffix",
+            "R1PROS-2F5D2431C94CE132E7866640": "prefer_suffix",
+            "R1PROS-2FEE93C5D1A6B23745FB971F": "prefer_suffix",
+            "R1PROS-324C7BEF147C73146C3BCBD5": "prefer_suffix",
+            "R1PROS-336299AC712C781F68A01883": "prefer_suffix",
+            "R1PROS-346BD2ED3B875923D15105E1": "prefer_suffix",
+            "R1PROS-3624B02DC258BCA1C741A321": "prefer_suffix",
+            "R1PROS-37609B736EFCBBE016FC5646": "prefer_suffix",
+            "R1PROS-3C6D1CE93407DE1A5236BC4E": "prefer_suffix",
+            "R1PROS-3CD508D1139A570248B432AB": "prefer_suffix",
+            "R1PROS-3FCE1F9A844BE04DD51FADEB": "prefer_suffix",
+            "R1PROS-3FF96DFE087E17A004AD1643": "prefer_suffix",
+            "R1PROS-412E26AEC41288D5D17ECAC3": "prefer_suffix",
+            "R1PROS-417D14F6956A87054CD8B40F": "prefer_suffix",
+            "R1PROS-41A18B90A7C461F7BE35BE5D": "prefer_suffix",
+            "R1PROS-4209340D6ECCECE00B7C0626": "prefer_suffix",
+            "R1PROS-44032BD5F24E1933A01E3BFE": "prefer_suffix",
+            "R1PROS-457486FB11C264299AF5962C": "prefer_suffix",
+            "R1PROS-460CD68376842136036B144D": "prefer_suffix",
+            "R1PROS-474732F54A8AFD6AA363AD39": "prefer_suffix",
+            "R1PROS-4807FD2E079EF2F991866F6D": "prefer_suffix",
+            "R1PROS-4842953C0A97BCE579FA5969": "prefer_suffix",
+            "R1PROS-49A3D2795C5C40F46703B97C": "prefer_suffix",
+            "R1PROS-4A5EE5D3722E7F2EBB220152": "prefer_suffix",
+            "R1PROS-4B39C813AD0B3C2AEEEBB718": "prefer_suffix",
+            "R1PROS-4F406B016E21152D46FEB93C": "prefer_suffix",
+            "R1PROS-4F72B4FF02FC5A2B9B48061A": "prefer_suffix",
+            "R1PROS-523A733BA59F808604C87201": "prefer_suffix",
+            "R1PROS-5387EBD2C25E8B2DAFC60EB9": "prefer_suffix",
+            "R1PROS-5508C661D29CA9DC6D627FE1": "prefer_suffix",
+            "R1PROS-5797E2E1B382A9189AF5D36B": "prefer_suffix",
+            "R1PROS-587363AE9EB73EBB7634923F": "prefer_suffix",
+            "R1PROS-59B799EA83B34695CFCD4C4F": "prefer_suffix",
+            "R1PROS-5A6E1A8076312DD451727DDE": "prefer_suffix",
+            "R1PROS-5C2AE8EEDE54A6815528F4B7": "prefer_suffix",
+            "R1PROS-5E826BF511F1C27079F71204": "prefer_suffix",
+            "R1PROS-5EBB36D419F0360E085F3DAB": "prefer_suffix",
+            "R1PROS-60B2D6C3DD1742E9A9B8993E": "prefer_suffix",
+            "R1PROS-610B3B2A2BCE68145CCC1828": "prefer_suffix",
+            "R1PROS-6136DEC7F330A09E27DCFDB1": "prefer_suffix",
+            "R1PROS-62A70AF41829567CCD079A7E": "prefer_suffix",
+            "R1PROS-64E70DD91FA2297DFBC8F905": "prefer_suffix",
+            "R1PROS-65B9A9D9823EF8982F964130": "prefer_suffix",
+            "R1PROS-664B5F6D3882B7E464979148": "prefer_suffix",
+            "R1PROS-66FE38DFC6BACE208C497E52": "prefer_suffix",
+            "R1PROS-680F2485A2812505955ABC69": "prefer_suffix",
+            "R1PROS-685C25DBCB02503FCAEECE9C": "prefer_suffix",
+            "R1PROS-68697A8B7B48465BE0B5FA6F": "prefer_suffix",
+            "R1PROS-6C3BD9AF1A5EE0E2D4136A78": "prefer_suffix",
+            "R1PROS-7083E883FD24E66379D12557": "prefer_suffix",
+            "R1PROS-70A2198C03853E1C95A7DEEB": "prefer_suffix",
+            "R1PROS-716BBC5753F6B254F4D79139": "prefer_suffix",
+            "R1PROS-74440782B92D987B3EB89616": "prefer_suffix",
+            "R1PROS-74EBE4A6CA03054A9B5089EF": "prefer_suffix",
+            "R1PROS-752954E8441BEE2CF1BFC156": "prefer_suffix",
+            "R1PROS-759259226695637B96E42F33": "prefer_suffix",
+            "R1PROS-77E02D21BAC351C5B46AE474": "prefer_suffix",
+            "R1PROS-7AA3F576E78CEC4181DBE45A": "prefer_suffix",
+            "R1PROS-7B16AD637B4CABC03E1C4834": "prefer_suffix",
+            "R1PROS-7BCDA72B0A616FD40511FB6D": "prefer_suffix",
+            "R1PROS-7F6B931AD4E6D3C88C0F6E53": "prefer_suffix",
+            "R1PROS-7FD0F7ABD559D2277B021393": "prefer_suffix",
+            "R1PROS-81886D0F22CD34BEFE0BC76C": "prefer_suffix",
+            "R1PROS-828C19208EB78977277C652E": "prefer_suffix",
+            "R1PROS-82D1E50DF23F5E670D9AAC42": "prefer_suffix",
+            "R1PROS-82D2D6EDED7A56CC3310C298": "prefer_suffix",
+            "R1PROS-8460AAD580BC23094A4D2320": "prefer_suffix",
+            "R1PROS-874CCEBB226F2F305EFC6C3D": "prefer_suffix",
+            "R1PROS-88706A0C103160F4F4C08F90": "prefer_suffix",
+            "R1PROS-896F5DC28958D162DB6E19E1": "prefer_suffix",
+            "R1PROS-8A3023DC17FC97AD9A04E422": "prefer_suffix",
+            "R1PROS-8C212CB16D676EFB19316BB5": "prefer_suffix",
+            "R1PROS-8C4169B3F6D5B0281812F2C1": "prefer_suffix",
+            "R1PROS-8C51A5D5677EB12EB25CA0B3": "prefer_suffix",
+            "R1PROS-8EBF8C98C22FC084FBAC20A8": "prefer_suffix",
+            "R1PROS-90015A2677F1659B24145F89": "prefer_suffix",
+            "R1PROS-906A1A7076790F53FE53D911": "prefer_suffix",
+            "R1PROS-90DD7237391958C3BF1BC903": "prefer_suffix",
+            "R1PROS-920C82475245F1769CBAE375": "prefer_suffix",
+            "R1PROS-922369D794C572EEEA7F9597": "prefer_suffix",
+            "R1PROS-9673BA5203FBAAA856BA0805": "prefer_suffix",
+            "R1PROS-977012E674002231DA760291": "prefer_suffix",
+            "R1PROS-98A99B18C283F43FD92B3274": "prefer_suffix",
+            "R1PROS-9BD78373C0513EF242E03DC2": "prefer_suffix",
+            "R1PROS-9DE07811DCB2EC1095F690C0": "prefer_suffix",
+            "R1PROS-9F3A559F1425212E8101BA9E": "prefer_suffix",
+            "R1PROS-A1CCBED4F29A722F662B7C91": "prefer_suffix",
+            "R1PROS-A648164BB47AE9C889378704": "prefer_suffix",
+            "R1PROS-A7165F7258E3ED06080C9C0D": "prefer_suffix",
+            "R1PROS-A8069737B3D7ACD7302B04B9": "prefer_suffix",
+            "R1PROS-AA6C3896FA81A43C86468F2C": "prefer_suffix",
+            "R1PROS-AB2800CF9871CB349B9CF2E8": "prefer_suffix",
+            "R1PROS-AF1B274DEFC2320605B042DA": "prefer_suffix",
+            "R1PROS-B07558AAD5D511D0905D1E43": "prefer_suffix",
+            "R1PROS-B323F524F5F74F84F62AE309": "prefer_suffix",
+            "R1PROS-B80AB32CD3DD0DB5DED1570B": "prefer_suffix",
+            "R1PROS-B8D40CC724A213F0C9842977": "prefer_suffix",
+            "R1PROS-B93EE0C25333F23219D4CDD2": "prefer_suffix",
+            "R1PROS-BD4B3DED0006995DFEA1C1BA": "prefer_suffix",
+            "R1PROS-BE4039BBCCBF0FD3B0D0B4E4": "prefer_suffix",
+            "R1PROS-BEA54209ABF77D5AE749B1B2": "prefer_suffix",
+            "R1PROS-BF7017973C83A02B19885EFB": "prefer_suffix",
+            "R1PROS-BFA19B18218F3434C14BE4E4": "prefer_suffix",
+            "R1PROS-C03093D8D95D4686B92E3E4C": "prefer_suffix",
+            "R1PROS-C0D7118DDA7A5E2405A19501": "prefer_suffix",
+            "R1PROS-C27E1535EBF41A14E9D3B7B1": "prefer_suffix",
+            "R1PROS-C3B614C15E40AE726DDBAAE2": "prefer_suffix",
+            "R1PROS-C54EF2C19D9F3053F265BB26": "prefer_suffix",
+            "R1PROS-C5C4CE08E069D6FECCFFCCEF": "prefer_suffix",
+            "R1PROS-C61620557AD9225A24CFE491": "prefer_suffix",
+            "R1PROS-C71AACF05AE5573BCF293B15": "prefer_suffix",
+            "R1PROS-C7D5DE31E2F7971F130A0CA9": "prefer_suffix",
+            "R1PROS-C7F8ACCA09AA71BFDB8235C5": "prefer_suffix",
+            "R1PROS-C928ACACF83D8A1319D7E94A": "prefer_suffix",
+            "R1PROS-C9704A360B71B6F6AD5B85DD": "prefer_suffix",
+            "R1PROS-C9A208C2B3618CDC61422EA7": "prefer_suffix",
+            "R1PROS-CB91AA323BE76ABF0FBDBD68": "prefer_suffix",
+            "R1PROS-CC118DC3F3E137638A05A267": "prefer_suffix",
+            "R1PROS-CC5EB68756C725BB7254BA13": "prefer_suffix",
+            "R1PROS-CC8FEE4EABF0F107B8CD88D1": "prefer_suffix",
+            "R1PROS-CF4D3FCEA55EA1700B94580F": "prefer_suffix",
+            "R1PROS-CFF15042C7FD83CD8A376416": "prefer_suffix",
+            "R1PROS-D128D7C3D308AB0C103D3CF8": "prefer_suffix",
+            "R1PROS-D1E7EF1A7FCFE40222DA5B82": "prefer_suffix",
+            "R1PROS-D398EDD5B02E2AB2D301945C": "prefer_suffix",
+            "R1PROS-DA35D38F047DBE30292EC0CB": "prefer_suffix",
+            "R1PROS-DA38EA9CE3029FD531E40653": "prefer_suffix",
+            "R1PROS-DAE8F90CA375037D0485CCB0": "prefer_suffix",
+            "R1PROS-DAF71252C06276BF222931E9": "prefer_suffix",
+            "R1PROS-DB3DA1113DB857AF2E60A102": "prefer_suffix",
+            "R1PROS-DB45477B743C963338B35159": "prefer_suffix",
+            "R1PROS-DBF29576460759B4D9728F26": "prefer_suffix",
+            "R1PROS-DCE92A61707B9D29FA4AAAAF": "prefer_suffix",
+            "R1PROS-DD8F3BF4E3D2A99FFAB7B120": "prefer_suffix",
+            "R1PROS-E4BD2B2059C4309007230305": "prefer_suffix",
+            "R1PROS-E537A37980B897D058072E86": "prefer_suffix",
+            "R1PROS-E564DA66BE3F9FFFB956B206": "prefer_suffix",
+            "R1PROS-E7C992BCB7392C6EB8C70053": "prefer_suffix",
+            "R1PROS-E85CB91AD3B588586057AA19": "prefer_suffix",
+            "R1PROS-E89646F7043436E0EFCBB80F": "prefer_suffix",
+            "R1PROS-E98B2F39205D3C72E76B83EB": "prefer_suffix",
+            "R1PROS-E99740384FF8ECA28831131E": "prefer_suffix",
+            "R1PROS-EFC26FF8C68781DB17BC8C57": "prefer_suffix",
+            "R1PROS-F289193A1E2E468FBF542716": "prefer_suffix",
+            "R1PROS-F2BE621CEF01B4289A9D8B3C": "prefer_suffix",
+            "R1PROS-F43B18F8DF3F6C3374DC0643": "prefer_suffix",
+            "R1PROS-F882C4A9601C48DDB5216CCE": "prefer_suffix",
+            "R1PROS-F8961B41691DB4F331CF2145": "prefer_suffix",
+            "R1PROS-FA5331C86A93414CF95CB42B": "prefer_suffix",
+            "R1PROS-FABC78936B66F8E64A6DE66F": "prefer_suffix",
+            "R1PROS-FC035E57AA769864CCE94B58": "prefer_suffix",
+            "R1PROS-FE70508B671262443BFD17D2": "prefer_suffix",
+            "R1PROS-FF07F436C4685C3EA3600423": "prefer_suffix",
+            "R1PROS-FF19FE3600812EFED48556BD": "prefer_suffix",
+            "R1PROS-FF87C2100EEED7703D4D2F3F": "prefer_suffix"
+          }
+        }
+      ],
+      "conventions": [
+        {
+          "convention_id": "literal_only",
+          "predictions": {
+            "F2-CONTEXT-SUFFIX": "S",
+            "F2-IDENTITY-CORRECT": "S",
+            "F2-IDENTITY-WRONG-TARGET": "V",
+            "F2-MIRROR-LITERAL": "S",
+            "F2-MIRROR-SUFFIX": "V",
+            "F2-MISSING-RESULT": "U",
+            "F2-RFC-ARRAY-INDEX": "S",
+            "F2-RFC-ARRAY-PADDED": "V",
+            "F2-RFC-ESCAPE-ORDER": "S",
+            "F2-RFC-OBJECT-PADDED": "S",
+            "R1PROS-010B2575E5342CFAA222E93F": "S",
+            "R1PROS-033D751FAC9706A77BFA58B0": "V",
+            "R1PROS-038583672404A67F49664D3B": "S",
+            "R1PROS-0480CE588DE12DEA6BCEEAA6": "V",
+            "R1PROS-04C1FD00E6341D84C901EEEA": "V",
+            "R1PROS-051DFFE3458F37243F4093B1": "V",
+            "R1PROS-07FE73EDA23434619CA3E213": "S",
+            "R1PROS-08D35BB2A05132C2F9C23814": "S",
+            "R1PROS-0A0AC18782DA1A65F4552668": "S",
+            "R1PROS-0D9807EC6E7251FAC89650DE": "S",
+            "R1PROS-0DE9F2FC7356EEE2D4D3BDDC": "V",
+            "R1PROS-0F36E739E785676995CED722": "V",
+            "R1PROS-0F80539A37AEC3A1C8793BC0": "V",
+            "R1PROS-1036B42920F039EB6003AE76": "V",
+            "R1PROS-104F7825352EB905462FD239": "V",
+            "R1PROS-1175F475261EE917E0E06A6A": "S",
+            "R1PROS-124E69CDFD1DB8946A66C2FB": "V",
+            "R1PROS-13DE79A1275C571B0419536A": "S",
+            "R1PROS-17DE6EF8C12A7DFAA8267E56": "S",
+            "R1PROS-17EAE07A978E6DF8D7824C3A": "S",
+            "R1PROS-180E2EA48E238916583F5180": "S",
+            "R1PROS-183259B6AFF4361C0C798C9D": "V",
+            "R1PROS-186F26AA206E42202B12BE02": "V",
+            "R1PROS-1935C25A7C3B6C606E2E53CF": "S",
+            "R1PROS-1970CED9FF2B0B979860569B": "V",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D": "V",
+            "R1PROS-1C52CAC128E9A3065F6D10FB": "V",
+            "R1PROS-1E5CAEDD4472A14780BC7276": "V",
+            "R1PROS-205AE33CD70600D35956547E": "V",
+            "R1PROS-2136326455C5BF7CE50A3BBF": "V",
+            "R1PROS-21D4D74D2BCB6DEC1750EFBA": "S",
+            "R1PROS-22D30AF8249FB18371413FBA": "S",
+            "R1PROS-2508A28C025D8EFFE11EFF7D": "V",
+            "R1PROS-25DBBF9AF054202D7EB98360": "S",
+            "R1PROS-2B452F380ED3FE69E275B439": "V",
+            "R1PROS-2D2BDD2EFAFE2386E57B10AF": "S",
+            "R1PROS-2D7B28F1A768D97DAB6669E2": "S",
+            "R1PROS-2D8E32A7407285A08766F5FC": "V",
+            "R1PROS-2F5D2431C94CE132E7866640": "V",
+            "R1PROS-2FEE93C5D1A6B23745FB971F": "V",
+            "R1PROS-324C7BEF147C73146C3BCBD5": "S",
+            "R1PROS-336299AC712C781F68A01883": "V",
+            "R1PROS-346BD2ED3B875923D15105E1": "S",
+            "R1PROS-3624B02DC258BCA1C741A321": "S",
+            "R1PROS-37609B736EFCBBE016FC5646": "S",
+            "R1PROS-3C6D1CE93407DE1A5236BC4E": "V",
+            "R1PROS-3CD508D1139A570248B432AB": "V",
+            "R1PROS-3FCE1F9A844BE04DD51FADEB": "V",
+            "R1PROS-3FF96DFE087E17A004AD1643": "S",
+            "R1PROS-412E26AEC41288D5D17ECAC3": "V",
+            "R1PROS-417D14F6956A87054CD8B40F": "S",
+            "R1PROS-41A18B90A7C461F7BE35BE5D": "S",
+            "R1PROS-4209340D6ECCECE00B7C0626": "V",
+            "R1PROS-44032BD5F24E1933A01E3BFE": "S",
+            "R1PROS-457486FB11C264299AF5962C": "S",
+            "R1PROS-460CD68376842136036B144D": "S",
+            "R1PROS-474732F54A8AFD6AA363AD39": "V",
+            "R1PROS-4807FD2E079EF2F991866F6D": "S",
+            "R1PROS-4842953C0A97BCE579FA5969": "V",
+            "R1PROS-49A3D2795C5C40F46703B97C": "V",
+            "R1PROS-4A5EE5D3722E7F2EBB220152": "V",
+            "R1PROS-4B39C813AD0B3C2AEEEBB718": "V",
+            "R1PROS-4F406B016E21152D46FEB93C": "S",
+            "R1PROS-4F72B4FF02FC5A2B9B48061A": "V",
+            "R1PROS-523A733BA59F808604C87201": "S",
+            "R1PROS-5387EBD2C25E8B2DAFC60EB9": "V",
+            "R1PROS-5508C661D29CA9DC6D627FE1": "V",
+            "R1PROS-5797E2E1B382A9189AF5D36B": "S",
+            "R1PROS-587363AE9EB73EBB7634923F": "S",
+            "R1PROS-59B799EA83B34695CFCD4C4F": "V",
+            "R1PROS-5A6E1A8076312DD451727DDE": "S",
+            "R1PROS-5C2AE8EEDE54A6815528F4B7": "V",
+            "R1PROS-5E826BF511F1C27079F71204": "S",
+            "R1PROS-5EBB36D419F0360E085F3DAB": "V",
+            "R1PROS-60B2D6C3DD1742E9A9B8993E": "S",
+            "R1PROS-610B3B2A2BCE68145CCC1828": "V",
+            "R1PROS-6136DEC7F330A09E27DCFDB1": "V",
+            "R1PROS-62A70AF41829567CCD079A7E": "V",
+            "R1PROS-64E70DD91FA2297DFBC8F905": "S",
+            "R1PROS-65B9A9D9823EF8982F964130": "V",
+            "R1PROS-664B5F6D3882B7E464979148": "S",
+            "R1PROS-66FE38DFC6BACE208C497E52": "V",
+            "R1PROS-680F2485A2812505955ABC69": "S",
+            "R1PROS-685C25DBCB02503FCAEECE9C": "V",
+            "R1PROS-68697A8B7B48465BE0B5FA6F": "V",
+            "R1PROS-6C3BD9AF1A5EE0E2D4136A78": "V",
+            "R1PROS-7083E883FD24E66379D12557": "V",
+            "R1PROS-70A2198C03853E1C95A7DEEB": "V",
+            "R1PROS-716BBC5753F6B254F4D79139": "S",
+            "R1PROS-74440782B92D987B3EB89616": "V",
+            "R1PROS-74EBE4A6CA03054A9B5089EF": "S",
+            "R1PROS-752954E8441BEE2CF1BFC156": "V",
+            "R1PROS-759259226695637B96E42F33": "S",
+            "R1PROS-77E02D21BAC351C5B46AE474": "S",
+            "R1PROS-7AA3F576E78CEC4181DBE45A": "V",
+            "R1PROS-7B16AD637B4CABC03E1C4834": "V",
+            "R1PROS-7BCDA72B0A616FD40511FB6D": "V",
+            "R1PROS-7F6B931AD4E6D3C88C0F6E53": "V",
+            "R1PROS-7FD0F7ABD559D2277B021393": "S",
+            "R1PROS-81886D0F22CD34BEFE0BC76C": "S",
+            "R1PROS-828C19208EB78977277C652E": "V",
+            "R1PROS-82D1E50DF23F5E670D9AAC42": "S",
+            "R1PROS-82D2D6EDED7A56CC3310C298": "V",
+            "R1PROS-8460AAD580BC23094A4D2320": "V",
+            "R1PROS-874CCEBB226F2F305EFC6C3D": "S",
+            "R1PROS-88706A0C103160F4F4C08F90": "S",
+            "R1PROS-896F5DC28958D162DB6E19E1": "S",
+            "R1PROS-8A3023DC17FC97AD9A04E422": "S",
+            "R1PROS-8C212CB16D676EFB19316BB5": "S",
+            "R1PROS-8C4169B3F6D5B0281812F2C1": "V",
+            "R1PROS-8C51A5D5677EB12EB25CA0B3": "V",
+            "R1PROS-8EBF8C98C22FC084FBAC20A8": "S",
+            "R1PROS-90015A2677F1659B24145F89": "V",
+            "R1PROS-906A1A7076790F53FE53D911": "S",
+            "R1PROS-90DD7237391958C3BF1BC903": "V",
+            "R1PROS-920C82475245F1769CBAE375": "S",
+            "R1PROS-922369D794C572EEEA7F9597": "V",
+            "R1PROS-9673BA5203FBAAA856BA0805": "V",
+            "R1PROS-977012E674002231DA760291": "S",
+            "R1PROS-98A99B18C283F43FD92B3274": "S",
+            "R1PROS-9BD78373C0513EF242E03DC2": "V",
+            "R1PROS-9DE07811DCB2EC1095F690C0": "S",
+            "R1PROS-9F3A559F1425212E8101BA9E": "V",
+            "R1PROS-A1CCBED4F29A722F662B7C91": "S",
+            "R1PROS-A648164BB47AE9C889378704": "V",
+            "R1PROS-A7165F7258E3ED06080C9C0D": "V",
+            "R1PROS-A8069737B3D7ACD7302B04B9": "V",
+            "R1PROS-AA6C3896FA81A43C86468F2C": "V",
+            "R1PROS-AB2800CF9871CB349B9CF2E8": "S",
+            "R1PROS-AF1B274DEFC2320605B042DA": "S",
+            "R1PROS-B07558AAD5D511D0905D1E43": "V",
+            "R1PROS-B323F524F5F74F84F62AE309": "V",
+            "R1PROS-B80AB32CD3DD0DB5DED1570B": "V",
+            "R1PROS-B8D40CC724A213F0C9842977": "S",
+            "R1PROS-B93EE0C25333F23219D4CDD2": "S",
+            "R1PROS-BD4B3DED0006995DFEA1C1BA": "V",
+            "R1PROS-BE4039BBCCBF0FD3B0D0B4E4": "S",
+            "R1PROS-BEA54209ABF77D5AE749B1B2": "V",
+            "R1PROS-BF7017973C83A02B19885EFB": "V",
+            "R1PROS-BFA19B18218F3434C14BE4E4": "S",
+            "R1PROS-C03093D8D95D4686B92E3E4C": "V",
+            "R1PROS-C0D7118DDA7A5E2405A19501": "V",
+            "R1PROS-C27E1535EBF41A14E9D3B7B1": "V",
+            "R1PROS-C3B614C15E40AE726DDBAAE2": "V",
+            "R1PROS-C54EF2C19D9F3053F265BB26": "S",
+            "R1PROS-C5C4CE08E069D6FECCFFCCEF": "V",
+            "R1PROS-C61620557AD9225A24CFE491": "V",
+            "R1PROS-C71AACF05AE5573BCF293B15": "V",
+            "R1PROS-C7D5DE31E2F7971F130A0CA9": "V",
+            "R1PROS-C7F8ACCA09AA71BFDB8235C5": "S",
+            "R1PROS-C928ACACF83D8A1319D7E94A": "V",
+            "R1PROS-C9704A360B71B6F6AD5B85DD": "S",
+            "R1PROS-C9A208C2B3618CDC61422EA7": "S",
+            "R1PROS-CB91AA323BE76ABF0FBDBD68": "V",
+            "R1PROS-CC118DC3F3E137638A05A267": "S",
+            "R1PROS-CC5EB68756C725BB7254BA13": "V",
+            "R1PROS-CC8FEE4EABF0F107B8CD88D1": "V",
+            "R1PROS-CF4D3FCEA55EA1700B94580F": "V",
+            "R1PROS-CFF15042C7FD83CD8A376416": "S",
+            "R1PROS-D128D7C3D308AB0C103D3CF8": "S",
+            "R1PROS-D1E7EF1A7FCFE40222DA5B82": "S",
+            "R1PROS-D398EDD5B02E2AB2D301945C": "S",
+            "R1PROS-DA35D38F047DBE30292EC0CB": "V",
+            "R1PROS-DA38EA9CE3029FD531E40653": "V",
+            "R1PROS-DAE8F90CA375037D0485CCB0": "V",
+            "R1PROS-DAF71252C06276BF222931E9": "S",
+            "R1PROS-DB3DA1113DB857AF2E60A102": "S",
+            "R1PROS-DB45477B743C963338B35159": "S",
+            "R1PROS-DBF29576460759B4D9728F26": "S",
+            "R1PROS-DCE92A61707B9D29FA4AAAAF": "V",
+            "R1PROS-DD8F3BF4E3D2A99FFAB7B120": "V",
+            "R1PROS-E4BD2B2059C4309007230305": "V",
+            "R1PROS-E537A37980B897D058072E86": "S",
+            "R1PROS-E564DA66BE3F9FFFB956B206": "V",
+            "R1PROS-E7C992BCB7392C6EB8C70053": "V",
+            "R1PROS-E85CB91AD3B588586057AA19": "V",
+            "R1PROS-E89646F7043436E0EFCBB80F": "V",
+            "R1PROS-E98B2F39205D3C72E76B83EB": "V",
+            "R1PROS-E99740384FF8ECA28831131E": "V",
+            "R1PROS-EFC26FF8C68781DB17BC8C57": "S",
+            "R1PROS-F289193A1E2E468FBF542716": "S",
+            "R1PROS-F2BE621CEF01B4289A9D8B3C": "V",
+            "R1PROS-F43B18F8DF3F6C3374DC0643": "V",
+            "R1PROS-F882C4A9601C48DDB5216CCE": "V",
+            "R1PROS-F8961B41691DB4F331CF2145": "V",
+            "R1PROS-FA5331C86A93414CF95CB42B": "V",
+            "R1PROS-FABC78936B66F8E64A6DE66F": "V",
+            "R1PROS-FC035E57AA769864CCE94B58": "V",
+            "R1PROS-FE70508B671262443BFD17D2": "S",
+            "R1PROS-FF07F436C4685C3EA3600423": "V",
+            "R1PROS-FF19FE3600812EFED48556BD": "V",
+            "R1PROS-FF87C2100EEED7703D4D2F3F": "V"
+          },
+          "version": "R4-phase2-3b242e611f9f"
+        },
+        {
+          "convention_id": "suffix_only",
+          "predictions": {
+            "F2-CONTEXT-SUFFIX": "V",
+            "F2-IDENTITY-CORRECT": "S",
+            "F2-IDENTITY-WRONG-TARGET": "V",
+            "F2-MIRROR-LITERAL": "V",
+            "F2-MIRROR-SUFFIX": "S",
+            "F2-MISSING-RESULT": "U",
+            "F2-RFC-ARRAY-INDEX": "S",
+            "F2-RFC-ARRAY-PADDED": "V",
+            "F2-RFC-ESCAPE-ORDER": "S",
+            "F2-RFC-OBJECT-PADDED": "S",
+            "R1PROS-010B2575E5342CFAA222E93F": "S",
+            "R1PROS-033D751FAC9706A77BFA58B0": "V",
+            "R1PROS-038583672404A67F49664D3B": "S",
+            "R1PROS-0480CE588DE12DEA6BCEEAA6": "V",
+            "R1PROS-04C1FD00E6341D84C901EEEA": "V",
+            "R1PROS-051DFFE3458F37243F4093B1": "V",
+            "R1PROS-07FE73EDA23434619CA3E213": "S",
+            "R1PROS-08D35BB2A05132C2F9C23814": "V",
+            "R1PROS-0A0AC18782DA1A65F4552668": "S",
+            "R1PROS-0D9807EC6E7251FAC89650DE": "S",
+            "R1PROS-0DE9F2FC7356EEE2D4D3BDDC": "V",
+            "R1PROS-0F36E739E785676995CED722": "V",
+            "R1PROS-0F80539A37AEC3A1C8793BC0": "V",
+            "R1PROS-1036B42920F039EB6003AE76": "V",
+            "R1PROS-104F7825352EB905462FD239": "S",
+            "R1PROS-1175F475261EE917E0E06A6A": "V",
+            "R1PROS-124E69CDFD1DB8946A66C2FB": "S",
+            "R1PROS-13DE79A1275C571B0419536A": "S",
+            "R1PROS-17DE6EF8C12A7DFAA8267E56": "S",
+            "R1PROS-17EAE07A978E6DF8D7824C3A": "V",
+            "R1PROS-180E2EA48E238916583F5180": "V",
+            "R1PROS-183259B6AFF4361C0C798C9D": "V",
+            "R1PROS-186F26AA206E42202B12BE02": "V",
+            "R1PROS-1935C25A7C3B6C606E2E53CF": "S",
+            "R1PROS-1970CED9FF2B0B979860569B": "V",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D": "S",
+            "R1PROS-1C52CAC128E9A3065F6D10FB": "V",
+            "R1PROS-1E5CAEDD4472A14780BC7276": "V",
+            "R1PROS-205AE33CD70600D35956547E": "V",
+            "R1PROS-2136326455C5BF7CE50A3BBF": "V",
+            "R1PROS-21D4D74D2BCB6DEC1750EFBA": "S",
+            "R1PROS-22D30AF8249FB18371413FBA": "S",
+            "R1PROS-2508A28C025D8EFFE11EFF7D": "V",
+            "R1PROS-25DBBF9AF054202D7EB98360": "V",
+            "R1PROS-2B452F380ED3FE69E275B439": "V",
+            "R1PROS-2D2BDD2EFAFE2386E57B10AF": "S",
+            "R1PROS-2D7B28F1A768D97DAB6669E2": "V",
+            "R1PROS-2D8E32A7407285A08766F5FC": "V",
+            "R1PROS-2F5D2431C94CE132E7866640": "V",
+            "R1PROS-2FEE93C5D1A6B23745FB971F": "S",
+            "R1PROS-324C7BEF147C73146C3BCBD5": "S",
+            "R1PROS-336299AC712C781F68A01883": "V",
+            "R1PROS-346BD2ED3B875923D15105E1": "S",
+            "R1PROS-3624B02DC258BCA1C741A321": "S",
+            "R1PROS-37609B736EFCBBE016FC5646": "S",
+            "R1PROS-3C6D1CE93407DE1A5236BC4E": "V",
+            "R1PROS-3CD508D1139A570248B432AB": "V",
+            "R1PROS-3FCE1F9A844BE04DD51FADEB": "V",
+            "R1PROS-3FF96DFE087E17A004AD1643": "S",
+            "R1PROS-412E26AEC41288D5D17ECAC3": "V",
+            "R1PROS-417D14F6956A87054CD8B40F": "S",
+            "R1PROS-41A18B90A7C461F7BE35BE5D": "S",
+            "R1PROS-4209340D6ECCECE00B7C0626": "S",
+            "R1PROS-44032BD5F24E1933A01E3BFE": "V",
+            "R1PROS-457486FB11C264299AF5962C": "V",
+            "R1PROS-460CD68376842136036B144D": "S",
+            "R1PROS-474732F54A8AFD6AA363AD39": "V",
+            "R1PROS-4807FD2E079EF2F991866F6D": "S",
+            "R1PROS-4842953C0A97BCE579FA5969": "V",
+            "R1PROS-49A3D2795C5C40F46703B97C": "V",
+            "R1PROS-4A5EE5D3722E7F2EBB220152": "V",
+            "R1PROS-4B39C813AD0B3C2AEEEBB718": "V",
+            "R1PROS-4F406B016E21152D46FEB93C": "S",
+            "R1PROS-4F72B4FF02FC5A2B9B48061A": "S",
+            "R1PROS-523A733BA59F808604C87201": "V",
+            "R1PROS-5387EBD2C25E8B2DAFC60EB9": "S",
+            "R1PROS-5508C661D29CA9DC6D627FE1": "V",
+            "R1PROS-5797E2E1B382A9189AF5D36B": "S",
+            "R1PROS-587363AE9EB73EBB7634923F": "V",
+            "R1PROS-59B799EA83B34695CFCD4C4F": "S",
+            "R1PROS-5A6E1A8076312DD451727DDE": "V",
+            "R1PROS-5C2AE8EEDE54A6815528F4B7": "V",
+            "R1PROS-5E826BF511F1C27079F71204": "V",
+            "R1PROS-5EBB36D419F0360E085F3DAB": "V",
+            "R1PROS-60B2D6C3DD1742E9A9B8993E": "V",
+            "R1PROS-610B3B2A2BCE68145CCC1828": "V",
+            "R1PROS-6136DEC7F330A09E27DCFDB1": "V",
+            "R1PROS-62A70AF41829567CCD079A7E": "V",
+            "R1PROS-64E70DD91FA2297DFBC8F905": "V",
+            "R1PROS-65B9A9D9823EF8982F964130": "V",
+            "R1PROS-664B5F6D3882B7E464979148": "S",
+            "R1PROS-66FE38DFC6BACE208C497E52": "V",
+            "R1PROS-680F2485A2812505955ABC69": "V",
+            "R1PROS-685C25DBCB02503FCAEECE9C": "V",
+            "R1PROS-68697A8B7B48465BE0B5FA6F": "S",
+            "R1PROS-6C3BD9AF1A5EE0E2D4136A78": "V",
+            "R1PROS-7083E883FD24E66379D12557": "V",
+            "R1PROS-70A2198C03853E1C95A7DEEB": "V",
+            "R1PROS-716BBC5753F6B254F4D79139": "S",
+            "R1PROS-74440782B92D987B3EB89616": "V",
+            "R1PROS-74EBE4A6CA03054A9B5089EF": "V",
+            "R1PROS-752954E8441BEE2CF1BFC156": "V",
+            "R1PROS-759259226695637B96E42F33": "V",
+            "R1PROS-77E02D21BAC351C5B46AE474": "S",
+            "R1PROS-7AA3F576E78CEC4181DBE45A": "V",
+            "R1PROS-7B16AD637B4CABC03E1C4834": "V",
+            "R1PROS-7BCDA72B0A616FD40511FB6D": "V",
+            "R1PROS-7F6B931AD4E6D3C88C0F6E53": "V",
+            "R1PROS-7FD0F7ABD559D2277B021393": "V",
+            "R1PROS-81886D0F22CD34BEFE0BC76C": "V",
+            "R1PROS-828C19208EB78977277C652E": "V",
+            "R1PROS-82D1E50DF23F5E670D9AAC42": "S",
+            "R1PROS-82D2D6EDED7A56CC3310C298": "V",
+            "R1PROS-8460AAD580BC23094A4D2320": "V",
+            "R1PROS-874CCEBB226F2F305EFC6C3D": "S",
+            "R1PROS-88706A0C103160F4F4C08F90": "S",
+            "R1PROS-896F5DC28958D162DB6E19E1": "S",
+            "R1PROS-8A3023DC17FC97AD9A04E422": "S",
+            "R1PROS-8C212CB16D676EFB19316BB5": "V",
+            "R1PROS-8C4169B3F6D5B0281812F2C1": "V",
+            "R1PROS-8C51A5D5677EB12EB25CA0B3": "V",
+            "R1PROS-8EBF8C98C22FC084FBAC20A8": "S",
+            "R1PROS-90015A2677F1659B24145F89": "V",
+            "R1PROS-906A1A7076790F53FE53D911": "S",
+            "R1PROS-90DD7237391958C3BF1BC903": "V",
+            "R1PROS-920C82475245F1769CBAE375": "S",
+            "R1PROS-922369D794C572EEEA7F9597": "S",
+            "R1PROS-9673BA5203FBAAA856BA0805": "V",
+            "R1PROS-977012E674002231DA760291": "V",
+            "R1PROS-98A99B18C283F43FD92B3274": "V",
+            "R1PROS-9BD78373C0513EF242E03DC2": "V",
+            "R1PROS-9DE07811DCB2EC1095F690C0": "V",
+            "R1PROS-9F3A559F1425212E8101BA9E": "V",
+            "R1PROS-A1CCBED4F29A722F662B7C91": "V",
+            "R1PROS-A648164BB47AE9C889378704": "V",
+            "R1PROS-A7165F7258E3ED06080C9C0D": "V",
+            "R1PROS-A8069737B3D7ACD7302B04B9": "V",
+            "R1PROS-AA6C3896FA81A43C86468F2C": "V",
+            "R1PROS-AB2800CF9871CB349B9CF2E8": "S",
+            "R1PROS-AF1B274DEFC2320605B042DA": "S",
+            "R1PROS-B07558AAD5D511D0905D1E43": "V",
+            "R1PROS-B323F524F5F74F84F62AE309": "V",
+            "R1PROS-B80AB32CD3DD0DB5DED1570B": "V",
+            "R1PROS-B8D40CC724A213F0C9842977": "V",
+            "R1PROS-B93EE0C25333F23219D4CDD2": "S",
+            "R1PROS-BD4B3DED0006995DFEA1C1BA": "V",
+            "R1PROS-BE4039BBCCBF0FD3B0D0B4E4": "S",
+            "R1PROS-BEA54209ABF77D5AE749B1B2": "V",
+            "R1PROS-BF7017973C83A02B19885EFB": "V",
+            "R1PROS-BFA19B18218F3434C14BE4E4": "V",
+            "R1PROS-C03093D8D95D4686B92E3E4C": "S",
+            "R1PROS-C0D7118DDA7A5E2405A19501": "V",
+            "R1PROS-C27E1535EBF41A14E9D3B7B1": "V",
+            "R1PROS-C3B614C15E40AE726DDBAAE2": "S",
+            "R1PROS-C54EF2C19D9F3053F265BB26": "S",
+            "R1PROS-C5C4CE08E069D6FECCFFCCEF": "S",
+            "R1PROS-C61620557AD9225A24CFE491": "V",
+            "R1PROS-C71AACF05AE5573BCF293B15": "S",
+            "R1PROS-C7D5DE31E2F7971F130A0CA9": "S",
+            "R1PROS-C7F8ACCA09AA71BFDB8235C5": "S",
+            "R1PROS-C928ACACF83D8A1319D7E94A": "V",
+            "R1PROS-C9704A360B71B6F6AD5B85DD": "S",
+            "R1PROS-C9A208C2B3618CDC61422EA7": "V",
+            "R1PROS-CB91AA323BE76ABF0FBDBD68": "V",
+            "R1PROS-CC118DC3F3E137638A05A267": "S",
+            "R1PROS-CC5EB68756C725BB7254BA13": "V",
+            "R1PROS-CC8FEE4EABF0F107B8CD88D1": "V",
+            "R1PROS-CF4D3FCEA55EA1700B94580F": "V",
+            "R1PROS-CFF15042C7FD83CD8A376416": "S",
+            "R1PROS-D128D7C3D308AB0C103D3CF8": "V",
+            "R1PROS-D1E7EF1A7FCFE40222DA5B82": "V",
+            "R1PROS-D398EDD5B02E2AB2D301945C": "V",
+            "R1PROS-DA35D38F047DBE30292EC0CB": "V",
+            "R1PROS-DA38EA9CE3029FD531E40653": "V",
+            "R1PROS-DAE8F90CA375037D0485CCB0": "V",
+            "R1PROS-DAF71252C06276BF222931E9": "S",
+            "R1PROS-DB3DA1113DB857AF2E60A102": "S",
+            "R1PROS-DB45477B743C963338B35159": "S",
+            "R1PROS-DBF29576460759B4D9728F26": "S",
+            "R1PROS-DCE92A61707B9D29FA4AAAAF": "V",
+            "R1PROS-DD8F3BF4E3D2A99FFAB7B120": "V",
+            "R1PROS-E4BD2B2059C4309007230305": "V",
+            "R1PROS-E537A37980B897D058072E86": "V",
+            "R1PROS-E564DA66BE3F9FFFB956B206": "V",
+            "R1PROS-E7C992BCB7392C6EB8C70053": "V",
+            "R1PROS-E85CB91AD3B588586057AA19": "V",
+            "R1PROS-E89646F7043436E0EFCBB80F": "V",
+            "R1PROS-E98B2F39205D3C72E76B83EB": "V",
+            "R1PROS-E99740384FF8ECA28831131E": "V",
+            "R1PROS-EFC26FF8C68781DB17BC8C57": "S",
+            "R1PROS-F289193A1E2E468FBF542716": "V",
+            "R1PROS-F2BE621CEF01B4289A9D8B3C": "V",
+            "R1PROS-F43B18F8DF3F6C3374DC0643": "S",
+            "R1PROS-F882C4A9601C48DDB5216CCE": "V",
+            "R1PROS-F8961B41691DB4F331CF2145": "V",
+            "R1PROS-FA5331C86A93414CF95CB42B": "V",
+            "R1PROS-FABC78936B66F8E64A6DE66F": "V",
+            "R1PROS-FC035E57AA769864CCE94B58": "V",
+            "R1PROS-FE70508B671262443BFD17D2": "S",
+            "R1PROS-FF07F436C4685C3EA3600423": "V",
+            "R1PROS-FF19FE3600812EFED48556BD": "V",
+            "R1PROS-FF87C2100EEED7703D4D2F3F": "V"
+          },
+          "version": "R4-phase2-3b242e611f9f"
+        },
+        {
+          "convention_id": "either_unique",
+          "predictions": {
+            "F2-CONTEXT-SUFFIX": "V",
+            "F2-IDENTITY-CORRECT": "S",
+            "F2-IDENTITY-WRONG-TARGET": "V",
+            "F2-MIRROR-LITERAL": "V",
+            "F2-MIRROR-SUFFIX": "V",
+            "F2-MISSING-RESULT": "U",
+            "F2-RFC-ARRAY-INDEX": "S",
+            "F2-RFC-ARRAY-PADDED": "V",
+            "F2-RFC-ESCAPE-ORDER": "S",
+            "F2-RFC-OBJECT-PADDED": "S",
+            "R1PROS-010B2575E5342CFAA222E93F": "S",
+            "R1PROS-033D751FAC9706A77BFA58B0": "V",
+            "R1PROS-038583672404A67F49664D3B": "S",
+            "R1PROS-0480CE588DE12DEA6BCEEAA6": "V",
+            "R1PROS-04C1FD00E6341D84C901EEEA": "V",
+            "R1PROS-051DFFE3458F37243F4093B1": "V",
+            "R1PROS-07FE73EDA23434619CA3E213": "S",
+            "R1PROS-08D35BB2A05132C2F9C23814": "S",
+            "R1PROS-0A0AC18782DA1A65F4552668": "S",
+            "R1PROS-0D9807EC6E7251FAC89650DE": "S",
+            "R1PROS-0DE9F2FC7356EEE2D4D3BDDC": "V",
+            "R1PROS-0F36E739E785676995CED722": "V",
+            "R1PROS-0F80539A37AEC3A1C8793BC0": "V",
+            "R1PROS-1036B42920F039EB6003AE76": "V",
+            "R1PROS-104F7825352EB905462FD239": "S",
+            "R1PROS-1175F475261EE917E0E06A6A": "V",
+            "R1PROS-124E69CDFD1DB8946A66C2FB": "S",
+            "R1PROS-13DE79A1275C571B0419536A": "S",
+            "R1PROS-17DE6EF8C12A7DFAA8267E56": "S",
+            "R1PROS-17EAE07A978E6DF8D7824C3A": "V",
+            "R1PROS-180E2EA48E238916583F5180": "S",
+            "R1PROS-183259B6AFF4361C0C798C9D": "V",
+            "R1PROS-186F26AA206E42202B12BE02": "V",
+            "R1PROS-1935C25A7C3B6C606E2E53CF": "S",
+            "R1PROS-1970CED9FF2B0B979860569B": "V",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D": "S",
+            "R1PROS-1C52CAC128E9A3065F6D10FB": "V",
+            "R1PROS-1E5CAEDD4472A14780BC7276": "V",
+            "R1PROS-205AE33CD70600D35956547E": "V",
+            "R1PROS-2136326455C5BF7CE50A3BBF": "V",
+            "R1PROS-21D4D74D2BCB6DEC1750EFBA": "S",
+            "R1PROS-22D30AF8249FB18371413FBA": "S",
+            "R1PROS-2508A28C025D8EFFE11EFF7D": "V",
+            "R1PROS-25DBBF9AF054202D7EB98360": "V",
+            "R1PROS-2B452F380ED3FE69E275B439": "V",
+            "R1PROS-2D2BDD2EFAFE2386E57B10AF": "S",
+            "R1PROS-2D7B28F1A768D97DAB6669E2": "V",
+            "R1PROS-2D8E32A7407285A08766F5FC": "V",
+            "R1PROS-2F5D2431C94CE132E7866640": "V",
+            "R1PROS-2FEE93C5D1A6B23745FB971F": "S",
+            "R1PROS-324C7BEF147C73146C3BCBD5": "S",
+            "R1PROS-336299AC712C781F68A01883": "V",
+            "R1PROS-346BD2ED3B875923D15105E1": "S",
+            "R1PROS-3624B02DC258BCA1C741A321": "S",
+            "R1PROS-37609B736EFCBBE016FC5646": "S",
+            "R1PROS-3C6D1CE93407DE1A5236BC4E": "V",
+            "R1PROS-3CD508D1139A570248B432AB": "V",
+            "R1PROS-3FCE1F9A844BE04DD51FADEB": "V",
+            "R1PROS-3FF96DFE087E17A004AD1643": "S",
+            "R1PROS-412E26AEC41288D5D17ECAC3": "V",
+            "R1PROS-417D14F6956A87054CD8B40F": "S",
+            "R1PROS-41A18B90A7C461F7BE35BE5D": "S",
+            "R1PROS-4209340D6ECCECE00B7C0626": "S",
+            "R1PROS-44032BD5F24E1933A01E3BFE": "S",
+            "R1PROS-457486FB11C264299AF5962C": "V",
+            "R1PROS-460CD68376842136036B144D": "S",
+            "R1PROS-474732F54A8AFD6AA363AD39": "V",
+            "R1PROS-4807FD2E079EF2F991866F6D": "S",
+            "R1PROS-4842953C0A97BCE579FA5969": "V",
+            "R1PROS-49A3D2795C5C40F46703B97C": "V",
+            "R1PROS-4A5EE5D3722E7F2EBB220152": "V",
+            "R1PROS-4B39C813AD0B3C2AEEEBB718": "V",
+            "R1PROS-4F406B016E21152D46FEB93C": "S",
+            "R1PROS-4F72B4FF02FC5A2B9B48061A": "S",
+            "R1PROS-523A733BA59F808604C87201": "V",
+            "R1PROS-5387EBD2C25E8B2DAFC60EB9": "S",
+            "R1PROS-5508C661D29CA9DC6D627FE1": "V",
+            "R1PROS-5797E2E1B382A9189AF5D36B": "S",
+            "R1PROS-587363AE9EB73EBB7634923F": "V",
+            "R1PROS-59B799EA83B34695CFCD4C4F": "S",
+            "R1PROS-5A6E1A8076312DD451727DDE": "S",
+            "R1PROS-5C2AE8EEDE54A6815528F4B7": "V",
+            "R1PROS-5E826BF511F1C27079F71204": "V",
+            "R1PROS-5EBB36D419F0360E085F3DAB": "V",
+            "R1PROS-60B2D6C3DD1742E9A9B8993E": "S",
+            "R1PROS-610B3B2A2BCE68145CCC1828": "V",
+            "R1PROS-6136DEC7F330A09E27DCFDB1": "V",
+            "R1PROS-62A70AF41829567CCD079A7E": "V",
+            "R1PROS-64E70DD91FA2297DFBC8F905": "S",
+            "R1PROS-65B9A9D9823EF8982F964130": "V",
+            "R1PROS-664B5F6D3882B7E464979148": "S",
+            "R1PROS-66FE38DFC6BACE208C497E52": "V",
+            "R1PROS-680F2485A2812505955ABC69": "V",
+            "R1PROS-685C25DBCB02503FCAEECE9C": "V",
+            "R1PROS-68697A8B7B48465BE0B5FA6F": "S",
+            "R1PROS-6C3BD9AF1A5EE0E2D4136A78": "V",
+            "R1PROS-7083E883FD24E66379D12557": "V",
+            "R1PROS-70A2198C03853E1C95A7DEEB": "V",
+            "R1PROS-716BBC5753F6B254F4D79139": "S",
+            "R1PROS-74440782B92D987B3EB89616": "V",
+            "R1PROS-74EBE4A6CA03054A9B5089EF": "V",
+            "R1PROS-752954E8441BEE2CF1BFC156": "V",
+            "R1PROS-759259226695637B96E42F33": "S",
+            "R1PROS-77E02D21BAC351C5B46AE474": "S",
+            "R1PROS-7AA3F576E78CEC4181DBE45A": "V",
+            "R1PROS-7B16AD637B4CABC03E1C4834": "V",
+            "R1PROS-7BCDA72B0A616FD40511FB6D": "V",
+            "R1PROS-7F6B931AD4E6D3C88C0F6E53": "V",
+            "R1PROS-7FD0F7ABD559D2277B021393": "S",
+            "R1PROS-81886D0F22CD34BEFE0BC76C": "V",
+            "R1PROS-828C19208EB78977277C652E": "V",
+            "R1PROS-82D1E50DF23F5E670D9AAC42": "S",
+            "R1PROS-82D2D6EDED7A56CC3310C298": "V",
+            "R1PROS-8460AAD580BC23094A4D2320": "V",
+            "R1PROS-874CCEBB226F2F305EFC6C3D": "S",
+            "R1PROS-88706A0C103160F4F4C08F90": "S",
+            "R1PROS-896F5DC28958D162DB6E19E1": "S",
+            "R1PROS-8A3023DC17FC97AD9A04E422": "S",
+            "R1PROS-8C212CB16D676EFB19316BB5": "V",
+            "R1PROS-8C4169B3F6D5B0281812F2C1": "V",
+            "R1PROS-8C51A5D5677EB12EB25CA0B3": "V",
+            "R1PROS-8EBF8C98C22FC084FBAC20A8": "S",
+            "R1PROS-90015A2677F1659B24145F89": "V",
+            "R1PROS-906A1A7076790F53FE53D911": "S",
+            "R1PROS-90DD7237391958C3BF1BC903": "V",
+            "R1PROS-920C82475245F1769CBAE375": "S",
+            "R1PROS-922369D794C572EEEA7F9597": "S",
+            "R1PROS-9673BA5203FBAAA856BA0805": "V",
+            "R1PROS-977012E674002231DA760291": "S",
+            "R1PROS-98A99B18C283F43FD92B3274": "S",
+            "R1PROS-9BD78373C0513EF242E03DC2": "V",
+            "R1PROS-9DE07811DCB2EC1095F690C0": "V",
+            "R1PROS-9F3A559F1425212E8101BA9E": "V",
+            "R1PROS-A1CCBED4F29A722F662B7C91": "S",
+            "R1PROS-A648164BB47AE9C889378704": "V",
+            "R1PROS-A7165F7258E3ED06080C9C0D": "V",
+            "R1PROS-A8069737B3D7ACD7302B04B9": "V",
+            "R1PROS-AA6C3896FA81A43C86468F2C": "V",
+            "R1PROS-AB2800CF9871CB349B9CF2E8": "S",
+            "R1PROS-AF1B274DEFC2320605B042DA": "S",
+            "R1PROS-B07558AAD5D511D0905D1E43": "V",
+            "R1PROS-B323F524F5F74F84F62AE309": "V",
+            "R1PROS-B80AB32CD3DD0DB5DED1570B": "V",
+            "R1PROS-B8D40CC724A213F0C9842977": "S",
+            "R1PROS-B93EE0C25333F23219D4CDD2": "S",
+            "R1PROS-BD4B3DED0006995DFEA1C1BA": "V",
+            "R1PROS-BE4039BBCCBF0FD3B0D0B4E4": "S",
+            "R1PROS-BEA54209ABF77D5AE749B1B2": "V",
+            "R1PROS-BF7017973C83A02B19885EFB": "V",
+            "R1PROS-BFA19B18218F3434C14BE4E4": "S",
+            "R1PROS-C03093D8D95D4686B92E3E4C": "S",
+            "R1PROS-C0D7118DDA7A5E2405A19501": "V",
+            "R1PROS-C27E1535EBF41A14E9D3B7B1": "V",
+            "R1PROS-C3B614C15E40AE726DDBAAE2": "S",
+            "R1PROS-C54EF2C19D9F3053F265BB26": "S",
+            "R1PROS-C5C4CE08E069D6FECCFFCCEF": "S",
+            "R1PROS-C61620557AD9225A24CFE491": "V",
+            "R1PROS-C71AACF05AE5573BCF293B15": "S",
+            "R1PROS-C7D5DE31E2F7971F130A0CA9": "S",
+            "R1PROS-C7F8ACCA09AA71BFDB8235C5": "S",
+            "R1PROS-C928ACACF83D8A1319D7E94A": "V",
+            "R1PROS-C9704A360B71B6F6AD5B85DD": "S",
+            "R1PROS-C9A208C2B3618CDC61422EA7": "S",
+            "R1PROS-CB91AA323BE76ABF0FBDBD68": "V",
+            "R1PROS-CC118DC3F3E137638A05A267": "S",
+            "R1PROS-CC5EB68756C725BB7254BA13": "V",
+            "R1PROS-CC8FEE4EABF0F107B8CD88D1": "V",
+            "R1PROS-CF4D3FCEA55EA1700B94580F": "V",
+            "R1PROS-CFF15042C7FD83CD8A376416": "S",
+            "R1PROS-D128D7C3D308AB0C103D3CF8": "S",
+            "R1PROS-D1E7EF1A7FCFE40222DA5B82": "S",
+            "R1PROS-D398EDD5B02E2AB2D301945C": "V",
+            "R1PROS-DA35D38F047DBE30292EC0CB": "V",
+            "R1PROS-DA38EA9CE3029FD531E40653": "V",
+            "R1PROS-DAE8F90CA375037D0485CCB0": "V",
+            "R1PROS-DAF71252C06276BF222931E9": "S",
+            "R1PROS-DB3DA1113DB857AF2E60A102": "S",
+            "R1PROS-DB45477B743C963338B35159": "S",
+            "R1PROS-DBF29576460759B4D9728F26": "S",
+            "R1PROS-DCE92A61707B9D29FA4AAAAF": "V",
+            "R1PROS-DD8F3BF4E3D2A99FFAB7B120": "V",
+            "R1PROS-E4BD2B2059C4309007230305": "V",
+            "R1PROS-E537A37980B897D058072E86": "V",
+            "R1PROS-E564DA66BE3F9FFFB956B206": "V",
+            "R1PROS-E7C992BCB7392C6EB8C70053": "V",
+            "R1PROS-E85CB91AD3B588586057AA19": "V",
+            "R1PROS-E89646F7043436E0EFCBB80F": "V",
+            "R1PROS-E98B2F39205D3C72E76B83EB": "V",
+            "R1PROS-E99740384FF8ECA28831131E": "V",
+            "R1PROS-EFC26FF8C68781DB17BC8C57": "S",
+            "R1PROS-F289193A1E2E468FBF542716": "V",
+            "R1PROS-F2BE621CEF01B4289A9D8B3C": "V",
+            "R1PROS-F43B18F8DF3F6C3374DC0643": "S",
+            "R1PROS-F882C4A9601C48DDB5216CCE": "V",
+            "R1PROS-F8961B41691DB4F331CF2145": "V",
+            "R1PROS-FA5331C86A93414CF95CB42B": "V",
+            "R1PROS-FABC78936B66F8E64A6DE66F": "V",
+            "R1PROS-FC035E57AA769864CCE94B58": "V",
+            "R1PROS-FE70508B671262443BFD17D2": "S",
+            "R1PROS-FF07F436C4685C3EA3600423": "V",
+            "R1PROS-FF19FE3600812EFED48556BD": "V",
+            "R1PROS-FF87C2100EEED7703D4D2F3F": "V"
+          },
+          "version": "R4-phase2-3b242e611f9f"
+        },
+        {
+          "convention_id": "prefer_literal",
+          "predictions": {
+            "F2-CONTEXT-SUFFIX": "S",
+            "F2-IDENTITY-CORRECT": "S",
+            "F2-IDENTITY-WRONG-TARGET": "V",
+            "F2-MIRROR-LITERAL": "S",
+            "F2-MIRROR-SUFFIX": "V",
+            "F2-MISSING-RESULT": "U",
+            "F2-RFC-ARRAY-INDEX": "S",
+            "F2-RFC-ARRAY-PADDED": "V",
+            "F2-RFC-ESCAPE-ORDER": "S",
+            "F2-RFC-OBJECT-PADDED": "S",
+            "R1PROS-010B2575E5342CFAA222E93F": "S",
+            "R1PROS-033D751FAC9706A77BFA58B0": "V",
+            "R1PROS-038583672404A67F49664D3B": "S",
+            "R1PROS-0480CE588DE12DEA6BCEEAA6": "V",
+            "R1PROS-04C1FD00E6341D84C901EEEA": "V",
+            "R1PROS-051DFFE3458F37243F4093B1": "V",
+            "R1PROS-07FE73EDA23434619CA3E213": "S",
+            "R1PROS-08D35BB2A05132C2F9C23814": "S",
+            "R1PROS-0A0AC18782DA1A65F4552668": "S",
+            "R1PROS-0D9807EC6E7251FAC89650DE": "S",
+            "R1PROS-0DE9F2FC7356EEE2D4D3BDDC": "V",
+            "R1PROS-0F36E739E785676995CED722": "V",
+            "R1PROS-0F80539A37AEC3A1C8793BC0": "V",
+            "R1PROS-1036B42920F039EB6003AE76": "V",
+            "R1PROS-104F7825352EB905462FD239": "S",
+            "R1PROS-1175F475261EE917E0E06A6A": "S",
+            "R1PROS-124E69CDFD1DB8946A66C2FB": "S",
+            "R1PROS-13DE79A1275C571B0419536A": "S",
+            "R1PROS-17DE6EF8C12A7DFAA8267E56": "S",
+            "R1PROS-17EAE07A978E6DF8D7824C3A": "S",
+            "R1PROS-180E2EA48E238916583F5180": "S",
+            "R1PROS-183259B6AFF4361C0C798C9D": "V",
+            "R1PROS-186F26AA206E42202B12BE02": "V",
+            "R1PROS-1935C25A7C3B6C606E2E53CF": "S",
+            "R1PROS-1970CED9FF2B0B979860569B": "V",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D": "S",
+            "R1PROS-1C52CAC128E9A3065F6D10FB": "V",
+            "R1PROS-1E5CAEDD4472A14780BC7276": "V",
+            "R1PROS-205AE33CD70600D35956547E": "V",
+            "R1PROS-2136326455C5BF7CE50A3BBF": "V",
+            "R1PROS-21D4D74D2BCB6DEC1750EFBA": "S",
+            "R1PROS-22D30AF8249FB18371413FBA": "S",
+            "R1PROS-2508A28C025D8EFFE11EFF7D": "V",
+            "R1PROS-25DBBF9AF054202D7EB98360": "S",
+            "R1PROS-2B452F380ED3FE69E275B439": "V",
+            "R1PROS-2D2BDD2EFAFE2386E57B10AF": "S",
+            "R1PROS-2D7B28F1A768D97DAB6669E2": "S",
+            "R1PROS-2D8E32A7407285A08766F5FC": "V",
+            "R1PROS-2F5D2431C94CE132E7866640": "V",
+            "R1PROS-2FEE93C5D1A6B23745FB971F": "S",
+            "R1PROS-324C7BEF147C73146C3BCBD5": "S",
+            "R1PROS-336299AC712C781F68A01883": "V",
+            "R1PROS-346BD2ED3B875923D15105E1": "S",
+            "R1PROS-3624B02DC258BCA1C741A321": "S",
+            "R1PROS-37609B736EFCBBE016FC5646": "S",
+            "R1PROS-3C6D1CE93407DE1A5236BC4E": "V",
+            "R1PROS-3CD508D1139A570248B432AB": "V",
+            "R1PROS-3FCE1F9A844BE04DD51FADEB": "V",
+            "R1PROS-3FF96DFE087E17A004AD1643": "S",
+            "R1PROS-412E26AEC41288D5D17ECAC3": "V",
+            "R1PROS-417D14F6956A87054CD8B40F": "S",
+            "R1PROS-41A18B90A7C461F7BE35BE5D": "S",
+            "R1PROS-4209340D6ECCECE00B7C0626": "S",
+            "R1PROS-44032BD5F24E1933A01E3BFE": "S",
+            "R1PROS-457486FB11C264299AF5962C": "S",
+            "R1PROS-460CD68376842136036B144D": "S",
+            "R1PROS-474732F54A8AFD6AA363AD39": "V",
+            "R1PROS-4807FD2E079EF2F991866F6D": "S",
+            "R1PROS-4842953C0A97BCE579FA5969": "V",
+            "R1PROS-49A3D2795C5C40F46703B97C": "V",
+            "R1PROS-4A5EE5D3722E7F2EBB220152": "V",
+            "R1PROS-4B39C813AD0B3C2AEEEBB718": "V",
+            "R1PROS-4F406B016E21152D46FEB93C": "S",
+            "R1PROS-4F72B4FF02FC5A2B9B48061A": "S",
+            "R1PROS-523A733BA59F808604C87201": "S",
+            "R1PROS-5387EBD2C25E8B2DAFC60EB9": "S",
+            "R1PROS-5508C661D29CA9DC6D627FE1": "V",
+            "R1PROS-5797E2E1B382A9189AF5D36B": "S",
+            "R1PROS-587363AE9EB73EBB7634923F": "S",
+            "R1PROS-59B799EA83B34695CFCD4C4F": "S",
+            "R1PROS-5A6E1A8076312DD451727DDE": "S",
+            "R1PROS-5C2AE8EEDE54A6815528F4B7": "V",
+            "R1PROS-5E826BF511F1C27079F71204": "S",
+            "R1PROS-5EBB36D419F0360E085F3DAB": "V",
+            "R1PROS-60B2D6C3DD1742E9A9B8993E": "S",
+            "R1PROS-610B3B2A2BCE68145CCC1828": "V",
+            "R1PROS-6136DEC7F330A09E27DCFDB1": "V",
+            "R1PROS-62A70AF41829567CCD079A7E": "V",
+            "R1PROS-64E70DD91FA2297DFBC8F905": "S",
+            "R1PROS-65B9A9D9823EF8982F964130": "V",
+            "R1PROS-664B5F6D3882B7E464979148": "S",
+            "R1PROS-66FE38DFC6BACE208C497E52": "V",
+            "R1PROS-680F2485A2812505955ABC69": "S",
+            "R1PROS-685C25DBCB02503FCAEECE9C": "V",
+            "R1PROS-68697A8B7B48465BE0B5FA6F": "S",
+            "R1PROS-6C3BD9AF1A5EE0E2D4136A78": "V",
+            "R1PROS-7083E883FD24E66379D12557": "V",
+            "R1PROS-70A2198C03853E1C95A7DEEB": "V",
+            "R1PROS-716BBC5753F6B254F4D79139": "S",
+            "R1PROS-74440782B92D987B3EB89616": "V",
+            "R1PROS-74EBE4A6CA03054A9B5089EF": "S",
+            "R1PROS-752954E8441BEE2CF1BFC156": "V",
+            "R1PROS-759259226695637B96E42F33": "S",
+            "R1PROS-77E02D21BAC351C5B46AE474": "S",
+            "R1PROS-7AA3F576E78CEC4181DBE45A": "V",
+            "R1PROS-7B16AD637B4CABC03E1C4834": "V",
+            "R1PROS-7BCDA72B0A616FD40511FB6D": "V",
+            "R1PROS-7F6B931AD4E6D3C88C0F6E53": "V",
+            "R1PROS-7FD0F7ABD559D2277B021393": "S",
+            "R1PROS-81886D0F22CD34BEFE0BC76C": "S",
+            "R1PROS-828C19208EB78977277C652E": "V",
+            "R1PROS-82D1E50DF23F5E670D9AAC42": "S",
+            "R1PROS-82D2D6EDED7A56CC3310C298": "V",
+            "R1PROS-8460AAD580BC23094A4D2320": "V",
+            "R1PROS-874CCEBB226F2F305EFC6C3D": "S",
+            "R1PROS-88706A0C103160F4F4C08F90": "S",
+            "R1PROS-896F5DC28958D162DB6E19E1": "S",
+            "R1PROS-8A3023DC17FC97AD9A04E422": "S",
+            "R1PROS-8C212CB16D676EFB19316BB5": "S",
+            "R1PROS-8C4169B3F6D5B0281812F2C1": "V",
+            "R1PROS-8C51A5D5677EB12EB25CA0B3": "V",
+            "R1PROS-8EBF8C98C22FC084FBAC20A8": "S",
+            "R1PROS-90015A2677F1659B24145F89": "V",
+            "R1PROS-906A1A7076790F53FE53D911": "S",
+            "R1PROS-90DD7237391958C3BF1BC903": "V",
+            "R1PROS-920C82475245F1769CBAE375": "S",
+            "R1PROS-922369D794C572EEEA7F9597": "S",
+            "R1PROS-9673BA5203FBAAA856BA0805": "V",
+            "R1PROS-977012E674002231DA760291": "S",
+            "R1PROS-98A99B18C283F43FD92B3274": "S",
+            "R1PROS-9BD78373C0513EF242E03DC2": "V",
+            "R1PROS-9DE07811DCB2EC1095F690C0": "S",
+            "R1PROS-9F3A559F1425212E8101BA9E": "V",
+            "R1PROS-A1CCBED4F29A722F662B7C91": "S",
+            "R1PROS-A648164BB47AE9C889378704": "V",
+            "R1PROS-A7165F7258E3ED06080C9C0D": "V",
+            "R1PROS-A8069737B3D7ACD7302B04B9": "V",
+            "R1PROS-AA6C3896FA81A43C86468F2C": "V",
+            "R1PROS-AB2800CF9871CB349B9CF2E8": "S",
+            "R1PROS-AF1B274DEFC2320605B042DA": "S",
+            "R1PROS-B07558AAD5D511D0905D1E43": "V",
+            "R1PROS-B323F524F5F74F84F62AE309": "V",
+            "R1PROS-B80AB32CD3DD0DB5DED1570B": "V",
+            "R1PROS-B8D40CC724A213F0C9842977": "S",
+            "R1PROS-B93EE0C25333F23219D4CDD2": "S",
+            "R1PROS-BD4B3DED0006995DFEA1C1BA": "V",
+            "R1PROS-BE4039BBCCBF0FD3B0D0B4E4": "S",
+            "R1PROS-BEA54209ABF77D5AE749B1B2": "V",
+            "R1PROS-BF7017973C83A02B19885EFB": "V",
+            "R1PROS-BFA19B18218F3434C14BE4E4": "S",
+            "R1PROS-C03093D8D95D4686B92E3E4C": "S",
+            "R1PROS-C0D7118DDA7A5E2405A19501": "V",
+            "R1PROS-C27E1535EBF41A14E9D3B7B1": "V",
+            "R1PROS-C3B614C15E40AE726DDBAAE2": "S",
+            "R1PROS-C54EF2C19D9F3053F265BB26": "S",
+            "R1PROS-C5C4CE08E069D6FECCFFCCEF": "S",
+            "R1PROS-C61620557AD9225A24CFE491": "V",
+            "R1PROS-C71AACF05AE5573BCF293B15": "S",
+            "R1PROS-C7D5DE31E2F7971F130A0CA9": "S",
+            "R1PROS-C7F8ACCA09AA71BFDB8235C5": "S",
+            "R1PROS-C928ACACF83D8A1319D7E94A": "V",
+            "R1PROS-C9704A360B71B6F6AD5B85DD": "S",
+            "R1PROS-C9A208C2B3618CDC61422EA7": "S",
+            "R1PROS-CB91AA323BE76ABF0FBDBD68": "V",
+            "R1PROS-CC118DC3F3E137638A05A267": "S",
+            "R1PROS-CC5EB68756C725BB7254BA13": "V",
+            "R1PROS-CC8FEE4EABF0F107B8CD88D1": "V",
+            "R1PROS-CF4D3FCEA55EA1700B94580F": "V",
+            "R1PROS-CFF15042C7FD83CD8A376416": "S",
+            "R1PROS-D128D7C3D308AB0C103D3CF8": "S",
+            "R1PROS-D1E7EF1A7FCFE40222DA5B82": "S",
+            "R1PROS-D398EDD5B02E2AB2D301945C": "S",
+            "R1PROS-DA35D38F047DBE30292EC0CB": "V",
+            "R1PROS-DA38EA9CE3029FD531E40653": "V",
+            "R1PROS-DAE8F90CA375037D0485CCB0": "V",
+            "R1PROS-DAF71252C06276BF222931E9": "S",
+            "R1PROS-DB3DA1113DB857AF2E60A102": "S",
+            "R1PROS-DB45477B743C963338B35159": "S",
+            "R1PROS-DBF29576460759B4D9728F26": "S",
+            "R1PROS-DCE92A61707B9D29FA4AAAAF": "V",
+            "R1PROS-DD8F3BF4E3D2A99FFAB7B120": "V",
+            "R1PROS-E4BD2B2059C4309007230305": "V",
+            "R1PROS-E537A37980B897D058072E86": "S",
+            "R1PROS-E564DA66BE3F9FFFB956B206": "V",
+            "R1PROS-E7C992BCB7392C6EB8C70053": "V",
+            "R1PROS-E85CB91AD3B588586057AA19": "V",
+            "R1PROS-E89646F7043436E0EFCBB80F": "V",
+            "R1PROS-E98B2F39205D3C72E76B83EB": "V",
+            "R1PROS-E99740384FF8ECA28831131E": "V",
+            "R1PROS-EFC26FF8C68781DB17BC8C57": "S",
+            "R1PROS-F289193A1E2E468FBF542716": "S",
+            "R1PROS-F2BE621CEF01B4289A9D8B3C": "V",
+            "R1PROS-F43B18F8DF3F6C3374DC0643": "S",
+            "R1PROS-F882C4A9601C48DDB5216CCE": "V",
+            "R1PROS-F8961B41691DB4F331CF2145": "V",
+            "R1PROS-FA5331C86A93414CF95CB42B": "V",
+            "R1PROS-FABC78936B66F8E64A6DE66F": "V",
+            "R1PROS-FC035E57AA769864CCE94B58": "V",
+            "R1PROS-FE70508B671262443BFD17D2": "S",
+            "R1PROS-FF07F436C4685C3EA3600423": "V",
+            "R1PROS-FF19FE3600812EFED48556BD": "V",
+            "R1PROS-FF87C2100EEED7703D4D2F3F": "V"
+          },
+          "version": "R4-phase2-3b242e611f9f"
+        },
+        {
+          "convention_id": "prefer_suffix",
+          "predictions": {
+            "F2-CONTEXT-SUFFIX": "V",
+            "F2-IDENTITY-CORRECT": "S",
+            "F2-IDENTITY-WRONG-TARGET": "V",
+            "F2-MIRROR-LITERAL": "V",
+            "F2-MIRROR-SUFFIX": "S",
+            "F2-MISSING-RESULT": "U",
+            "F2-RFC-ARRAY-INDEX": "S",
+            "F2-RFC-ARRAY-PADDED": "V",
+            "F2-RFC-ESCAPE-ORDER": "S",
+            "F2-RFC-OBJECT-PADDED": "S",
+            "R1PROS-010B2575E5342CFAA222E93F": "S",
+            "R1PROS-033D751FAC9706A77BFA58B0": "V",
+            "R1PROS-038583672404A67F49664D3B": "S",
+            "R1PROS-0480CE588DE12DEA6BCEEAA6": "V",
+            "R1PROS-04C1FD00E6341D84C901EEEA": "V",
+            "R1PROS-051DFFE3458F37243F4093B1": "V",
+            "R1PROS-07FE73EDA23434619CA3E213": "S",
+            "R1PROS-08D35BB2A05132C2F9C23814": "S",
+            "R1PROS-0A0AC18782DA1A65F4552668": "S",
+            "R1PROS-0D9807EC6E7251FAC89650DE": "S",
+            "R1PROS-0DE9F2FC7356EEE2D4D3BDDC": "V",
+            "R1PROS-0F36E739E785676995CED722": "V",
+            "R1PROS-0F80539A37AEC3A1C8793BC0": "V",
+            "R1PROS-1036B42920F039EB6003AE76": "V",
+            "R1PROS-104F7825352EB905462FD239": "S",
+            "R1PROS-1175F475261EE917E0E06A6A": "V",
+            "R1PROS-124E69CDFD1DB8946A66C2FB": "S",
+            "R1PROS-13DE79A1275C571B0419536A": "S",
+            "R1PROS-17DE6EF8C12A7DFAA8267E56": "S",
+            "R1PROS-17EAE07A978E6DF8D7824C3A": "V",
+            "R1PROS-180E2EA48E238916583F5180": "S",
+            "R1PROS-183259B6AFF4361C0C798C9D": "V",
+            "R1PROS-186F26AA206E42202B12BE02": "V",
+            "R1PROS-1935C25A7C3B6C606E2E53CF": "S",
+            "R1PROS-1970CED9FF2B0B979860569B": "V",
+            "R1PROS-1A9FDEDE85BF9E9BE369DB1D": "S",
+            "R1PROS-1C52CAC128E9A3065F6D10FB": "V",
+            "R1PROS-1E5CAEDD4472A14780BC7276": "V",
+            "R1PROS-205AE33CD70600D35956547E": "V",
+            "R1PROS-2136326455C5BF7CE50A3BBF": "V",
+            "R1PROS-21D4D74D2BCB6DEC1750EFBA": "S",
+            "R1PROS-22D30AF8249FB18371413FBA": "S",
+            "R1PROS-2508A28C025D8EFFE11EFF7D": "V",
+            "R1PROS-25DBBF9AF054202D7EB98360": "V",
+            "R1PROS-2B452F380ED3FE69E275B439": "V",
+            "R1PROS-2D2BDD2EFAFE2386E57B10AF": "S",
+            "R1PROS-2D7B28F1A768D97DAB6669E2": "V",
+            "R1PROS-2D8E32A7407285A08766F5FC": "V",
+            "R1PROS-2F5D2431C94CE132E7866640": "V",
+            "R1PROS-2FEE93C5D1A6B23745FB971F": "S",
+            "R1PROS-324C7BEF147C73146C3BCBD5": "S",
+            "R1PROS-336299AC712C781F68A01883": "V",
+            "R1PROS-346BD2ED3B875923D15105E1": "S",
+            "R1PROS-3624B02DC258BCA1C741A321": "S",
+            "R1PROS-37609B736EFCBBE016FC5646": "S",
+            "R1PROS-3C6D1CE93407DE1A5236BC4E": "V",
+            "R1PROS-3CD508D1139A570248B432AB": "V",
+            "R1PROS-3FCE1F9A844BE04DD51FADEB": "V",
+            "R1PROS-3FF96DFE087E17A004AD1643": "S",
+            "R1PROS-412E26AEC41288D5D17ECAC3": "V",
+            "R1PROS-417D14F6956A87054CD8B40F": "S",
+            "R1PROS-41A18B90A7C461F7BE35BE5D": "S",
+            "R1PROS-4209340D6ECCECE00B7C0626": "S",
+            "R1PROS-44032BD5F24E1933A01E3BFE": "S",
+            "R1PROS-457486FB11C264299AF5962C": "V",
+            "R1PROS-460CD68376842136036B144D": "S",
+            "R1PROS-474732F54A8AFD6AA363AD39": "V",
+            "R1PROS-4807FD2E079EF2F991866F6D": "S",
+            "R1PROS-4842953C0A97BCE579FA5969": "V",
+            "R1PROS-49A3D2795C5C40F46703B97C": "V",
+            "R1PROS-4A5EE5D3722E7F2EBB220152": "V",
+            "R1PROS-4B39C813AD0B3C2AEEEBB718": "V",
+            "R1PROS-4F406B016E21152D46FEB93C": "S",
+            "R1PROS-4F72B4FF02FC5A2B9B48061A": "S",
+            "R1PROS-523A733BA59F808604C87201": "V",
+            "R1PROS-5387EBD2C25E8B2DAFC60EB9": "S",
+            "R1PROS-5508C661D29CA9DC6D627FE1": "V",
+            "R1PROS-5797E2E1B382A9189AF5D36B": "S",
+            "R1PROS-587363AE9EB73EBB7634923F": "V",
+            "R1PROS-59B799EA83B34695CFCD4C4F": "S",
+            "R1PROS-5A6E1A8076312DD451727DDE": "S",
+            "R1PROS-5C2AE8EEDE54A6815528F4B7": "V",
+            "R1PROS-5E826BF511F1C27079F71204": "V",
+            "R1PROS-5EBB36D419F0360E085F3DAB": "V",
+            "R1PROS-60B2D6C3DD1742E9A9B8993E": "S",
+            "R1PROS-610B3B2A2BCE68145CCC1828": "V",
+            "R1PROS-6136DEC7F330A09E27DCFDB1": "V",
+            "R1PROS-62A70AF41829567CCD079A7E": "V",
+            "R1PROS-64E70DD91FA2297DFBC8F905": "S",
+            "R1PROS-65B9A9D9823EF8982F964130": "V",
+            "R1PROS-664B5F6D3882B7E464979148": "S",
+            "R1PROS-66FE38DFC6BACE208C497E52": "V",
+            "R1PROS-680F2485A2812505955ABC69": "V",
+            "R1PROS-685C25DBCB02503FCAEECE9C": "V",
+            "R1PROS-68697A8B7B48465BE0B5FA6F": "S",
+            "R1PROS-6C3BD9AF1A5EE0E2D4136A78": "V",
+            "R1PROS-7083E883FD24E66379D12557": "V",
+            "R1PROS-70A2198C03853E1C95A7DEEB": "V",
+            "R1PROS-716BBC5753F6B254F4D79139": "S",
+            "R1PROS-74440782B92D987B3EB89616": "V",
+            "R1PROS-74EBE4A6CA03054A9B5089EF": "V",
+            "R1PROS-752954E8441BEE2CF1BFC156": "V",
+            "R1PROS-759259226695637B96E42F33": "S",
+            "R1PROS-77E02D21BAC351C5B46AE474": "S",
+            "R1PROS-7AA3F576E78CEC4181DBE45A": "V",
+            "R1PROS-7B16AD637B4CABC03E1C4834": "V",
+            "R1PROS-7BCDA72B0A616FD40511FB6D": "V",
+            "R1PROS-7F6B931AD4E6D3C88C0F6E53": "V",
+            "R1PROS-7FD0F7ABD559D2277B021393": "S",
+            "R1PROS-81886D0F22CD34BEFE0BC76C": "V",
+            "R1PROS-828C19208EB78977277C652E": "V",
+            "R1PROS-82D1E50DF23F5E670D9AAC42": "S",
+            "R1PROS-82D2D6EDED7A56CC3310C298": "V",
+            "R1PROS-8460AAD580BC23094A4D2320": "V",
+            "R1PROS-874CCEBB226F2F305EFC6C3D": "S",
+            "R1PROS-88706A0C103160F4F4C08F90": "S",
+            "R1PROS-896F5DC28958D162DB6E19E1": "S",
+            "R1PROS-8A3023DC17FC97AD9A04E422": "S",
+            "R1PROS-8C212CB16D676EFB19316BB5": "V",
+            "R1PROS-8C4169B3F6D5B0281812F2C1": "V",
+            "R1PROS-8C51A5D5677EB12EB25CA0B3": "V",
+            "R1PROS-8EBF8C98C22FC084FBAC20A8": "S",
+            "R1PROS-90015A2677F1659B24145F89": "V",
+            "R1PROS-906A1A7076790F53FE53D911": "S",
+            "R1PROS-90DD7237391958C3BF1BC903": "V",
+            "R1PROS-920C82475245F1769CBAE375": "S",
+            "R1PROS-922369D794C572EEEA7F9597": "S",
+            "R1PROS-9673BA5203FBAAA856BA0805": "V",
+            "R1PROS-977012E674002231DA760291": "S",
+            "R1PROS-98A99B18C283F43FD92B3274": "S",
+            "R1PROS-9BD78373C0513EF242E03DC2": "V",
+            "R1PROS-9DE07811DCB2EC1095F690C0": "V",
+            "R1PROS-9F3A559F1425212E8101BA9E": "V",
+            "R1PROS-A1CCBED4F29A722F662B7C91": "S",
+            "R1PROS-A648164BB47AE9C889378704": "V",
+            "R1PROS-A7165F7258E3ED06080C9C0D": "V",
+            "R1PROS-A8069737B3D7ACD7302B04B9": "V",
+            "R1PROS-AA6C3896FA81A43C86468F2C": "V",
+            "R1PROS-AB2800CF9871CB349B9CF2E8": "S",
+            "R1PROS-AF1B274DEFC2320605B042DA": "S",
+            "R1PROS-B07558AAD5D511D0905D1E43": "V",
+            "R1PROS-B323F524F5F74F84F62AE309": "V",
+            "R1PROS-B80AB32CD3DD0DB5DED1570B": "V",
+            "R1PROS-B8D40CC724A213F0C9842977": "S",
+            "R1PROS-B93EE0C25333F23219D4CDD2": "S",
+            "R1PROS-BD4B3DED0006995DFEA1C1BA": "V",
+            "R1PROS-BE4039BBCCBF0FD3B0D0B4E4": "S",
+            "R1PROS-BEA54209ABF77D5AE749B1B2": "V",
+            "R1PROS-BF7017973C83A02B19885EFB": "V",
+            "R1PROS-BFA19B18218F3434C14BE4E4": "S",
+            "R1PROS-C03093D8D95D4686B92E3E4C": "S",
+            "R1PROS-C0D7118DDA7A5E2405A19501": "V",
+            "R1PROS-C27E1535EBF41A14E9D3B7B1": "V",
+            "R1PROS-C3B614C15E40AE726DDBAAE2": "S",
+            "R1PROS-C54EF2C19D9F3053F265BB26": "S",
+            "R1PROS-C5C4CE08E069D6FECCFFCCEF": "S",
+            "R1PROS-C61620557AD9225A24CFE491": "V",
+            "R1PROS-C71AACF05AE5573BCF293B15": "S",
+            "R1PROS-C7D5DE31E2F7971F130A0CA9": "S",
+            "R1PROS-C7F8ACCA09AA71BFDB8235C5": "S",
+            "R1PROS-C928ACACF83D8A1319D7E94A": "V",
+            "R1PROS-C9704A360B71B6F6AD5B85DD": "S",
+            "R1PROS-C9A208C2B3618CDC61422EA7": "S",
+            "R1PROS-CB91AA323BE76ABF0FBDBD68": "V",
+            "R1PROS-CC118DC3F3E137638A05A267": "S",
+            "R1PROS-CC5EB68756C725BB7254BA13": "V",
+            "R1PROS-CC8FEE4EABF0F107B8CD88D1": "V",
+            "R1PROS-CF4D3FCEA55EA1700B94580F": "V",
+            "R1PROS-CFF15042C7FD83CD8A376416": "S",
+            "R1PROS-D128D7C3D308AB0C103D3CF8": "S",
+            "R1PROS-D1E7EF1A7FCFE40222DA5B82": "S",
+            "R1PROS-D398EDD5B02E2AB2D301945C": "V",
+            "R1PROS-DA35D38F047DBE30292EC0CB": "V",
+            "R1PROS-DA38EA9CE3029FD531E40653": "V",
+            "R1PROS-DAE8F90CA375037D0485CCB0": "V",
+            "R1PROS-DAF71252C06276BF222931E9": "S",
+            "R1PROS-DB3DA1113DB857AF2E60A102": "S",
+            "R1PROS-DB45477B743C963338B35159": "S",
+            "R1PROS-DBF29576460759B4D9728F26": "S",
+            "R1PROS-DCE92A61707B9D29FA4AAAAF": "V",
+            "R1PROS-DD8F3BF4E3D2A99FFAB7B120": "V",
+            "R1PROS-E4BD2B2059C4309007230305": "V",
+            "R1PROS-E537A37980B897D058072E86": "V",
+            "R1PROS-E564DA66BE3F9FFFB956B206": "V",
+            "R1PROS-E7C992BCB7392C6EB8C70053": "V",
+            "R1PROS-E85CB91AD3B588586057AA19": "V",
+            "R1PROS-E89646F7043436E0EFCBB80F": "V",
+            "R1PROS-E98B2F39205D3C72E76B83EB": "V",
+            "R1PROS-E99740384FF8ECA28831131E": "V",
+            "R1PROS-EFC26FF8C68781DB17BC8C57": "S",
+            "R1PROS-F289193A1E2E468FBF542716": "V",
+            "R1PROS-F2BE621CEF01B4289A9D8B3C": "V",
+            "R1PROS-F43B18F8DF3F6C3374DC0643": "S",
+            "R1PROS-F882C4A9601C48DDB5216CCE": "V",
+            "R1PROS-F8961B41691DB4F331CF2145": "V",
+            "R1PROS-FA5331C86A93414CF95CB42B": "V",
+            "R1PROS-FABC78936B66F8E64A6DE66F": "V",
+            "R1PROS-FC035E57AA769864CCE94B58": "V",
+            "R1PROS-FE70508B671262443BFD17D2": "S",
+            "R1PROS-FF07F436C4685C3EA3600423": "V",
+            "R1PROS-FF19FE3600812EFED48556BD": "V",
+            "R1PROS-FF87C2100EEED7703D4D2F3F": "V"
+          },
+          "version": "R4-phase2-3b242e611f9f"
+        }
+      ]
+    },
+    "sha256": "1f19ba9c3107722f15e0a298429aedc4bdecbcd92f911ca1b3417d8641cfe7eb"
+  },
+  "model_scope": {
+    "budget_scope": "shared_total",
+    "enumeration": "explicit",
+    "kind": "global"
+  },
+  "observations": [
+    {
+      "case_id": "F2-MIRROR-LITERAL",
+      "evidence": {
+        "canonicalisation": "nsc-json-utf8-sort-keys-v1",
+        "evidence_id": "retained-differing_local_rules_out_of_model-F2-MIRROR-LITERAL",
+        "payload": {
+          "basis": "inputs/PHASE2_RESULT.json#transcripts/differing_local_rules_out_of_model; retained stipulated transcript",
+          "case_id": "F2-MIRROR-LITERAL",
+          "label": "S"
+        },
+        "sha256": "4cbcbd87b373a2a0fc2092855e70366a44b06083876a268da4463bcfff444a9f"
+      },
+      "label": "S"
+    },
+    {
+      "case_id": "F2-CONTEXT-SUFFIX",
+      "evidence": {
+        "canonicalisation": "nsc-json-utf8-sort-keys-v1",
+        "evidence_id": "retained-differing_local_rules_out_of_model-F2-CONTEXT-SUFFIX",
+        "payload": {
+          "basis": "inputs/PHASE2_RESULT.json#transcripts/differing_local_rules_out_of_model; retained stipulated transcript",
+          "case_id": "F2-CONTEXT-SUFFIX",
+          "label": "V"
+        },
+        "sha256": "25d1e573c189863efc7c366a1b55735e5b6b145b67d7e23e4f7441ea13a220f9"
+      },
+      "label": "V"
+    }
+  ],
+  "schema": "nsc.reference-audit.request/1",
+  "threshold": "24"
+}

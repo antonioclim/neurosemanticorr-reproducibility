@@ -1,0 +1,64 @@
+{
+  "expected": {
+    "canonical_query_minima": {
+      "7": 15,
+      "8": 33
+    },
+    "canonical_restricted_k0": {
+      "interval": {
+        "lower": "0",
+        "upper": "48"
+      },
+      "status": "UNDETERMINED"
+    },
+    "mirror_S_external_eligible_k1": {
+      "first_at_or_below": 1,
+      "interval": {
+        "lower": "0",
+        "upper": "48"
+      },
+      "status": "UNDETERMINED"
+    },
+    "mirror_S_external_protected_k1": {
+      "first_at_or_below": 8,
+      "interval": {
+        "lower": "31",
+        "upper": "48"
+      },
+      "status": "ABOVE"
+    },
+    "single_conflict_S_broad_k1": {
+      "interval": {
+        "lower": "0",
+        "upper": "47"
+      },
+      "status": "UNDETERMINED"
+    },
+    "single_conflict_V_broad_k1": {
+      "interval": {
+        "lower": "1",
+        "upper": "49"
+      },
+      "status": "UNDETERMINED"
+    },
+    "single_conflict_V_restricted_k1": {
+      "interval": {
+        "lower": "1",
+        "upper": "48"
+      },
+      "status": "UNDETERMINED"
+    },
+    "valid_out_of_model": {
+      "interval": null,
+      "status": "OUT_OF_MODEL"
+    },
+    "weighted_protected_third_outcome": {
+      "interval": {
+        "lower": "1/2",
+        "upper": "1/2"
+      },
+      "status": "ABOVE"
+    }
+  },
+  "scope": "Independent retained F2 values and explicitly derived small examples; no original checker run"
+}

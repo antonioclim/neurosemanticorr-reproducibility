@@ -1,0 +1,103 @@
+{
+  "budget": 2,
+  "frame_id": "constructed-example-v1",
+  "matrix": {
+    "canonicalisation": "nsc-json-utf8-sort-keys-v1",
+    "payload": {
+      "cases": [
+        {
+          "allowed_labels": [
+            "V",
+            "U"
+          ],
+          "case_id": "weighted-mandatory",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "context-1",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1/2"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V",
+            "U"
+          ],
+          "case_id": "protected-disagreement",
+          "checker_labels": {
+            "b": "V",
+            "t": "S"
+          },
+          "context_id": "context-1",
+          "exception_eligible": false,
+          "role": "frame",
+          "weight": "2"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V",
+            "U"
+          ],
+          "case_id": "external-U",
+          "checker_labels": {
+            "b": null,
+            "t": null
+          },
+          "context_id": "context-1",
+          "exception_eligible": true,
+          "role": "external_query",
+          "weight": "0"
+        }
+      ],
+      "centres": [
+        {
+          "centre_id": "centre",
+          "convention_by_case": {
+            "external-U": "centre",
+            "protected-disagreement": "centre",
+            "weighted-mandatory": "centre"
+          }
+        }
+      ],
+      "conventions": [
+        {
+          "convention_id": "centre",
+          "predictions": {
+            "external-U": "S",
+            "protected-disagreement": "V",
+            "weighted-mandatory": "S"
+          },
+          "version": "example-v1"
+        }
+      ]
+    },
+    "sha256": "34c2087dba5240fbf67a96321515de1c934c824eb8a7a1f699ec004c56e4a587"
+  },
+  "model_scope": {
+    "budget_scope": "shared_total",
+    "enumeration": "explicit",
+    "kind": "global"
+  },
+  "observations": [
+    {
+      "case_id": "external-U",
+      "evidence": {
+        "canonicalisation": "nsc-json-utf8-sort-keys-v1",
+        "evidence_id": "external-U-evidence",
+        "payload": {
+          "basis": "Constructed exact U observation for zero-weight budget accounting",
+          "case_id": "external-U",
+          "label": "U"
+        },
+        "sha256": "f1171fa7624e5817c00e611ea4e45d1d9fdf1d9c26b43b7f3ea9ab8db5e12442"
+      },
+      "label": "U"
+    }
+  ],
+  "schema": "nsc.reference-audit.request/1",
+  "threshold": "1/4"
+}

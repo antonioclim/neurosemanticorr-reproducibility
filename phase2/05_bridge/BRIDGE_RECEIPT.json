@@ -1,0 +1,103 @@
+{
+  "archive_sha256": "6f758773b489cea9bc17fc36cd30013e24543256631eb2cb9ea53aaf64cd24c5",
+  "executed_archived_producer_or_checkers": 0,
+  "field_mapping": {
+    "identity_assurance": "/alignment",
+    "input_length": "/n_rows",
+    "retained_positions": "/analytic_populations/P/row_positions",
+    "selected_length": "/analytic_populations/P/row_count",
+    "selected_positions_digest": "/analytic_populations/P/positions_sha256"
+  },
+  "initial_pairing_verified": false,
+  "producer_authenticated": false,
+  "protocol_sha256": "45dfe669cd1bedeb2489886c12f43600757c3b9f4782cc29a955e7f1657769f3",
+  "schema": "nsc-r4-f2-retained-study-contract-bridge/1",
+  "script_sha256": "28b6678c80f28a1c73cb0dd48b3a13bda7f45fa16d1519650478295721cb5c40",
+  "source_documents": {
+    "alignment": {
+      "bytes": 15389,
+      "member": "neuroSEMANTICorr v12/01_CURRENT_M06DR/04_CURRENT_EVIDENCE/SUCCESSOR_CHAIN/M05E_Q0941_RAW/PAIRS/001_C24_Q0941/CANDIDATE/DATA/pair_admission/alignment.json",
+      "sha256": "bf2684ad83ce5ccb8e48aa3c8df13f07e1d307e74b45f398f953923753846b4d"
+    },
+    "binding": {
+      "bytes": 8469,
+      "member": "neuroSEMANTICorr v12/01_CURRENT_M06DR/04_CURRENT_EVIDENCE/SUCCESSOR_CHAIN/M05E_Q0941_RAW/PAIRS/001_C24_Q0941/CANDIDATE/DATA/pair_binding.json",
+      "sha256": "10c9272327e371f8824914eff033da912eaf2a77583c8ddbc45f4b4c09678c65"
+    },
+    "contract": {
+      "bytes": 7155,
+      "member": "neuroSEMANTICorr v12/01_CURRENT_M06DR/04_CURRENT_EVIDENCE/SUCCESSOR_CHAIN/M05E_Q0941_RAW/PAIRS/001_C24_Q0941/CANDIDATE/DATA/pair_admission/contract.json",
+      "sha256": "01796c40fea251a59bda9af0e3a5ab78fa05e5326aec50f995024218116cc73f"
+    },
+    "data": {
+      "bytes": 41326,
+      "member": "neuroSEMANTICorr v12/01_CURRENT_M06DR/04_CURRENT_EVIDENCE/SUCCESSOR_CHAIN/M05E_Q0941_RAW/PAIRS/001_C24_Q0941/CANDIDATE/DATA/data.json",
+      "sha256": "ef339a6a20f36fe8c93fc288da8341b7b1a638d2485041f7074e54e930a381c5"
+    },
+    "data_manifest": {
+      "member": "neuroSEMANTICorr v12/01_CURRENT_M06DR/04_CURRENT_EVIDENCE/SUCCESSOR_CHAIN/M05E_Q0941_RAW/PAIRS/001_C24_Q0941/CANDIDATE/DATA_MANIFEST.json",
+      "sha256": "438897a27f8b76575f1ef33638b07cceaa3022331a6fd52147061a194613644a"
+    },
+    "result": {
+      "bytes": 90529,
+      "member": "neuroSEMANTICorr v12/01_CURRENT_M06DR/04_CURRENT_EVIDENCE/SUCCESSOR_CHAIN/M05E_Q0941_RAW/PAIRS/001_C24_Q0941/CANDIDATE/DATA/RESULT.json",
+      "sha256": "53b7666ae28404751760c6a60ff3fa2fae24e21affbd3085da06fe2cc11c7494"
+    },
+    "runtime": {
+      "bytes": 2414,
+      "member": "neuroSEMANTICorr v12/01_CURRENT_M06DR/04_CURRENT_EVIDENCE/SUCCESSOR_CHAIN/M05E_Q0941_RAW/PAIRS/001_C24_Q0941/CANDIDATE/DATA/pair_admission/admission/study_contract_validation.json",
+      "sha256": "79a734dd76831c7a27afcb326719e653d071eec66f2483212091ec6ae27bc8d1"
+    },
+    "state": {
+      "bytes": 23363,
+      "member": "neuroSEMANTICorr v12/01_CURRENT_M06DR/04_CURRENT_EVIDENCE/SUCCESSOR_CHAIN/M05E_Q0941_RAW/PAIRS/001_C24_Q0941/CANDIDATE/DATA/pair_admission/states.csv",
+      "sha256": "c8ecd5ce7a07b5708922d7211605478552ad4696738c43fd279a471c6adadf0b"
+    }
+  },
+  "source_pair": "M05E-EQUIV:C24:Q0941:CANDIDATE",
+  "status": "PASS_PROTOCOL_TRIALS",
+  "trials": {
+    "original": {
+      "diagnostics": [],
+      "input_rows": 200,
+      "reconstructed_ordered_identity_vector_sha256": "2ade90ff6fffbbe51d5865428e7d13bdd7bed3664280e8945ab630b91e17fc99",
+      "reconstructed_population_rows": 156,
+      "reconstructed_positions_sha256": "59bdf5e915548ef2caba03f41c6cfd98d92617af36d7a589afe01ae22d2e1c5b",
+      "reported_population_rows": 156
+    },
+    "position_substitution_with_updated_self_digest": {
+      "diagnostics": [
+        "population_membership"
+      ],
+      "input_rows": 200,
+      "reconstructed_ordered_identity_vector_sha256": "2ade90ff6fffbbe51d5865428e7d13bdd7bed3664280e8945ab630b91e17fc99",
+      "reconstructed_population_rows": 156,
+      "reconstructed_positions_sha256": "59bdf5e915548ef2caba03f41c6cfd98d92617af36d7a589afe01ae22d2e1c5b",
+      "reported_population_rows": 156
+    },
+    "reported_length_increase": {
+      "diagnostics": [
+        "population_count"
+      ],
+      "input_rows": 200,
+      "reconstructed_ordered_identity_vector_sha256": "2ade90ff6fffbbe51d5865428e7d13bdd7bed3664280e8945ab630b91e17fc99",
+      "reconstructed_population_rows": 156,
+      "reconstructed_positions_sha256": "59bdf5e915548ef2caba03f41c6cfd98d92617af36d7a589afe01ae22d2e1c5b",
+      "reported_population_rows": 157
+    },
+    "row_identifier_replacement": {
+      "diagnostics": [
+        "data_frame_sha256",
+        "runtime_frame_seal",
+        "alignment_frame_seal",
+        "binding_frame_seal",
+        "ordered_identity_tokens"
+      ],
+      "input_rows": 200,
+      "reconstructed_ordered_identity_vector_sha256": "bb3c7588dfdedd846f9b4a6922d110f591212ea371880d1c9cfd779df098bbaa",
+      "reconstructed_population_rows": 156,
+      "reconstructed_positions_sha256": "59bdf5e915548ef2caba03f41c6cfd98d92617af36d7a589afe01ae22d2e1c5b",
+      "reported_population_rows": 156
+    }
+  }
+}

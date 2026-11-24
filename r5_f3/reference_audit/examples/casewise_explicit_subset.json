@@ -1,0 +1,122 @@
+{
+  "budget": 0,
+  "frame_id": "constructed-example-v1",
+  "matrix": {
+    "canonicalisation": "nsc-json-utf8-sort-keys-v1",
+    "payload": {
+      "cases": [
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "A1",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "A",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "A2",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "A",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "B1",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "B",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        },
+        {
+          "allowed_labels": [
+            "S",
+            "V"
+          ],
+          "case_id": "B2",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "B",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        }
+      ],
+      "centres": [
+        {
+          "centre_id": "alternating-1",
+          "convention_by_case": {
+            "A1": "all-S",
+            "A2": "all-V",
+            "B1": "all-S",
+            "B2": "all-V"
+          }
+        },
+        {
+          "centre_id": "alternating-2",
+          "convention_by_case": {
+            "A1": "all-V",
+            "A2": "all-S",
+            "B1": "all-V",
+            "B2": "all-S"
+          }
+        }
+      ],
+      "conventions": [
+        {
+          "convention_id": "all-S",
+          "predictions": {
+            "A1": "S",
+            "A2": "S",
+            "B1": "S",
+            "B2": "S"
+          },
+          "version": "example-v1"
+        },
+        {
+          "convention_id": "all-V",
+          "predictions": {
+            "A1": "V",
+            "A2": "V",
+            "B1": "V",
+            "B2": "V"
+          },
+          "version": "example-v1"
+        }
+      ]
+    },
+    "sha256": "4650922dc9bd9e60c5217cc47c45161ff1121299248c2559ce2c950ccb094a71"
+  },
+  "model_scope": {
+    "budget_scope": "shared_total",
+    "enumeration": "explicit",
+    "kind": "casewise"
+  },
+  "observations": [],
+  "schema": "nsc.reference-audit.request/1",
+  "threshold": "1"
+}

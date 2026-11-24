@@ -1,0 +1,142 @@
+{
+  "contexts": {
+    "community-library": {
+      "any_alias_deterministic_interval": [
+        8,
+        28
+      ],
+      "any_alias_found": 8,
+      "any_alias_reviewed": 28,
+      "errors_in_full_reference": 8,
+      "population": 48,
+      "screen_exact_upper": 15,
+      "screen_first_stage": 16,
+      "screen_first_stage_errors": 8,
+      "screen_observed": 8,
+      "screen_residual_cases_without_alias": 5,
+      "screen_uniform_residual": 12,
+      "uniform_exact_upper": 15,
+      "uniform_observed": 5
+    },
+    "district-energy": {
+      "any_alias_deterministic_interval": [
+        8,
+        28
+      ],
+      "any_alias_found": 8,
+      "any_alias_reviewed": 28,
+      "errors_in_full_reference": 8,
+      "population": 48,
+      "screen_exact_upper": 15,
+      "screen_first_stage": 16,
+      "screen_first_stage_errors": 8,
+      "screen_observed": 8,
+      "screen_residual_cases_without_alias": 8,
+      "screen_uniform_residual": 12,
+      "uniform_exact_upper": 15,
+      "uniform_observed": 5
+    },
+    "mobility-access": {
+      "any_alias_deterministic_interval": [
+        8,
+        28
+      ],
+      "any_alias_found": 8,
+      "any_alias_reviewed": 28,
+      "errors_in_full_reference": 8,
+      "population": 48,
+      "screen_exact_upper": 15,
+      "screen_first_stage": 16,
+      "screen_first_stage_errors": 8,
+      "screen_observed": 8,
+      "screen_residual_cases_without_alias": 9,
+      "screen_uniform_residual": 12,
+      "uniform_exact_upper": 15,
+      "uniform_observed": 5
+    },
+    "skills-bursary": {
+      "any_alias_deterministic_interval": [
+        8,
+        28
+      ],
+      "any_alias_found": 8,
+      "any_alias_reviewed": 28,
+      "errors_in_full_reference": 8,
+      "population": 48,
+      "screen_exact_upper": 15,
+      "screen_first_stage": 16,
+      "screen_first_stage_errors": 8,
+      "screen_observed": 8,
+      "screen_residual_cases_without_alias": 8,
+      "screen_uniform_residual": 12,
+      "uniform_exact_upper": 13,
+      "uniform_observed": 4
+    }
+  },
+  "design_assumptions_for_zero_hit_bound": "Independent simple random samples within four fixed residual strata",
+  "pooled_maximum_zero_hit_at_boundary": {
+    "6": {
+      "allocation": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "probability": {
+        "decimal": 0.05731969668639438,
+        "fraction": "225625/3936256"
+      }
+    },
+    "7": {
+      "allocation": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "probability": {
+        "decimal": 0.03513142700133849,
+        "fraction": "4286875/122023936"
+      }
+    }
+  },
+  "pooled_post_hoc_residual_upper_95_percent": 6,
+  "pooled_post_hoc_total_upper_95_percent": 38,
+  "pooled_zero_hit_sample_counts": [
+    [
+      32,
+      12
+    ],
+    [
+      32,
+      12
+    ],
+    [
+      32,
+      12
+    ],
+    [
+      32,
+      12
+    ]
+  ],
+  "prespecified_screen_bonferroni_upper": 60,
+  "scope": "Post hoc sensitivity on the fixed prospective frame, no candidate execution",
+  "screen_minus_uniform_conditional_expectation": {
+    "decimal": 13.333333333333334,
+    "fraction": "40/3"
+  },
+  "source_sha256": {
+    "BLIND_SELECTION.json": "e900b01104a5f5731ebbf6a69d92e4791342cdfb8680bd6eb5f35fd4ea32d625",
+    "O15_REFERENCE.json": "28f568cb904c2348bbaad4074b8bee01475d138054e494d1c8c9b34bfca2d96e",
+    "PROSPECTIVE_RESULTS.json": "dcfaaf9b0bc690fecb19db40db1f75c81461d152a7f7000ca70d4e6c6bba8e0f"
+  },
+  "uniform_conditional_expectation": {
+    "decimal": 18.666666666666668,
+    "fraction": "56/3"
+  },
+  "uniform_equal_tailed_central_95_percent_range": [
+    14,
+    24
+  ]
+}

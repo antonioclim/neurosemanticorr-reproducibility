@@ -1,0 +1,16 @@
+{
+  "aliases": {},
+  "field_metadata": {
+    "/values/rows/1": {
+      "unit": "count",
+      "denominator": 3,
+      "scope": "cohort-a"
+    },
+    "/values/rows/01": {
+      "unit": "count",
+      "denominator": 3,
+      "scope": "cohort-a"
+    }
+  },
+  "result_id": "F2-OBJECT-result"
+}

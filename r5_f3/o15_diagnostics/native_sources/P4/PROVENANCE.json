@@ -1,0 +1,38 @@
+{
+  "schema": "nsc-r5-f3-native-source-provenance/1",
+  "generation": "P4",
+  "source_archive_name": "P4_FROZEN_VERIFIED.zip",
+  "source_archive_sha256": "01d39c2da1515e5870d6e356ac24000e89fbe0d4fad77188bd83dc2a6b31625a",
+  "source_archive_members": 39535,
+  "files": [
+    {
+      "local_path": "t_full/checker.py",
+      "archive_member": "NSC_P4_RECOVERY_v2/02_implementations/t_full/checker.py",
+      "sha256": "9d8153640e47fb74d154af547d7119ff92bb67be53f9b395f5a559700e5e2d10",
+      "bytes": 53012,
+      "byte_identical": true
+    },
+    {
+      "local_path": "b_assert/checker.py",
+      "archive_member": "NSC_P4_RECOVERY_v2/02_implementations/b_assert/checker.py",
+      "sha256": "3266ca109c7cea6f5fe9a1aeb0bdf9a8e46d808787708b36551a5e4ff03fc59e",
+      "bytes": 51090,
+      "byte_identical": true
+    },
+    {
+      "local_path": "FIXED_PROFILE.json",
+      "archive_member": "NSC_P4_RECOVERY_v2/01_protocol/FIXED_PROFILE.json",
+      "sha256": "e71c7435494dcf5e27163cdbf10bbb63baa57390465d1695ec9597f3a9dc448d",
+      "bytes": 26957,
+      "byte_identical": true
+    },
+    {
+      "local_path": "FROZEN_ARMS_MANIFEST.json",
+      "archive_member": "NSC_P4_RECOVERY_v2/01_protocol/FROZEN_ARMS_MANIFEST.json",
+      "sha256": "4c010aef347b745c19157bd1dd45299f8d463cbccd5beb091df5cf39d0fb78ce",
+      "bytes": 2287,
+      "byte_identical": true
+    }
+  ],
+  "scope": "Exact unmodified instrument bytes recovered by the P8-to-P4 chain. Only fresh F3 dossiers are invoked by this component. Historical manifest absolute paths are preserved as evidence and are not used for execution."
+}

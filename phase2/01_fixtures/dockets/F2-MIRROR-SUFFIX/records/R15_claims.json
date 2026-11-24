@@ -1,0 +1,15 @@
+{
+  "claims": [
+    {
+      "claim_id": "claim",
+      "source_pointer": "alias:claim",
+      "value": {
+        "numerator": 142,
+        "denominator": 205
+      },
+      "unit": "ratio",
+      "denominator": 1,
+      "scope": "finite_table"
+    }
+  ]
+}

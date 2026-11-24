@@ -1,0 +1,24 @@
+{
+  "bridge_receipt_sha256": "186d8cac6b8c2c841cde503f6db87c06b515a7cb803b8054f446218da1f622e9",
+  "bridge_repeat_byte_identical": true,
+  "negative_trial": {
+    "changed": "threshold_on_archived_frame",
+    "error": "Phase 2 inputs differ from the pre-execution lock",
+    "from": 24,
+    "outcome": "Rejected prior to evaluation. No result emitted.",
+    "to": 23
+  },
+  "phase2_clean_repeat_byte_identical": true,
+  "phase2_result_sha256": "259e8bd285373048e53fc5fedcfae0a221ffa310eb9e5b159843e7693363dbbb",
+  "r3_extraction_check": {
+    "status": "PASS_R3_CUSTODY_ONLY",
+    "verified_prospective_members": 7141,
+    "verified_r3_files": 54
+  },
+  "schema": "neurosemanticorr-phase2-reproduction/1",
+  "source_archives_sha256": {
+    "neuroSEMANTICorr v12.zip": "6f758773b489cea9bc17fc36cd30013e24543256631eb2cb9ea53aaf64cd24c5",
+    "neuroSEMANTICorr_R3_Revizie_interna_STVR.zip": "a0244ac4949ba36b6fe732b65f4fd633736cc2a64449d4840e265511d069e5c2",
+    "neuroSEMANTICorr_R4_Faza1_Audit_si_Manuscris.zip": "7aac93cd010da93272126e37142ab3657ea0cf1e4a46f596cc2335ffe5d03fca"
+  }
+}

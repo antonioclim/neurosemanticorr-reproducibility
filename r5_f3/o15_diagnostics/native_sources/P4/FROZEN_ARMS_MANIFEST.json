@@ -1,0 +1,45 @@
+{
+  "schema": "nsc-p4-frozen-arms/2",
+  "profile_path": "/workspace/scratch/12703c9af8ae/NSC_P4_RECOVERY_v2/01_protocol/FIXED_PROFILE.json",
+  "profile_sha256": "e71c7435494dcf5e27163cdbf10bbb63baa57390465d1695ec9597f3a9dc448d",
+  "runner_sources": {
+    "05_runner/child_gate.py": "1a502d881cfcee2b66bae689e3405e65c21a1b7a67c34ee614e9ccb28875490c",
+    "05_runner/supervisor.py": "81e17eca64a6355fd028b63c5bd4cdf83cf589ce9c402952536413db868d5a55",
+    "05_runner/phase_control.py": "8c364018c7ded1841a5bd2e5ebf0d7b1b2d9e09062ed9e50760ffed0a3fda272",
+    "05_runner/qualification.py": "b1edd562ffce51733ec876d510b809ab82b12c03aedd1436f0add5464cc6acb1",
+    "05_runner/dummy_checker.py": "7b93fcb5ec300947b99e0cec4758e7b61f0f24782c55635031e6c9d75249d175",
+    "bin/benchctl.py": "2fdb3168e755e45b43605a2c6eb1de4275dc1a3feed4630aef39ee2d72c6c941"
+  },
+  "arms": [
+    {
+      "arm_id": "T_FULL",
+      "entrypoint": "/workspace/scratch/12703c9af8ae/NSC_P4_RECOVERY_v2/02_implementations/t_full/checker.py",
+      "sha256": "9d8153640e47fb74d154af547d7119ff92bb67be53f9b395f5a559700e5e2d10"
+    },
+    {
+      "arm_id": "B_ASSERT",
+      "entrypoint": "/workspace/scratch/12703c9af8ae/NSC_P4_RECOVERY_v2/02_implementations/b_assert/checker.py",
+      "sha256": "3266ca109c7cea6f5fe9a1aeb0bdf9a8e46d808787708b36551a5e4ff03fc59e"
+    },
+    {
+      "arm_id": "A0_SYNTAX",
+      "entrypoint": "/workspace/scratch/12703c9af8ae/NSC_P4_RECOVERY_v2/02_implementations/t_full/checker.py",
+      "sha256": "9d8153640e47fb74d154af547d7119ff92bb67be53f9b395f5a559700e5e2d10"
+    },
+    {
+      "arm_id": "A1_STRUCTURE",
+      "entrypoint": "/workspace/scratch/12703c9af8ae/NSC_P4_RECOVERY_v2/02_implementations/t_full/checker.py",
+      "sha256": "9d8153640e47fb74d154af547d7119ff92bb67be53f9b395f5a559700e5e2d10"
+    },
+    {
+      "arm_id": "A2_LOCAL",
+      "entrypoint": "/workspace/scratch/12703c9af8ae/NSC_P4_RECOVERY_v2/02_implementations/t_full/checker.py",
+      "sha256": "9d8153640e47fb74d154af547d7119ff92bb67be53f9b395f5a559700e5e2d10"
+    },
+    {
+      "arm_id": "A3_PROVENANCE",
+      "entrypoint": "/workspace/scratch/12703c9af8ae/NSC_P4_RECOVERY_v2/02_implementations/t_full/checker.py",
+      "sha256": "9d8153640e47fb74d154af547d7119ff92bb67be53f9b395f5a559700e5e2d10"
+    }
+  ]
+}

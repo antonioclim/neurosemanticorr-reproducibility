@@ -1,0 +1,8 @@
+{
+  "renames": {
+    "primary": "renamed"
+  },
+  "invariance_conventions": [
+    []
+  ]
+}

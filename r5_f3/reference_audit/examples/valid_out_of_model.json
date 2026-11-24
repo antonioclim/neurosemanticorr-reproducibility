@@ -1,0 +1,66 @@
+{
+  "budget": 1,
+  "frame_id": "constructed-example-v1",
+  "matrix": {
+    "canonicalisation": "nsc-json-utf8-sort-keys-v1",
+    "payload": {
+      "cases": [
+        {
+          "allowed_labels": [
+            "V"
+          ],
+          "case_id": "restricted",
+          "checker_labels": {
+            "b": "S",
+            "t": "S"
+          },
+          "context_id": "context-1",
+          "exception_eligible": true,
+          "role": "frame",
+          "weight": "1"
+        }
+      ],
+      "centres": [
+        {
+          "centre_id": "centre",
+          "convention_by_case": {
+            "restricted": "centre"
+          }
+        }
+      ],
+      "conventions": [
+        {
+          "convention_id": "centre",
+          "predictions": {
+            "restricted": "S"
+          },
+          "version": "example-v1"
+        }
+      ]
+    },
+    "sha256": "0267064aa558bd9c67df99450d0ae8add5fa4420064593782575a1c666183c7e"
+  },
+  "model_scope": {
+    "budget_scope": "shared_total",
+    "enumeration": "explicit",
+    "kind": "global"
+  },
+  "observations": [
+    {
+      "case_id": "restricted",
+      "evidence": {
+        "canonicalisation": "nsc-json-utf8-sort-keys-v1",
+        "evidence_id": "outside-admissibility",
+        "payload": {
+          "basis": "Constructed valid transcript incompatible with the declared local admissibility set",
+          "case_id": "restricted",
+          "label": "S"
+        },
+        "sha256": "5f6dc4cba052400d9978e6d57032a1ad232959c41f77acbcd116e65903dd2d8b"
+      },
+      "label": "S"
+    }
+  ],
+  "schema": "nsc.reference-audit.request/1",
+  "threshold": "0"
+}
